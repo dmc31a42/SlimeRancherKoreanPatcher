@@ -1,0 +1,11 @@
+Slime Rnacher v1.1.0 기준 TextMeshPro 관련 파일
+LiberationSans SDF Material
+LiberationSans SDF Atlas
+MonoBehaviour LiberationSans SDF
+
+OpenSans-Semibold SDF Material
+OpenSans SDF Cyrillic Materlal
+OpenSans SDF Atlas
+OpenSans SDF Cyrillic Atlas
+Monobehaviour OpenSans SDF Cyrillc
+Monobehaviour OpenSans SDF
