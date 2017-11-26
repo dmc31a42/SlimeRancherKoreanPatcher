@@ -28,6 +28,7 @@ namespace SlimeRancherKoreanPatcherCShop
 
         static void Main(string[] args)
         {
+            Console.WriteLine(GAME_NAME + " 게임 폴더 위치 찾는중...");
             SlimeRancherPath = FindUnityFolderPath();
             if (SlimeRancherPath == "ERROR")
             {
