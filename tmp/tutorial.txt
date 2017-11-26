@@ -1,0 +1,122 @@
+# Tutorial Entries Text
+t.basic_movement = 움직여 봅시다!
+m.input.basic_movement.1 = W
+m.inputdesc.basic_movement.1 = 앞으로 가기
+m.input.basic_movement.2 = A
+m.inputdesc.basic_movement.2 = 왼쪽으로 가기
+m.input.basic_movement.3 = S
+m.inputdesc.basic_movement.3 = 뒤로 가기
+m.input.basic_movement.4 = D
+m.inputdesc.basic_movement.4 = 오른쪽으로 가기
+m.input.gamepad.basic_movement.1 = 이동
+m.inputdesc.gamepad.basic_movement.1 = 이동
+t.jumping = 폴짝 뛰기!
+m.input.jumping.1 = 스페이스 바
+m.inputdesc.jumping.1 = 점프
+m.input.jumping.2 = 쉬프트를 눌르시오.
+m.inputdesc.jumping.2 = 전력질주
+m.input.gamepad.jumping.1 = 점프
+m.inputdesc.gamepad.jumping.1 = 점프
+m.input.gamepad.jumping.2 = 뛰기
+m.inputdesc.gamepad.jumping.2 = 전력질주
+t.vaccing = 목장주처럼 포획하는 방법
+m.text.vaccing = 포집기는 물건들을 끌어다 포획하고 포획통에 보관할 수 있습니다.
+m.input.vaccing.1 = 마우스 오른쪽 버튼을 누르세요
+m.inputdesc.vaccing.1 = 포획
+m.input.gamepad.vaccing.1 = 포획
+m.inputdesc.gamepad.vaccing.1 = 포획
+t.shooting = 슬라임을 잡았습니다.
+m.text.shooting = 슬라임은 성공의 열쇠입니다. 슬라임을 목장 장벽 너머로 쏴서 넣으세요!
+m.input.shooting.1 = 마우스 휠
+m.inputdesc.shooting.1 = 포획 탱크를 선택
+m.input.shooting.2 = 마우스 왼쪽 버튼을 누르세요
+m.inputdesc.shooting.2 = 쏘기
+m.input.gamepad.shooting.1 = 이전 슬롯
+m.inputdesc.gamepad.shooting.1 = 이전 포획 탱크를 선택
+m.input.gamepad.shooting.2 = 다음 슬롯
+m.inputdesc.gamepad.shooting.2 = 다음 포획 탱크를 선택
+m.input.gamepad.shooting.3 = 공격
+m.inputdesc.gamepad.shooting.3 = 발사
+t.food = 맛있는 음식이 필요함!
+m.text.food = 과일,채소,닭 같은 음식들은 슬라임을 먹이는데 사용됩니다.핑크 슬라임에게 음식을 던져보세요.그들은 아무거나 먹을 것입니다.
+m.input.food.1 = 마우스 휠
+m.inputdesc.food.1 = 포획 탱크를 선택
+m.input.food.2 = 마우스 왼쪽 버튼을 누르세요
+m.inputdesc.food.2 = 쏘기
+m.input.gamepad.food.1 = 이전 슬롯
+m.inputdesc.gamepad.food.1 = 이전 포획 탱크를 선택
+m.input.gamepad.food.2 = 다음 슬롯
+m.inputdesc.gamepad.food.2 = 다음 포획 탱크를 선택
+m.input.gamepad.food.3 = 공격
+m.inputdesc.gamepad.food.3 = 쏘기
+t.plort = 슬라임 플롯을 획득함!
+m.text.plort = 슬라임이 밥을 먹으면 플롯을 만듭니다.\n\n\
+  보석을 돈으로 바꾸기 위해 보석 상점으로 향하세요.
+t.market = 보석 상점
+m.text.market = 보석 상점은 당신이 힘들여 얻은 보석에 대한 보상을 제공합니다.\n\n\
+  보석을 보석 상점을 향해 쏴서 돈을 얻으세요!
+m.input.market.1 = 마우스 휠
+m.inputdesc.market.1 = 포획 탱크를 선택
+m.input.market.2 = 마우스 왼쪽 버튼을 누르세요
+m.inputdesc.market.2 = 쏘기
+m.input.gamepad.market.1 = 이전 슬롯
+m.inputdesc.gamepad.market.1 = 이전 포획 탱크를 선택
+m.input.gamepad.market.2 = 다음 슬롯
+m.inputdesc.gamepad.market.2 = 다음 포획 탱크를 선택
+m.input.gamepad.market.3 = 공격
+m.inputdesc.gamepad.market.3 = 쏘기
+t.death = 다시오신것을 환영합니다......
+m.text.death = 만약 당신이 기절하게 되면 회복하는 데 12시간이 걸립니다. 주의하지 않으면, \
+일어난 후에 배고프고 무질서한 슬라임 폭도를 보게 될 것입니다.
+t.garden = 당신은 정원을 만들었다!
+m.text.garden = 과일이나 채소를 기르기를 시작하려면 투입구에 그 과일이나 채소를 쏘세요!
+t.largo = 오! 나의 느림보님
+m.text.largo = 느림보 슬라임은 슬라임이 자신과는 다른 슬라임의 보석을 먹을 때 생기는 큰 혼종 슬라임입니다.\n\
+  \n\
+  노즐로 흡입하여 느림보 슬라임을 붙여 다니거나 쏘아서 하늘로 날리세요!
+t.explore = 이러한 것들이 기본 내용!
+m.text.explore = 기본에 대해 배웠습니다. 이제 밖으로 나가 탐험을 할 시간입니다.\n\
+  \n\
+  기억하세요, 전문 목장주가 되는 가장 좋은 방법은 탐험입니다. 모험이 없으면,얻는것도 없다
+t.science_barn = 슬리임 과학!
+m.text.science_barn = 연구실을 해제했습니다. 연구실은 특별한 목장의 확장기능으로 장치들을 만들 수 있게 합니다\
+  슬라임 과학을 이용해서!\n\
+  \n\
+  헛간으로 가서 시작하세요!
+t.science_summary = 수공예를 할 시간!
+m.text.science_summary = 이 헛간에는 슬라임 과학을 사용하여 장치를 만들 수 있는 모든 장비가 갖춰져있습니다.\
+  장치에는 탐험, 방어용 포탑, 장식 등을 돕는 유용한 도구들이 있습니다. 
+t.science_refinery = 정제소
+m.text.science_refinery = 도구를 제작하기 위해서는 당신의 정제소에 있는 자원들이 필요합니다.Plort을 정제소에 쏴보세요.\n\\n\ 하지만 정제소에 넣은 자원은 다시 뺄 수 없으니 조심하세요.
+t.science_builder_shop = 장인의 집
+m.text.science_builder_shop = 장인의 집에서 청사진을 구입할 수 있습니다. 청사진이 필요합니다\
+  아무 장치나 만들기 위해선\n\
+  \n\
+  장인의 집에 자주 들러 새 청사진을 확인하세요!
+t.science_fabricator = 제작기
+m.text.science_fabricator = 일단 청사진을 가지고 있으면, 제작기로 장치들을 제작할 수 있다\
+  정제소에 저장된 자원들을 사용해서. \
+  시도해보세요!
+t.science_gadget_mode = 장치 모드
+m.text.science_gadget_mode = 장치들을 놓기 위해서는 장치 모드를 활성화 해야 한다.
+m.input.science_gadget_mode.1 = T
+m.inputdesc.science_gadget_mode.1 = 장치 모드 껐다켜기
+m.input.gamepad.science_gadget_mode.1 = 장치모드토글
+m.inputdesc.gamepad.science_gadget_mode.1 = 장치모드 껐다켜기
+t.science_sites = 부지 만들기
+m.text.science_sites = 장치 모드에서는 포획하거나 쏠수는 없지만, 세상에 있는 모든 건설 부지를 볼 수 있다.\
+  장치를 설치할 수 있는.\
+  주변을 둘러보세요!
+t.science_place_site = 부지에 놓기
+m.text.science_place_site = 일단 건설 부지를 발견했으면 접근하여 장치 놓기 메뉴를 엽니다.\
+그리고 간단하게 놓고 싶은 장치를 선택하세요!
+t.science_wrapup = 과학 수업: 통과!
+m.text.science_wrapup = 이러한 것들이 슬라임 과학의 기초입니다. 자세히 알아보기 위해서 슬라임백과의 새 슬라임 과학 섹션을 확인해보세요. 편리한 정보가 가득합니다!
+t.map = Map Data Acquired!
+m.text.map = Discover map data nodes across the range to uncover more of your map.
+m.input.map.1 = M
+m.inputdesc.map.1 = Access your Map
+m.input.gamepad.map.1 = OpenMap
+m.inputdesc.gamepad.map.1 = Access your Map
+t.water = Make a splash!
+m.text.water = A blast of fresh water will calm down any slime for a short while, or dissolve those terrible tarr slimes!\n\n\

@@ -1,10 +1,12 @@
-﻿using System;
+﻿using SlimeRancherKoreanPatcherManagedCpp;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using TextParser;
 
 namespace SlimeRancherKoreanPatcherCShop
 {
@@ -41,14 +43,38 @@ namespace SlimeRancherKoreanPatcherCShop
                 }
             }
             currentDirectoryPath = Directory.GetCurrentDirectory() + @"\";
+            CreateFolderOrClean(TEMP_FOLDER_NAME);
 
-            DownloadCSV();
-
+            Console.WriteLine("에셋 정보 추출중...");
             SlimeRancherKoreanPatcherManagedCpp.ManagedPatcher managedPatcher
                 = new SlimeRancherKoreanPatcherManagedCpp.ManagedPatcher(SlimeRancherPath, currentDirectoryPath);
             SlimeRancherKoreanPatcherManagedCpp.AssetInfo[] assetInfos = managedPatcher.GetAssetInfos();
-            //MakeAssetFile(assetInfos);
 
+            Console.WriteLine("번역된 문장 다운로드 및 적용중...");
+            DownloadCSVandPatch();
+            Console.WriteLine("패치 파일 생성중...");
+            MakeAssetFile(assetInfos);
+            Console.WriteLine("패치된 유니티 에셋 생성중...");
+            managedPatcher.MakeModdedAssets();
+            managedPatcher.Dispose();
+            Console.WriteLine("유니티 에셋 원본과 패치된 파일 교체중...");
+            SwitchFile();
+            Console.WriteLine("한글 폰트 이미지 파일 복사중...");
+            File.Copy(RESOURCE_FOLDER_PATH + @"koreanAtlas.assets.resS", SlimeRancherPath + @"koreanAtlas.assets.resS", true);
+            Console.WriteLine("임시로 생성된 파일 삭제중...");
+            DeleteFolder(currentDirectoryPath + TEMP_FOLDER_NAME);
+
+            Console.WriteLine("한글패치 완료!");
+            Console.WriteLine("종료하려면 창을 끄거나 아무 키나 누르시오.");
+            Console.Read();
+        }
+
+        static void SwitchFile()
+        {
+            FileDeleteIfExist(SlimeRancherPath + UNITY_RESOURCES_ASSETS_NAME);
+            FileDeleteIfExist(SlimeRancherPath + UNITY_SHARED0_ASSETS_NAME);
+            System.IO.File.Move(SlimeRancherPath + UNITY_RESOURCES_ASSETS_NAME + ".modded", SlimeRancherPath + UNITY_RESOURCES_ASSETS_NAME);
+            System.IO.File.Move(SlimeRancherPath + UNITY_SHARED0_ASSETS_NAME + ".modded", SlimeRancherPath + UNITY_SHARED0_ASSETS_NAME);
         }
 
         static string FindUnityFolderPath()
@@ -142,7 +168,16 @@ namespace SlimeRancherKoreanPatcherCShop
             }
         }
 
-        static void DownloadCSV()
+        static void DeleteFolder(string folderName)
+        {
+            DirectoryInfo di = new DirectoryInfo(folderName);
+            if (di.Exists == true)
+            {
+                Directory.Delete(folderName, true);
+            }
+        }
+
+        static void DownloadCSVandPatch()
         {
 
             string CSVURLString = System.IO.File.ReadAllText(RESOURCE_FOLDER_PATH + @"CSVURL.txt");
@@ -153,18 +188,220 @@ namespace SlimeRancherKoreanPatcherCShop
             {
                 ListCSVURL.Add(CSVURL[i].Split('\\'));
             }
-            CreateFolderOrClean(TEMP_FOLDER_NAME);
-
             for (int i = 0; i < ListCSVURL.Count; i++)
             {
                 WebClient webClient = new WebClient();
                 webClient.DownloadFile(ListCSVURL[i][1], TEMP_FOLDER_NAME + "\\" + ListCSVURL[i][0] + ".csv");
             }
+            for (int i = 0; i < ListCSVURL.Count; i++)
+            {
+                PatchText(TEMP_FOLDER_NAME + "\\" + ListCSVURL[i][0] + ".txt", TEMP_FOLDER_NAME + "\\" + ListCSVURL[i][0] + ".csv");
+            }
+        }
+
+        static void PatchText(string originalTXTPath, string translatedCSVPath)
+        {
+            string OrigianlTextString = System.IO.File.ReadAllText(originalTXTPath);
+            TXTParser txtParser = new TXTParser();
+            txtParser.Append(OrigianlTextString);
+            List<string[]> originalListContext = txtParser.ListContext;
+            string TranslatedCSVString = System.IO.File.ReadAllText(translatedCSVPath);
+            CSVParser csvParser = new CSVParser();
+            csvParser.Append(TranslatedCSVString);
+            List<string[]> translatedListContext = csvParser.ListContext;
+            ListMerge listMerge = new ListMerge(originalListContext, translatedListContext.GetRange(1, translatedListContext.Count - 1), ListMerge.Option.Update);
+            List<string[]> tempMergedList = listMerge.MergendList;
+            List<string[]> tempList = new List<string[]>();
+            for (int i = 0; i < tempMergedList.Count; i++)
+            {
+                if (tempMergedList[i][2] != "")
+                {
+                    tempList.Add(new string[] { tempMergedList[i][0], tempMergedList[i][2] });
+                }
+                else
+                {
+                    tempList.Add(new string[] { tempMergedList[i][0], tempMergedList[i][1] });
+                }
+            }
+            TXTParser txtParser2 = new TXTParser(tempList);
+            string PatchedString = txtParser2.ReadAll();
+            System.IO.File.WriteAllText(originalTXTPath, PatchedString);
         }
 
         static void MakeAssetFile(SlimeRancherKoreanPatcherManagedCpp.AssetInfo[] AssetInfos)
         {
+            string shaderSuffix = "_Shader";
+            string atlasSuffix = "_Atlas";
 
+            string[] languageDataNames =
+            {
+                "achieve",
+                "actor",
+                "exchange",
+                "global",
+                "keys",
+                "mail",
+                "pedia",
+                "range",
+                "tutorial",
+                "ui"
+            };
+
+            string[] materialNames =
+            {
+                "OpenSans-Semibold SDF Material"
+            };
+
+            string[] monoBehaviourNames =
+            {
+                "MonoBehaviour OpenSans SDF"
+            };
+
+            CreateFolderOrClean(SHAREDASSETS0_PATCH_PATH);
+            List<string> shared0PatchList = new List<string>();
+            // Material
+            for (int i = 0; i < materialNames.Length; i++)
+            {
+                AssetInfo materialInfo = Array.Find(AssetInfos, x => x.name == materialNames[i]);
+                File.Copy(RESOURCE_FOLDER_PATH + materialNames[i] + @".dat", SHAREDASSETS0_PATCH_PATH + "Raw_0_" + materialInfo.pathID + ".dat", true);
+                shared0PatchList.Add(SHAREDASSETS0_PATCH_PATH + "Raw_0_" + materialInfo.pathID + ".dat");
+                using (FileStream fsMaterial = new FileStream(SHAREDASSETS0_PATCH_PATH + "Raw_0_" + materialInfo.pathID + ".dat", FileMode.Open, FileAccess.ReadWrite))
+                {
+                    // Shader
+                    fsMaterial.Seek(0x00000028, SeekOrigin.Begin);
+                    AssetInfo shaderInfo = Array.Find(AssetInfos, x => x.name == materialNames[i] + shaderSuffix);
+                    byte[] byteShaderPathID = BitConverter.GetBytes(shaderInfo.pathID);
+                    for (int j = 0; j < 4; j++)
+                    {
+                        fsMaterial.WriteByte(byteShaderPathID[j]);
+                    }
+
+                    // Atlas
+                    fsMaterial.Seek(0x00000060, SeekOrigin.Begin);
+                    AssetInfo atlasInfo = Array.Find(AssetInfos, x => x.name == materialNames[i] + atlasSuffix);
+                    byte[] byteAtlasPathID = BitConverter.GetBytes(atlasInfo.pathID);
+                    for (int j = 0; j < 4; j++)
+                    {
+                        fsMaterial.WriteByte(byteAtlasPathID[j]);
+                    }
+                    File.Copy(RESOURCE_FOLDER_PATH + materialNames[i] + atlasSuffix + @".dat", SHAREDASSETS0_PATCH_PATH + "Raw_0_" + atlasInfo.pathID + ".dat", true);
+                    shared0PatchList.Add(SHAREDASSETS0_PATCH_PATH + "Raw_0_" + atlasInfo.pathID + ".dat");
+                }
+            }
+
+            //MonoBehaviour
+            for (int i = 0; i < monoBehaviourNames.Length; i++)
+            {
+                AssetInfo mono2Info = Array.Find(AssetInfos, x => x.name == monoBehaviourNames[i]);
+                File.Copy(RESOURCE_FOLDER_PATH + monoBehaviourNames[i] + @".dat", SHAREDASSETS0_PATCH_PATH + "Raw_0_" + mono2Info.pathID + ".dat", true);
+                shared0PatchList.Add(SHAREDASSETS0_PATCH_PATH + "Raw_0_" + mono2Info.pathID + ".dat");
+                using (FileStream fsMono2 = new FileStream(SHAREDASSETS0_PATCH_PATH + "Raw_0_" + mono2Info.pathID + ".dat", FileMode.Open, FileAccess.ReadWrite))
+                {
+
+                    // TMP_FontAsset
+                    fsMono2.Seek(0x00000014, SeekOrigin.Begin);
+                    AssetInfo TMP_FontAssetInfo = Array.Find(AssetInfos, x => x.name == "TMP_FontAsset");
+                    byte[] byteTMP_FontAssetPathID = BitConverter.GetBytes(TMP_FontAssetInfo.pathID);
+                    for (int j = 0; j < 4; j++)
+                    {
+                        fsMono2.WriteByte(byteTMP_FontAssetPathID[j]);
+                    }
+
+                    // Material
+                    fsMono2.Seek(0x00000034, SeekOrigin.Begin);
+                    string temp = materialNames[0];
+                    AssetInfo materialInfo = Array.Find(AssetInfos, x => x.name == temp);
+                    byte[] byteMaterialPathID = BitConverter.GetBytes(materialInfo.pathID);
+                    for (int j = 0; j < 4; j++)
+                    {
+                        fsMono2.WriteByte(byteMaterialPathID[j]);
+                    }
+
+                    // Atlas
+                    fsMono2.Seek(0x000000A8, SeekOrigin.Begin);
+                    AssetInfo atlasInfo = Array.Find(AssetInfos, x => x.name == temp + atlasSuffix);
+                    byte[] byteAtlasPathID = BitConverter.GetBytes(atlasInfo.pathID);
+                    for (int j = 0; j < 4; j++)
+                    {
+                        fsMono2.WriteByte(byteAtlasPathID[j]);
+                    }
+                }
+            }
+
+            using (StreamWriter swPatchList = new StreamWriter(SHAREDASSETS0_PATCH_PATH + SHAREDASSETS0_PATCH_NAME + "_list.txt"))
+            {
+                for (int i = 0; i < shared0PatchList.Count; i++)
+                {
+                    if (i != shared0PatchList.Count - 1)
+                    {
+                        swPatchList.WriteLine(shared0PatchList[i]);
+                    }
+                    else
+                    {
+                        swPatchList.Write(shared0PatchList[i]);
+                    }
+                }
+            }
+
+            //res
+            List<string> resPatchList = new List<string>();
+            CreateFolderOrClean(RESOURCE_PATCH_PATH);
+            for (int i = 0; i < languageDataNames.Length; i++)
+            {
+                AssetInfo tempLanguageDataInfo = Array.Find(AssetInfos, x => x.name == languageDataNames[i]);
+                //File.Copy(RESOURCE_FOLDER_PATH + languageDataNames[i] + @".txt", RESOURCE_PATCH_PATH + "Raw_0_" + tempLanguageDataInfo.pathID + ".dat", true);
+                resPatchList.Add(RESOURCE_PATCH_PATH + "Raw_0_" + tempLanguageDataInfo.pathID + ".dat");
+                using (FileStream fsTempLang = new FileStream(RESOURCE_PATCH_PATH + "Raw_0_" + tempLanguageDataInfo.pathID + ".dat", FileMode.Create, FileAccess.ReadWrite))
+                {
+                    byte[] languageDataNameSize = BitConverter.GetBytes(languageDataNames[i].Length);
+                    for(int j=0; j<4; j++)
+                    {
+                        fsTempLang.WriteByte(languageDataNameSize[j]);
+                    }
+                    for (int j = 0; j < languageDataNames[i].Length; j++)
+                    {
+                        fsTempLang.WriteByte((byte)languageDataNames[i][j]);
+                    }
+                    while(fsTempLang.Length%4 != 0)
+                    {
+                        fsTempLang.WriteByte((byte)0);
+                    }
+                    using (FileStream fsTxt = new FileStream(TEMP_FOLDER_NAME + languageDataNames[i] + @".txt", FileMode.Open, FileAccess.Read))
+                    {
+                        byte[] fsTxtSize = BitConverter.GetBytes(fsTxt.Length);
+                        for (int j = 0; j < 4; j++)
+                        {
+                            fsTempLang.WriteByte(fsTxtSize[j]);
+                        }
+                        for(int j=0; j<fsTxt.Length; j++)
+                        {
+                            fsTempLang.WriteByte((byte)fsTxt.ReadByte());
+                        }
+                    }
+                    while (fsTempLang.Length % 4 != 0)
+                    {
+                        fsTempLang.WriteByte((byte)0);
+                    }
+                    for(int j=0; j<4; j++)
+                    {
+                        fsTempLang.WriteByte((byte)0);
+                    }
+                }
+            }
+            using (StreamWriter swResPatchList = new StreamWriter(RESOURCE_PATCH_PATH + RESOURCE_PATCH_NAME + "_list.txt"))
+            {
+                for (int j = 0; j < resPatchList.Count; j++)
+                {
+                    if (j != resPatchList.Count - 1)
+                    {
+                        swResPatchList.WriteLine(resPatchList[j]);
+                    }
+                    else
+                    {
+                        swResPatchList.Write(resPatchList[j]);
+                    }
+                }
+            }
         }
     }
 }

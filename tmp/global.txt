@@ -1,0 +1,24 @@
+# Days of week
+m.dayofweek.0 = 일
+m.dayofweek.1 = 월
+m.dayofweek.2 = 화
+m.dayofweek.3 = 수
+m.dayofweek.4 = 목
+m.dayofweek.5 = 금
+m.dayofweek.6 = 토
+# Lists
+m.commalist0 = None
+m.commalist1 = {0}
+m.commalist2 = {0}, {1}
+m.commalist3 = {0}, {1}, {2}
+m.commalist4 = {0}, {1}, {2}, {3}
+m.andlist0 = None
+m.andlist1 = {0}
+m.andlist2 = {0}, {1}
+m.andlist3 = {0}, {1}, {2}
+m.andlist4 = {0}, {1}, {2}, {3}
+m.ellipsize0 = {0}
+m.ellipsize1 = {0}.
+m.ellipsize2 = {0}..
+m.ellipsize3 = {0}...
+l.none = None

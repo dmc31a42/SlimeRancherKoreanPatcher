@@ -1,0 +1,62 @@
+# Keys and buttons are translated from enum names in InControl
+
+# Keyboard code translations
+m.None = None
+m.Key0 = 0
+m.Key1 = 1
+m.Key2 = 2
+m.Key3 = 3
+m.Key4 = 4
+m.Key5 = 5
+m.Key6 = 6
+m.Key7 = 7
+m.Key8 = 8
+m.Key9 = 9
+m.Pad0 = Num0
+m.Pad1 = Num1
+m.Pad2 = Num2
+m.Pad3 = Num3
+m.Pad4 = Num4
+m.Pad5 = Num5
+m.Pad6 = Num6
+m.Pad7 = Num7
+m.Pad8 = Num8
+m.Pad9 = Num9
+m.LeftButton = 마우스왼쪽
+m.RightButton = 마우스오른쪽
+m.MiddleButton = 마우스휠
+m.PositiveScrollWheel = 스크롤업
+m.NegativeScrollWheel = 스크롤다운
+m.LeftShift = 왼쪽Shift
+m.RightShift = 오른쪽Shift
+m.LeftCtrl = 왼쪽Ctrl
+m.RightCtrl = 오른쪽Ctrl
+m.LeftAlt = 왼쪽Alt
+m.RightAlt = 오른쪽Alt
+m.UpArrow = 위방향키
+m.DownArrow = 아래방향키
+m.LeftArrow = 왼쪽방향키
+m.RightArrow = 오른쪽방향키
+m.Space = 스페이스
+m.Slash = 슬래시/
+m.Backslash = 역슬래시\\
+#Gamepad
+
+m.Action1 = A
+m.Action2 = B
+m.Action3 = X
+m.Action4 = Y
+m.LeftTrigger = LT
+m.LeftBumper = LB
+m.RightTrigger = RT
+m.RightBumper = RB
+m.DPadUp = 위
+m.DPadDown = 아래
+m.DPadLeft = 왼쪽
+m.DPadRight = 오른쪽
+m.Back = Back
+m.Start = Start
+m.LeftStickButton = 왼쪽 스틱
+m.RightStickButton = 오른쪽 스틱
+m.View = View
+m.Menu = Menu

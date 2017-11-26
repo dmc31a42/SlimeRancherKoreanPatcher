@@ -1,0 +1,7 @@
+# Place-name Translations for things on the range/in the world.
+
+# Zones
+m.dry_reef = 건조한 암초
+m.quarry = 채석장
+# Teleporters
+m.teleporter.ranch = 목장
