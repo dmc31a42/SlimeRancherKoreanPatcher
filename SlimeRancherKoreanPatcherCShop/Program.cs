@@ -44,13 +44,12 @@ namespace SlimeRancherKoreanPatcherCShop
                 }
             }
             currentDirectoryPath = Directory.GetCurrentDirectory() + @"\";
+            Console.WriteLine("임시폴더 비우는중");
             CreateFolderOrClean(TEMP_FOLDER_NAME);
-
             Console.WriteLine("에셋 정보 추출중...");
             SlimeRancherKoreanPatcherManagedCpp.ManagedPatcher managedPatcher
                 = new SlimeRancherKoreanPatcherManagedCpp.ManagedPatcher(SlimeRancherPath, currentDirectoryPath);
             SlimeRancherKoreanPatcherManagedCpp.AssetInfo[] assetInfos = managedPatcher.GetAssetInfos();
-
             Console.WriteLine("번역된 문장 다운로드 및 적용중...");
             DownloadCSVandPatch();
             Console.WriteLine("패치 파일 생성중...");
@@ -64,7 +63,6 @@ namespace SlimeRancherKoreanPatcherCShop
             File.Copy(RESOURCE_FOLDER_PATH + @"koreanAtlas.assets.resS", SlimeRancherPath + @"koreanAtlas.assets.resS", true);
             Console.WriteLine("임시로 생성된 파일 삭제중...");
             DeleteFolder(currentDirectoryPath + TEMP_FOLDER_NAME);
-
             Console.WriteLine("한글패치 완료!");
             Console.WriteLine("종료하려면 창을 끄거나 아무 키나 누르시오.");
             Console.Read();
