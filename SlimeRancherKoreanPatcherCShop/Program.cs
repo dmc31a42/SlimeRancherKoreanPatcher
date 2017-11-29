@@ -201,6 +201,8 @@ namespace SlimeRancherKoreanPatcherCShop
         static void PatchText(string originalTXTPath, string translatedCSVPath)
         {
             string OrigianlTextString = System.IO.File.ReadAllText(originalTXTPath);
+            OrigianlTextString = OrigianlTextString.Replace("\r\n", "\r");
+            OrigianlTextString = OrigianlTextString.Replace("\r", "\n");
             TXTParser txtParser = new TXTParser();
             txtParser.Append(OrigianlTextString);
             List<string[]> originalListContext = txtParser.ListContext;

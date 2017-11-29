@@ -132,18 +132,28 @@ namespace TextParser
         }
         public void Append(string str)
         {
+            int i = 0;
+            string key = "";
             string[] AppendedStr = str.Split('=');
             int tempIter = AppendedStr[0].LastIndexOf('\n');
-            string[] tempStrs = { AppendedStr[0].Substring(0, tempIter), AppendedStr[0].Substring(tempIter + 1) };
-            if (tempStrs.Length == 2)
+            if (tempIter > 0)
             {
-                _ListContext.Add(new string[] { RemoveCRLFSpace(tempStrs[0]), "" });
+                string[] tempStrs = { AppendedStr[0].Substring(0, tempIter), AppendedStr[0].Substring(tempIter + 1) };
+                if (tempStrs.Length == 2)
+                {
+                    _ListContext.Add(new string[] { RemoveCRLFSpace(tempStrs[0]), "" });
+                }
             }
-            for (int i = 0; i < AppendedStr.Length - 1; i++)
+            else
+            {
+                key = AppendedStr[0];
+                i = 1;
+            }
+            for (; i < AppendedStr.Length - 1; i++)
             {
                 int LFIter1 = AppendedStr[i].LastIndexOf('\n');
                 string[] SplitedStrs1 = { AppendedStr[i].Substring(0, LFIter1), AppendedStr[i].Substring(LFIter1 + 1) };
-                string key = SplitedStrs1[1];
+                key = SplitedStrs1[1];
                 int DetectSharpIter = AppendedStr[i + 1].IndexOf('#');
                 if (DetectSharpIter == -1)
                 {
