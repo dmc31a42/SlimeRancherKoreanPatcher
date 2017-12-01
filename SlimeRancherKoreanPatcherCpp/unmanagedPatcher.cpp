@@ -16,7 +16,7 @@
 #include "AssetsTools\AssetsBundleFileFormat.h"
 #include "AssetsTools\ClassDatabaseFile.h"
 
-//#define MY_DEBUG
+#define MY_DEBUG
 using namespace std;
 
 int filesize(FILE* file)
@@ -42,13 +42,14 @@ unmanagedPatcher::unmanagedPatcher(string gameFolderPath, string currentDirector
 	resAssetsFileName = "resources.assets";
 	sharedAssetsFileName = "sharedassets0.assets";
 	classDatabaseFileName = "Resource\\U5.6.0f3.dat";
+	logOfstream.open((_currentDirectory + "output_cpp.log").c_str(), ios::trunc);
 
 #ifdef MY_DEBUG
-	cout << "_gameFolderPath : " << _gameFolderPath << endl;
-	cout << "_currentDirectory : " << _currentDirectory << endl;
-	cout << "(_gameFolderPath + resAssetsFileName).c_str() : " << (_gameFolderPath + resAssetsFileName).c_str() << endl;
-	cout << "(_gameFolderPath + sharedAssetsFileName).c_str() : " << (_gameFolderPath + sharedAssetsFileName).c_str() << endl;
-	cout << "(_currentDirectory + classDatabaseFileName).c_str() : " << (_currentDirectory + classDatabaseFileName).c_str() << endl;
+	logOfstream << "_gameFolderPath : " << _gameFolderPath << endl;
+	logOfstream << "_currentDirectory : " << _currentDirectory << endl;
+	logOfstream << "(_gameFolderPath + resAssetsFileName).c_str() : " << (_gameFolderPath + resAssetsFileName).c_str() << endl;
+	logOfstream << "(_gameFolderPath + sharedAssetsFileName).c_str() : " << (_gameFolderPath + sharedAssetsFileName).c_str() << endl;
+	logOfstream << "(_currentDirectory + classDatabaseFileName).c_str() : " << (_currentDirectory + classDatabaseFileName).c_str() << endl;
 #endif
 
 	fopen_s(&pResAssetsFile, (_gameFolderPath + resAssetsFileName).c_str(), "rb");
@@ -156,7 +157,7 @@ void unmanagedPatcher::FindInformation()
 	{
 		AssetFileInfoEx *tempAssetFileInfoEx = resAssetsFileTable->getAssetInfo(currentPathID);
 #ifdef MY_DEBUG
-		cout << "[" << currentPathID << "] : " <<  tempAssetFileInfoEx->name << endl;
+		logOfstream << "[" << currentPathID << "] : " <<  tempAssetFileInfoEx->name << endl;
 #endif
 		map<string, int>::iterator FindIter = languageDataNames.find(tempAssetFileInfoEx->name);
 		if (FindIter != languageDataNames.end())
@@ -206,7 +207,7 @@ void unmanagedPatcher::FindInformation()
 		}
 		AssetFileInfoEx *tempAssetFileInfoEx = sharedAssetsFileTable->getAssetInfo(currentPathID);
 #ifdef MY_DEBUG
-		cout << "[" << currentPathID << "] : " << "->name : " << tempAssetFileInfoEx->name << endl;
+		logOfstream << "[" << currentPathID << "] : " << "->name : " << tempAssetFileInfoEx->name << endl;
 #endif
 		map<string, int>::iterator FindIter = materialNames.find(tempAssetFileInfoEx->name);
 		if (FindIter != materialNames.end())
@@ -255,10 +256,10 @@ void unmanagedPatcher::FindInformation()
 						bool pAtlasExist = pAtlas ? true : false;
 						bool pShaderIsDummy = pShader->IsDummy();
 						bool pAtlasIsDummy = pAtlas->IsDummy();
-						cout << "[" << FindIter->first << "]" << "pShaderExist : " << pShaderExist << endl;
-						cout << "[" << FindIter->first << "]" << "pAtlasExist : " << pAtlasExist << endl;
-						cout << "[" << FindIter->first << "]" << "pShaderIsDummy : " << pShaderIsDummy << endl;
-						cout << "[" << FindIter->first << "]" << "pAtlasIsDummy : " << pAtlasIsDummy << endl;
+						logOfstream << "[" << FindIter->first << "]" << "pShaderExist : " << pShaderExist << endl;
+						logOfstream << "[" << FindIter->first << "]" << "pAtlasExist : " << pAtlasExist << endl;
+						logOfstream << "[" << FindIter->first << "]" << "pShaderIsDummy : " << pShaderIsDummy << endl;
+						logOfstream << "[" << FindIter->first << "]" << "pAtlasIsDummy : " << pAtlasIsDummy << endl;
 #endif
 						if (pShader && pAtlas && !pShader->IsDummy() && !pAtlas->IsDummy())
 						{
@@ -315,7 +316,7 @@ void unmanagedPatcher::FindInformation()
 			{
 				string m_Name = pm_Name->GetValue()->AsString();
 #ifdef MY_DEBUG
-				cout << "[PathID : " << currentPathID << "] : " << m_Name << ", ->curFileType : " << tempAssetFileInfoEx->curFileType <<  endl;
+				logOfstream << "[PathID : " << currentPathID << "] : " << m_Name << ", ->curFileType : " << tempAssetFileInfoEx->curFileType <<  endl;
 #endif
 				map<string, int>::iterator FindIter = monoBehaviourNames.find(m_Name);
 				if (FindIter != monoBehaviourNames.end())
@@ -377,7 +378,7 @@ void unmanagedPatcher::MakeModdedAssets()
 		return;
 	}
 #ifdef MY_DEBUG
-	cout << "Patch File List : " << endl;
+	logOfstream << "Patch File List : " << endl;
 #endif
 	std::vector<FILE*> pSharedPatchFile;
 	while (!ifsSharedPatchListFile.eof())
@@ -391,7 +392,7 @@ void unmanagedPatcher::MakeModdedAssets()
 		}
 		sharedPatchFileName.push_back(temp);
 #ifdef MY_DEBUG
-		cout << sharedPatchFileName[sharedPatchFileName.size() - 1] << endl;
+		logOfstream << sharedPatchFileName[sharedPatchFileName.size() - 1] << endl;
 #endif
 		fopen_s(&pTempPatchFile, temp.c_str(), "rb");
 		if (pTempPatchFile == NULL)
@@ -451,7 +452,7 @@ void unmanagedPatcher::MakeModdedAssets()
 		return;
 	}
 #ifdef MY_DEBUG
-	cout << "Patch File List : " << endl;
+	logOfstream << "Patch File List : " << endl;
 #endif
 	std::vector<FILE*> pResPatchFile;
 	while (!ifsResPatchListFile.eof())
@@ -465,7 +466,7 @@ void unmanagedPatcher::MakeModdedAssets()
 		}
 		resPatchFileName.push_back(temp);
 #ifdef MY_DEBUG
-		cout << resPatchFileName[resPatchFileName.size() - 1] << endl;
+		logOfstream << resPatchFileName[resPatchFileName.size() - 1] << endl;
 #endif
 		fopen_s(&pTempPatchFile, temp.c_str(), "rb");
 		if (pTempPatchFile == NULL)
@@ -513,7 +514,7 @@ void unmanagedPatcher::MakeModdedAssets()
 	}
 
 #ifdef MY_DEBUG
-	cout << "Slime Rancher Korean Translation Patch Complete. Exit" << endl;
+	logOfstream << "Slime Rancher Korean Translation Patch Complete. Exit" << endl;
 #endif
 }
 

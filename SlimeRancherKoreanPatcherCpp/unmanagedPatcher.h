@@ -40,6 +40,8 @@ private:
 	AssetsFileTable *sharedAssetsFileTable;
 	map<int, unsigned int> findByClassID;
 
+	ofstream logOfstream;
+
 	vector<UnmanagedAssetInfo> assetInfos;
 public:
 	unmanagedPatcher(string gameFolderPath, string currentDirectory);
