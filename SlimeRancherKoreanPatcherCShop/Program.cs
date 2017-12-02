@@ -25,7 +25,7 @@ namespace SlimeRancherKoreanPatcherCShop
         const string UNITY_RESOURCES_ASSETS_NAME = "resources.assets";
         const string UNITY_SHARED0_ASSETS_NAME = "sharedassets0.assets";
         const bool DEBUG = true;
-        const string currentVersion = "20171202";
+        const string currentVersion = "20171202-1";
 
         static void Main(string[] args)
         {
@@ -105,7 +105,7 @@ namespace SlimeRancherKoreanPatcherCShop
             }
             programFilesPath = programFilesPath + @"\";
             string steamRelativePath = @"Steam\steamapps\common\" + GAME_NAME + @"\" + GAME_DATA_NAME + @"_Data\";
-            string steamLibraryRelativePath = @"SteamLibrary\steamapps\common\" + GAME_NAME + @"\" + GAME_DATA_NAME + @"_Data";
+            string steamLibraryRelativePath = @"SteamLibrary\steamapps\common\" + GAME_NAME + @"\" + GAME_DATA_NAME + @"_Data\";
             string[] rootDirectoryPath = new string[26];
             char ch = 'A';
             for (int i = 0; i < rootDirectoryPath.Length; i++)
