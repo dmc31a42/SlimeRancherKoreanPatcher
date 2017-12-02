@@ -25,6 +25,7 @@ namespace SlimeRancherKoreanPatcherCShop
         const string UNITY_RESOURCES_ASSETS_NAME = "resources.assets";
         const string UNITY_SHARED0_ASSETS_NAME = "sharedassets0.assets";
         const bool DEBUG = true;
+        const string currentVersion = "20171202";
 
         static void Main(string[] args)
         {
@@ -44,8 +45,26 @@ namespace SlimeRancherKoreanPatcherCShop
                 }
             }
             currentDirectoryPath = Directory.GetCurrentDirectory() + @"\";
-            Console.WriteLine("임시폴더 비우는중");
+            Console.WriteLine("임시폴더 비우는중...");
             CreateFolderOrClean(TEMP_FOLDER_NAME);
+            Console.WriteLine("온라인상에서 최신버전이 있는지 확인하는 중...");
+            if (CheckLastVersion() == false)
+            {
+                Console.WriteLine("온라인상에 업데이트된 최신버전이 존재합니다.");
+                Console.Write("그래도 계속 진행하겠습니까?(Y/n) : ");
+                ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+                if(consoleKeyInfo.KeyChar == 'Y')
+                {
+                    Console.WriteLine("");
+                }
+                else
+                {
+                    Console.WriteLine("\n인터넷에서 새로운 패치를 다운받아주세요. 패치를 중단합니다.");
+                    Console.WriteLine("종료하려면 창을 끄거나 아무 키나 누르시오.");
+                    Console.Read();
+                    return;
+                }
+            }
             Console.WriteLine("에셋 정보 추출중...");
             SlimeRancherKoreanPatcherManagedCpp.ManagedPatcher managedPatcher
                 = new SlimeRancherKoreanPatcherManagedCpp.ManagedPatcher(SlimeRancherPath, currentDirectoryPath);
@@ -63,7 +82,7 @@ namespace SlimeRancherKoreanPatcherCShop
             File.Copy(RESOURCE_FOLDER_PATH + @"koreanAtlas.assets.resS", SlimeRancherPath + @"koreanAtlas.assets.resS", true);
             Console.WriteLine("임시로 생성된 파일 삭제중...");
             DeleteFolder(currentDirectoryPath + TEMP_FOLDER_NAME);
-            Console.WriteLine("한글패치 완료!");
+            Console.WriteLine(GAME_NAME + " 한글패치 완료!");
             Console.WriteLine("종료하려면 창을 끄거나 아무 키나 누르시오.");
             Console.Read();
         }
@@ -176,6 +195,31 @@ namespace SlimeRancherKoreanPatcherCShop
             }
         }
 
+        static bool CheckLastVersion()
+        {
+            string currentVersionURL = @"https://github.com/dmc31a42/SlimeRancherKoreanPatcher/raw/master/currentVersion.txt";
+            string currentVersionFilePath = TEMP_FOLDER_NAME + "currentVersion.txt";
+            WebClient webClient = new WebClient();
+            try
+            {
+                webClient.DownloadFile(currentVersionURL, currentVersionFilePath);
+                string onlineVersion = System.IO.File.ReadAllText(currentVersionFilePath);
+                if(onlineVersion == currentVersion)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            catch
+            {
+                Console.WriteLine("최신버전을 확인하는 도중 오류가 발생하였습니다. 현재 버전으로 패치를 계속합니다.");
+                return true;
+            }
+        }
+
         static void DownloadCSVandPatch()
         {
 
@@ -190,7 +234,15 @@ namespace SlimeRancherKoreanPatcherCShop
             for (int i = 0; i < ListCSVURL.Count; i++)
             {
                 WebClient webClient = new WebClient();
-                webClient.DownloadFile(ListCSVURL[i][1], TEMP_FOLDER_NAME + "\\" + ListCSVURL[i][0] + ".csv");
+                try
+                {
+                    webClient.DownloadFile(ListCSVURL[i][1], TEMP_FOLDER_NAME + "\\" + ListCSVURL[i][0] + ".csv");
+                }
+                catch
+                {
+                    Console.WriteLine(ListCSVURL[i][0] + "      \t번역 파일을 받는 중 오류가 발생하였습니다. 오프라인 파일을 사용합니다.");
+                    File.Copy(RESOURCE_FOLDER_PATH + ListCSVURL[i][0] + ".csv", TEMP_FOLDER_NAME + ListCSVURL[i][0] + ".csv", true);
+                }
             }
             for (int i = 0; i < ListCSVURL.Count; i++)
             {

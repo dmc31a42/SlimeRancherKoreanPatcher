@@ -30,14 +30,18 @@ private:
 	string resAssetsFileName;
 	string sharedAssetsFileName;
 	string classDatabaseFileName;
+	string noExtGlobalAssetFileName;
 	AssetsFile *resAssetsFile;
 	AssetsFile *sharedAssetsFile;
 	ClassDatabaseFile *classDatabaseFile;
+	AssetsFile *noExtGlobalAssetsFile;
 	FILE *pResAssetsFile;
 	FILE *psharedAssetsFile;
 	FILE *pClassDatabaseFile;
+	FILE *pNoExtGlobalAssetsFile;
 	AssetsFileTable *resAssetsFileTable;
 	AssetsFileTable *sharedAssetsFileTable;
+	AssetsFileTable *noExtGlobalAssetsFileTable;
 	map<int, unsigned int> findByClassID;
 
 	ofstream logOfstream;

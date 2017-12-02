@@ -42,6 +42,7 @@ unmanagedPatcher::unmanagedPatcher(string gameFolderPath, string currentDirector
 	resAssetsFileName = "resources.assets";
 	sharedAssetsFileName = "sharedassets0.assets";
 	classDatabaseFileName = "Resource\\U5.6.0f3.dat";
+	noExtGlobalAssetFileName = "globalgamemanagers";
 	logOfstream.open((_currentDirectory + "output_cpp.log").c_str(), ios::trunc);
 
 #ifdef MY_DEBUG
@@ -50,25 +51,36 @@ unmanagedPatcher::unmanagedPatcher(string gameFolderPath, string currentDirector
 	logOfstream << "(_gameFolderPath + resAssetsFileName).c_str() : " << (_gameFolderPath + resAssetsFileName).c_str() << endl;
 	logOfstream << "(_gameFolderPath + sharedAssetsFileName).c_str() : " << (_gameFolderPath + sharedAssetsFileName).c_str() << endl;
 	logOfstream << "(_currentDirectory + classDatabaseFileName).c_str() : " << (_currentDirectory + classDatabaseFileName).c_str() << endl;
+	logOfstream << "(_gameFolderPath + noExtGlobalAssetFileName).c_str() : " << (_gameFolderPath + noExtGlobalAssetFileName).c_str() << endl;
 #endif
 
+#ifdef MY_DEBUG
+	logOfstream << endl;
+#endif
+#ifdef MY_DEBUG
+	logOfstream << "fopen_s pFILE" << endl;
+#endif
 	fopen_s(&pResAssetsFile, (_gameFolderPath + resAssetsFileName).c_str(), "rb");
 	fopen_s(&psharedAssetsFile, (_gameFolderPath + sharedAssetsFileName).c_str(), "rb");
 	fopen_s(&pClassDatabaseFile, (_currentDirectory + classDatabaseFileName).c_str(), "rb");
-
+	fopen_s(&pNoExtGlobalAssetsFile, (_gameFolderPath + noExtGlobalAssetFileName).c_str(), "rb");
 #ifdef MY_DEBUG
-	//cout << pResAssetsFile->
+	logOfstream << "create AssetsFile, ClassDatabaseFile" << endl;
 #endif
-
 	resAssetsFile = new AssetsFile(AssetsReaderFromFile, (LPARAM)pResAssetsFile);
 	sharedAssetsFile = new AssetsFile(AssetsReaderFromFile, (LPARAM)psharedAssetsFile);
 	classDatabaseFile = new ClassDatabaseFile();
 	classDatabaseFile->Read(AssetsReaderFromFile, (LPARAM)pClassDatabaseFile);
-
+	noExtGlobalAssetsFile = new AssetsFile(AssetsReaderFromFile, (LPARAM)pNoExtGlobalAssetsFile);
+#ifdef MY_DEBUG
+	logOfstream << "create AssetsFileTable" << endl;
+#endif
 	resAssetsFileTable = new AssetsFileTable(resAssetsFile);
 	sharedAssetsFileTable = new AssetsFileTable(sharedAssetsFile);
-
-	//findByClassID = new map<int, unsigned int>();
+	noExtGlobalAssetsFileTable = new AssetsFileTable(noExtGlobalAssetsFile);
+#ifdef MY_DEBUG
+	logOfstream << "make findByClassID" << endl;
+#endif
 	for (int i = 0; i < (int)classDatabaseFile->classes.size(); i++)
 	{
 		int classId = classDatabaseFile->classes[i].classId;
@@ -90,11 +102,21 @@ unmanagedPatcher::~unmanagedPatcher()
 		delete sharedAssetsFileTable;
 		sharedAssetsFileTable = NULL;
 	}
+	if (noExtGlobalAssetsFileTable)
+	{
+		delete noExtGlobalAssetsFileTable;
+		noExtGlobalAssetsFileTable = NULL;
+	}
 
 	if (classDatabaseFile)
 	{
 		delete classDatabaseFile;
 		classDatabaseFile = NULL;
+	}
+	if (noExtGlobalAssetsFile)
+	{
+		delete noExtGlobalAssetsFile;
+		noExtGlobalAssetsFile = NULL;
 	}
 	if (sharedAssetsFile)
 	{
@@ -122,82 +144,111 @@ unmanagedPatcher::~unmanagedPatcher()
 		fclose(pClassDatabaseFile);
 		pClassDatabaseFile = NULL;
 	}
+	if (pNoExtGlobalAssetsFile)
+	{
+		fclose(pNoExtGlobalAssetsFile);
+		pNoExtGlobalAssetsFile = NULL;
+	}
 }
 
 void unmanagedPatcher::FindInformation()
 {
+#ifdef MY_DEBUG
+	logOfstream << "start FindInformation" << endl;
+#endif
 	map<string, int> materialNames;
 	int materialCount;
-	map<string,int> languageDataNames;
-	int languageDataCount;
 	map<string, int> monoBehaviourNames;
 	int monoBehaviourCount;
 	
 	materialNames.insert(map<string,int>::value_type("OpenSans-Semibold SDF Material",0));
 	materialCount = materialNames.size();
 
-	languageDataNames.insert(map<string, int>::value_type("achieve",3));
-	languageDataNames.insert(map<string, int>::value_type("actor", 1));
-	languageDataNames.insert(map<string, int>::value_type("exchange", 3));
-	languageDataNames.insert(map<string, int>::value_type("global", 0));
-	languageDataNames.insert(map<string, int>::value_type("keys", 1));
-	languageDataNames.insert(map<string, int>::value_type("mail", 0));
-	languageDataNames.insert(map<string, int>::value_type("pedia", 2));
-	languageDataNames.insert(map<string, int>::value_type("range", 4));
-	languageDataNames.insert(map<string, int>::value_type("tutorial", 1));
-	languageDataNames.insert(map<string, int>::value_type("ui", 1));
-
-	languageDataCount = languageDataNames.size();
-
 	monoBehaviourNames.insert(map<string, int>::value_type("OpenSans SDF",0));
 	monoBehaviourCount = monoBehaviourNames.size();
-
-	unsigned int currentPathID = 1;
-	for (; currentPathID <= resAssetsFileTable->assetFileInfoCount; currentPathID++)
+	
+	int languageDataCount = 11;
+	unsigned int noExtGlobalPathID = 0;
+	for (noExtGlobalPathID = 1; noExtGlobalPathID < noExtGlobalAssetsFileTable->assetFileInfoCount; noExtGlobalPathID++)
 	{
-		AssetFileInfoEx *tempAssetFileInfoEx = resAssetsFileTable->getAssetInfo(currentPathID);
+		AssetFileInfoEx *tempAssetFileInfoEx = noExtGlobalAssetsFileTable->getAssetInfo(noExtGlobalPathID);
 #ifdef MY_DEBUG
-		logOfstream << "[" << currentPathID << "] : " <<  tempAssetFileInfoEx->name << endl;
+		logOfstream << "[" << noExtGlobalPathID << "] : ->curFileType : " << tempAssetFileInfoEx->curFileType << endl;
 #endif
-		map<string, int>::iterator FindIter = languageDataNames.find(tempAssetFileInfoEx->name);
-		if (FindIter != languageDataNames.end())
+		if (tempAssetFileInfoEx->curFileType == 0x00000093)
 		{
-			FindIter->second--;
-			if (FindIter->second == -1)
+			AssetTypeTemplateField *tempAssetTypeTemplateField = new AssetTypeTemplateField;
+			tempAssetTypeTemplateField->FromClassDatabase(classDatabaseFile, &classDatabaseFile->classes[findByClassID[tempAssetFileInfoEx->curFileType]], (DWORD)0);
+			AssetTypeInstance tempAssetTypeInstance((DWORD)1, &tempAssetTypeTemplateField, AssetsReaderFromFile, (LPARAM)pNoExtGlobalAssetsFile, noExtGlobalAssetsFile->header.endianness ? true : false, tempAssetFileInfoEx->absolutePos);
+			AssetTypeValueField *pBase = tempAssetTypeInstance.GetBaseField();
+			if (pBase)
 			{
-				UnmanagedAssetInfo tempAssetInfo;
-				tempAssetInfo.pathID = currentPathID;
-				tempAssetInfo.name = tempAssetFileInfoEx->name;
-				tempAssetInfo.offset = (int)tempAssetFileInfoEx->absolutePos;
-				tempAssetInfo.size = tempAssetFileInfoEx->curFileSize;
-				assetInfos.push_back(tempAssetInfo);
-
-				// extract original txt file
-				AssetTypeTemplateField *tempAssetTypeTemplateField = new AssetTypeTemplateField;
-				tempAssetTypeTemplateField->FromClassDatabase(classDatabaseFile, &classDatabaseFile->classes[findByClassID[tempAssetFileInfoEx->curFileType]], (DWORD)0);
-				AssetTypeInstance tempAssetTypeInstance((DWORD)1, &tempAssetTypeTemplateField, AssetsReaderFromFile, (LPARAM)pResAssetsFile, resAssetsFile->header.endianness ? true : false, tempAssetFileInfoEx->absolutePos);
-				AssetTypeValueField *pBase = tempAssetTypeInstance.GetBaseField();
-				if (pBase)
+				AssetTypeValueField *pm_Container = pBase->Get("m_Container");
+				if (pm_Container && pm_Container->IsDummy() == false)
 				{
-					AssetTypeValueField *pm_Script = pBase->Get("m_Script");
-					if (pm_Script && pm_Script->IsDummy() == false)
+					unsigned int m_ContainerSize = pm_Container->Get("Array")->GetChildrenCount();
+					//AssetTypeValueField **m_ContainerArray = pm_Container->GetChildrenList();
+#ifdef MY_DEBUG
+					logOfstream << "m_ContainerSize : " << m_ContainerSize << endl;
+#endif // MY_DEBUG
+					for (unsigned int i = 0; i < m_ContainerSize; i++)
 					{
-						string m_Script = pm_Script->GetValue()->AsString();
-						ofstream ofsTempTxt(_currentDirectory + "temp\\" + tempAssetInfo.name + ".txt");
-						ofsTempTxt << m_Script;
-						ofsTempTxt.close();
-						languageDataCount--;
+						//AssetTypeValueField *tempAssetTypeValueField = (*(m_ContainerArray + i));
+						AssetTypeValueField *tempAssetTypeValueField = pm_Container->Get("Array")->Get(i);
+						string resourcesPath = tempAssetTypeValueField->Get("first")->GetValue()->AsString();
+						int pos = resourcesPath.find("i18n/en/");
+#ifdef MY_DEBUG
+						logOfstream << "[" << i << "] : " << resourcesPath << ", pos : " << pos << endl;
+#endif // MY_DEBUG
+						if (pos != -1)
+						{
+							string textAssetName = resourcesPath.substr(8, resourcesPath.length() - 8);
+							int textAssetPathID = tempAssetTypeValueField->Get("second")->Get("m_PathID")->GetValue()->AsInt();
+#ifdef MY_DEBUG
+							logOfstream << "textAssetName : " << textAssetName << "PathID : " << textAssetPathID << endl;
+#endif // MY_DEBUG
+							AssetFileInfoEx *textAssetFileInfoEx = resAssetsFileTable->getAssetInfo(textAssetPathID);
+							UnmanagedAssetInfo tempAssetInfo;
+							tempAssetInfo.pathID = textAssetPathID;
+							tempAssetInfo.name = textAssetFileInfoEx->name;
+							tempAssetInfo.offset = (int)textAssetFileInfoEx->absolutePos;
+							tempAssetInfo.size = textAssetFileInfoEx->curFileSize;
+							assetInfos.push_back(tempAssetInfo);
+
+							// extract original txt file
+							AssetTypeTemplateField *textAssetTypeTemplateField = new AssetTypeTemplateField;
+							textAssetTypeTemplateField->FromClassDatabase(classDatabaseFile, &classDatabaseFile->classes[findByClassID[textAssetFileInfoEx->curFileType]], (DWORD)0);
+							AssetTypeInstance textAssetTypeInstance((DWORD)1, &textAssetTypeTemplateField, AssetsReaderFromFile, (LPARAM)pResAssetsFile, resAssetsFile->header.endianness ? true : false, textAssetFileInfoEx->absolutePos);
+							AssetTypeValueField *pTextBase = textAssetTypeInstance.GetBaseField();
+							if (pTextBase)
+							{
+								AssetTypeValueField *pm_Script = pTextBase->Get("m_Script");
+								if (pm_Script && pm_Script->IsDummy() == false)
+								{
+									string m_Script = pm_Script->GetValue()->AsString();
+									ofstream ofsTempTxt(_currentDirectory + "temp\\" + tempAssetInfo.name + ".txt");
+									ofsTempTxt << m_Script;
+									ofsTempTxt.close();
+									languageDataCount--;
+								}
+							}
+						}
+						//ClearAssetTypeValueField(tempAssetTypeValueField);
 						if (languageDataCount == 0)
 						{
 							break;
 						}
 					}
 				}
-				
 			}
+		}
+		if (languageDataCount == 0)
+		{
+			break;
 		}
 	}
 
+	unsigned int currentPathID = 1;
 	currentPathID = 1;
 	for (; currentPathID <= sharedAssetsFileTable->assetFileInfoCount; currentPathID++)
 	{

@@ -47,4 +47,5 @@ namespace SlimeRancherKoreanPatcherManagedCpp {
 	{
 		m_pUnmanagedPatcher->MakeModdedAssets();
 	}
+
 }
