@@ -226,8 +226,8 @@ void unmanagedPatcher::FindInformation()
 								if (pm_Script && pm_Script->IsDummy() == false)
 								{
 									string m_Script = pm_Script->GetValue()->AsString();
-									ofstream ofsTempTxt(_currentDirectory + "temp\\" + tempAssetInfo.name + ".txt");
-									ofsTempTxt << m_Script;
+									ofstream ofsTempTxt(_currentDirectory + "temp\\" + tempAssetInfo.name + ".txt", std::ifstream::binary);
+									ofsTempTxt.write(m_Script.c_str(),m_Script.length());
 									ofsTempTxt.close();
 									languageDataCount--;
 								}

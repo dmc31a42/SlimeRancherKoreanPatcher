@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using TextParser;
 
@@ -25,7 +26,7 @@ namespace SlimeRancherKoreanPatcherCShop
         const string UNITY_RESOURCES_ASSETS_NAME = "resources.assets";
         const string UNITY_SHARED0_ASSETS_NAME = "sharedassets0.assets";
         const bool DEBUG = true;
-        const string currentVersion = "20171202-1";
+        const string currentVersion = "20171203";
 
         static void Main(string[] args)
         {
@@ -50,7 +51,13 @@ namespace SlimeRancherKoreanPatcherCShop
                         }
                         currentDirectoryPath = Directory.GetCurrentDirectory() + @"\";
                         Console.WriteLine("임시폴더 비우는 중...");
-                        CreateFolderOrClean(TEMP_FOLDER_NAME);
+                        if (CreateFolderOrClean(TEMP_FOLDER_NAME) == false)
+                        {
+                            Console.WriteLine(TEMP_FOLDER_NAME + " 폴더를 삭제할 수 없습니다.");
+                            Console.WriteLine("직접 삭제하신 후 다시 실행하여주세요");
+                            Console.WriteLine("종료하려면 창을 끄거나 아무 키나 누르시오.");
+                            Console.Read();
+                        }
                         Console.WriteLine("온라인상에서 최신버전이 있는지 확인하는 중...");
                         if (CheckLastVersion() == false)
                         {
@@ -113,7 +120,13 @@ namespace SlimeRancherKoreanPatcherCShop
                                 }
                                 currentDirectoryPath = Directory.GetCurrentDirectory() + @"\";
                                 Console.WriteLine("임시폴더 비우는중...");
-                                CreateFolderOrClean(TEMP_FOLDER_NAME);
+                                if (CreateFolderOrClean(TEMP_FOLDER_NAME) == false)
+                                {
+                                    Console.WriteLine(TEMP_FOLDER_NAME + " 폴더를 삭제할 수 없습니다.");
+                                    Console.WriteLine("직접 삭제하신 후 다시 실행하여주세요");
+                                    Console.WriteLine("종료하려면 창을 끄거나 아무 키나 누르시오.");
+                                    Console.Read();
+                                }
                                 Console.WriteLine("온라인상에서 최신버전이 있는지 확인하는 중...");
                                 if (CheckLastVersion() == false)
                                 {
@@ -235,17 +248,22 @@ namespace SlimeRancherKoreanPatcherCShop
             }
         }
 
-        static void CreateFolderOrClean(string folderName)
+        static bool CreateFolderOrClean(string folderName, int count=10)
         {
             DirectoryInfo di = new DirectoryInfo(folderName);
+            if(count==0)
+            {
+                return false;
+            }
             if (di.Exists == false)
             {
                 di.Create();
+                return true;
             }
             else
             {
                 Directory.Delete(folderName, true);
-                di.Create();
+                return CreateFolderOrClean(folderName, count-1);
             }
         }
 
@@ -569,5 +587,40 @@ namespace SlimeRancherKoreanPatcherCShop
             }
         }
 
+        static Dictionary<string, string> TestRegex()
+        {
+            string text = System.IO.File.ReadAllText(TEMP_FOLDER_NAME + @"pedia.txt");
+            List<string> list = new List<string>();
+            Dictionary<string, string> dictionary = new Dictionary<string, string>();
+            char[] separator = new char[] { '\n' };
+            foreach (string str in Regex.Replace(text, @"\\(\r\n|\n|\r)[ \t]*", string.Empty).Split(separator))
+            {
+                list.Add(str);
+            }
+            if (list == null)
+            {
+                //Log.Warning("Resource is empty. '" + path + "'", new object[0]);
+                return new Dictionary<string, string>();
+            }
+            foreach (string str2 in list)
+            {
+                if ((str2.Length > 1) && (str2[0] != '#'))
+                {
+                    string[] strArray3 = Regex.Split(str2, @"(?<!(?<!\\)*\\)\=");
+                    if (strArray3.Length != 2)
+                    {
+                        object[] args = new object[] { "path", "path", "line", str2 };
+                        //Log.Warning("Illegal resource bundle line", args);
+                    }
+                    else
+                    {
+                        dictionary[strArray3[0].Replace(@"\=", "=").Trim()] = strArray3[1].Replace(@"\=", "=").Replace(@"\n", "\n").Replace(@"\u00AD", "\x00ad").Trim();
+                    }
+                }
+            }
+            return dictionary;
+
+
+        }
     }
 }
