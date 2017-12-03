@@ -26,7 +26,7 @@ namespace SlimeRancherKoreanPatcherCShop
         const string UNITY_RESOURCES_ASSETS_NAME = "resources.assets";
         const string UNITY_SHARED0_ASSETS_NAME = "sharedassets0.assets";
         const bool DEBUG = true;
-        const string currentVersion = "20171203";
+        const string currentVersion = "20171204";
 
         static void Main(string[] args)
         {
@@ -262,7 +262,14 @@ namespace SlimeRancherKoreanPatcherCShop
             }
             else
             {
-                Directory.Delete(folderName, true);
+                try
+                {
+                    Directory.Delete(folderName, true);
+                }
+                catch
+                {
+                    Console.WriteLine(folderName + " 폴더 삭제 시도 " + count + "번 남음");
+                }
                 return CreateFolderOrClean(folderName, count-1);
             }
         }
@@ -589,6 +596,8 @@ namespace SlimeRancherKoreanPatcherCShop
 
         static Dictionary<string, string> TestRegex()
         {
+            // 슬라임랜처에 적합한 Regex => (.+[^ ]) *?= *([^\n]*.*(\n[^#\n]([^=\n]*))*)?(\n|$)
+            // po pot 파일 파서 => #: (.*)\nmsgctxt "(.*)"\nmsgid "(.*)"\nmsgstr "(.*)"
             string text = System.IO.File.ReadAllText(TEMP_FOLDER_NAME + @"pedia.txt");
             List<string> list = new List<string>();
             Dictionary<string, string> dictionary = new Dictionary<string, string>();
@@ -617,6 +626,12 @@ namespace SlimeRancherKoreanPatcherCShop
                         dictionary[strArray3[0].Replace(@"\=", "=").Trim()] = strArray3[1].Replace(@"\=", "=").Replace(@"\n", "\n").Replace(@"\u00AD", "\x00ad").Trim();
                     }
                 }
+            }
+            Dictionary<string, string> dictionary2 = new Dictionary<string, string>();
+            MatchCollection matches = Regex.Matches(text, @"(.+[^ ]) *?= *([^\n]*.*(\n[^#\n]([^=\n]*))*)?(\n|$)");
+            foreach (Match match in matches)
+            {
+                dictionary2.Add(match.Groups[0].Value, match.Groups[1].Value);
             }
             return dictionary;
 
