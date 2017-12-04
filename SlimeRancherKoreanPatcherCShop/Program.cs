@@ -149,6 +149,7 @@ namespace SlimeRancherKoreanPatcherCShop
                                 SlimeRancherKoreanPatcherManagedCpp.ManagedPatcher managedPatcher
                                     = new SlimeRancherKoreanPatcherManagedCpp.ManagedPatcher(SlimeRancherPath, currentDirectoryPath);
                                 SlimeRancherKoreanPatcherManagedCpp.AssetInfo[] assetInfos = managedPatcher.GetAssetInfos();
+                                TestRegex();
                                 Console.WriteLine("번역된 문장 다운로드 및 csv 업데이트 중...");
                                 DownloadCSVandUpdate();
                                 Console.WriteLine("프로그램이 종료되면 임시로 생성된 파일들이 지워집니다.");
@@ -631,7 +632,7 @@ namespace SlimeRancherKoreanPatcherCShop
             MatchCollection matches = Regex.Matches(text, @"(.+[^ ]) *?= *([^\n]*.*(\n[^#\n]([^=\n]*))*)?(\n|$)");
             foreach (Match match in matches)
             {
-                dictionary2.Add(match.Groups[0].Value, match.Groups[1].Value);
+                dictionary2.Add(match.Groups[1].Value, match.Groups[2].Value);
             }
             return dictionary;
 
