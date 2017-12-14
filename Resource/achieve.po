@@ -1,0 +1,587 @@
+# rakwon choi <ch0494@gmail.com>, 2017. #zanata
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"PO-Revision-Date: 2017-12-11 09:18-0500\n"
+"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+"Language-Team: Korean\n"
+"Language: ko\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: 1
+msgctxt "t.sell_plorts_a"
+msgid "Plort Peddler"
+msgstr "보석 상인"
+
+#: 2
+msgctxt "m.reqmt.sell_plorts_a"
+msgid "Sell 100 plorts at the Plort Market"
+msgstr "보석 상점에 100개의 보석을 파세요"
+
+#: 3
+msgctxt "t.sell_plorts_b"
+msgid "Transplorter"
+msgstr "보석 운송자"
+
+#: 4
+msgctxt "m.reqmt.sell_plorts_b"
+msgid "Sell 500 plorts at the Plort Market"
+msgstr "보석 상점에 500개의 보석을 파세요"
+
+#: 5
+msgctxt "t.sell_plorts_c"
+msgid "Plort Authority"
+msgstr "보석 권위자"
+
+#: 6
+msgctxt "m.reqmt.sell_plorts_c"
+msgid "Sell 1,000 plorts at the Plort Market"
+msgstr "보석 상점에 1,000개의 보석을 파세요"
+
+#: 7
+msgctxt "t.sell_plorts_d"
+msgid "Plort Powerhouse"
+msgstr "보석 발전소"
+
+#: 8
+msgctxt "m.reqmt.sell_plorts_d"
+msgid "Sell 2,500 plorts at the Plort Market"
+msgstr "보석 상점에 2,500개의 보석을 파세요"
+
+#: 9
+msgctxt "t.sell_plorts_e"
+msgid "Plort Tycoon"
+msgstr "보석계의 거물"
+
+#: 10
+msgctxt "m.reqmt.sell_plorts_e"
+msgid "Sell 5,000 plorts at the Plort Market"
+msgstr "보석 상점에 5,000개의 보석을 파세요"
+
+#: 11
+msgctxt "t.feed_slimes_chickens"
+msgid "Buck Buck Bagu-"
+msgstr "꼭,꼭,꼬끼오!"
+
+#: 12
+msgctxt "m.reqmt.feed_slimes_chickens"
+msgid "Feed 100 chickens to slimes on the Ranch"
+msgstr "100마리의 닭을 슬라임에게 먹이세요"
+
+#: 13
+msgctxt "t.fruit_tree_types"
+msgid "Fruit Cocktail"
+msgstr "과일 칵테일"
+
+#: 14
+msgctxt "m.reqmt.fruit_tree_types"
+msgid "Have 3 different fruit trees on the Ranch at the same time"
+msgstr "목장에서 동시에 3 종류의 다른 과일 나무를 키우세요"
+
+#: 15
+msgctxt "t.veggie_patch_types"
+msgid "Salad Bar"
+msgstr "샐러드바"
+
+#: 16
+msgctxt "m.reqmt.veggie_patch_types"
+msgid "Have 3 different veggie gardens on the Ranch at the same time"
+msgstr "목장에서 동시에 3종류의 다른 야채를 키우세요"
+
+#: 17
+msgctxt "t.earn_currency_a"
+msgid "Fortunate"
+msgstr "운 좋은"
+
+#: 18
+msgctxt "m.reqmt.earn_currency_a"
+msgid "Earn over 5,000 newbucks"
+msgstr "5,000원 이상을 버세요"
+
+#: 19
+msgctxt "t.earn_currency_b"
+msgid "Well-Off Rancher"
+msgstr "순조로운 목장주"
+
+#: 20
+msgctxt "m.reqmt.earn_currency_b"
+msgid "Earn over 25,000 newbucks"
+msgstr "25,000원 이상을 버세요"
+
+#: 21
+msgctxt "t.earn_currency_c"
+msgid "Upper Crust"
+msgstr "상류층"
+
+#: 22
+msgctxt "m.reqmt.earn_currency_c"
+msgid "Earn over 100,000 newbucks"
+msgstr "100,000원 이상을 버세요"
+
+#: 23
+msgctxt "t.day_currency"
+msgid "A Quick Newbuck"
+msgstr "돈 벌기에 빠삭한"
+
+#: 24
+msgctxt "m.reqmt.day_currency"
+msgid "Earn 5,000 newbucks in a single day"
+msgstr "하루에 5,000원을 버세요"
+
+#: 25
+msgctxt "t.awake_until_morning"
+msgid "Up All Night"
+msgstr "밤을 새다"
+
+#: 26
+msgctxt "m.reqmt.awake_until_morning"
+msgid "Stay awake from 6 AM to 6 AM the next day"
+msgstr "오전 6시부터 다음날 오전 6시까지 깨어 있으세요"
+
+#: 27
+msgctxt "t.knockout_morning"
+msgid "Not My Morning"
+msgstr "내 아침이 아니야"
+
+#: 28
+msgctxt "m.reqmt.knockout_morning"
+msgid "Be knocked out before 10 AM"
+msgstr "오전 10시 전에 기절하세요"
+
+#: 29
+msgctxt "t.away_from_ranch"
+msgid "While You Were Away"
+msgstr "네가 없는 동안"
+
+#: 30
+msgctxt "m.reqmt.away_from_ranch"
+msgid "Return to the Ranch after more than 24 hours"
+msgstr "24시간이 지난 후에 목장에 돌아오세요"
+
+#: 31
+msgctxt "t.feed_airborne"
+msgid "Catch!"
+msgstr "잡았다!"
+
+#: 32
+msgctxt "m.reqmt.feed_airborne"
+msgid "Shoot food into an airborne slime's mouth"
+msgstr "슬라임의 입 안으로 음식을 쏘세요"
+
+#: 33
+msgctxt "t.pink_slimes_food_types"
+msgid "Omnivorous"
+msgstr "잡식성"
+
+#: 34
+msgctxt "m.reqmt.pink_slimes_food_types"
+msgid "Feed pink slimes on the Ranch 10 different types of food"
+msgstr "목장의 핑크 슬라임에게 10종류의 다른 음식을 먹이세요"
+
+#: 35
+msgctxt "t.feed_favorites"
+msgid "Tasty!"
+msgstr "맛있어!"
+
+#: 36
+msgctxt "m.reqmt.feed_favorites"
+msgid "Feed 50 slimes on the Ranch their favorite food"
+msgstr "목장의 슬라임 50마리에게 좋아하는 음식을 먹이세요"
+
+#: 37
+msgctxt "t.discovered_quarry"
+msgid "Mine, All Mine"
+msgstr "내 거야, 몽땅!"
+
+#: 38
+msgctxt "m.reqmt.discovered_quarry"
+msgid "Discover the Indigo Quarry"
+msgstr "인디고 채석장을 발견하세요"
+
+#: 39
+msgctxt "t.discovered_moss"
+msgid "On The Other Side"
+msgstr "다른 쪽"
+
+#: 40
+msgctxt "m.reqmt.discovered_moss"
+msgid "Discover the Moss Blanket"
+msgstr "이끼 장막을 발견하세요"
+
+#: 41
+msgctxt "t.discovered_desert"
+msgid "Smoke, Fire, and Mirrors"
+msgstr "여기, 불, 그리고 거울"
+
+#: 42
+msgctxt "m.reqmt.discovered_desert"
+msgid "Discover the Glass Desert"
+msgstr "유리 사막을 발견하세요"
+
+#: 43
+msgctxt "t.discovered_ruins"
+msgid "Into the Past"
+msgstr ""
+
+#: 44
+msgctxt "m.reqmt.discovered_ruins"
+msgid "Discover the Ancient Ruins"
+msgstr ""
+
+#: 45
+msgctxt "t.burst_gordo"
+msgid "Jelly Belly Burst"
+msgstr "젤리 벨리 버스트"
+
+#: 46
+msgctxt "m.reqmt.burst_gordo"
+msgid "Burst a gordo slime"
+msgstr "고르도 슬라임을 터트리세요"
+
+#: 47
+msgctxt "t.open_slime_gate"
+msgid "Open Says Me"
+msgstr "열린 이야기"
+
+#: 48
+msgctxt "m.reqmt.open_slime_gate"
+msgid "Open a slime gate"
+msgstr "슬라임 관문을 여세요"
+
+#: 49
+msgctxt "t.incinerate_elder_chicken"
+msgid "Carousel"
+msgstr "회전 목마"
+
+#: 50
+msgctxt "m.reqmt.incinerate_elder_chicken"
+msgid "Incinerate an elder chicken"
+msgstr "엘더 치킨을 소각하세요"
+
+#: 51
+msgctxt "t.incinerate_chick"
+msgid "You... Monster!"
+msgstr "이...괴물!"
+
+#: 52
+msgctxt "m.reqmt.incinerate_chick"
+msgid ""
+"Send an adorable chick to a fiery end, the same place you're now destined to "
+"go"
+msgstr "사랑스러운 병아리를 불구덩이로 데려가세요,당신이 가기로 되어있는 곳과 같은 곳으로."
+
+#: 53
+msgctxt "t.filled_silo"
+msgid "Burstin' at the Seams"
+msgstr "초만원 상태"
+
+#: 54
+msgctxt "m.reqmt.filled_silo"
+msgid "Completely fill a fully-upgraded silo"
+msgstr "완벽하게 업그레이드된 저장고를 가득 채우세요"
+
+#: 55
+msgctxt "t.ranch_upgraded_storage"
+msgid "Fully Loaded"
+msgstr "장전 완료"
+
+#: 56
+msgctxt "m.reqmt.ranch_upgraded_storage"
+msgid "Have a maximally upgraded corral, coop, and silo on the Ranch"
+msgstr "최대로 업그레이드된 목장,농장,창고를 보유하세요"
+
+#: 57
+msgctxt "t.fulfill_exchange_early"
+msgid "Hasty Exchange"
+msgstr "성급한 거래"
+
+#: 58
+msgctxt "m.reqmt.fulfill_exchange_early"
+msgid "Fulfill a Range Exchange request between Noon and 2 PM"
+msgstr "정오에서 오후 2시 사이에 거래를 수행하세요"
+
+#: 59
+msgctxt "t.day_collect_plorts"
+msgid "Free Rangin'"
+msgstr "방목"
+
+#: 60
+msgctxt "m.reqmt.day_collect_plorts"
+msgid "Collect 50 plorts on the Range in a single day"
+msgstr "하루에 50개의 보석을 모으세요"
+
+#: 61
+msgctxt "t.gold_slime_triple_plort"
+msgid "Hat Trick"
+msgstr "햇 트릭"
+
+#: 62
+msgctxt "m.reqmt.gold_slime_triple_plort"
+msgid "Obtain at least 3 gold plorts from a single gold slime"
+msgstr "골드 슬라임 한 마리에게서 3개의 황금 보석을 얻으세요."
+
+#: 63
+msgctxt "t.extended_rad_exposure"
+msgid "That Only Works in Comic Books"
+msgstr "만화책에서만 가능한 일입니다"
+
+#: 64
+msgctxt "m.reqmt.extended_rad_exposure"
+msgid "Stand inside a rad aura for at least 15 seconds"
+msgstr "방사능 범위 안에서 최소한 15초 버티세요"
+
+#: 65
+msgctxt "t.extended_tarr_hold"
+msgid "Once Bitten, Twice... Bitten"
+msgstr "한 번 물리고...두 번 물리고"
+
+#: 66
+msgctxt "m.reqmt.extended_tarr_hold"
+msgid "Hold onto a tarr for 15 seconds"
+msgstr "타르를 상대로 15초 동안 붙잡고 버티세요"
+
+#: 67
+msgctxt "t.tabby_headbutt"
+msgid "Boop!"
+msgstr "붑!"
+
+#: 68
+msgctxt "m.reqmt.tabby_headbutt"
+msgid "Let a tabby slime headbutt you right on the nose"
+msgstr "고양이 슬라임의 미간을 맞추세요"
+
+#: 69
+msgctxt "t.launched_boom_explode"
+msgid "Fireworks"
+msgstr "불꽃놀이"
+
+#: 70
+msgctxt "m.reqmt.launched_boom_explode"
+msgid "Shoot a boom slime largo into the air that explodes before landing"
+msgstr "폭탄 라르고 슬라임을 공기중에 발사해서 땅에 떨어지기전에 터지게 하세요"
+
+#: 71
+msgctxt "t.many_slimes_in_vac"
+msgid "Controlling the Chaos"
+msgstr "혼돈 제어"
+
+#: 72
+msgctxt "m.reqmt.many_slimes_in_vac"
+msgid ""
+"Constrain more than 15 slimes in your vac stream at once while on the range"
+msgstr "목장에서 있는 동안 당신 가방에있는 15마리 이상의 슬라임들을 연속적으로 바로 나오게 만드세요"
+
+#: 73
+msgctxt "t.corral_slime_types"
+msgid "Six Pack"
+msgstr "식스팩"
+
+#: 74
+msgctxt "m.reqmt.corral_slime_types"
+msgid "Have at least 6 different types of slimes in the same corral"
+msgstr "적어도 6종류의 다른 슬라임들을 한 우리에 넣으세요"
+
+#: 75
+msgctxt "t.corral_largo_types"
+msgid "Risky Business"
+msgstr "위험한 사업"
+
+#: 76
+msgctxt "m.reqmt.corral_largo_types"
+msgid "Have at least 3 different types of largos in the same corral"
+msgstr "적어도 3종류의 다른 느림보들을 한 우리에 넣으세요"
+
+#: 77
+msgctxt "t.pond_slime_types"
+msgid "Pool Party"
+msgstr "수영장 파티"
+
+#: 78
+msgctxt "m.reqmt.pond_slime_types"
+msgid "Fill a pond on your ranch with at least 5 different types of slimes"
+msgstr "적어도 5종류의 슬라임으로 목장 연못을 채우세요"
+
+#: 79
+msgctxt "t.ranch_largo_types"
+msgid "Diversification"
+msgstr "다각화"
+
+#: 80
+msgctxt "m.reqmt.ranch_largo_types"
+msgid "Have at least 10 types of largos on the Ranch"
+msgstr "적어도 10종류의 슬라임을 목장에 갖추세요"
+
+#: 81
+msgctxt "t.entered_corral_slimes"
+msgid "Ball Pit"
+msgstr "볼 풀장"
+
+#: 82
+msgctxt "m.reqmt.entered_corral_slimes"
+msgid "Jump into a corral containing at least 40 slimes"
+msgstr "적어도 40마리의 슬라임들을 데리고 울타리안으로 뛰어드세요."
+
+#: 83
+msgctxt "t.time_limit_currency_a"
+msgid "5-Day Challenger"
+msgstr "5일의 도전자"
+
+#: 84
+msgctxt "m.reqmt.time_limit_currency_a"
+msgid "Reach at least 10,000 newbucks at the end of a 5-Day Rush"
+msgstr "5일 안에 적어도 10,000원에 도달하세요"
+
+#: 85
+msgctxt "t.time_limit_currency_b"
+msgid "5-Day Champion"
+msgstr "5일의 우승자"
+
+#: 86
+msgctxt "m.reqmt.time_limit_currency_b"
+msgid "Reach at least 25,000 newbucks at the end of a 5-Day Rush"
+msgstr "5일 안에 적어도 25,000원에 도달하세요"
+
+#: 87
+msgctxt "t.time_limit_currency_c"
+msgid "5-Day Plortmaster"
+msgstr "5일의 보석마스터"
+
+#: 88
+msgctxt "m.reqmt.time_limit_currency_c"
+msgid "Reach at least 50,000 newbucks at the end of a 5-Day Rush"
+msgstr "5일 안에 적어도 50,000원에 도달하세요"
+
+#: 89
+msgctxt "t.fabricate_gadgets_a"
+msgid "Onward... to SCIENCE!"
+msgstr ""
+
+#: 90
+msgctxt "m.reqmt.fabricate_gadgets_a"
+msgid "Fabricate your first Slime Science gadget"
+msgstr ""
+
+#: 91
+msgctxt "t.fabricate_gadgets_b"
+msgid "Bea the Builder"
+msgstr ""
+
+#: 92
+msgctxt "m.reqmt.fabricate_gadgets_b"
+msgid "Fabricate 35 Slime Science gadgets"
+msgstr ""
+
+#: 93
+msgctxt "t.fabricate_gadgets_c"
+msgid "Never Stop Creating"
+msgstr ""
+
+#: 94
+msgctxt "m.reqmt.fabricate_gadgets_c"
+msgid "Fabricate 100 Slime Science gadgets"
+msgstr ""
+
+#: 95
+msgctxt "t.slime_stage_tarr"
+msgid "Best of the Worst"
+msgstr ""
+
+#: 96
+msgctxt "m.reqmt.slime_stage_tarr"
+msgid "Place a tarr on the #1 Slime Stage"
+msgstr ""
+
+#: 97
+msgctxt "t.slimeball_score"
+msgid "She's on Fire!"
+msgstr ""
+
+#: 98
+msgctxt "m.reqmt.slimeball_score"
+msgid "Score 50 points in a single game of slimeball"
+msgstr ""
+
+#: 99
+msgctxt "t.join_rewards_club"
+msgid "One Person at a Time"
+msgstr ""
+
+#: 100
+msgctxt "m.reqmt.join_rewards_club"
+msgid "Join the 7Zee Rewards Club"
+msgstr ""
+
+#: 101
+msgctxt "t.use_chromas"
+msgid "Color Me Impressed"
+msgstr ""
+
+#: 102
+msgctxt "m.reqmt.use_chromas"
+msgid ""
+"Use chroma packs to change the color of the ranch house, tech, and vacpack"
+msgstr ""
+
+#: 103
+msgctxt "t.collect_slime_toys"
+msgid "Mint in Box"
+msgstr ""
+
+#: 104
+msgctxt "m.reqmt.collect_slime_toys"
+msgid "Purchase at least 10 different types of slime toys"
+msgstr ""
+
+#: 105
+msgctxt "t.find_hobsons_end"
+msgid "Doors Like These"
+msgstr ""
+
+#: 106
+msgctxt "m.reqmt.find_hobsons_end"
+msgid "Discover where Hobson's journey ended, and started once again."
+msgstr ""
+
+#: 107
+msgctxt "t.snare_hunter_gordo"
+msgid "The Hunter Has Become.. The Other Thing"
+msgstr ""
+
+#: 108
+msgctxt "m.reqmt.snare_hunter_gordo"
+msgid "Snare a Hunter Gordo"
+msgstr ""
+
+#: 109
+msgctxt "t.activate_oasis"
+msgid "Renewal"
+msgstr ""
+
+#: 110
+msgctxt "m.reqmt.activate_oasis"
+msgid "Start bringing life back to the Glass Desert"
+msgstr ""
+
+#: 111
+msgctxt "t.finish_adventure"
+msgid "The Adventure Continues!"
+msgstr ""
+
+#: 112
+msgctxt "m.reqmt.finish_adventure"
+msgid "Complete Adventure Mode and set out for what's next."
+msgstr ""
+
+#: 113
+msgctxt "t.complete_slimepedia"
+msgid "Pro Style"
+msgstr ""
+
+#: 114
+msgctxt "m.reqmt.complete_slimepedia"
+msgid "Complete the Slimepedia"
+msgstr ""
+

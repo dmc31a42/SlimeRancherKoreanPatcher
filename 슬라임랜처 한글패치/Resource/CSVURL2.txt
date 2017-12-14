@@ -1,0 +1,10 @@
+pedia\https://translate.zanata.org/rest/file/translation/SlimeRancherKoreanL10n/1.1.1/ko/po?docId=pedia
+mail\https://translate.zanata.org/rest/file/translation/SlimeRancherKoreanL10n/1.1.1/ko/po?docId=mail
+achieve\https://translate.zanata.org/rest/file/translation/SlimeRancherKoreanL10n/1.1.1/ko/po?docId=achieve
+ui\https://translate.zanata.org/rest/file/translation/SlimeRancherKoreanL10n/1.1.1/ko/po?docId=ui
+global\https://translate.zanata.org/rest/file/translation/SlimeRancherKoreanL10n/1.1.1/ko/po?docId=global
+tutorial\https://translate.zanata.org/rest/file/translation/SlimeRancherKoreanL10n/1.1.1/ko/po?docId=tutorial
+exchange\https://translate.zanata.org/rest/file/translation/SlimeRancherKoreanL10n/1.1.1/ko/po?docId=exchange
+keys\https://translate.zanata.org/rest/file/translation/SlimeRancherKoreanL10n/1.1.1/ko/po?docId=keys
+actor\https://translate.zanata.org/rest/file/translation/SlimeRancherKoreanL10n/1.1.1/ko/po?docId=actor
+range\https://translate.zanata.org/rest/file/translation/SlimeRancherKoreanL10n/1.1.1/ko/po?docId=range

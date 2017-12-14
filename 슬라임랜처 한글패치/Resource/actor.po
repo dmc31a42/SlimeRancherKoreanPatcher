@@ -1,0 +1,953 @@
+# rakwon choi <ch0494@gmail.com>, 2017. #zanata
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"PO-Revision-Date: 2017-12-04 07:54-0500\n"
+"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+"Language-Team: Korean\n"
+"Language: ko\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: 1
+msgctxt "l.rad_slime"
+msgid "Rad Slime"
+msgstr "방사능 슬라임"
+
+#: 2
+msgctxt "l.rock_slime"
+msgid "Rock Slime"
+msgstr "암석 슬라임"
+
+#: 3
+msgctxt "l.pink_slime"
+msgid "Pink Slime"
+msgstr "분홍 슬라임"
+
+#: 4
+msgctxt "l.boom_slime"
+msgid "Boom Slime"
+msgstr "폭탄 슬라임"
+
+#: 5
+msgctxt "l.phosphor_slime"
+msgid "Phosphor Slime"
+msgstr "형광 슬라임"
+
+#: 6
+msgctxt "l.honey_slime"
+msgid "Honey Slime"
+msgstr "꿀 슬라임"
+
+#: 7
+msgctxt "l.tabby_slime"
+msgid "Tabby Slime"
+msgstr "고양이 슬라임"
+
+#: 8
+msgctxt "l.hunter_slime"
+msgid "Hunter Slime"
+msgstr "사냥꾼 슬라임"
+
+#: 9
+msgctxt "l.puddle_slime"
+msgid "Puddle Slime"
+msgstr "물웅덩이 슬라임"
+
+#: 10
+msgctxt "l.crystal_slime"
+msgid "Crystal Slime"
+msgstr "수정 슬라임"
+
+#: 11
+msgctxt "l.quantum_slime"
+msgid "Quantum Slime"
+msgstr "퀀텀 슬라임"
+
+#: 12
+msgctxt "l.fire_slime"
+msgid "Fire Slime"
+msgstr "불 슬라임"
+
+#: 13
+msgctxt "l.mosaic_slime"
+msgid "Mosaic Slime"
+msgstr "모자이크 슬라임"
+
+#: 14
+msgctxt "l.tangle_slime"
+msgid "Tangle Slime"
+msgstr "탱글 슬라임"
+
+#: 15
+msgctxt "l.dervish_slime"
+msgid "Dervish Slime"
+msgstr "데르비시 슬라임"
+
+#: 16
+msgctxt "l.saber_slime"
+msgid "Saber Slime"
+msgstr ""
+
+#: 17
+msgctxt "l.quicksilver_slime"
+msgid "Quicksilver Slime"
+msgstr ""
+
+#: 18
+msgctxt "l.tarr_slime"
+msgid "Tarr Slime"
+msgstr "타르 슬라임"
+
+#: 19
+msgctxt "l.gold_slime"
+msgid "Gold Slime"
+msgstr "황금 슬라임"
+
+#: 20
+msgctxt "l.lucky_slime"
+msgid "Lucky Slime"
+msgstr "행운 슬라임"
+
+#: 21
+msgctxt "l.pink_rock_largo"
+msgid "Pink Rock Largo"
+msgstr "분홍 암석 느림보"
+
+#: 22
+msgctxt "l.rad_rock_largo"
+msgid "Rad Rock Largo"
+msgstr "방사능 암석 느림보"
+
+#: 23
+msgctxt "l.pink_rad_largo"
+msgid "Pink Rad Largo"
+msgstr "분홍 방사능 느림보"
+
+#: 24
+msgctxt "l.pink_boom_largo"
+msgid "Pink Boom Largo"
+msgstr "분홍 폭탄 느림보"
+
+#: 25
+msgctxt "l.boom_rock_largo"
+msgid "Boom Rock Largo"
+msgstr "폭탄 암석 느림보"
+
+#: 26
+msgctxt "l.boom_rad_largo"
+msgid "Boom Rad Largo"
+msgstr "폭탄 방사능 느림보"
+
+#: 27
+msgctxt "l.phosphor_rock_largo"
+msgid "Phosphor Rock Largo"
+msgstr "형광 암석 느림보"
+
+#: 28
+msgctxt "l.boom_phosphor_largo"
+msgid "Boom Phosphor Largo"
+msgstr "폭탄 형광 느림보"
+
+#: 29
+msgctxt "l.phosphor_rad_largo"
+msgid "Phosphor Rad Largo"
+msgstr "형광 방사능 느림보"
+
+#: 30
+msgctxt "l.pink_phosphor_largo"
+msgid "Pink Phosphor Largo"
+msgstr "분홍 형광 느림보"
+
+#: 31
+msgctxt "l.pink_tabby_largo"
+msgid "Pink Tabby Largo"
+msgstr "분홍 고양이 느림보"
+
+#: 32
+msgctxt "l.boom_tabby_largo"
+msgid "Boom Tabby Largo"
+msgstr "폭탄 고양이 느림보"
+
+#: 33
+msgctxt "l.rad_tabby_largo"
+msgid "Rad Tabby Largo"
+msgstr "방사능 고양이 느림보"
+
+#: 34
+msgctxt "l.rock_tabby_largo"
+msgid "Rock Tabby Largo"
+msgstr "암석 고양이 느림보"
+
+#: 35
+msgctxt "l.phosphor_tabby_largo"
+msgid "Phosphor Tabby Largo"
+msgstr "형광 고양이 느림보"
+
+#: 36
+msgctxt "l.pink_hunter_largo"
+msgid "Pink Hunter Largo"
+msgstr "분홍 사냥꾼 느림보"
+
+#: 37
+msgctxt "l.boom_hunter_largo"
+msgid "Boom Hunter Largo"
+msgstr "폭탄 사냥꾼 느림보"
+
+#: 38
+msgctxt "l.rad_hunter_largo"
+msgid "Rad Hunter Largo"
+msgstr "방사능 사냥꾼 느림보"
+
+#: 39
+msgctxt "l.rock_hunter_largo"
+msgid "Rock Hunter Largo"
+msgstr "암석 사냥꾼 느림보"
+
+#: 40
+msgctxt "l.phosphor_hunter_largo"
+msgid "Phosphor Hunter Largo"
+msgstr "형광 사냥꾼 느림보"
+
+#: 41
+msgctxt "l.tabby_hunter_largo"
+msgid "Tabby Hunter Largo"
+msgstr "고양이 사냥꾼 느림보"
+
+#: 42
+msgctxt "l.pink_honey_largo"
+msgid "Pink Honey Largo"
+msgstr "분홍 꿀 느림보"
+
+#: 43
+msgctxt "l.honey_hunter_largo"
+msgid "Honey Hunter Largo"
+msgstr "꿀 사냥꾼 느림보"
+
+#: 44
+msgctxt "l.honey_boom_largo"
+msgid "Honey Boom Largo"
+msgstr "꿀 폭탄 느림보"
+
+#: 45
+msgctxt "l.honey_rad_largo"
+msgid "Honey Rad Largo"
+msgstr "꿀 방사능 느림보"
+
+#: 46
+msgctxt "l.honey_rock_largo"
+msgid "Honey Rock Largo"
+msgstr "꿀 암석 느림보"
+
+#: 47
+msgctxt "l.honey_phosphor_largo"
+msgid "Honey Phosphor Largo"
+msgstr "꿀 형광 느림보"
+
+#: 48
+msgctxt "l.honey_tabby_largo"
+msgid "Honey Tabby Largo"
+msgstr "꿀 고양이 느림보"
+
+#: 49
+msgctxt "l.pink_crystal_largo"
+msgid "Pink Crystal Largo"
+msgstr "분홍 수정 느림보"
+
+#: 50
+msgctxt "l.rock_crystal_largo"
+msgid "Rock Crystal Largo"
+msgstr "암석 수정 느림보"
+
+#: 51
+msgctxt "l.tabby_crystal_largo"
+msgid "Tabby Crystal Largo"
+msgstr "고양이 수정 느림보"
+
+#: 52
+msgctxt "l.phosphor_crystal_largo"
+msgid "Phosphor Crystal Largo"
+msgstr "형광 수정 느림보"
+
+#: 53
+msgctxt "l.boom_crystal_largo"
+msgid "Boom Crystal Largo"
+msgstr "폭탄 수정 느림보"
+
+#: 54
+msgctxt "l.rad_crystal_largo"
+msgid "Rad Crystal Largo"
+msgstr "방사능 수정 느림보"
+
+#: 55
+msgctxt "l.honey_crystal_largo"
+msgid "Honey Crystal Largo"
+msgstr "꿀 수정 느림보"
+
+#: 56
+msgctxt "l.hunter_crystal_largo"
+msgid "Hunter Crystal Largo"
+msgstr "사냥꾼 수정 느림보"
+
+#: 57
+msgctxt "l.pink_quantum_largo"
+msgid "Pink Quantum Largo"
+msgstr "분홍 퀀텀 느림보"
+
+#: 58
+msgctxt "l.quantum_honey_largo"
+msgid "Quantum Honey Largo"
+msgstr "퀀텀 꿀 느림보"
+
+#: 59
+msgctxt "l.quantum_rad_largo"
+msgid "Quantum Rad Largo"
+msgstr "퀀텀 방사능 느림보"
+
+#: 60
+msgctxt "l.quantum_boom_largo"
+msgid "Quantum Boom Largo"
+msgstr "퀀텀 폭탄 느림보"
+
+#: 61
+msgctxt "l.quantum_rock_largo"
+msgid "Quantum Rock Largo"
+msgstr "퀀텀 암석 느림보"
+
+#: 62
+msgctxt "l.quantum_phosphor_largo"
+msgid "Quantum Phosphor Largo"
+msgstr "퀀텀 형광 느림보"
+
+#: 63
+msgctxt "l.quantum_tabby_largo"
+msgid "Quantum Tabby Largo"
+msgstr "퀀텀 고양이 느림보"
+
+#: 64
+msgctxt "l.quantum_hunter_largo"
+msgid "Quantum Hunter Largo"
+msgstr "퀀텀 사냥꾼 느림보"
+
+#: 65
+msgctxt "l.quantum_crystal_largo"
+msgid "Quantum Crystal Largo"
+msgstr "퀀텀 수정 느림보"
+
+#: 66
+msgctxt "l.pink_tangle_largo"
+msgid "Pink Tangle Largo"
+msgstr "분홍 탱글 느림보"
+
+#: 67
+msgctxt "l.quantum_tangle_largo"
+msgid "Quantum Tangle Largo"
+msgstr "퀀텀 탱글 느림보"
+
+#: 68
+msgctxt "l.honey_tangle_largo"
+msgid "Honey Tangle Largo"
+msgstr "꿀 탱글 느림보"
+
+#: 69
+msgctxt "l.phosphor_tangle_largo"
+msgid "Phosphor Tangle Largo"
+msgstr "형광 탱글 느림보"
+
+#: 70
+msgctxt "l.tangle_boom_largo"
+msgid "Tangle Boom Largo"
+msgstr "탱글 폭탄 느림보"
+
+#: 71
+msgctxt "l.tangle_rad_largo"
+msgid "Tangle Rad Largo"
+msgstr ""
+
+#: 72
+msgctxt "l.tangle_rock_largo"
+msgid "Tangle Rock Largo"
+msgstr ""
+
+#: 73
+msgctxt "l.tangle_tabby_largo"
+msgid "Tangle Tabby Largo"
+msgstr ""
+
+#: 74
+msgctxt "l.tangle_hunter_largo"
+msgid "Tangle Hunter Largo"
+msgstr ""
+
+#: 75
+msgctxt "l.tangle_crystal_largo"
+msgid "Tangle Crystal Largo"
+msgstr ""
+
+#: 76
+msgctxt "l.pink_mosaic_largo"
+msgid "Pink Mosaic Largo"
+msgstr ""
+
+#: 77
+msgctxt "l.quantum_mosaic_largo"
+msgid "Quantum Mosaic Largo"
+msgstr ""
+
+#: 78
+msgctxt "l.honey_mosaic_largo"
+msgid "Honey Mosaic Largo"
+msgstr ""
+
+#: 79
+msgctxt "l.phosphor_mosaic_largo"
+msgid "Phosphor Mosaic Largo"
+msgstr ""
+
+#: 80
+msgctxt "l.mosaic_tangle_largo"
+msgid "Mosaic Tangle Largo"
+msgstr ""
+
+#: 81
+msgctxt "l.mosaic_boom_largo"
+msgid "Mosaic Boom Largo"
+msgstr ""
+
+#: 82
+msgctxt "l.mosaic_rad_largo"
+msgid "Mosaic Rad Largo"
+msgstr ""
+
+#: 83
+msgctxt "l.mosaic_rock_largo"
+msgid "Mosaic Rock Largo"
+msgstr ""
+
+#: 84
+msgctxt "l.mosaic_tabby_largo"
+msgid "Mosaic Tabby Largo"
+msgstr ""
+
+#: 85
+msgctxt "l.mosaic_hunter_largo"
+msgid "Mosaic Hunter Largo"
+msgstr ""
+
+#: 86
+msgctxt "l.mosaic_crystal_largo"
+msgid "Mosaic Crystal Largo"
+msgstr ""
+
+#: 87
+msgctxt "l.pink_dervish_largo"
+msgid "Pink Dervish Largo"
+msgstr ""
+
+#: 88
+msgctxt "l.quantum_dervish_largo"
+msgid "Quantum Dervish Largo"
+msgstr ""
+
+#: 89
+msgctxt "l.honey_dervish_largo"
+msgid "Honey Dervish Largo"
+msgstr ""
+
+#: 90
+msgctxt "l.phosphor_dervish_largo"
+msgid "Phosphor Dervish Largo"
+msgstr ""
+
+#: 91
+msgctxt "l.tangle_dervish_largo"
+msgid "Tangle Dervish Largo"
+msgstr ""
+
+#: 92
+msgctxt "l.mosaic_dervish_largo"
+msgid "Mosaic Dervish Largo"
+msgstr ""
+
+#: 93
+msgctxt "l.boom_dervish_largo"
+msgid "Boom Dervish Largo"
+msgstr ""
+
+#: 94
+msgctxt "l.rad_dervish_largo"
+msgid "Rad Dervish Largo"
+msgstr ""
+
+#: 95
+msgctxt "l.rock_dervish_largo"
+msgid "Rock Dervish Largo"
+msgstr ""
+
+#: 96
+msgctxt "l.tabby_dervish_largo"
+msgid "Tabby Dervish Largo"
+msgstr ""
+
+#: 97
+msgctxt "l.hunter_dervish_largo"
+msgid "Hunter Dervish Largo"
+msgstr ""
+
+#: 98
+msgctxt "l.crystal_dervish_largo"
+msgid "Crystal Dervish Largo"
+msgstr ""
+
+#: 99
+msgctxt "l.saber_boom_largo"
+msgid "Saber Boom Largo"
+msgstr ""
+
+#: 100
+msgctxt "l.saber_crystal_largo"
+msgid "Saber Crystal Largo"
+msgstr ""
+
+#: 101
+msgctxt "l.saber_dervish_largo"
+msgid "Saber Dervish Largo"
+msgstr ""
+
+#: 102
+msgctxt "l.saber_honey_largo"
+msgid "Saber Honey Largo"
+msgstr ""
+
+#: 103
+msgctxt "l.saber_hunter_largo"
+msgid "Saber Hunter Largo"
+msgstr ""
+
+#: 104
+msgctxt "l.saber_mosaic_largo"
+msgid "Saber Mosaic Largo"
+msgstr ""
+
+#: 105
+msgctxt "l.saber_phosphor_largo"
+msgid "Saber Phosphor Largo"
+msgstr ""
+
+#: 106
+msgctxt "l.saber_pink_largo"
+msgid "Pink Saber Largo"
+msgstr ""
+
+#: 107
+msgctxt "l.saber_quantum_largo"
+msgid "Saber Quantum Largo"
+msgstr ""
+
+#: 108
+msgctxt "l.saber_rad_largo"
+msgid "Saber Rad Largo"
+msgstr ""
+
+#: 109
+msgctxt "l.saber_rock_largo"
+msgid "Saber Rock Largo"
+msgstr ""
+
+#: 110
+msgctxt "l.saber_tabby_largo"
+msgid "Saber Tabby Largo"
+msgstr ""
+
+#: 111
+msgctxt "l.saber_tangle_largo"
+msgid "Saber Tangle Largo"
+msgstr ""
+
+#: 112
+msgctxt "l.rad_plort"
+msgid "Rad Plort"
+msgstr "방사능 보석"
+
+#: 113
+msgctxt "l.rock_plort"
+msgid "Rock Plort"
+msgstr "암석 보석"
+
+#: 114
+msgctxt "l.pink_plort"
+msgid "Pink Plort"
+msgstr "분홍 보석"
+
+#: 115
+msgctxt "l.boom_plort"
+msgid "Boom Plort"
+msgstr "폭탄 보석"
+
+#: 116
+msgctxt "l.phosphor_plort"
+msgid "Phosphor Plort"
+msgstr "형광 보석"
+
+#: 117
+msgctxt "l.honey_plort"
+msgid "Honey Plort"
+msgstr "꿀 보석"
+
+#: 118
+msgctxt "l.tabby_plort"
+msgid "Tabby Plort"
+msgstr "고양이 보석"
+
+#: 119
+msgctxt "l.hunter_plort"
+msgid "Hunter Plort"
+msgstr "사냥꾼 보석"
+
+#: 120
+msgctxt "l.puddle_plort"
+msgid "Puddle Plort"
+msgstr "물웅덩이 보석"
+
+#: 121
+msgctxt "l.crystal_plort"
+msgid "Crystal Plort"
+msgstr "수정 보석"
+
+#: 122
+msgctxt "l.quantum_plort"
+msgid "Quantum Plort"
+msgstr "퀀텀 보석"
+
+#: 123
+msgctxt "l.fire_plort"
+msgid "Fire Plort"
+msgstr "불 보석"
+
+#: 124
+msgctxt "l.dervish_plort"
+msgid "Dervish Plort"
+msgstr "데르비시 보석"
+
+#: 125
+msgctxt "l.mosaic_plort"
+msgid "Mosaic Plort"
+msgstr "모자이크 보석"
+
+#: 126
+msgctxt "l.tangle_plort"
+msgid "Tangle Plort"
+msgstr "탱글 보석"
+
+#: 127
+msgctxt "l.saber_plort"
+msgid "Saber Plort"
+msgstr ""
+
+#: 128
+msgctxt "l.quicksilver_plort"
+msgid "Quicksilver Plort"
+msgstr ""
+
+#: 129
+msgctxt "l.gold_plort"
+msgid "Gold Plort"
+msgstr "황금 보석"
+
+#: 130
+msgctxt "l.cuberry_fruit"
+msgid "Cuberry"
+msgstr "각딸기"
+
+#: 131
+msgctxt "l.mango_fruit"
+msgid "Mint Mango"
+msgstr "민트 망고"
+
+#: 132
+msgctxt "l.pear_fruit"
+msgid "Prickle Pear"
+msgstr "프리클 피어"
+
+#: 133
+msgctxt "l.pogo_fruit"
+msgid "Pogofruit"
+msgstr "포고프루트"
+
+#: 134
+msgctxt "l.lemon_fruit"
+msgid "Phase Lemon"
+msgstr "페이즈 레몬"
+
+#: 135
+msgctxt "l.lemon_phase"
+msgid "Phase Lemon"
+msgstr "페이즈 레몬"
+
+#: 136
+msgctxt "l.kookadoba_fruit"
+msgid "Kookadoba"
+msgstr ""
+
+#: 137
+msgctxt "l.carrot_veggie"
+msgid "Carrot"
+msgstr "당근"
+
+#: 138
+msgctxt "l.ocaoca_veggie"
+msgid "Oca Oca"
+msgstr "오카 오카"
+
+#: 139
+msgctxt "l.parsnip_veggie"
+msgid "Silver Parsnip"
+msgstr "은색 파스닙"
+
+#: 140
+msgctxt "l.beet_veggie"
+msgid "Heart Beet"
+msgstr "하트비트"
+
+#: 141
+msgctxt "l.onion_veggie"
+msgid "Odd Onion"
+msgstr "오드 양파"
+
+#: 142
+msgctxt "l.ginger_veggie"
+msgid "Gilded Ginger"
+msgstr ""
+
+#: 143
+msgctxt "l.spicy_tofu"
+msgid "Spicy Tofu"
+msgstr ""
+
+#: 144
+msgctxt "l.hen"
+msgid "Hen Hen"
+msgstr "헨 암탉"
+
+#: 145
+msgctxt "l.rooster"
+msgid "Roostro"
+msgstr "수탉"
+
+#: 146
+msgctxt "l.chick"
+msgid "Chickadoo"
+msgstr "병아리"
+
+#: 147
+msgctxt "l.elder_hen"
+msgid "Elder Hen"
+msgstr "늙은 암탉"
+
+#: 148
+msgctxt "l.elder_rooster"
+msgid "Elder Roostro"
+msgstr "늙은 수탉"
+
+#: 149
+msgctxt "l.stony_hen"
+msgid "Stony Hen"
+msgstr "스토니 암탉"
+
+#: 150
+msgctxt "l.stony_chick"
+msgid "Stony Chick"
+msgstr "스토니 병아리"
+
+#: 151
+msgctxt "l.briar_hen"
+msgid "Briar Hen"
+msgstr "브라이어 암탉"
+
+#: 152
+msgctxt "l.briar_chick"
+msgid "Briar Chick"
+msgstr "브라이어 병아리"
+
+#: 153
+msgctxt "l.painted_hen"
+msgid "Painted Hen"
+msgstr "페인트 암탉"
+
+#: 154
+msgctxt "l.painted_chick"
+msgid "Painted Chick"
+msgstr "페인트 병아리"
+
+#: 155
+msgctxt "l.water_liquid"
+msgid "Water"
+msgstr "물"
+
+#: 156
+msgctxt "l.magic_water_liquid"
+msgid "Ancient Water"
+msgstr "고대의 물"
+
+#: 157
+msgctxt "l.valley_ammo_1"
+msgid "Valley Small"
+msgstr ""
+
+#: 158
+msgctxt "l.valley_ammo_2"
+msgid "Valley AOE"
+msgstr ""
+
+#: 159
+msgctxt "l.valley_ammo_3"
+msgid "Valley Slow"
+msgstr ""
+
+#: 160
+msgctxt "l.primordy_oil_craft"
+msgid "Primordy Oil"
+msgstr "프리모디 오일"
+
+#: 161
+msgctxt "l.deep_brine_craft"
+msgid "Deep Brine"
+msgstr "딥 브리네"
+
+#: 162
+msgctxt "l.spiral_steam_craft"
+msgid "Spiral Steam"
+msgstr "소용돌이 증기"
+
+#: 163
+msgctxt "l.lava_dust_craft"
+msgid "Lava Dust"
+msgstr "용암재"
+
+#: 164
+msgctxt "l.buzz_wax_craft"
+msgid "Buzz Wax"
+msgstr "윙윙 밀랍"
+
+#: 165
+msgctxt "l.wild_honey_craft"
+msgid "Wild Honey"
+msgstr "야생벌꿀"
+
+#: 166
+msgctxt "l.hexacomb_craft"
+msgid "Hexacomb"
+msgstr "육각벌집"
+
+#: 167
+msgctxt "l.royal_jelly_craft"
+msgid "Royal Jelly"
+msgstr "로열 젤리"
+
+#: 168
+msgctxt "l.jellystone_craft"
+msgid "Jellystone"
+msgstr "젤리스톤"
+
+#: 169
+msgctxt "l.indigonium_craft"
+msgid "Indigonium"
+msgstr "인디고늄"
+
+#: 170
+msgctxt "l.slime_fossil_craft"
+msgid "Slime Fossil"
+msgstr "슬라임 화석"
+
+#: 171
+msgctxt "l.strange_diamond_craft"
+msgid "Strange Diamond"
+msgstr "이상한 다이아몬드"
+
+#: 172
+msgctxt "l.silky_sand_craft"
+msgid "Silky Sand"
+msgstr ""
+
+#: 173
+msgctxt "l.pepper_jam_craft"
+msgid "Pepper Jam"
+msgstr ""
+
+#: 174
+msgctxt "l.glass_shard_craft"
+msgid "Glass Shard"
+msgstr ""
+
+#: 175
+msgctxt "l.red_echo"
+msgid "Red Echo"
+msgstr "빨간 에코"
+
+#: 176
+msgctxt "l.green_echo"
+msgid "Green Echo"
+msgstr "초록 에코"
+
+#: 177
+msgctxt "l.blue_echo"
+msgid "Blue Echo"
+msgstr "파란 에코"
+
+#: 178
+msgctxt "l.gold_echo"
+msgid "Gold Echo"
+msgstr "금색 에코"
+
+#: 179
+msgctxt "l.handlebar_fashion"
+msgid "Handlebar Moustache"
+msgstr "핸들바 콧수염"
+
+#: 180
+msgctxt "l.shady_fashion"
+msgid "Shades"
+msgstr "선글라스"
+
+#: 181
+msgctxt "l.clip_on_fashion"
+msgid "Bow Tie"
+msgstr "나비 넥타이"
+
+#: 182
+msgctxt "l.googly_fashion"
+msgid "Googly Eyes"
+msgstr "인형 눈"
+
+#: 183
+msgctxt "l.serious_fashion"
+msgid "Serious Eyebrows"
+msgstr "진지한 눈썹"
+
+#: 184
+msgctxt "l.smart_fashion"
+msgid "Glasses"
+msgstr "안경"
+
+#: 185
+msgctxt "l.dandy_fashion"
+msgid "Monocle"
+msgstr "외알 안경"
+
+#: 186
+msgctxt "l.cute_fashion"
+msgid "Hair Bow"
+msgstr "리본 머리"
+
+#: 187
+msgctxt "l.royal_fashion"
+msgid "Tiara"
+msgstr "왕관"
+
+#: 188
+msgctxt "l.remover_fashion"
+msgid "Fashion Remover"
+msgstr "패션 지우개"
+

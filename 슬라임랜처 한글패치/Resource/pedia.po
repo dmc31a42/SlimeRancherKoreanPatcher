@@ -1,0 +1,6409 @@
+# rakwon choi <ch0494@gmail.com>, 2017. #zanata
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"PO-Revision-Date: 2017-12-11 09:48-0500\n"
+"Last-Translator: rakwon choi <ch0494@gmail.com>\n"
+"Language-Team: Korean\n"
+"Language: ko\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: 1
+msgctxt "t.locked"
+msgid "???"
+msgstr "???"
+
+#: 2
+msgctxt "m.intro.locked"
+msgid "Discover this item to add it to your Slimepedia."
+msgstr "이 항목을 발견하여 슬라임백과에 추가하세요."
+
+#: 3
+msgctxt "m.desc.locked"
+msgid "???"
+msgstr "???"
+
+#: 4
+msgctxt "m.diet.locked"
+msgid "???"
+msgstr "???"
+
+#: 5
+msgctxt "m.favorite.locked"
+msgid "???"
+msgstr "???"
+
+#: 6
+msgctxt "m.slimeology.locked"
+msgid "???"
+msgstr "???"
+
+#: 7
+msgctxt "m.risks.locked"
+msgid "???"
+msgstr "???"
+
+#: 8
+msgctxt "m.plortonomics.locked"
+msgid "???"
+msgstr "???"
+
+#: 9
+msgctxt "m.favored_by.locked"
+msgid "???"
+msgstr "???"
+
+#: 10
+msgctxt "m.how_to_use.locked"
+msgid "???"
+msgstr "???"
+
+#: 11
+msgctxt "m.resource_type.locked"
+msgid "???"
+msgstr "???"
+
+#: 12
+msgctxt "t.basics"
+msgid "Basic Player Controls"
+msgstr "기본 조작법"
+
+#: 13
+msgctxt "m.intro.basics"
+msgid "Get a move on."
+msgstr "움직여봅시다"
+
+#: 14
+msgctxt "m.instructions.basics"
+msgid ""
+"<b>W</b>: Move forward \n"
+"<b>A</b>: Move left \n"
+"<b>S</b>: Move backward \n"
+"<b>D</b>: Move right \n"
+"\n"
+"<b>Shift</b>: Sprint (uses energy) \n"
+"\n"
+"<b>Space</b>: Jump (hold to use jetpack, if available) \n"
+"\n"
+"<b>E</b>: Interact (when prompted)"
+msgstr ""
+"<b>W</b>: 앞으로 가기 \n"
+"<b>A</b>: 왼쪽으로 가기 \n"
+"<b>S</b>: 뒤로 가기 \n"
+"<b>D</b>: 오른쪽으로 가기 \n"
+"\n"
+"<b>Shift</b>: 전력질주 (에너지를 사용함) \n"
+"\n"
+"<b>Space</b>: 뛰기 (누르고 있으면 제트팩 사용, 사용가능할 때) \n"
+"\n"
+"<b>E</b>: 상호작용 (메세지가 나타나면)"
+
+#: 15
+msgctxt "m.instructions.gamepad.basics"
+msgid ""
+"<b>Left Stick</b>: Move\n"
+"\n"
+"<b>Hold Left Stick</b>: Sprint (uses energy) \n"
+"\n"
+"<b>A</b>: Jump (hold to use jetpack, if available) \n"
+"\n"
+"<b>X</b>: Interact (when prompted)"
+msgstr ""
+"<b>왼쪽 스틱</b>: 이동\n"
+"\n"
+"<b>왼쪽 스틱 누르기</b>: 전력질주 (에너지를 사용함) \n"
+"\n"
+"<b>A</b>: 뛰기 (누르고 있으면 제트팩 사용, 사용가능할 때) \n"
+"\n"
+"<b>X</b>: 상호작용 (메세지가 나타나면)"
+
+#: 16
+msgctxt "t.vacing"
+msgid "Vacpack: Vac-ing and Shooting"
+msgstr "Vacpack: 포획과 쏘기"
+
+#: 17
+msgctxt "m.intro.vacing"
+msgid "Your first step to becoming a master rancher."
+msgstr "숙련된 목장주가 되기 위한 첫 걸음"
+
+#: 18
+msgctxt "m.instructions.vacing"
+msgid ""
+"<b>Right Mouse Button</b>: Vacuum slimes or other objects \n"
+"\n"
+"Larger objects will be held at the nozzle and can be dropped by releasing "
+"vac or fired by pressing shoot. \n"
+"\n"
+"<b>Left Mouse Button</b>: Shoot slime or other object from the selected vac "
+"tank \n"
+"\n"
+"Hold the shoot key to continuously shoot."
+msgstr ""
+"<b>오른쪽 마우스 버튼</b>: 슬라임이나 다른 물체를 흡입할 수 있습니다. \n"
+"\n"
+"더 큰 물체들은 노즐에 붙들어 놓고 흡입하는 것을 멈추어 떨어뜨리거나 쏘기키를 눌러 발사할 수 있습니다. \n"
+"<b>왼쪽 마우스 버튼</b>: 선택된 흡입 탱크에서 슬라임이나 다른 물체를 쏠 수 있습니다. \n"
+"\n"
+"발사키를 누르고 있으면 계속 발사합니다."
+
+#: 19
+msgctxt "m.instructions.gamepad.vacing"
+msgid ""
+"<b>Left Trigger</b>: Vacuum slimes or other objects \n"
+"\n"
+"Larger objects will be held at the nozzle and can be dropped by releasing "
+"vac or fired by pressing shoot. \n"
+"\n"
+"<b>Right Trigger</b>: Shoot slime or other object from the selected vac tank "
+"\n"
+"\n"
+"Hold the shoot button to continuously shoot."
+msgstr ""
+"<b>왼쪽 트리거(LT)</b>: 슬라임이나 다른 물체를 흡입함. \n"
+"\n"
+"더 큰 물체들은 노즐에 붙들어 놓고 흡입하는 것을 멈추어 떨어뜨리거나 쏘기키를 눌러 발사할 수 있습니다. \n"
+"<b>오른쪽 트리거(RT)</b>: 선택된 흡입 탱크에서 슬라임이나 다른 물체를 쏠 수 있습니다. \n"
+"\n"
+"발사키를 누르고 있으면 계속 발사합니다."
+
+#: 20
+msgctxt "t.capturetanks"
+msgid "Vacpack: Vac Tanks"
+msgstr "Vacpack: 흡입 탱크"
+
+#: 21
+msgctxt "m.intro.capturetanks"
+msgid "Nanotechnology makes everything possible, and everything smaller."
+msgstr "나노 기술은 모든것을 가능하게 하고, 모든것을 작게 만들 수 있습니다."
+
+#: 22
+msgctxt "m.instructions.capturetanks"
+msgid ""
+"Vac tanks allow you to easily collect, sort, and transport slimes and other "
+"resources. \n"
+"\n"
+"<b>1, 2, 3, 4, 5</b>: Select vac tank \n"
+"<b>Mouse Wheel</b>: Cycle through vac tanks"
+msgstr ""
+"흡입 탱크를 사용하면 슬라임과 다른 자원들을 쉽게 수집, 분류, 이송할 수 있습니다. \n"
+"\n"
+"<b>1, 2, 3, 4, 5</b>: 흡입 탱크 선택하기 \n"
+"<b>Mouse Wheel</b>: 흡입 탱크를 돌아가며 선택하기"
+
+#: 23
+msgctxt "m.instructions.gamepad.capturetanks"
+msgid ""
+"Vac tanks allow you to easily collect, sort, and transport slimes and other "
+"resources. \n"
+"\n"
+"<b>Left Bumper/Right Bumper</b>: Cycle through vac tanks"
+msgstr ""
+"흡입 탱크를 사용하면 슬라임과 다른 자원들을 쉽게 수집, 분류, 이송할 수 있습니다. \n"
+"\n"
+"<b>왼쪽 범퍼(LB)/오른쪽 범퍼(RB)</b>: 흡입 탱크를 돌아가며 선택하기"
+
+#: 24
+msgctxt "t.energy"
+msgid "Vacpack: Health and Energy"
+msgstr "Vackpack: 체력과 에너지"
+
+#: 25
+msgctxt "m.intro.energy"
+msgid "Everything has a cost."
+msgstr "모든 것은 비용이 듭니다."
+
+#: 26
+msgctxt "m.instructions.energy"
+msgid ""
+"Monitor your health and energy levels with the Health Meter and Energy Meter "
+"on the lower left of the screen. \n"
+"\n"
+"Health will be automatically restored after not taking damage for a period "
+"of time. \n"
+"\n"
+"Energy will be automatically restored after not using energy for a period of "
+"time."
+msgstr ""
+"화면 왼쪽 하단의 체력 Meter와 에너지 Meter로 체력 및 에너지 수치를 확인하세요. \n"
+"\n"
+"체력은 일정 시간 동안 데미지를 받지 않으면 자동으로 회복합니다. \n"
+"\n"
+"에너지는 일정 시간 동안 사용하지 않으면 자동으로 회복합니다."
+
+#: 27
+msgctxt "t.corralling"
+msgid "Ranching Basics: Corralling Slimes"
+msgstr "목장 일의 기본: 우리에 슬라임 넣기"
+
+#: 28
+msgctxt "m.intro.corralling"
+msgid "You can contain them, but you can't stop the wiggle."
+msgstr "슬라임을 데려올 수는 있지만, 슬라임이 도망가지 못하게 할 수는 없습니다."
+
+#: 29
+msgctxt "m.instructions.corralling"
+msgid ""
+"Shoot slimes through corral walls to contain them and make them easier to "
+"manage. But remember: hungry slimes will always find a way out of their "
+"corrals! \n"
+"\n"
+"<b>Mouse Wheel</b>: Select vac tank \n"
+"<b>Left Mouse Button</b>: Shoot"
+msgstr ""
+"슬라임을 우리의 벽에 쏘아서 슬라임을 가둘 수 있고 슬라임을 관리하기 쉬워집니다.하지만 기억하세요: 배고픈 슬라임은 언제나 우리에서 "
+"빠져나올 방법을 찾을 것입니다! \n"
+"\n"
+"<b>마우스 휠</b>: 흡입 탱크를 선택하기 \n"
+"<b>마우스 왼쪽 버튼</b>: 쏘기"
+
+#: 30
+msgctxt "m.instructions.gamepad.corralling"
+msgid ""
+"Shoot slimes through corral walls to contain them and make them easier to "
+"manage. But remember: hungry slimes will always find a way out of their "
+"corrals! \n"
+"\n"
+"<b>Left Bumper/Right Bumper</b>: Select vac tank \n"
+"<b>Right Trigger</b>: Shoot"
+msgstr ""
+"슬라임을 우리의 벽에 쏘아서 슬라임을 가둘 수 있고 슬라임을 관리하기 쉬워집니다.하지만 기억하세요: 배고픈 슬라임은 언제나 우리에서 "
+"빠져나올 방법을 찾을 것입니다! \n"
+"\n"
+"<b>왼쪽 범퍼(LB)/오른쪽 범퍼(RB)</b>: 흡입 탱크를 선택하기 \n"
+"<b>오른쪽 트리거(RT)</b>: 쏘기"
+
+#: 31
+msgctxt "t.feeding"
+msgid "Ranching Basics: Feeding Slimes"
+msgstr "목장 일의 기본: 슬라임에게 먹이 주기"
+
+#: 32
+msgctxt "m.intro.feeding"
+msgid "A well-fed slime makes for a happy (and wealthy) rancher."
+msgstr "잘 먹은 슬라임은 목장주를 행복하도록(그리고 부유하도록) 도와줍니다."
+
+#: 33
+msgctxt "m.instructions.feeding"
+msgid ""
+"Each slime has a particular diet. Most prefer either fruit, veggies, or meat."
+" When a slime eats, it produces a plort. \n"
+"\n"
+"However, most slimes have a favorite food. When a slime eats its favorite "
+"food it produces double plorts! \n"
+"\n"
+"<b>Mouse Wheel</b>: Select vac tank \n"
+"<b>Left Mouse Button</b>: Shoot"
+msgstr ""
+"여러 종의 슬라임은 각각 좋아하는 식단이 있습니다. 대부분 과일, 채소, 고기를 선호합니다. 슬라임이 밥을 먹으면 보석을 만들어냅니다. \n"
+"\n"
+"그러나 대부분의 슬라임은 가장 좋아하는 음식이 있습니다. 슬라임이 가장 좋아하는 음식을 먹으면 보석을 2배로 만들어냅니다! \n"
+"\n"
+"<b>마우스 휠</b>: 흡입 탱크를 선택하기 \n"
+"<b>마우스 왼쪽 버튼</b>: 쏘기"
+
+#: 34
+msgctxt "m.instructions.gamepad.feeding"
+msgid ""
+"Each slime has a particular diet. Most prefer either fruit, veggies, or meat."
+" When a slime eats, it produces a plort. \n"
+"\n"
+"However, most slimes have a favorite food. When a slime eats its favorite "
+"food it produces double plorts! \n"
+"\n"
+"<b>Left Bumper/Right Bumper</b>: Select vac tank \n"
+"<b>Right Trigger</b>: Shoot"
+msgstr ""
+"여러 종의 슬라임은 각각 좋아하는 식단이 있습니다. 대부분 과일, 채소, 고기를 선호합니다. 슬라임이 밥을 먹으면 보석을 만들어냅니다. \n"
+"\n"
+"그러나 대부분의 슬라임은 가장 좋아하는 음식이 있습니다. 슬라임이 가장 좋아하는 음식을 먹으면 보석을 2배로 만들어냅니다! \n"
+"\n"
+"<b>왼쪽 범퍼(LB)/오른쪽 범퍼(RB)</b>: 흡입 탱크를 선택하기 \n"
+"<b>오른쪽 트리거(RT)</b>: 쏘기"
+
+#: 35
+msgctxt "t.plorts"
+msgid "Ranching Basics: Plorts and the Plort Market"
+msgstr "목장일의 기본: 보석과 보석 상점"
+
+#: 36
+msgctxt "m.intro.plorts"
+msgid "SELL! SELL! SELL!"
+msgstr "장사하자! 장사하자! 장사하자!"
+
+#: 37
+msgctxt "m.instructions.plorts"
+msgid ""
+"Vac up plorts and shoot them into the Plort Market to get newbucks. Plort "
+"values fluctuate daily depending on the types of plorts you've recently sold."
+" \n"
+"\n"
+"<b>Mouse Wheel</b>: Select vac tank \n"
+"<b>Left Mouse Button</b>: Shoot"
+msgstr ""
+"보석을 흡입하여 보석시장에 보석들을 쏘아서 새 돈다발을 얻으세요. 보석 가격은 최근에 팔았던 보석들 종류에 따라 매일 변동합니다. \n"
+"\n"
+"<b>마우스 휠</b>: 흡입 탱크를 선택하기 \n"
+"<b>마우스 왼쪽 버튼</b>: 쏘기"
+
+#: 38
+msgctxt "m.instructions.gamepad.plorts"
+msgid ""
+"Vac up plorts and shoot them into the Plort Market to get newbucks. Plort "
+"values fluctuate daily depending on the types of plorts you've recently sold."
+" \n"
+"\n"
+"<b>Left Bumper/Right Bumper</b>: Select vac tank \n"
+"<b>Right Trigger</b>: Shoot"
+msgstr ""
+"보석을 흡입하여 보석시장에 보석들을 쏘아서 새 돈다발을 얻으세요. 보석 가격은 최근에 팔았던 보석들 종류에 따라 매일 변동합니다. \n"
+"\n"
+"<b>왼쪽 범퍼(LB)/오른쪽 범퍼(RB)</b>: 흡입 탱크를 선택하기 \n"
+"<b>오른쪽 트리거(RT)</b>: 쏘기"
+
+#: 39
+msgctxt "t.ssbasics"
+msgid "Slime Science: Basics"
+msgstr "슬라임 과학: 기본"
+
+#: 40
+msgctxt "m.intro.ssbasics"
+msgid "Definitely weird."
+msgstr "확실히 기이함"
+
+#: 41
+msgctxt "m.instructions.ssbasics"
+msgid ""
+"Slime Science allows you to use plorts and other resources to make fantastic "
+"gadgets that you can install all over the world. \n"
+"\n"
+"Slime Science basics: \n"
+"- Shoot plorts and resources into the Refinery (cannot be withdrawn once "
+"deposited) \n"
+"- Buy new blueprints or discover them in treasure pods \n"
+"- Use the Fabricator to make new gadgets \n"
+"- <b>T</b>: Enter Gadget Mode \n"
+"- Place gadgets in Gadget Mode \n"
+"- <b>Left Mouse Button/Right Mouse Button</b>: Rotate gadget (when in Gadget "
+"Mode) \n"
+"\n"
+"Visit the Slime Science section of the Slimepedia for more details on Slime "
+"Science."
+msgstr ""
+"슬라임 과학으로 보석과 다른 자원을 사용하여 전 세계에 설치할 수 있는 환상적인 장치 들을 만들 수 있습니다. \n"
+"\n"
+"슬라임 과학 기본: \n"
+"- 정제소에 보석과 자원들을 쏘십시오 (한번 정제소에 들어가면 꺼낼 수 없습니다) \n"
+"- 새로운 청사진을 구입하거나 보물 포드에서 청사진을 발견하세요 \n"
+"- 제작기를 사용하여 새 장치를 만드세요 \n"
+"- <b>T</b>: 장치 모드로 들어가기 \n"
+"- 장치모드에서 장치를 배치하세요 \n"
+"- <b>마우스 왼쪽/오른쪽 버튼</b>: 장치를 회전하기(장치 모드에서) \n"
+"\n"
+"슬라임 과학에 대한 자세한 내용은 슬라임백과의 슬라임 과학 부분을 살펴보세요."
+
+#: 42
+msgctxt "m.instructions.gamepad.ssbasics"
+msgid ""
+"Slime Science allows you to use plorts and other resources to make fantastic "
+"gadgets that you can install all over the world. \n"
+"\n"
+"Slime Science basics: \n"
+"- Shoot plorts and resources into the Refinery (cannot be withdrawn once "
+"deposited) \n"
+"- Buy new blueprints or discover them in treasure pods \n"
+"- Use the Fabricator to make new gadgets \n"
+"- <b>Down</b>: Enter Gadget Mode \n"
+"- Place gadgets in Gadget Mode \n"
+"- <b>Left Trigger/Right Trigger</b>: Rotate gadget (when in Gadget Mode) \n"
+"\n"
+"Visit the Slime Science section of the Slimepedia for more details on Slime "
+"Science."
+msgstr ""
+"슬라임 과학으로 보석과 다른 자원을 사용하여 전 세계에 설치할 수 있는 환상적인 장치 들을 만들 수 있습니다. \n"
+"\n"
+"슬라임 과학 기본: \n"
+"- 정제소에 보석과 자원들을 쏘십시오 (한번 정제소에 들어가면 꺼낼 수 없습니다) \n"
+"- 새로운 청사진을 구입하거나 보물 포드에서 청사진을 발견하세요 \n"
+"- 제작기를 사용하여 새 장치를 만드세요 \n"
+"- <b>아래 방향키</b>: 장치 모드로 들어가기 \n"
+"- 장치모드에서 장치를 배치하세요 \n"
+"- <b>왼쪽/오른쪽 트리거(LT/RT)</b>: 장치를 회전하기(장치 모드에서) \n"
+"\n"
+"슬라임 과학에 대한 자세한 내용은 슬라임백과의 슬라임 과학 부분을 살펴보세요."
+
+#: 43
+msgctxt "t.gadgetmode"
+msgid "Slime Science: Gadget Mode"
+msgstr "슬라임 과학: 장치 모드"
+
+#: 44
+msgctxt "m.intro.gadgetmode"
+msgid "A more scientific perspective."
+msgstr "더 과학적인 관점으로."
+
+#: 45
+msgctxt "m.instructions.gadgetmode"
+msgid ""
+"In Gadget Mode you can see all available build sites where you can install "
+"gadgets. \n"
+"\n"
+"<b>T</b>: Toggle Gadget Mode \n"
+"<b>Left Mouse Button</b>: Rotate gadget clockwise \n"
+"<b>Right Mouse Button</b>: Rotate gadget counter-clockwise \n"
+"\n"
+"NOTE: Your vacpack cannot vac or shoot while in Gadget Mode."
+msgstr ""
+"장치 모드에서는 장치를 설치할 수 있는 모든 건설 부지를 볼 수 있습니다. \n"
+"\n"
+"<b>T</b>: 장치모드 켜고 끄기 \n"
+"<b>마우스 왼쪽 버튼</b>: 장치를 시계방향으로 회전 \n"
+"<b>마우스 오른쪽 버튼</b>: 장치를 반시계방향으로 회전 \n"
+"\n"
+"참고: 장치 모드에서는 vacpack으로 포획, 쏘기를 할 수 업습니다."
+
+#: 46
+msgctxt "m.instructions.gamepad.gadgetmode"
+msgid ""
+"In Gadget Mode you can see all available build sites where you can install "
+"gadgets. \n"
+"\n"
+"<b>Down</b>: Toggle Gadget Mode \n"
+"<b>Left Trigger</b>: Rotate gadget clockwise \n"
+"<b>Right Trigger</b>: Rotate gadget counter-clockwise \n"
+"\n"
+"NOTE: Your vacpack cannot vac or shoot while in Gadget Mode."
+msgstr ""
+"장치 모드에서는 장치를 설치할 수 있는 모든 건설 부지를 볼 수 있습니다. \n"
+"\n"
+"<b>아래 방향키</b>: 장치모드 켜고 끄기 \n"
+"<b>왼쪽 트리거(LT)</b>: 장치를 시계방향으로 회전 \n"
+"<b>오른쪽 트리거(RT)</b>: 장치를 반시계방향으로 회전 \n"
+"\n"
+"참고: 장치 모드에서는 vacpack으로 포획, 쏘기를 할 수 업습니다."
+
+#: 47
+msgctxt "t.pink_slime"
+msgid "Pink Slime"
+msgstr "분홍 슬라임"
+
+#: 48
+msgctxt "m.intro.pink_slime"
+msgid "Their coral hue is scientifically proven to be the color of cheer."
+msgstr "분홍 슬라임의 분홍색 빛깔은 과학적으로 기쁨의 표현인 것으로 밝혀졌습니다."
+
+#: 49
+msgctxt "m.diet.pink_slime"
+msgid "Fruit, Veggies, Meat"
+msgstr "과일, 야채, 고기"
+
+#: 50
+msgctxt "m.favorite.pink_slime"
+msgid "(none)"
+msgstr "(없음)"
+
+#: 51
+msgctxt "m.slimeology.pink_slime"
+msgid ""
+"Pink Slimes are the most common slime found on the Far, Far Range. They’re "
+"cheerful, docile, and the easiest of all slimes to ranch. A pink slime will "
+"eat anything you put in front of it, though they have no favorite food, and "
+"their plorts are the least valuable of all slimes."
+msgstr ""
+"분홍 슬라임은 머나먼 방목장에서 흔히 찾아볼 수 있는 슬라임입니다. 분홍 슬라임은 유쾌하고, 순하며, 목장에서 가장 다루기 쉬운 "
+"슬라임입니다. 분홍 슬라임은 특별히 좋아하는 음식은 없지만, 분홍 슬라임의 보석은 가치가 제일 낮습니다."
+
+#: 52
+msgctxt "m.risks.pink_slime"
+msgid ""
+"Not much to worry about with a pink slime. They're soft, squishy, very happy "
+"to be around a rancher, and found all over the Range. But because of this, a "
+"rancher won't go far without finding a few pink plorts, which can lead to "
+"largos, and then..."
+msgstr ""
+"분홍색 슬라임을 그다지 걱정하지 않아도 됩니다. 분홍 슬라임은 부드럽고, 물렁물렁하며, 목장 주인 곁에 있는 걸 행복하게 느낍니다. "
+"그리고, 머나먼 방목장 전역에서 발견할 수 있습니다. 하지만 이러한 이유 때문에, 목장주는 느림보를 만들 수 있는 조금의 분홍 보석을 "
+"찾으려 하지 않고 멀리 나가지 않을 것입니다. 그리고는....."
+
+#: 53
+msgctxt "m.plortonomics.pink_slime"
+msgid ""
+"Pink Plorts are an excellent 'multipurpose generic substance' used to "
+"manufacture everything from food products to household cleaners. All over "
+"earth, people are eating burgers, sweetening their coffees or scrubbing "
+"their floors with pink plort products. That's some serious versatility!"
+msgstr ""
+"분홍 보석은 음식부터 가정용 세제까지 모든것을 만드는데 사용되는 '다용도 일반 물질'입니다. 지구에서는, 사람들이 먹는 버거나, 달달한 "
+"커피, 바닦을 닦는 것에 분홍 보석이 들어간 것들을 사용하고 있습니다. 매우 다양한 용도입니다!"
+
+#: 54
+msgctxt "t.rock_slime"
+msgid "Rock Slime"
+msgstr "암석 슬라임"
+
+#: 55
+msgctxt "m.intro.rock_slime"
+msgid "These slimes ore totally metal."
+msgstr "이 슬라임 광석들은 완전히 금속입니다."
+
+#: 56
+msgctxt "m.diet.rock_slime"
+msgid "Veggies"
+msgstr "야채"
+
+#: 57
+msgctxt "m.favorite.rock_slime"
+msgid "Heart Beet"
+msgstr "하트비트"
+
+#: 58
+msgctxt "m.slimeology.rock_slime"
+msgid ""
+"Rock slimes earned their name from the rocky crown of sharp spikes atop "
+"their slimy bodies. But their affection for minerals doesn't end with their "
+"appearance: rock slimes are strict vegetarians, favoring the satisfying "
+"crunch of the heart beet most of all."
+msgstr ""
+"암석 슬라임이란 이름은 슬라임 몸 꼭대기에 있는 날카롭고 뾰족한 모양의 돌로 된 왕관으로부터 왔습니다. 하지만 암석 슬라임의 미네랄에 "
+"대한 애정은 암석 슬라임의 외모로만 끝나는 것은 아니다: 암석 슬라임은 철저한 채식주의자이고, 무엇보다도 하트비트를 깨물을 때 아삭아삭 "
+"씹히는 데 만족감을 얻는것을 가장 좋아합니다."
+
+#: 59
+msgctxt "m.risks.rock_slime"
+msgid ""
+"The dangers of a rock slime should be fairly obvious: their rocky crown is "
+"sharp enough to pierce straight through a rancher's boots. But it's not all "
+"about watching where you're stepping as these rocks are always rolling. When "
+"you see a rock slime revving up for a tumble, it's best to get out of the "
+"way."
+msgstr ""
+"암석 슬라임은 분명하게 매우 위험합니다. 암석 슬라임의 암석 왕관은 목장주의 부츠를 뚫어버릴 정도로 날카롭습니다. 하지만 암석 슬라임이 "
+"굴러서 돌아다니는 것이 발걸음을 주의해야한다는것 만은 아닙니다. 암석 슬라임이 공중제비를 하기 위해 뱅글뱅글 돌고있는 것을 보면, 저 "
+"멀리 피하는 것이 상책입니다."
+
+#: 60
+msgctxt "m.plortonomics.rock_slime"
+msgid ""
+"Rock plorts are prized for being a key component in the production of 'blue "
+"metal,' an amazing alloy that's stronger than titanium and lighter than "
+"plastic. Because of its amazing strength, blue metal is often a key "
+"component in the hulls of light-speed capable starships, synthetic "
+"appendages, and protective holophone cases."
+msgstr ""
+"암석 보석은 티타늄보다 단단하고 플라스틱보다 가벼운 놀라운 합금인 '블루 메탈' 의 핵심 구성 성분으로 각광 받고 있습니다. 놀라운 강도 "
+"때문에 '블루 메탈'은 광속 항행 우주선, 합성 부속물, 보호용 홀로폰의 케이스를 만드는데 필요한 핵심 요소 입니다."
+
+#: 61
+msgctxt "t.tabby_slime"
+msgid "Tabby Slime"
+msgstr "고양이 슬라임"
+
+#: 62
+msgctxt "m.intro.tabby_slime"
+msgid "Those stripes, that tail, that wiggle, wiggle, wiggle."
+msgstr "줄무늬, 꼬리, 그리고 흔들, 흔들, 흔들"
+
+#: 63
+msgctxt "m.diet.tabby_slime"
+msgid "Meat"
+msgstr "고기"
+
+#: 64
+msgctxt "m.favorite.tabby_slime"
+msgid "Stony Hen"
+msgstr "스토니 암탉"
+
+#: 65
+msgctxt "m.slimeology.tabby_slime"
+msgid ""
+"Tabby slimes share many curious similarities to domesticated house cats of "
+"Earth. With their perky ears, striped backs, and swaying tails, you'd almost "
+"mistake them for a true feline... if they weren't made entirely of gooey "
+"slime, of course."
+msgstr ""
+"고양이 슬라임은 지구의 길들여진 집고양이와 유사하게 호기심이 많습니다. 생기넘치는 귀, 등에 줄무늬, 살랑살랑 흔드는 꼬리를 볼 때, "
+"진짜 고양이 같다고 착각하는 경우가 많습니다. 물론, 몸이 끈적끈적한 슬라임이 아니였다면 말이죠......"
+
+#: 66
+msgctxt "m.risks.tabby_slime"
+msgid ""
+"A tabby slime generally doesn't mean any harm to a rancher, but like their "
+"spiritual Earth cat cousins, often causes a great deal of chaos anyway. "
+"Tabby slimes love to steal things they don't eat, like fruits and veggies, "
+"resulting in lots of unintended largo transformations on the Range."
+msgstr ""
+"고양이 슬라임은 일반적으로 목장주에게 아무런 해를 끼치지 않습니다. 하지만 지구에 있는 고양이의 호기심 정신으로 인해 종종 커다란 혼돈을 "
+"불러옵니다. 고양이 슬라임은 과일과 야채 같은 것들을 먹지는 않지만 훔치기를 좋아해서 방목장에 의도하지 않은 많은 느림보가 만들어지게 "
+"됩니다."
+
+#: 67
+msgctxt "m.plortonomics.tabby_slime"
+msgid ""
+"Tabby plorts are a key ingredient in a variety of 'performance enhancing' "
+"products that grant the consumer a surge of the tabby slime's signature "
+"energy and exuberance. And while athletes the world over take them to gain "
+"an edge, prolonged use often results in 'uncontrollable butt wiggles,' "
+"another (less desirable) signature of the tabby slime."
+msgstr ""
+"고양이 보석은 소비자들이 고양이 슬라임의 상징인 에너지와 열정을 끌어올릴 수 있게 보장해주는 다양한 '성능 향상' 제품들의 핵심 "
+"성분입니다. 전 세계의 운동선수들이 다른 선수들보다 우위에 서려고 '성능 향상' 제품들을 사용하는 동안, 종종 고양이 슬라임의 또 다른 "
+"(바라지 않은) 상징인 '주체할 수 없는 엉덩이 씰룩씰룩' 상태를 초래합니다,"
+
+#: 68
+msgctxt "t.phosphor_slime"
+msgid "Phosphor Slime"
+msgstr "형광 슬라임"
+
+#: 69
+msgctxt "m.intro.phosphor_slime"
+msgid "The softly glowing heralds of starlight."
+msgstr "은은하게 빛나는 별빛의 전령관"
+
+#: 70
+msgctxt "m.diet.phosphor_slime"
+msgid "Fruit"
+msgstr "과일"
+
+#: 71
+msgctxt "m.favorite.phosphor_slime"
+msgid "Cuberry"
+msgstr "각딸기"
+
+#: 72
+msgctxt "m.slimeology.phosphor_slime"
+msgid ""
+"Phosphor slimes come out at night, flying about the moonlit range upon their "
+"translucent wings. Phosphor slimes have a luminescent slime core that pulses "
+"with a soft glow, making them easy to spot. It's for this reason ranchers "
+"sometimes refer to them as 'low stars.'"
+msgstr ""
+"형광 슬라임은 밤에 나타나며 투명한 날개로 달빛이 비치는 방목장을 날아다닙니다. 형광 슬라임은 은은한 빛을 발산하는 발광성 슬라임 코어가 "
+"있어 쉽게 발견할 수 있습니다. 이러한 이유로 목장주는 종종 형광 슬라임을 '땅위의 별'이라고 부릅니다."
+
+#: 73
+msgctxt "m.risks.phosphor_slime"
+msgid ""
+"Phosphor slimes have special needs compared to your typical slime. A "
+"phosphor slime and its plorts will quickly vanish if exposed to sunlight, "
+"meaning a rancher could quickly lose an entire corral's worth of phosphor "
+"slimes if they're not careful. Ranchers must either vac them up before "
+"daybreak or keep phosphor slimes in a place that is perpetually dark, like a "
+"cave."
+msgstr ""
+"형광 슬라임은 다른 슬라임과 비교했을 때 특별히 필요한 것이 있습니다. 형광 슬라임과 형광 보석은 햇빛이 내리쬐면 급속히 사라집니다. 즉 "
+"목장주가 조심하지 않으면 우리에 있는 슬라임 전체를 순식간에 잃을 수 있습니다. 목장주는 새벽이 오기 전에 형광 슬라임을 포획하거나 "
+"동굴과 같이 영원히 볕이 들지 않는 곳에 형광 슬라임을 두어야합니다."
+
+#: 74
+msgctxt "m.plortonomics.phosphor_slime"
+msgid ""
+"The luminescent compound found within phosphor plorts can produce light for "
+"over 100 years, making it an incredibly eco-friendly form of illumination on "
+"Earth. Cities across the globe are slowly switching over to phosphor lights, "
+"saving trillions of gigawatts of energy daily. Plus if you rub the stuff in "
+"your hair, it glows and looks really cool."
+msgstr ""
+"형광 보석에서 발견할 수 있는 발광 화합물은 100년 이상 빛을 낼 수 있어서 지구에 매우 친환경적인 조명을 제공합니다. 전 세계의 "
+"도시들은 서서히 형광 전등으로 전환하고 있으며 매일 수조 기가 와트의 전기를 절약하고 있습니다. 거기다가 머리카락에 문지르면 빛이 나고 "
+"정말 멋져 보입니다."
+
+#: 75
+msgctxt "t.rad_slime"
+msgid "Rad Slime"
+msgstr "방사능 슬라임"
+
+#: 76
+msgctxt "m.intro.rad_slime"
+msgid "Its radiance is so lovely it makes you sick."
+msgstr "방사능이 너무 사랑스러워 당신을 아프도록 할 것입니다"
+
+#: 77
+msgctxt "m.diet.rad_slime"
+msgid "Veggies"
+msgstr "야채"
+
+#: 78
+msgctxt "m.favorite.rad_slime"
+msgid "Oca Oca"
+msgstr "오카 오카"
+
+#: 79
+msgctxt "m.slimeology.rad_slime"
+msgid ""
+"It's unknown if rad slimes, sometimes called 'raddies,' came to be from "
+"external radiation sources or from something naturally ocurring within the "
+"Far, Far Range. Regardless, rad slimes emit such a potent aura of radiation "
+"they glow in the dark!"
+msgstr ""
+"라디즈'라 불리는 방사능 슬라임이 외부의 방사능 물질로부터 왔는지, 자연스럽게 머나먼 방목장에서 발생했는지는 모릅니다. 어쨌든, 방사능 "
+"슬라임은 어둠속에서 환하게 빛나는 강력한 오라을 방출합니다."
+
+#: 80
+msgctxt "m.risks.rad_slime"
+msgid ""
+"A rad slime's radioactive aura can induce rad poisoning in a rancher if they "
+"remain within it for too long. Ranchers are advised to monitor their rad "
+"exposure levels when handling these green globs of gamma goo as extended "
+"exposure can cause serious bodily harm, or worse."
+msgstr ""
+"목장주가 방사능 슬라임이 방출하는 방사성 오라 안에 오래 있으면 방사능 중독에 걸릴 수 있습니다. 방사능에 장시간 노출되면 인체에 심각한 "
+"상해를 유발할 수 있기 때문에 목장주는 감마선을 방출하는 끈적끈적한 것들의 녹색 덩어리를 다룰 때 방사선 노출 수준을 관측하는 것이 "
+"좋습니다."
+
+#: 81
+msgctxt "m.plortonomics.rad_slime"
+msgid ""
+"Given that raddies are basically mobile batteries, it’s no surprise that "
+"corporations value rad plorts for their incredible energy-producing "
+"capabilities. Most rad plorts get turned into ‘plortonium’ and everything "
+"from the latest holophone to a radwave microcook system runs on the stuff."
+msgstr ""
+"라디즈'가 기본적으로 이동식 배터리라는 점을 감안할 때, 기업이 엄청난 에너지 생산 능력을 가지고 있는 방사능 보석을 가치있게 여기는건 "
+"놀라운 일은 아닙니다. 대부분의 방사능 보석은 '플로토늄'으로 바뀌고 최신 홀로폰에서부터 라드식 전자레인지 시스템까지 모든 것들이 "
+"'플로토늄'으로 구동됩니다."
+
+#: 82
+msgctxt "t.boom_slime"
+msgid "Boom Slime"
+msgstr "폭탄 슬라임"
+
+#: 83
+msgctxt "m.intro.boom_slime"
+msgid "Careful, these slimes have been known to expl-"
+msgstr "조심하세요. 이 슬라임들은 폭발하는 걸로 알-"
+
+#: 84
+msgctxt "m.diet.boom_slime"
+msgid "Meat"
+msgstr "고기"
+
+#: 85
+msgctxt "m.favorite.boom_slime"
+msgid "Briar Hen"
+msgstr "브라이어 암탉"
+
+#: 86
+msgctxt "m.slimeology.boom_slime"
+msgid ""
+"Boom slimes are often heard before they're seen. The slime cells of a boom "
+"slime are constantly vibrating, causing their slime to increasingly crackle "
+"with energy before ultimately exploding. However, the boom slime always "
+"comes out unscathed, though always a little dazed."
+msgstr ""
+"폭발 슬라임은 종종 눈으로 발견하기 전에 기척을 느낄 수 있습니다. 폭발 슬라임의 세포는 끊임없이 진동하고, 폭발 슬라임의 에너지로 점점 "
+"더 큰 타오르는 소리를 내다가 마지막엔 폭발합니다. 하지만 폭발 후에 폭발 슬라임이 멍해지기는 하지만 상처를 입지는 않습니다."
+
+#: 87
+msgctxt "m.risks.boom_slime"
+msgid ""
+"Boom slimes are constantly building toward an inevitable explosion, making "
+"them quite hazardous to ranchers. In addition to those explosions causing "
+"bodily harm, they also have the capacity to send all nearby slimes flying "
+"into the air, making them a hard slime to corral."
+msgstr ""
+"폭발 슬라임은 계속해서 언제든지 폭발하고 있어 목장주에게 상당히 위험합니다. 폭발 슬라임의 폭발로 신체에 해를 입는 것 외에도 근처에 "
+"있는 모든 슬라임을 공중에 날려 보내서 슬라임들을 우리에 가둬놓기 힘들게 합니다."
+
+#: 88
+msgctxt "m.plortonomics.boom_slime"
+msgid ""
+"Highly volatile boom plorts have all sorts of applications, including "
+"powering rocket thrusters and demolitions. Military organizations value "
+"their highly destructive capabilities for ‘medical technology and other "
+"research.’ Imagine that!"
+msgstr ""
+"고 휘발성 물질인 폭발 보석은 로켓 추친기 및 철거 등 다양한 방법으로 응용할 수 있습니다. 군사 조직은 '의학 기술과 다른 연구'를 "
+"수행하는 데 폭발 보석의 매우 높은 파괴 능력을 사용하려 합니다. 어떨지는 상상해보세요!"
+
+#: 89
+msgctxt "t.honey_slime"
+msgid "Honey Slime"
+msgstr "꿀 슬라임"
+
+#: 90
+msgctxt "m.intro.honey_slime"
+msgid "Nothing is sweeter than (a recently produced plort of) honey."
+msgstr "그 어느 것도 (보석에서 최근에 추출된) 꿀보다 맛있는 것은 없을겁니다.'"
+
+#: 91
+msgctxt "m.diet.honey_slime"
+msgid "Fruit"
+msgstr "과일"
+
+#: 92
+msgctxt "m.favorite.honey_slime"
+msgid "Mint Mango"
+msgstr "민트 망고"
+
+#: 93
+msgctxt "m.slimeology.honey_slime"
+msgid ""
+"Honey slimes are an odd breed of slime composed of a hyper-sweet slime "
+"compound. Most slime scientists believe this to be the result of their slime "
+"cells replicating the natural sugars found in the fruits and floral nectars "
+"of the Far, Far Range. Most ranchers agree their plorts taste great on "
+"cereal."
+msgstr ""
+"꿀 슬라임은 몸이 매우 달달한 슬라임 혼합물로 구성된 이상한 슬라임종입니다. 대부분의 슬라임 과학자들은 꿀 슬라임이 단 물질로 이루어진 "
+"것이 머나먼 방목장에 있는 과일이나 꽃의 꿀에 들어있는 천연 당분을 복제하는 꿀 슬라임의 세포활동이라 보고 있습니다."
+
+#: 94
+msgctxt "m.risks.honey_slime"
+msgid ""
+"The greatest danger a honey slime poses is found in their plorts. Honey "
+"plorts are the sweetest, most delicious plorts known on the Far, Far Range. "
+"Other slimes can detect them from much further away than a normal plort and "
+"will do everything in their means to get them. A rancher with honey slimes "
+"needs to be careful about unintended largos, or worse..."
+msgstr ""
+"꿀 슬라임을 다룰 때 제일 위험한 것은 꿀 보석 그 자체에 있습니다. 꿀 보석은 머나먼 방목장에서 가장 달고 가장 맛있는 것으로 "
+"알려져있습니다. 다른 슬라임이 꿀 보석을 일반 보석을 발견하는 것 보다 더 멀리에서 발견할 것이며, 꿀 보석을 얻기위해 모든 방법들을 할 "
+"것입니다. 꿀 슬라임을 데리고 있는 목장주는 의도하지 않은 느림보가 생기지 않게 주의해야 합니다, 그렇지 않을 경우 최악은......"
+
+#: 95
+msgctxt "m.plortonomics.honey_slime"
+msgid ""
+"Honey plorts are highly prized by food manufacturers. Though the plorts are "
+"naturally incredibly sweet, the discovery that they could be further refined "
+"into an even sweeter substance made their demand soar. These refined honey "
+"plorts are said to score an unprecedented 867 on the Werner-Thompkins-Hong "
+"sacchrino scale, just a few points shy of 'not fit for human consumption.'"
+msgstr ""
+"식품 제조업계는 꿀 슬라임을 매우 귀하게 여깁니다. 꿀 보석 자체가 믿을 수 없게 달지만, 꿀 보석을 더 달게 정제할 수 있다는 사실을 "
+"발견하여 수요가 솟구쳤습니다. 정제된 끌 보석은 Werner-Thompkins-Hong sacchrino 척도로 전례없는 867점을 "
+"받았습니다. 일부 몇 점 모자란것은 '사람이 사용하기에 적합하지않다'는 것 때문이었습니다."
+
+#: 96
+msgctxt "t.hunter_slime"
+msgid "Hunter Slime"
+msgstr "사냥꾼 슬라임"
+
+#: 97
+msgctxt "m.intro.hunter_slime"
+msgid "Nevermind the rabbit, have you seen any chickens?"
+msgstr "토키는 신경쓰지마세요, 혹시 아무 닭이라도 본거 있나요?"
+
+#: 98
+msgctxt "m.diet.hunter_slime"
+msgid "Meat"
+msgstr "고기"
+
+#: 99
+msgctxt "m.favorite.hunter_slime"
+msgid "Roostro"
+msgstr "수탉"
+
+#: 100
+msgctxt "m.slimeology.hunter_slime"
+msgid ""
+"The hunter slime is the wild cousin of the tabby slime. A much more capable "
+"creature than the playful tabbies, the hunter slime excels at stalking the "
+"chickens of the Far, Far Range.\n"
+"\n"
+"A hunter slime's slimological makeup allows for a natural cloaking ability "
+"that renders it almost completely invisible. Their only tell is in their "
+"giant, almond eyes, which can often be seen hovering in the dark. This "
+"effect is often described by unsuspecting ranchers as 'aaaahhhhHHH!'"
+msgstr ""
+"사냥꾼 슬라임은 고양이 슬라임의 야생 친척입니다. 놀기 좋아하는 고양이 슬라임보다 조금 더 유능한 생물이어서, 사냥꾼 슬라임은 머나먼 "
+"방목장의 닭들을 쫒는데 뛰어납니다. 사냥꾼 슬라임의 슬라임학적인 구조로 자연적인 클로킹 능력으로 거의 보이지 않게 할 수 있습니다. 오직 "
+"사냥꾼 슬라임의 거대하고 아몬드같이 생긴 눈만을 알아볼 수 있어서 어둠 속에서 둥둥 떠다니는 것처럼 보일 수도 있습니다. 이런 현상을 "
+"전혀 알지 못하는 목장주는 'ㅇㅇㅇ아아아아ㅏㅏㅏㅏ'라고 할 때가 있습니다."
+
+#: 101
+msgctxt "m.risks.hunter_slime"
+msgid ""
+"A hunter slime has keen senses and can detect its prey from great distances. "
+"This makes finding a good location for their corrals challenging.\n"
+"\n"
+"Additionally, the wild nature of the hunter is also passed on to any largos "
+"formed from its plorts. A newly created hunter largo will always be feral! A "
+"prepared rancher knows that breeding hunter largos should always be done "
+"slowly, with a few chickens on hand to calm them down."
+msgstr ""
+"사냥꾼 슬라임은 감각이 예민하며 먹이를 아주 먼 거리에서도 발견할 수 있습니다. 이러한 능력으로 우리 안 먹이 경쟁에서 좋은 자리를 잡을 "
+"수 있습니다. \n"
+"\n"
+"게다가, 헌터로서의 야생 본능이 사냥꾼 보석을 먹어 만들어진 느림보에게 그대로 전해집니다. 새로 태어난 사냥꾼 느림보는 언제나 "
+"야성적입니다! 준비가 잘 된 목장주는 사냥꾼 느림보를 번식시키는 것은 느림보를 진정시키기 위한 닭을 가지고 천천히 해야한다는 것을 알고 "
+"있습니다."
+
+#: 102
+msgctxt "m.plortonomics.hunter_slime"
+msgid ""
+"Amazingly, a serum can be made from hunter slime plorts that can actually "
+"render a person invisible! The effect only lasts for about a day, but this "
+"serum is nonetheless incredibly popular back on Earth as many people find "
+"its effects very soothing.\n"
+"\n"
+"Sometimes you feel like you just want to disappear for a while. But then "
+"about a day goes by and you realize that not only did you miss being seen, "
+"but others missed seeing you too."
+msgstr ""
+"놀랍게도, 사냥꾼 슬라임 보석에서 추출한 혈청은 사람을 보이지 않게 만들 수 있습니다! 효과가 하루동안만 지속되지만, 많은 사람들이 매우 "
+"진정되는 혈청의 효과를 발견하여 지구에 돌어와서도 여전히 믿을 수 없을 정도로 인기가 많습니다.\n"
+"\n"
+"종종, 잠시동안 사라지고 싶다는 느낌을 받을 때가 있습니다. 하지만 하루가 지난 뒤 내 자신이 그리워질 뿐만 아니라 다른 사람들도 나를 "
+"그리워했다는 것을 깨닫게 될것입니다."
+
+#: 103
+msgctxt "t.puddle_slime"
+msgid "Puddle Slime"
+msgstr "물웅덩이 슬라임"
+
+#: 104
+msgctxt "m.intro.puddle_slime"
+msgid "Keep one in your boot and you'll always stay cool. But it's weird."
+msgstr "물웅덩이 슬라임 하나를 신발에 넣어 두면 항상 시원함이 유지될 것입니다. 하지만 뭔가 기묘할 것입니다."
+
+#: 105
+msgctxt "m.diet.puddle_slime"
+msgid "Water"
+msgstr "물"
+
+#: 106
+msgctxt "m.favorite.puddle_slime"
+msgid "(none)"
+msgstr "(없음)"
+
+#: 107
+msgctxt "m.slimeology.puddle_slime"
+msgid ""
+"Puddle slimes are a rare species of slime that live in fresh water pools "
+"found on the range. These slimes don't eat fruits, veggies, or meat like "
+"most other slimes. Instead, puddle slimes absorb water into their bodies "
+"while they sit on the surface of a pool.\n"
+"\n"
+"Puddle slimes need fresh water to survive and will quickly evaporate if left "
+"on any other surface for too long."
+msgstr ""
+"물웅덩이 슬라임은 방목장의 강물 웅덩이에서 사는 희귀한 종입니다.물웅덩이 슬라임은 다른 슬라임과는 달리 과일, 야채, 고기를 먹지 "
+"않습니다. 대신, 물웅덩이 슬라임은 물 위에 떠있는 동안 물을 몸 안으로 흡수합니다.\n"
+"\n"
+"물웅덩이 슬라임이 살아가려면 강물이 필요하고, 다른 표면에 오래 놓아 두면 빠르게 증발합니다."
+
+#: 108
+msgctxt "m.risks.puddle_slime"
+msgid ""
+"Puddle slimes aren't risky to manage, they just require a fair bit of "
+"maintenance. A rancher needs a pool of fresh water, like a pond, available "
+"for a puddle slime and its plorts to sit in as they will evaporate if away "
+"from water.\n"
+"\n"
+"Finally, puddle slimes are exceptionally shy and will not produce plorts if "
+"they are in close proximity to more than 3 other slimes.\n"
+"\n"
+"Overall, a puddle slime is a better fit for a more experienced rancher, not "
+"one still wet behind the ears."
+msgstr ""
+"물웅덩이 슬라임을 키우는데 위험한 것은 없으며, 약간의 유지보수만 해주면 됩니다. 목장주는 연못과 같이 강물이 담겨있어 물에서 멀어지면 "
+"증발하는 슬라임이 앉아 있을 웅덩이가 있어야합니다.게다가 물웅덩이 보석이 물 이외에 다른 것과 접촉하면 바로 터집니다.\n"
+"\n"
+"마지막으로 물웅덩이 슬라임은 유난히 수줍어해서 다른 슬라임과 3마리 이상 가까이 붙어 있으면 보석을 만들어 내지 않습니다.\n"
+"\n"
+"전반적으로, 물웅덩이 슬라임은 미숙한 풋내기 목장주 보다는 경험이 풍부한 목장주에게 적합합니다."
+
+#: 109
+msgctxt "m.plortonomics.puddle_slime"
+msgid ""
+"Puddle plorts are made almost entirely from an incredible hydro compound "
+"known by chemists across the galaxy as H2Ohhhhh. This compound is used to "
+"create an absurdly expensive brand of bottled drinking water that is sought "
+"after by the elite back on Earth. While some people argue that there is "
+"little difference in taste between it and tap water, those people seriously "
+"are not getting it."
+msgstr ""
+"물웅덩이 보석은 전 은하의 과학자들에게 H2Ohhhhh라고 알려진 놀라운 수소 화합물로 거의 대부분 구성되어있습니다. 지구로 되돌아간 "
+"엘리트들이 찾는 터무니없이 비싼 브랜드 생수를 만드는데 이 화합물이 쓰입니다.몇몇 사람들은 수돗물과 맛의 차이가 거의 없다고 주장하지만, "
+"이러한 사람들은 진지하게 이해하지 못하고 있습니다."
+
+#: 110
+msgctxt "t.crystal_slime"
+msgid "Crystal Slime"
+msgstr "수정 슬라임"
+
+#: 111
+msgctxt "m.intro.crystal_slime"
+msgid ""
+"It's as clear as shiny, transparent rocks that these slimes are dangerous."
+msgstr "이들이 빛나는 것만큼이나, 위험합니다."
+
+#: 112
+msgctxt "m.diet.crystal_slime"
+msgid "Veggies"
+msgstr "채소"
+
+#: 113
+msgctxt "m.favorite.crystal_slime"
+msgid "Odd Onion"
+msgstr "오드 양파"
+
+#: 114
+msgctxt "m.slimeology.crystal_slime"
+msgid ""
+"Believed to be a cousin of the rock slime, the crystal slime is covered in a "
+"crown of shimmering, crystal spikes. These spikes seem to form from the "
+"crystal slime generating a tremendous amount of internal heat and warping "
+"the minerals around them; a truly alien behavior."
+msgstr ""
+"암석 슬라임의 사촌이라 생각되는 수정 슬라임은 반짝이고 뾰족한 수정 결정으로 이루어진 가시관으로 덮혀있습니다. 이 뾰족한 수정들은 수정 "
+"슬라임 내부에서 어마한 열이 발생하여 주변에 있는 미네랄을 변형시켜 만들어진 것으로 보입니다; 정말로 도저히 이해가 안되는 행동입니다."
+
+#: 115
+msgctxt "m.risks.crystal_slime"
+msgid ""
+"The sharp crystals adorned on the crystal slime's crown will cause a great "
+"deal of harm if touched. Worse still, the crystal slime routinely creates "
+"large patches of hazardous crystals in the environment around them. Thought "
+"to be a means of expelling internal heat, these crystal patches are ultra-"
+"hot, and can be shattered if splashed with water."
+msgstr ""
+"수정 슬라임의 가시관에 있는 날카로운 수정을 만지면 큰 피해를 입을 것입니다.더 나쁜 것은, 수정 슬라임이 주기적으로 주변에 위험한 "
+"수정으로 되어있는 거대한 수정 밭을 만든다는 것입니다.내부의 열을 방출하는 방법으로 생각되는 이러한 수정 밭은 매우 뜨겁고 물을 뿌리면 "
+"산산히 깨질 것입니다."
+
+#: 116
+msgctxt "m.plortonomics.crystal_slime"
+msgid ""
+"Though the crystals produced by a crystal slime are highly unstable, a "
+"crystal plort, like all plorts, is far more pure and can be used by slime "
+"scientists to engineer a variety of metals that are completely transparent. "
+"This innovation has led to metropolitan areas on Earth completely "
+"transforming visually, allowing more light to reach the streets and the "
+"space as a whole a chance to 'breathe.' Architects often describe these "
+"transparent metals as 'so totally cooler than normal, boring metals.'"
+msgstr ""
+"수정 슬라임이 만드는 수정은 매우 불안정하지만, 수정 보석은 다른 모든 보석과 같이 아주 아주 순수하여 슬라임 과학자들이 다양한 금속을 "
+"완전히 투명하게 만드는데 사용할 수 있습니다.이런 혁신으로 지구의 대도시 구역이 시각적으로 완전히 변형되어서, 모든 구역이 '숨을 쉴' "
+"수 있는 기회를 줄 수 있게 더 많은 빛들이 거리와 공간에 도달하도록 하였습니다. 건축가들은 이러한 투명 금속을 보고 '일반적이고, "
+"지루한 금속보다는 완전히 멋진'금속이라 합니다."
+
+#: 117
+msgctxt "t.quantum_slime"
+msgid "Quantum Slime"
+msgstr "퀀텀 슬라임"
+
+#: 118
+msgctxt "m.intro.quantum_slime"
+msgid "A slime that really shows its potential."
+msgstr "잠재력을 보여 주는 슬라임입니다."
+
+#: 119
+msgctxt "m.diet.quantum_slime"
+msgid "Fruit"
+msgstr "과일"
+
+#: 120
+msgctxt "m.favorite.quantum_slime"
+msgid "Phase Lemon"
+msgstr "페이즈 레몬"
+
+#: 121
+msgctxt "m.slimeology.quantum_slime"
+msgid ""
+"Quantum slimes appear to have resulted from some sort of event that took "
+"place in the Ancient Ruins long ago. At all times, the quantum slime is "
+"capable of emitting other possible realities of their being. Called "
+"'ghosts,' these other realities can come true, with the quantum slime "
+"aligning with the reality of the ghost, effectively teleporting."
+msgstr ""
+
+#: 122
+msgctxt "m.risks.quantum_slime"
+msgid ""
+"Quantum slimes can be one of the most difficult slimes to manage, given "
+"their unique abilities. A rancher needs to learn to detect when quantum "
+"slimes are primed to take over the reality of a ghost and act quickly, such "
+"as feeding them or just splashing them with some fresh water as a temporary "
+"measure."
+msgstr ""
+
+#: 123
+msgctxt "m.plortonomics.quantum_slime"
+msgid ""
+"Quantum plorts are believed by many to hold the secret to infinite resources."
+"  Given the quantum slime's ability to change reality, it's theorized that "
+"unlocking the potential of quantum plorts could allow for a technology that "
+"converges the realities of other entities into our reality and- well, "
+"basically we're talking about cloning stuff. Infinite energy, chickens, "
+"whatever. Probably no harmful side effects to this at all."
+msgstr ""
+
+#: 124
+msgctxt "t.fire_slime"
+msgid "Fire Slime"
+msgstr ""
+
+#: 125
+msgctxt "m.intro.fire_slime"
+msgid "Like a little campfire, except that it moves and it's a slime."
+msgstr ""
+
+#: 126
+msgctxt "m.diet.fire_slime"
+msgid "Ash"
+msgstr ""
+
+#: 127
+msgctxt "m.favorite.fire_slime"
+msgid "(none)"
+msgstr ""
+
+#: 128
+msgctxt "m.slimeology.fire_slime"
+msgid ""
+"Fire slimes are a rare breed of slime that lives on ash. Fire slimes will "
+"eat just about any food, but not without it being burned into ash first. The "
+"only way to feed a fire slime is to use an incinerator with an ash trough "
+"upgrade.\n"
+"\n"
+"Fire slimes need ash to survive and will quickly snuff out if left on any "
+"other surface for too long. When keeping fire slimes in an ash trough, "
+"simply burn any food item to produce some ash and fill the trough."
+msgstr ""
+
+#: 129
+msgctxt "m.risks.fire_slime"
+msgid ""
+"A fire slime's naturally burning state makes them bad companions for other "
+"slimes as their fiery touch will send a slime flying. Additionally, fire "
+"slimes and their plorts need to be kept in an ash trough under an "
+"incinerator or they'll quickly snuff out. If you need to deal with fire "
+"slimes directly, a splash of fresh water will put out their fires for a "
+"short while."
+msgstr ""
+
+#: 130
+msgctxt "m.plortonomics.fire_slime"
+msgid ""
+"Fire plorts are used in the developing world on Earth to keep stoves and "
+"fireplaces burning. Thanks to fire plorts, warm hands and hot food is a "
+"possibility for millions of people who otherwise would not have access to "
+"such luxuries.\n"
+"\n"
+"A rancher won't get rich selling fire plorts, and certainly managing them "
+"can be a dangerous endeavour, but they should know that the sale of each "
+"helps those in need. Now and far into the future, the little noble actions "
+"of every individual help us move forward as a people. That much will never "
+"change."
+msgstr ""
+
+#: 131
+msgctxt "t.dervish_slime"
+msgid "Dervish Slime"
+msgstr ""
+
+#: 132
+msgctxt "m.intro.dervish_slime"
+msgid "Twists and turns all day and spirals all night."
+msgstr ""
+
+#: 133
+msgctxt "m.diet.dervish_slime"
+msgid "Fruit"
+msgstr ""
+
+#: 134
+msgctxt "m.favorite.dervish_slime"
+msgid "Prickle Pear"
+msgstr ""
+
+#: 135
+msgctxt "m.slimeology.dervish_slime"
+msgid ""
+"A dervish slime is a swirling, whirling bundle of energy in slimy form. "
+"Dervish slimes are commonly found in the Glass Desert, cruising across its "
+"dusty dunes at high speed atop little whirlwinds.\n"
+"\n"
+"One thing is for certain: wherever the dervish slime needs to go, it gets "
+"there in a hurry."
+msgstr ""
+
+#: 136
+msgctxt "m.risks.dervish_slime"
+msgid ""
+"Dervish slimes can cause total chaos on a ranch if not cared for properly. "
+"In addition to frequently riding atop whirlwinds at high speed and "
+"collecting objects along the way, a highly agitated dervish slime can "
+"produce giant cyclones of air that vacuum up and toss about anything they "
+"touch.\n"
+"\n"
+"When cyclones are roaring across your ranch there's little you can do other "
+"than brace for the chaos that will soon follow!"
+msgstr ""
+
+#: 137
+msgctxt "m.plortonomics.dervish_slime"
+msgid ""
+"Dervish plorts are a fantastic source of clean energy that helps give "
+"turbines and generators an extra boost. They are in constant demand as "
+"curiously, there is a finite number of spins stored in every dervish plort."
+msgstr ""
+
+#: 138
+msgctxt "t.tangle_slime"
+msgid "Tangle Slime"
+msgstr ""
+
+#: 139
+msgctxt "m.intro.tangle_slime"
+msgid "A slime that- that- AACHOOOO!"
+msgstr ""
+
+#: 140
+msgctxt "m.diet.tangle_slime"
+msgid "Meat"
+msgstr ""
+
+#: 141
+msgctxt "m.favorite.tangle_slime"
+msgid "Painted Hen"
+msgstr ""
+
+#: 142
+msgctxt "m.slimeology.tangle_slime"
+msgid ""
+"Though the tangle slime may look innocent with its wide smile and colorful "
+"flower atop its head, it's actually a fearsome predator with a big appetite "
+"for tasty meat. The tangle slime earned its name from the twisting vines "
+"that it can produce to grab things in the environment. \n"
+"\n"
+"It's unknown what caused the tangle slime to become such a fearsome predator "
+"in the barren wastes of the Glass Desert. However, if the land once "
+"resembled the lush greenery of the oases within, perhaps the tangle slime "
+"evolved in a much different environment than what you see today."
+msgstr ""
+
+#: 143
+msgctxt "m.risks.tangle_slime"
+msgid ""
+"The tangle slime can be a handful on the ranch if they're not well-fed at "
+"all times. Not only can tangle slimes tunnel their vines underground to "
+"snatch food and plorts from outside of their corrals, but the flowers on "
+"their head can produce a noxious pollen cloud that causes other slimes to go "
+"into sneezing fits.\n"
+"\n"
+"When slimes sneeze from the pollen their agitation rapidly increases, "
+"causing more boom slime explosions, crystal slime spikes, and all around "
+"jumpiness."
+msgstr ""
+
+#: 144
+msgctxt "m.plortonomics.tangle_slime"
+msgid ""
+"Despite the troublesome nature of the slimes that create them, tangle plorts "
+"have incredibly beneficial agricultural applications. Fertilizers and growth "
+"formulas made from tangle plorts are used by farms all across Earth to "
+"greatly enhance crop production.\n"
+"\n"
+"It's speculated that the unusually high nutrient count found within tangle "
+"plorts that now grow Earth's vegetables results from the tangle slime's "
+"incredible appetite for chickens, but that's super gruesome so let's just "
+"ignore that."
+msgstr ""
+
+#: 145
+msgctxt "t.mosaic_slime"
+msgid "Mosaic Slime"
+msgstr ""
+
+#: 146
+msgctxt "m.intro.mosaic_slime"
+msgid "Remarkable from every angle."
+msgstr ""
+
+#: 147
+msgctxt "m.diet.mosaic_slime"
+msgid "Veggies"
+msgstr ""
+
+#: 148
+msgctxt "m.favorite.mosaic_slime"
+msgid "Silver Parsnip"
+msgstr ""
+
+#: 149
+msgctxt "m.slimeology.mosaic_slime"
+msgid ""
+"The mosaic slime gets its name from the glittering array of glass tiles that "
+"cover its body. This glass produces a similar anomaly found in the desert "
+"itself, making the mosaic slime beautiful, but quite dangerous."
+msgstr ""
+
+#: 150
+msgctxt "m.risks.mosaic_slime"
+msgid ""
+"Mosaic slimes can be very dangerous for an unprepared rancher. Their glass "
+"tiles create a shimmering effect in daylight that attracts other slimes to "
+"them. It is unknown why slimes exhibit this behavior exactly, but leading "
+"theories indicate that 'sparkly things are super cool.'\n"
+"\n"
+"Even more dangerous, the mosaic slime can produce glints in the space around "
+"them: ultra-hot solar anomalies that grow in intensity before drifting "
+"toward the ground and bursting into flames. Glints can be snuffed with a "
+"splash of water, but the best way to reduce their appearance is to ensure "
+"your mosaic slimes are well-fed and not agitated."
+msgstr ""
+
+#: 151
+msgctxt "m.plortonomics.mosaic_slime"
+msgid ""
+"Mosaic plorts are desired for researching the glass structures within the "
+"Glass Desert. Samples of this glass turn brittle when taken from the Far, "
+"Far Range, yet interestingly, mosaic plorts seem unaffected by this "
+"phenomenon.\n"
+"\n"
+"Almost certainly, this glass is being studied because it's really pretty and "
+"not because it can cause devastating solar anomalies."
+msgstr ""
+
+#: 152
+msgctxt "t.saber_slime"
+msgid "Saber Slime"
+msgstr ""
+
+#: 153
+msgctxt "m.intro.saber_slime"
+msgid "Or at least, its descendant."
+msgstr ""
+
+#: 154
+msgctxt "m.diet.saber_slime"
+msgid "Meat"
+msgstr ""
+
+#: 155
+msgctxt "m.favorite.saber_slime"
+msgid "(unknown)"
+msgstr ""
+
+#: 156
+msgctxt "m.slimeology.saber_slime"
+msgid ""
+"Though believed to be long extinct, the saber slime lives on through the "
+"largo slimes in The Wilds. Saber slimes were believed to be one of the "
+"fiercest predators during the Jellassic Period of the Far, Far Range, a time "
+"when gigantic slimes roamed the planet.\n"
+"\n"
+"Though saber slimes are carnivores, the largos in The Wilds display a "
+"curious habit of bundling the rare kookadoba fruit into bundles of sticks, "
+"mud, and slime that become rock-hard in time. Only Ogden's specially "
+"engineered kookacrackers are capable of breaking them."
+msgstr ""
+
+#: 157
+msgctxt "m.risks.saber_slime"
+msgid ""
+"Most saber slime largos found in The Wilds are feral, looking to take a bite "
+"out of whatever they see. They're also incredibly agile for slimes, capable "
+"of powerful jumps that allow them to bound off other surfaces before "
+"targeting their prey.\n"
+"\n"
+"If you encounter a horde of feral saber slime largos, watch your back so you "
+"don't get flanked!"
+msgstr ""
+
+#: 158
+msgctxt "m.plortonomics.saber_slime"
+msgid ""
+"Saber plorts are collected for their historical value, offering a window "
+"into the primitive past of the Far, Far Range. Some slime scientists have "
+"tried to extract the slime DNA from these plorts in order to recreate a true "
+"saber slime, but all have failed. And honestly, that's probably for the "
+"better, because as soon as that happens some charming billionaire would be "
+"talking about making a whole theme park to view them in captivity and then..."
+""
+msgstr ""
+
+#: 159
+msgctxt "t.tarr_slime"
+msgid "The Tarr"
+msgstr "타르"
+
+#: 160
+msgctxt "m.intro.tarr_slime"
+msgid "Those awful, ravenous, rainbows."
+msgstr "그것들은 무섭고, 게걸스러우며, 무지개색입니다"
+
+#: 161
+msgctxt "m.diet.tarr_slime"
+msgid "Slimes"
+msgstr "슬라임들"
+
+#: 162
+msgctxt "m.favorite.tarr_slime"
+msgid "Ranchers!"
+msgstr "랜처들!"
+
+#: 163
+msgctxt "m.slimeology.tarr_slime"
+msgid ""
+"The tarr are formed when a largo eats a plort unlike the ones it produces. A "
+"terrible transformation occurs that turns the slime into a sludge filled "
+"with a swirling, prismatic array of colors and a relentless appetite. The "
+"tarr seek only to consume and replicate.\n"
+"\n"
+"The only way to stop a tarr outside of incinerating it or throwing it into "
+"the slime sea is with fresh water. One splash will stop a tarr from spawning "
+"new tarr, and repeated splashes will destroy it entirely.\n"
+"\n"
+"Alternatively many ranchers recommend running away with their arms waving, "
+"and screaming."
+msgstr ""
+"타르 슬라임들은 라르고들이 원본과 다른 종류의 보석을 먹을 때 만들어집니다. 슬라임은 소용돌이치는 여러 가지 색의 끈적이로 바뀌고 "
+"무지막지한 식욕을 가집니다. 그들은 오직 먹고 자신들을 복제하는 것을 반복합니다. 그들을 막을 방법은 소각장에 타르 슬라임을 쳐넣거나 "
+"바다에 던지거나 담수를 이용하는 것입니다. 물을 계속 뿌리면 그들은 파괴됩니다.\n"
+"다른 대안으로는, 많은 목장주들이 팔을 흔들고 비명을 지르며 도망치는 것을 추천합니다."
+
+#: 164
+msgctxt "m.risks.tarr_slime"
+msgid ""
+"The tarr are the single biggest threat to ranchers. The tarr will seek out "
+"slimes to consume and replicate themselves, but will also devour chickens, "
+"rot crops in their proximity, and even devour ranchers! \n"
+"\n"
+"Remember: ranching largos may be highly profitable, but one stray plort and "
+"you could wind up with a devastating tarr outbreak."
+msgstr ""
+"타르 슬라임은 목장주에게 가장 큰 위험 중 하나입니다. 그들은 스스로를 복제하며 닭과 농작물, 그리고 목장주를 삼켜버릴 것입니다.\n"
+"기억하십시오:느림보 슬라임들은 수익성이 높지만, 실수로 놓친 보석 하나가 타르 폭동을 일으킬 수 있습니다."
+
+#: 165
+msgctxt "m.plortonomics.tarr_slime"
+msgid "The tarr produce no plorts, only more tarr. And then more tarr still."
+msgstr "테라는 어떤 보석도 만들지 않으며 오직 더 많은 테라만을 만듭니다."
+
+#: 166
+msgctxt "t.gold_slime"
+msgid "Gold Slime"
+msgstr "황금 슬라임"
+
+#: 167
+msgctxt "m.intro.gold_slime"
+msgid "Get rich or die sliming."
+msgstr "부자가 되거나 슬라임으로 죽거나"
+
+#: 168
+msgctxt "m.diet.gold_slime"
+msgid "Exclusive"
+msgstr "특이"
+
+#: 169
+msgctxt "m.favorite.gold_slime"
+msgid "(none)"
+msgstr "(없음)"
+
+#: 170
+msgctxt "m.slimeology.gold_slime"
+msgid ""
+"The most elusive and sought after of all slime species is easily the gold "
+"slime. Very little is known about these slippery creatures as they have "
+"proven impossible to capture. Gold slimes are quick as a flash and will "
+"immediately begin to flee ranchers on sight. If a rancher is to profit from "
+"an encounter with a gold slime, they need to think quick."
+msgstr ""
+"황금 슬라임은 모든 슬라임 중에서 가장 알려지지 않은 특별한 종입니다. 황금 슬라임은 목장주를 발견한 즉시 도망갈 것이고 포획은 "
+"불가능합니다. 만약 목장주가 골드 슬라임과의 만남에서 이득을 얻으려면 빨리 행동할 필요가 있습니다."
+
+#: 171
+msgctxt "m.risks.gold_slime"
+msgid ""
+"Gold slimes produce no direct risks to a rancher but their appearance often "
+"induces panic and leads to (sometimes fatal) mistakes. Further, the only way "
+"to obtain gold plorts is to strike a gold slime with any spare resources in "
+"your vac. Doing so can produce a gold plort, though it also leaves a trail "
+"of additional resources in the area, leading to unintended largos, or worse."
+msgstr ""
+"황금 슬라임은 목장주에게 위협이 되지 않지만 그들의 출현으로 당황할 수 있고 치명적인 실수로 이어집니다. 황금 보석을 얻는 유일한 방법은 "
+"남는 자원으로 골드 슬라임을 공격하는(먹이는) 것입니다.이 행동이 느림보를 만들어내거나 더 나쁜 일을 초래할 수 있음에 주의하십시오."
+
+#: 172
+msgctxt "m.plortonomics.gold_slime"
+msgid ""
+"Gold plorts have little practical use and are the most valuable of all "
+"plorts simply because they are shiny and rare. Back on Earth, the elite love "
+"to adorn themselves in jewelry made of gold plorts, far exceeding the value "
+"of any terrestrial precious metal. For this reason a rancher should never "
+"pass up the chance to get a gold plort or two from a chance encounter with a "
+"gold slime."
+msgstr ""
+"황금 보석은 실용성은 없지만 단순히 반짝이기 때문에 가장 비쌉니다. 지구의 고위층들은 보석과 황금으로 자신을 치장합니다.이런 이유로 황금 "
+"보석은 어떤 보석들보다도 귀하기 때문에 목장주는 황금 보석 1~2개를 얻을 기회를 절대 놓치지 않을 것입니다."
+
+#: 173
+msgctxt "t.lucky_slime"
+msgid "Lucky Slime"
+msgstr "행운 슬라임"
+
+#: 174
+msgctxt "m.intro.lucky_slime"
+msgid "Oooh, shiny!"
+msgstr "오, 빛나는군요!"
+
+#: 175
+msgctxt "m.diet.lucky_slime"
+msgid "Meat"
+msgstr "고기"
+
+#: 176
+msgctxt "m.favorite.lucky_slime"
+msgid "(none)"
+msgstr "(없음)"
+
+#: 177
+msgctxt "m.slimeology.lucky_slime"
+msgid ""
+"Lucky slimes are a strange variant of tabby slimes that seem to have a "
+"fascination with shiny objects, particularly newbuck coins. A lucky slime "
+"gobbles up any coin it can find, giving it a distinct jingling sound as they "
+"move about.\n"
+"\n"
+"However, coins don't make for a balanced diet and a lucky slime will still "
+"greedily devour meat of any kind. In so doing, its body bursts with a shower "
+"of newbucks, having little room left in its slimy tummy. This burst often "
+"sends the lucky slime flying into the air.\n"
+"\n"
+"Upon detecting a rancher, the lucky slime will soon make a hasty retreat. No "
+"known rancher has ever been skillful enough, or perhaps lucky enough, to "
+"capture one of these slippery slimes."
+msgstr ""
+"행운 슬라임은 반짝이는 물체, 특히 동전같은 물체에 강한 흥미를 가지는 고양이 슬라임의 이상한 변종입니다.행운 슬라임이 동전을 발견하면 "
+"바로 주워 먹기 때문에 움직일때마다 눈에 띄는 짤랑짤랑 소리가 납니다.\n"
+"하지만 동전은 균형잡힌 식단이 되지 못하며, 행운 슬라임은 어떠한 고기든지 탐욕스럽게 먹어 치울것입니다.이렇게 하면, 슬라임의 몸은 "
+"터지면서 동전이 쏟아질 것이며, 그 슬라임질 배는 조그만 공간만 남을 것입니다.이러한 폭발은 행운 슬라임을 공중으로 날려버릴 것입니다.\n"
+"\n"
+"행운 슬라임이 목장주를 발견하면 신속히 도망갑니다. 이 미끈거리는 슬라임을 한마리라도 잡아볼 정도로 충분히 숙련됬거나, 어쩌면 운이 좋을 "
+"만한 그런 목장주는 알려진적이 없습니다."
+
+#: 178
+msgctxt "m.risks.lucky_slime"
+msgid ""
+"Lucky slimes pose the same risk to ranchers as other rare slimes: mainly, "
+"accidents in their pursuit that can lead to a rancher's demise. The promise "
+"of a small fortune when encountering a lucky slime has led more than a few "
+"ranchers head-first into the slime sea.\n"
+"\n"
+"This occurence has led some of the more superstitious ranchers to see the "
+"lucky slime as a bad omen, or perhaps as the universe testing their greed. "
+"These ranchers will ignore lucky slimes altogether, even purposefully "
+"shooing them away. Well, until you hear those newbucks jingling, and then, "
+"maybe just one shot couldn't hurt..."
+msgstr ""
+"행운 슬라임은 다른 귀한 슬라임 처럼 다음과 같은 위험을 초래합니다:목장주가 뒤쫒을 때 사망으로 이어질 수 있는 사고를 초래할 수 "
+"있습니다. 행운 슬라임을 만났을 때 작은 재산이 생길 것이라는 기대때문에 일부 목장주가 슬라임 바다로 향하였습니다.\n"
+"\n"
+"이러한 일이 발생함에 따라 몇몇 미신을 믿는 목장주들은 행운 슬라임을 불행으 전조로 보았고, 어쩌면 우주가 그들의 탐욕을 시험하는 것이라 "
+"여겼습니다. 이런 목장주는 행운 슬라임을 모두 무시할 것이며 심지어 의도적으로 멀리 쏘아 보낼것입니다. 글쎄요, 동전이 짤랑거리는 소리를 "
+"듣기 전까지는, 한 방으로는 다치게할 수 없을껍니다..."
+
+#: 179
+msgctxt "m.plortonomics.lucky_slime"
+msgid ""
+"A lucky slime isn't known to produce plorts of any kind. Leading slime "
+"scientists believe this to be the result of the lucky slime not being a true "
+"slime variant. Rather, lucky slimes are believed to be just an abnormal "
+"tabby slime: one whose color has faded as a result of ingesting so many "
+"coins. It is perhaps this very change that also led to ceasing plort "
+"production."
+msgstr ""
+"행운 슬라임은 어떤 종류의 보석도 생산하지 않는 것으로 알려져있습니다. 슬라임 연구를 이끌어가는 과학자들은 행운 슬라임이 진정한 슬라임 "
+"변종이 아니라는 것 때문이라고 생각합니다. 오히려 행운 슬라임은 많은 동전을 섭취하여 개성이 퇴화한 비정상적인 고양이 슬라임이라 여겨지고 "
+"있습니다. 아마도 바로 그 변화로 보석 생산도 중단되었을 것입니다."
+
+#: 180
+msgctxt "t.largo_slime"
+msgid "Largo Slimes"
+msgstr "느림보 슬라임"
+
+#: 181
+msgctxt "m.intro.largo_slime"
+msgid "There's just more to love."
+msgstr "그들은 단지 더 많은 걸 좋아합니다."
+
+#: 182
+msgctxt "m.diet.largo_slime"
+msgid "(source slime's diet)"
+msgstr "재료 슬라임의 먹이"
+
+#: 183
+msgctxt "m.favorite.largo_slime"
+msgid "(source slime's favorite)"
+msgstr "재료 슬라임의 선호"
+
+#: 184
+msgctxt "m.slimeology.largo_slime"
+msgid ""
+"Largo slimes are a hybrid of two slimes resulting from a slime eating a "
+"plort unlike its own. They are twice as big as normal slimes and have a "
+"combined diet of their two source slimes, making them enticing for ranchers "
+"that want to maximize their profits. \n"
+"\n"
+"However, a largo is too big to vac and can only be transported using the end "
+"of the vac nozzle. This makes them difficult to control if things get out of "
+"hand."
+msgstr ""
+"느림보 슬라임은 슬라임 두 종류의 혼합체이며 그 둘의 보석을 뱉어냅니다. 그들은 일반적인 슬라임보다 훨씬 크고 원본이 되는 슬라임의 "
+"식단을 동시에 가지므로 \n"
+" 이익을 극대화하려는 목장주가 만들어내고는 합니다. 그렇지만 이들은 너무 커서 빨아들일 수 없으며 통제하기 어렵고 오직 일일이 손으로 "
+"움직여야 합니다"
+
+#: 185
+msgctxt "m.risks.largo_slime"
+msgid ""
+"In addition to largos being more difficult to manage and having the combined "
+"powers of two slimes, an even greater threat to ranchers lies within these "
+"super-sized slimes. If a largo eats a plort unlike its two source slimes, it "
+"will transform into a ravenous tarr slime! \n"
+"\n"
+"Ranchers need to be very careful when dealing with largos or risk an "
+"outbreak of tarr that can quickly overtake their entire ranch. Always carry "
+"a full tank of water just in case!"
+msgstr ""
+"느림보 슬라임은 두 마리의 결합된 능력을 가지고 있지만 관리하기가 더 어렵습니다. 목장주에게 있어 더 큰 위험은, 이들이 원래 슬라임의 "
+"보석들과 다른 종류의 보석을 먹으면 타르로 변할 것이라는 점입니다. 목장주는 느림보 슬라임을 다룰 때 항상 타르로 변할 수 있다는 점을 "
+"염두에 두고 조심스럽게 관리해야 합니다. 만에 하나의 경우를 대비해서 항상 충분한 양의 물탱크를 휴대하십시오."
+
+#: 186
+msgctxt "m.plortonomics.largo_slime"
+msgid ""
+"When a largo eats, it produces plorts of both source slime types, making "
+"them potentially very lucrative for ranchers that can deal with the added "
+"risk of keeping them."
+msgstr "느림보 슬라임은 음식을 먹을 때 두 종류의 보석을 생산해내며 추가적인 위험을 감수할 수 있는 목장주에게 매우 유리합니다."
+
+#: 187
+msgctxt "t.gordo_slime"
+msgid "Gordo Slimes"
+msgstr "고도 슬라임"
+
+#: 188
+msgctxt "m.intro.gordo_slime"
+msgid "Bon appetit!"
+msgstr "식욕을 돋구세요!"
+
+#: 189
+msgctxt "m.diet.gordo_slime"
+msgid "(source slime's diet)"
+msgstr "(슬라임 먹이의 원천)"
+
+#: 190
+msgctxt "m.favorite.gordo_slime"
+msgid "(source slime's favorite)"
+msgstr "(슬라임 선호의 원천)"
+
+#: 191
+msgctxt "m.slimeology.gordo_slime"
+msgid ""
+"Gordo slimes are a rare phenomenon that occurs when multiple slimes of the "
+"same type congregate. The result is that the slimes seem to merge together "
+"into a much larger slime that is seemingly incapable of movement. \n"
+"\n"
+"A gordo will eat until it bursts, causing all the slimes to separate once "
+"more, as well as revealing whatever object it was that caused the gordo to "
+"form in the first place."
+msgstr ""
+"고도 슬라임은 드물게 같은 종류의 여러 슬라임이 생길 때 발생하는 드문 현상입니다. 훨씬 큰 슬라임으로 합쳐진 것처럼 보입니다. 고도 "
+"슬라임은 움직일 수 없으며 배 터질 때까지 먹을 것이고 그 후에 원래대로 분리되어 돌아갈 것입니다. 아마도 고도 슬라임은 그런 식탐 "
+"때문에 만들어진 거겠죠."
+
+#: 192
+msgctxt "m.risks.gordo_slime"
+msgid ""
+"Gordos pose no real risk to ranchers, they can only sometimes be a nuisance "
+"in that they are hiding something a rancher might need. So if you see a "
+"gordo, feed it!"
+msgstr "고도들은 목장주에게 위협이 되지 않으며 도움이 되는 것들을 숨기고 있습니다. 그러니 그들을 발견하거든, 먹이십시오!"
+
+#: 193
+msgctxt "m.plortonomics.gordo_slime"
+msgid ""
+"Gordos produce no plorts on their own, however the slimes they produce after "
+"bursting do like any normal slime."
+msgstr "고도 슬라임은 아무런 보석도 만들어내지 못하며 배가 터진 후에는 일반 슬라임들로 돌아갑니다."
+
+#: 194
+msgctxt "t.feral_slime"
+msgid "Feral Slimes"
+msgstr "야생 슬라임"
+
+#: 195
+msgctxt "m.intro.feral_slime"
+msgid "It's hard to be nice on an empty stomach."
+msgstr "공복감이 그들을 신사답지 못하게 하죠."
+
+#: 196
+msgctxt "m.diet.feral_slime"
+msgid "(source slime's diet)"
+msgstr "(슬라임 먹이의 원천)"
+
+#: 197
+msgctxt "m.favorite.feral_slime"
+msgid "(source slime's favorite)"
+msgstr "(슬라임 선호의 원천)"
+
+#: 198
+msgctxt "m.slimeology.feral_slime"
+msgid ""
+"Feral slimes are largos with a mean streak that will attack a rancher on "
+"sight. It's not known what exactly causes a largo to become so grumpy that "
+"it goes feral, but it's suspected that they've simply gone too long without "
+"a bite to eat. Like so many things with slimes, food is everything. \n"
+"\n"
+"If a feral slime eats, it will revert to a normal largo."
+msgstr ""
+"야생 슬라임들은 목장주를 발견하는 즉시 공격할 것입니다.왜 그들이 그렇게 야만적이고 심술스러운지에 대해서는 알려진 바가 없지만 어쩌면 "
+"그들은 단순히 너무 배고픈 것일지도 모릅니다. 다른 모든 슬라임들처럼, 먹는 게 전부입니다.\n"
+"야생 슬라임을 먹인다면, 그들은 일반적인 슬라임으로 돌아갈 것입니다."
+
+#: 199
+msgctxt "m.risks.feral_slime"
+msgid ""
+"Feral slimes can pose a serious risk to ranchers if they're not dealt with "
+"quickly, or avoided altogether. Feral slimes will attempt to bite ranchers "
+"at close range or jump in the air and try to stomp them with their... butts? "
+"In any case, a rancher needs to act fast and feed the feral slime something "
+"tasty to avoid such troubles."
+msgstr ""
+"야생 슬라임을 신속하게 처리하거나 피하지 않으면 목장주에게 심각한 위험을 야기할 수 있습니다. 야생 슬라임은 목장주를 물려고 하거나 "
+"공중으로 뛰어올라 그들의 엉덩이로 깔아뭉개려 할 것입니다.빠르게 뭔가를 먹임으로서 목장주는 이러한 문제를 해결할 수 있습니다."
+
+#: 200
+msgctxt "m.plortonomics.feral_slime"
+msgid ""
+"Feeding a feral slime not only calms it down, but it also produces plorts in "
+"the same manner as a largo. Though, there are certainly easier ways out "
+"there to acquire plorts!"
+msgstr "야생 슬라임을 먹이는 것은 그들을 진정시키는 것 뿐만 아니라 그들의 보석을 획득할 수 있는 확실한 방법입니다!"
+
+#: 201
+msgctxt "t.carrot"
+msgid "Carrot"
+msgstr "당근"
+
+#: 202
+msgctxt "m.intro.carrot"
+msgid "Next to a vacpack, it's a rancher's best friend."
+msgstr "배낭으로 넘어가죠, 그들은 목장주의 가장 좋은 친구입니다!"
+
+#: 203
+msgctxt "m.favored_by.carrot"
+msgid "(none)"
+msgstr "(없음)"
+
+#: 204
+msgctxt "m.resource_type.carrot"
+msgid "Veggie"
+msgstr "채식주의자"
+
+#: 205
+msgctxt "m.how_to_use.carrot"
+msgid ""
+"Deposit a carrot into a garden's depositor and you'll have a large carrot "
+"crop of your very own."
+msgstr "정원의 투입구에 당근을 넣으면 자신만의 큰 당근 밭이 만들어 집니다.이 밭은 몇 번은 수확할 수 있습니다."
+
+#: 206
+msgctxt "m.desc.carrot"
+msgid ""
+"The humble carrot was brought to the Far, Far Range because they're easy to "
+"grow and nutritious. Most ranchers swear by them as they're a handy portable "
+"snack, promote good night vision, and when juiced are second only to coffee "
+"as the perfect morning beverage."
+msgstr ""
+"수수한 당근은 기르기 쉽고 영양가가 있기 때문에 머나먼 방목장으로 가져왔습니다.많은 목장주들이 간편하게 들고다니며 먹기 좋은 간식이라 "
+"하는 당근은 야간 시력을 좋게 하고, 아침에 마시는 완벽한 음료로는 커피에 버금가는 쥬스도 됩니다."
+
+#: 207
+msgctxt "t.ocaoca"
+msgid "Oca Oca"
+msgstr "오카 오카"
+
+#: 208
+msgctxt "m.intro.ocaoca"
+msgid "A tubular mix of colorful spuds."
+msgstr "대롱모양의 화려한 색이 섞여있는 감자"
+
+#: 209
+msgctxt "m.favored_by.ocaoca"
+msgid "Rad Slime"
+msgstr "방사능 슬라임"
+
+#: 210
+msgctxt "m.resource_type.ocaoca"
+msgid "Veggie"
+msgstr "야채"
+
+#: 211
+msgctxt "m.how_to_use.ocaoca"
+msgid ""
+"Deposit an oca oca into a garden's depositor and you'll have a large oca oca "
+"crop of your very own."
+msgstr "정원의 투입구에 오카 오카을 넣으면 자신만의 큰 오카 오카 밭이 만들어 집니다.이 밭은 몇 번은 수확할 수 있습니다."
+
+#: 212
+msgctxt "m.desc.ocaoca"
+msgid ""
+"A staple of cooking on the range, the hearty oca oca is a naturally salty, "
+"soft spud. As the key ingredient to the always tasty 'rancher's hashbrowns' "
+"they have likely been the fuel for a great deal of slime wrangling since "
+"their discovery on the range."
+msgstr ""
+"방목지에서 요리용 재료로, 왕성한 오카 오카는 자연적으로 짭조름하고 부드러운 감자입니다. 항상 맛있는 '목장주의 해시브라운'의 핵심 "
+"성분이기 때문에 오카 오카가 방목장에서 발견된 이후로 슬라임들이 빈번하게 다투는데 부채질을 하였습니다."
+
+#: 213
+msgctxt "t.beet"
+msgid "Heart Beet"
+msgstr "하트비트"
+
+#: 214
+msgctxt "m.intro.beet"
+msgid "If you listen to it closely, you can faintly hear a veggie."
+msgstr "귀에 가져다대고 들으면 희미한 야채 소리를 들을 수 있습니다."
+
+#: 215
+msgctxt "m.favored_by.beet"
+msgid "Rock Slime"
+msgstr "암석 슬라임"
+
+#: 216
+msgctxt "m.resource_type.beet"
+msgid "Veggie"
+msgstr "야채"
+
+#: 217
+msgctxt "m.how_to_use.beet"
+msgid ""
+"Deposit a heart beet into a garden's depositor and you'll have a large heart "
+"beet crop of your very own."
+msgstr "정원의 투입구에 하트비트를 넣으면 자신만의 큰 하트비트 밭이 만들어 집니다.이 밭은 몇 번은 수확할 수 있습니다."
+
+#: 218
+msgctxt "m.desc.beet"
+msgid ""
+"Heart beets get their name from their deep, red color and heart-like shape. "
+"Heart beets are also unusually juicy for a beet, making it the only veggie "
+"that's not for the squeamish in the kitchen."
+msgstr ""
+"하트 비트라는 이름은 짙은 빨간색과 심장 모양처럼 생긴 것으로 부터 왔습니다. 하트 비트는 보통 비트처럼 즙이 많아서 주방에서 비위가 "
+"약한 사람한테는 적합하지 않은 유일한 야채입니다."
+
+#: 219
+msgctxt "t.onion"
+msgid "Odd Onion"
+msgstr "오드 양파"
+
+#: 220
+msgctxt "m.intro.onion"
+msgid "I wouldn't trust this onion, even less so than a normal onion."
+msgstr "평범한 양파보다 적을지라도 난 이 양파를 믿지 않을 것이다."
+
+#: 221
+msgctxt "m.favored_by.onion"
+msgid "Crystal Slime"
+msgstr "수정 슬라임"
+
+#: 222
+msgctxt "m.resource_type.onion"
+msgid "Veggie"
+msgstr "채식주의자"
+
+#: 223
+msgctxt "m.how_to_use.onion"
+msgid ""
+"Deposit an odd onion into a garden's depositor and strangely, carrots will "
+"begin to grow. However, there is a good chance you'll get some odd onions in "
+"the crop as well."
+msgstr "정원의 투입구에 오드 양파를 넣으면 자신만의 큰 오드 양파 밭이 만들어 집니다.이 밭은 몇 번은 수확할 수 있습니다."
+
+#: 224
+msgctxt "m.desc.onion"
+msgid ""
+"Odd onions can only be foraged in the wild from the Indigo Quarry; however, "
+"you'll never encounter an odd onion patch. Instead, odd onions can be found "
+"randomly in other veggie patches. As the saying goes, 'forage in the Indigo "
+"Quarry and you'll always find the odd onion in your haul.'"
+msgstr ""
+"오드 양파는 인디고 채석장의 야생에서만 발견할 수 있습니다; 하지만, 오드 양파 텃밭을 마주치지는 못할 것입니다. 대신에 오드 양파는 "
+"다른 야채 텃밭에서 무작위로 발견할 수 있습니다. 속담에도 있듯이, '인디고 채석장에서 먹을 것을 찾아다니다보면 항상 그물에는 오드 "
+"양파를 찾게 될 것이다'"
+
+#: 225
+msgctxt "t.parsnip"
+msgid "Silver Parsnip"
+msgstr "은색 파스닙"
+
+#: 226
+msgctxt "m.intro.parsnip"
+msgid "Like a carrot's rich, sophisticated cousin. Also, it's silver."
+msgstr "당근의 호화롭고, 우아한 사촌 같습니다. 또한, 은색이기까지 합니다."
+
+#: 227
+msgctxt "m.favored_by.parsnip"
+msgid "Mosaic Slime"
+msgstr "메테오 슬라임"
+
+#: 228
+msgctxt "m.resource_type.parsnip"
+msgid "Veggie"
+msgstr "채식주의자"
+
+#: 229
+msgctxt "m.how_to_use.parsnip"
+msgid ""
+"Deposit a silver parsnip into a garden's depositor and you'll have a large "
+"silver parsnip crop of your very own."
+msgstr "정원의 투입구에 은색 파스닙을 넣으면 자신만의 큰 은색 파스닙 밭이 만들어 집니다.이 밭은 몇 번은 수확할 수 있습니다."
+
+#: 230
+msgctxt "m.desc.parsnip"
+msgid ""
+"Despite their slightly metallic aftertaste, these shimmering root veggies "
+"are considered a delicacy by gourmands across the galaxy. On the Far, Far "
+"Range, ranchers often eat them during the holidays, to bring good fortune in "
+"the coming year."
+msgstr ""
+"뒷맛에 금속맛이 약간 날지라도, 은하계 전역의 미식가들은 이 반짝이는 뿌리 채소를 진미로 여깁니다. 머나먼 방목장에서는 목장주들이 내년에 "
+"행운을 가져다 주리라 생각하면서 연말 휴가때 은색 파스닙을 먹습니다."
+
+#: 231
+msgctxt "t.ginger"
+msgid "Gilded Ginger"
+msgstr ""
+
+#: 232
+msgctxt "m.intro.ginger"
+msgid "Very few ranchers will ever read this."
+msgstr ""
+
+#: 233
+msgctxt "m.favored_by.ginger"
+msgid "Gold Slime"
+msgstr ""
+
+#: 234
+msgctxt "m.resource_type.ginger"
+msgid "Veggie"
+msgstr ""
+
+#: 235
+msgctxt "m.how_to_use.ginger"
+msgid ""
+"Said to be the holy grail of veggies, gilded ginger can very rarely be found "
+"growing in the Glass Desert. It is the only known food that a gold slime "
+"will eat, and the few that have seen it claim that doing so will greatly "
+"reward the lucky rancher."
+msgstr ""
+
+#: 236
+msgctxt "m.desc.ginger"
+msgid ""
+"Curiously, gilded ginger cannot be replicated in a garden as its unusual "
+"biological properties prohibit it. However, there is perhaps another use for "
+"it..."
+msgstr ""
+
+#: 237
+msgctxt "t.pogo"
+msgid "Pogofruit"
+msgstr "포고프루트"
+
+#: 238
+msgctxt "m.intro.pogo"
+msgid ""
+"The most common fruit found on the Range, and some say, the most delicious."
+msgstr "방목장에서 가장 흔한 과일입니다. 누군가는 가장 맛있다고도 합니다."
+
+#: 239
+msgctxt "m.favored_by.pogo"
+msgid "(none)"
+msgstr "(없음)"
+
+#: 240
+msgctxt "m.resource_type.pogo"
+msgid "Fruit"
+msgstr "과일"
+
+#: 241
+msgctxt "m.how_to_use.pogo"
+msgid ""
+"Deposit a pogofruit into a garden's depositor and you'll grow a large "
+"pogofruit tree of your very own."
+msgstr "정원의 투입구에 포고프루트을 넣으면 자신만의 큰 포고프루트 나무가 만들어 집니다.이 나무에서 몇 번은 수확할 수 있습니다."
+
+#: 242
+msgctxt "m.desc.pogo"
+msgid ""
+"Pogofruit are a common sight almost anywhere on the Far, Far Range. Tasting "
+"a bit like a peach, they're most notable for having their trademark spots "
+"both on and under the skin."
+msgstr ""
+"포고프루트는 머나먼 방목장에 어디에서나 흔히 볼 수 있습니다. 복숭아처럼 한입 베어 물어보면 껍질 밖과 껍질 안 두 곳에서 특짐 점을 볼 "
+"수 있을것입니다."
+
+#: 243
+msgctxt "t.mango"
+msgid "Mint Mango"
+msgstr "민트 망고"
+
+#: 244
+msgctxt "m.intro.mango"
+msgid "Intensely sweet with a cool, minty finish."
+msgstr "강렬하게 달면서 시원하고 민트향으로 마무리됩니다."
+
+#: 245
+msgctxt "m.favored_by.mango"
+msgid "Honey Slime"
+msgstr "꿀 슬라임"
+
+#: 246
+msgctxt "m.resource_type.mango"
+msgid "Fruit"
+msgstr "과일"
+
+#: 247
+msgctxt "m.how_to_use.mango"
+msgid ""
+"Deposit a mint mango into a garden's depositor and you'll grow a large mint "
+"mango tree of your very own."
+msgstr "정원의 투입구에 민트 망고를 넣으면 자신만의 큰 민트 망고 나무가 만들어 집니다.이 나무에서 몇 번은 수확할 수 있습니다."
+
+#: 248
+msgctxt "m.desc.mango"
+msgid ""
+"The mint mango is perhaps the sweetest fruit ever discovered. Its appearance "
+"is that of a mango, with a thicker, syrup-like juice, and a bright, minty "
+"aftertaste. It's no wonder honey slimes seek them out or that they have such "
+"amazingly fresh breath."
+msgstr ""
+"민트 망고는 아마도 지금까지 발견 된 과일중 가장 달콤한 과일일 것입니다. 망고같은 생김새에 진하고 시럽 같은 과즙, 선명하고 민트 향이 "
+"나는 끝맛이 있습니다. 꿀 슬라임이 민트 망고를 찾아다니는 것이나 꿀 슬라임이 놀랄만큼 생생한 향기를 가지고 있는 것이 놀랄 일이 "
+"아닙니다."
+
+#: 249
+msgctxt "t.cuberry"
+msgid "Cuberry"
+msgstr "각딸기"
+
+#: 250
+msgctxt "m.intro.cuberry"
+msgid "Delicate, sweet, and they never roll off the table."
+msgstr "맛 좋고, 달달하고, 절대 테이블에서 굴러 떨어지지 않습니다."
+
+#: 251
+msgctxt "m.favored_by.cuberry"
+msgid "Phosphor Slime"
+msgstr "형광 슬라임"
+
+#: 252
+msgctxt "m.resource_type.cuberry"
+msgid "Fruit"
+msgstr "과일"
+
+#: 253
+msgctxt "m.how_to_use.cuberry"
+msgid ""
+"Deposit a cuberry into a garden's depositor and you'll grow a large cuberry "
+"tree of your very own."
+msgstr "정원의 투입구에 각딸기를 넣으면 자신만의 큰 각딸기 나무가 만들어 집니다.이 나무에서 몇 번은 수확할 수 있습니다."
+
+#: 254
+msgctxt "m.desc.cuberry"
+msgid ""
+"Due to their sweet taste and curious shape, cuberries were quick to become a "
+"favorite amongst the first ranchers on the range. They are often used in "
+"cakes and pies when celebrating special occasions, like birthdays or "
+"Plortapalooza."
+msgstr ""
+"각딸기의 달달한 맛과 신기하게 생긴 모양 때문에 각딸기는 방목장의 첫 세대 목장주들 사이에서 선호하는 과일로 퍼져나갔습니다. 생일이나 "
+"Plortapalooza 같이 특별한 일을 축하해야 할 때 종종 케이크나 파이에 각딸기를 넣습니다."
+
+#: 255
+msgctxt "t.pear"
+msgid "Prickle Pear"
+msgstr "프리클 피어"
+
+#: 256
+msgctxt "m.intro.pear"
+msgid "This is a fruit that knows how to fight back."
+msgstr "이 과일은 어떻게 반격하면 좋은지 잘 아는 과일이다."
+
+#: 257
+msgctxt "m.favored_by.pear"
+msgid "Dervish Slime"
+msgstr "데르비시 슬라임"
+
+#: 258
+msgctxt "m.resource_type.pear"
+msgid "Fruit"
+msgstr "과일"
+
+#: 259
+msgctxt "m.how_to_use.pear"
+msgid ""
+"Deposit a prickle pear into a garden's depositor and you'll grow a large "
+"prickle pear tree of your very own."
+msgstr ""
+"정원의 투입구에 프리클 피어를 넣으면 자신만의 큰 프리클 피어 나무가 만들어 집니다.이 나무에서 몇 번은 수확할 수 있습니다."
+
+#: 260
+msgctxt "m.desc.pear"
+msgid ""
+"Prickle pears are as tough as the Glass Desert itself: having a thick, "
+"leathery skin and covered in sharp barbs, they're an 'acquired taste' to be "
+"sure. But those that put forth the (cautious) effort will find one of the "
+"sweetest fruits in the known universe hiding within."
+msgstr "(출현 묘사)"
+
+#: 261
+msgctxt "t.lemon"
+msgid "Phase Lemon"
+msgstr ""
+
+#: 262
+msgctxt "m.intro.lemon"
+msgid "Plucked from a tree rooted in the... past? Future? Or...?"
+msgstr ""
+
+#: 263
+msgctxt "m.favored_by.lemon"
+msgid "Quantum Slime"
+msgstr ""
+
+#: 264
+msgctxt "m.resource_type.lemon"
+msgid "Fruit"
+msgstr ""
+
+#: 265
+msgctxt "m.how_to_use.lemon"
+msgid ""
+"Deposit a phase lemon into a garden's depositor and you'll grow a large "
+"phase lemon tree of your very own."
+msgstr ""
+
+#: 266
+msgctxt "m.desc.lemon"
+msgid ""
+"A phase lemon comes from a different place and time. They are like an echo, "
+"reverberating through the halls of the Ancient Ruins, never staying in the "
+"same place for long.\n"
+"\n"
+"In order to harvest phase lemons a rancher must pass fruit matter through "
+"the phase lemon tree when lemons are present. This process somehow removes "
+"the fruit from our reality and phases in a lemon in exchange."
+msgstr ""
+
+#: 267
+msgctxt "t.kookadoba"
+msgid "Kookadoba"
+msgstr ""
+
+#: 268
+msgctxt "m.intro.kookadoba"
+msgid "You'd have to be crazy to collect these things."
+msgstr ""
+
+#: 269
+msgctxt "m.favored_by.kookadoba"
+msgid "Ogden Ortiz"
+msgstr ""
+
+#: 270
+msgctxt "m.resource_type.kookadoba"
+msgid "Fruit"
+msgstr ""
+
+#: 271
+msgctxt "m.how_to_use.kookadoba"
+msgid ""
+"Kookadoba can only grow in the soils of The Wilds. A garden's replicator "
+"will reject it."
+msgstr ""
+
+#: 272
+msgctxt "m.desc.kookadoba"
+msgid ""
+"Kookadoba are known as 'the king of fruit' by their enthusiasts, which "
+"include the jolly gourmand, Ogden Ortiz. However, harvesting them can be "
+"quite perilous as they only grow in the feral domain of The Wilds. Worse, "
+"the kookadoba smells and tastes horrible to most palates, with most who try "
+"it reporting it has the flavor of 'stinky cheese meets stinkier cheese.'"
+msgstr ""
+
+#: 273
+msgctxt "t.chickadoo"
+msgid "Chickadoo"
+msgstr "병아리"
+
+#: 274
+msgctxt "m.intro.chickadoo"
+msgid "So little and soft you'd think they're filled with marshmallow."
+msgstr "너무 작고 부드러워서 안에 마시멜로우로 차있다고 생각할 수 있습니다."
+
+#: 275
+msgctxt "m.favored_by.chickadoo"
+msgid "(not slime food)"
+msgstr "(슬라임 음식이 아님)"
+
+#: 276
+msgctxt "m.resource_type.chickadoo"
+msgid "Future Meat"
+msgstr "고기가 될 예정"
+
+#: 277
+msgctxt "m.how_to_use.chickadoo"
+msgid ""
+"Keep chickadoos in a safe place and they'll eventually grow into a hen hen "
+"or roostro."
+msgstr "병아리를 안전한 장소에 두면 결국에는 헨 암탉이나 수탉으로 성장할 것입니다."
+
+#: 278
+msgctxt "m.desc.chickadoo"
+msgid ""
+"Chickadoos are baby chickens that will eventually grow into a hen hen or "
+"more rarely, a roostro.\n"
+"\n"
+"Chickadoos of all varieties will never be eaten by slimes. Some believe this "
+"is because slimes are too kind-hearted to do such a thing. Others believe "
+"it's because chickadoos don't yet have enough meat on their bones."
+msgstr ""
+"병아리는 결국에는 주로 헨 암탉으로, 매우 드물게 수탉으로 성장하는 아기 닭입니다.\n"
+"\n"
+"슬라임은 어떠한 종류의 병아리도 먹지 않을 것입니다. 일부는 슬라임이 매우 인정이 많아서 먹지 않는 것이라 믿습니다. 다른 사람은 "
+"병아리가 아직 살집이 없기 때문이라고 믿습니다."
+
+#: 279
+msgctxt "t.stony_chickadoo"
+msgid "Stony Chickadoo"
+msgstr "스토니 병아리"
+
+#: 280
+msgctxt "m.intro.stony_chickadoo"
+msgid "This little chick had quite a hard upbringing."
+msgstr "이 작은 병아리는 매우 힘들게 자랐습니다."
+
+#: 281
+msgctxt "m.favored_by.stony_chickadoo"
+msgid "(not slime food)"
+msgstr "(슬라임 음식이 아님)"
+
+#: 282
+msgctxt "m.resource_type.stony_chickadoo"
+msgid "Future Meat"
+msgstr "고기가 될 예정"
+
+#: 283
+msgctxt "m.how_to_use.stony_chickadoo"
+msgid ""
+"Keep stony chickadoos in a safe place and they'll eventually grow into a "
+"stony hen or roostro."
+msgstr "병아리를 안전한 장소에 두면 결국에는 스토니 암탉이나 수탉으로 성장할 것입니다."
+
+#: 284
+msgctxt "m.desc.stony_chickadoo"
+msgid ""
+"Stony chickadoos are baby chickens that will eventually grow into a stony "
+"hen or more rarely, a roostro.\n"
+"\n"
+"Chickadoos of all varieties will never be eaten by slimes. Some believe this "
+"is because slimes are too kind-hearted to do such a thing. Others believe "
+"it's because chickadoos don't yet have enough meat on their bones."
+msgstr ""
+"병아리는 결국에는 주로 스토니 암탉으로, 매우 드물게 수탉으로 성장하는 아기 닭입니다.\n"
+"\n"
+"슬라임은 어떠한 종류의 병아리도 먹지 않을 것입니다. 일부는 슬라임이 매우 인정이 많아서 먹지 않는 것이라 믿습니다. 다른 사람은 "
+"병아리가 아직 살집이 없기 때문이라고 믿습니다."
+
+#: 285
+msgctxt "t.briar_chickadoo"
+msgid "Briar Chickadoo"
+msgstr "브라이어 병아리"
+
+#: 286
+msgctxt "m.intro.briar_chickadoo"
+msgid "A breed of chick that's totally bush-league."
+msgstr "완전히 질이 낮은 병아리 새끼"
+
+#: 287
+msgctxt "m.favored_by.briar_chickadoo"
+msgid "(not slime food)"
+msgstr "(슬라임 음식이 아님)"
+
+#: 288
+msgctxt "m.resource_type.briar_chickadoo"
+msgid "Future Meat"
+msgstr "고기가 될 예정"
+
+#: 289
+msgctxt "m.how_to_use.briar_chickadoo"
+msgid ""
+"Keep briar chickadoos in a safe place and they'll eventually grow into a "
+"briar hen or roostro."
+msgstr "병아리를 안전한 장소에 두면 결국에는 브라이어 암탉이나 수탉으로 성장할 것입니다."
+
+#: 290
+msgctxt "m.desc.briar_chickadoo"
+msgid ""
+"Briar chickadoos are baby chickens that will eventually grow into a briar "
+"hen or more rarely, a roostro.\n"
+"\n"
+"Chickadoos of all varieties will never be eaten by slimes. Some believe this "
+"is because slimes are too kind-hearted to do such a thing. Others believe "
+"it's because chickadoos don't yet have enough meat on their bones."
+msgstr ""
+"병아리는 결국에는 주로 브라이어 암탉으로, 매우 드물게 수탉으로 성장하는 아기 닭입니다.\n"
+"\n"
+"슬라임은 어떠한 종류의 병아리도 먹지 않을 것입니다. 일부는 슬라임이 매우 인정이 많아서 먹지 않는 것이라 믿습니다. 다른 사람은 "
+"병아리가 아직 살집이 없기 때문이라고 믿습니다."
+
+#: 291
+msgctxt "t.painted_chickadoo"
+msgid "Painted Chickadoo"
+msgstr ""
+
+#: 292
+msgctxt "m.intro.painted_chickadoo"
+msgid "A tiny chick that's hiding a bounty of colorful potential."
+msgstr ""
+
+#: 293
+msgctxt "m.favored_by.painted_chickadoo"
+msgid "(not slime food)"
+msgstr ""
+
+#: 294
+msgctxt "m.resource_type.painted_chickadoo"
+msgid "Future Meat"
+msgstr ""
+
+#: 295
+msgctxt "m.how_to_use.painted_chickadoo"
+msgid ""
+"Keep painted chickadoos in a safe place and they'll eventually grow into a "
+"painted hen or roostro."
+msgstr ""
+
+#: 296
+msgctxt "m.desc.painted_chickadoo"
+msgid ""
+"Painted chickadoos are baby chickens that will eventually grow into a "
+"painted hen or more rarely, a roostro.\n"
+"\n"
+"Chickadoos of all varieties will never be eaten by slimes. Some believe this "
+"is because slimes are too kind-hearted to do such a thing. Others believe "
+"it's because chickadoos don't yet have enough meat on their bones."
+msgstr ""
+
+#: 297
+msgctxt "t.henhen"
+msgid "Hen Hen"
+msgstr "헨 암탉"
+
+#: 298
+msgctxt "m.intro.henhen"
+msgid "A hearty chicken bred to be twice as tasty as its cousin on Earth."
+msgstr "왕성한 닭은 지구에 사는 사촌보다 2배나 더 맛있습니다."
+
+#: 299
+msgctxt "m.favored_by.henhen"
+msgid "(none)"
+msgstr "(없음)"
+
+#: 300
+msgctxt "m.resource_type.henhen"
+msgid "Meat"
+msgstr "고기"
+
+#: 301
+msgctxt "m.how_to_use.henhen"
+msgid ""
+"Hen hens in close proximity to roostros will periodically lay eggs that "
+"produce chickadoos. However, keeping too many hens or roostros in close "
+"proximity makes them anxious and egg production will come to a halt. Savvy "
+"ranchers with an understanding of the complex nature of chicken romance "
+"always keep their coops from exceeding 12 grown chickens."
+msgstr ""
+"수탉 근처로 접근한 헨 암탉은 병아리가 되는 알을 주기적으로 낳습니다.하지만, 주변에 너무 많은 암탉과 수탉이 있으면 불안해지며 알 놓는 "
+"것을 그만 둘 것입니다.닭들의 로맨스란 복잡한 본성을 잘 알고 있는 목장주는 닭을 한 공간 안에 12마리 넘게 두지는 않을 것입니다."
+
+#: 302
+msgctxt "m.desc.henhen"
+msgid ""
+"Hen hens are a special breed of chicken bred to survive the climate of the "
+"Far, Far Range. While appearing more or less like a big chicken, these burly "
+"birds are much more adept at fending for themselves, making them ideal for "
+"ranchers who might otherwise be distracted by a few hundred hungry slimes."
+msgstr ""
+"헨 암탉은 머나먼 방목장에서 생존할 수 있는 특수한 닭 품종입니다. 더도말고 덜도말고 큰 닭하고 비슷하게 생겼지만, 이 건장한 새는 "
+"자신의 몸을 지켜내는데 능숙하여, 수 백마리의 굶주린 슬라임에게 정신이 팔려있는 목장주에게는 이상적입니다."
+
+#: 303
+msgctxt "t.stony_hen"
+msgid "Stony Hen"
+msgstr "스토니 암탉"
+
+#: 304
+msgctxt "m.intro.stony_hen"
+msgid "Has a rock solid conviction... in chicken stuff."
+msgstr "돌같이 확고한 신념이 있습니다.......닭고기 안에"
+
+#: 305
+msgctxt "m.favored_by.stony_hen"
+msgid "Tabby Slime"
+msgstr "고양이 슬라임"
+
+#: 306
+msgctxt "m.resource_type.stony_hen"
+msgid "Meat"
+msgstr "고기"
+
+#: 307
+msgctxt "m.how_to_use.stony_hen"
+msgid ""
+"Stony hens in close proximity to roostros will periodically lay eggs that "
+"produce stony chickadoos. However, keeping too many hens or roostros in "
+"close proximity makes them anxious and egg production will come to a halt. "
+"Savvy ranchers with an understanding of the complex nature of chicken "
+"romance always keep their coops from exceeding 12 grown chickens."
+msgstr ""
+"수탉 근처로 접근한 스토니 암탉은 병아리가 되는 알을 주기적으로 낳습니다.하지만, 주변에 너무 많은 암탉과 수탉이 있으면 불안해지며 알 "
+"놓는 것을 그만 둘 것입니다.닭들의 로맨스란 복잡한 본성을 잘 알고 있는 목장주는 닭을 한 공간 안에 12마리 넘게 두지는 않을 것입니다."
+""
+
+#: 308
+msgctxt "m.desc.stony_hen"
+msgid ""
+"Stony hens are thought to have evolved from hen hens who once trekked deep "
+"into the mountains of the Far, Far Range. Perhaps these birds were seeking a "
+"clarity of mind that one can only truly obtain through meditation amongst "
+"those lofty, barren crags. But most likely, they were just stupid and got "
+"lost."
+msgstr ""
+"머나먼 방목장의 산에 깊숙히 들어간 헨 암탉이 진화하여 스토니 암탉이 된 것이라고 추측합니다. 아마도 그 새들은 높게 솟아있고 메마른 "
+"암벽 사이에서 명상수행한 자만이 얻을 수 있는 명석함을 찾기 위함일 수도 있습니다. 하지만, 스토니 암탉은 멍청해서 길을 잃었을 가능성이 "
+"높습니다."
+
+#: 309
+msgctxt "t.briar_hen"
+msgid "Briar Hen"
+msgstr "브라이어 암탉"
+
+#: 310
+msgctxt "m.intro.briar_hen"
+msgid "A real wild bird that loves to ramble in the bramble."
+msgstr "덤불 사이에서 산책하는 것을 좋아하는 진정한 야생의 새"
+
+#: 311
+msgctxt "m.favored_by.briar_hen"
+msgid "Boom Slime"
+msgstr "폭탄 슬라임"
+
+#: 312
+msgctxt "m.resource_type.briar_hen"
+msgid "Meat"
+msgstr "고기"
+
+#: 313
+msgctxt "m.how_to_use.briar_hen"
+msgid ""
+"Briar hens in close proximity to roostros will periodically lay eggs that "
+"produce briar chickadoos. However, keeping too many hens or roostros in "
+"close proximity makes them anxious and egg production will come to a halt. "
+"Savvy ranchers with an understanding of the complex nature of chicken "
+"romance always keep their coops from exceeding 12 grown chickens."
+msgstr ""
+"수탉 근처로 접근한 브라이어 암탉은 병아리가 되는 알을 주기적으로 낳습니다.하지만, 주변에 너무 많은 암탉과 수탉이 있으면 불안해지며 알 "
+"놓는 것을 그만 둘 것입니다.닭들의 로맨스란 복잡한 본성을 잘 알고 있는 목장주는 닭을 한 공간 안에 12마리 넘게 두지는 않을 것입니다."
+""
+
+#: 314
+msgctxt "m.desc.briar_hen"
+msgid ""
+"Briar hens are a chicken variant born from the wild thickets of the Far, Far "
+"Range. They were first discovered long ago by an explorer who noted that "
+"they seemed to have a complex tribal structure, and a fascinating series of "
+"chicken customs. He even may have joined the briar tribe as an honorary "
+"chicken himself! His records end there however, and we know nothing else "
+"about him or his findings. Oh, but his name was Carl. We know that."
+msgstr ""
+"브라이어 암탉은 야생 덤불 사이에서 태어난 변종 닭입니다. 한 탐험가가 처음 브라이어 암탉을 발견했을 때 암탉들은 복잡한 부족 사회와 "
+"닭들의 매우 오래된 흥미로운 관습을 볼 수 있었습니다. 그 탐험가는 자기 스스로 브라이어 부족에 명예 닭으로 들어갔습니다. 그의 기록은 "
+"거기서 끝이 납니다. 우리는 그밖에 그 탐험가나 탐험가가 찾은것을 알지 못합니다. 아, 그 탐험가의 이름은 Carl입니다. 그것만은 "
+"압니다."
+
+#: 315
+msgctxt "t.painted_hen"
+msgid "Painted Hen"
+msgstr ""
+
+#: 316
+msgctxt "m.intro.painted_hen"
+msgid ""
+"Some believe it's what lies at the end of the rainbow. Totally disappointing."
+""
+msgstr ""
+
+#: 317
+msgctxt "m.favored_by.painted_hen"
+msgid "Tangle Slime"
+msgstr ""
+
+#: 318
+msgctxt "m.resource_type.painted_hen"
+msgid "Meat"
+msgstr ""
+
+#: 319
+msgctxt "m.how_to_use.painted_hen"
+msgid ""
+"Painted hens in close proximity to roostros will periodically lay eggs that "
+"produce painted chickadoos. However, keeping too many hens or roostros in "
+"close proximity makes them anxious and egg production will come to a halt. "
+"Savvy ranchers with an understanding of the complex nature of chicken "
+"romance always keep their coops from exceeding 12 grown chickens."
+msgstr ""
+
+#: 320
+msgctxt "m.desc.painted_hen"
+msgid ""
+"Painted hens are the colorful chicken variants found in the Glass Desert. It "
+"is unknown what caused their rainbow-like plumage to occur. One theory "
+"suggests their colors are a biological mimicry of the prismatic glass found "
+"within the desert, while another theory states that their wild colors made "
+"them the dominant mates of the Cluck Kingdoms and were thus banished to the "
+"desert by a coalition of jealous chickens who couldn't compete with these "
+"fashionable fouls.\n"
+"\n"
+"But the latter theory is only actually believed by one very strange person, "
+"so we're not sure why it would have been included here."
+msgstr ""
+
+#: 321
+msgctxt "t.roostro"
+msgid "Roostro"
+msgstr "수탉"
+
+#: 322
+msgctxt "m.intro.roostro"
+msgid "Struts his stuff like he's king of the coop."
+msgstr "닭장의 왕인것 마냥 당당하게 걷기."
+
+#: 323
+msgctxt "m.favored_by.roostro"
+msgid "Hunter Slime"
+msgstr "사냥꾼 슬라임"
+
+#: 324
+msgctxt "m.resource_type.roostro"
+msgid "Meat"
+msgstr "고기"
+
+#: 325
+msgctxt "m.how_to_use.roostro"
+msgid ""
+"All hens in close proximity to roostros will periodically lay eggs that "
+"produce chickadoos. However, keeping too many hens or roostros in close "
+"proximity makes them anxious and egg production will come to a halt. Savvy "
+"ranchers with an understanding of the complex nature of chicken romance "
+"always keep their coops from exceeding 12 grown chickens."
+msgstr ""
+"수탉 근처로 접근한 암탉은 병아리가 되는 알을 주기적으로 낳습니다.하지만, 주변에 너무 많은 암탉과 수탉이 있으면 불안해지며 알 놓는 "
+"것을 그만 둘 것입니다.닭들의 로맨스란 복잡한 본성을 잘 알고 있는 목장주는 닭을 한 공간 안에 12마리 넘게 두지는 않을 것입니다."
+
+#: 326
+msgctxt "m.desc.roostro"
+msgid ""
+"Roostros are the alpha birds on the Far, Far Range and half of the equation "
+"required to breed chickens on the ranch. However, roostros are rarer than "
+"any hen making them a great find any time one is discovered.\n"
+"\n"
+"To acquire a roostro, either find one out on the range or breed them on the "
+"ranch. Any type of chickadoo has a small chance of growing into a roostro. "
+"Some ranchers believe that these odds increase if you greet the Rooster "
+"King's crow at sunrise with an enthusiastic 'good morning!'"
+msgstr ""
+"수탉은 머나먼 방목장에서 시초의 새이고, 목장에서 닭을 기를 수 있는 방정식의 절반입니다. 어느 암탉보다도 귀하기 때문에 한 마리를 "
+"발견하면 잘 찾았다고 생각하게 됩니다. \n"
+"\n"
+"수탉을 얻으려면 방목장에서 찾아보거나 목장에서 번식시켜야 합니다. 어느 종류의 병아리든지 간에 수탉으로 자랄 확률이 적지만 있습니다."
+
+#: 327
+msgctxt "t.elder_roostro"
+msgid "Elder Roostro"
+msgstr "늙은 수탉"
+
+#: 328
+msgctxt "m.intro.elder_roostro"
+msgid "Shakes his tail feathers and no one cares."
+msgstr "꼬리털을 뽐내보지만 아무도 신경쓰지 않는다."
+
+#: 329
+msgctxt "m.favored_by.elder_roostro"
+msgid "(none)"
+msgstr "(없음)"
+
+#: 330
+msgctxt "m.resource_type.elder_roostro"
+msgid "Meat"
+msgstr "고기"
+
+#: 331
+msgctxt "m.how_to_use.elder_roostro"
+msgid ""
+"An elder roostro can no longer sire chickadoos and serves no other purpose "
+"than becoming a slightly tough chicken dinner."
+msgstr "늙은 수탉은 더이상 병아리를 낳게 할 수 없고 약간 질긴 닭고기 저녁이 되는 것 이외에 할 수 있는 것은 없습니다."
+
+#: 332
+msgctxt "m.desc.elder_roostro"
+msgid ""
+"Elder roostros are the senior-aged roostros who have retired from the "
+"otherwise bustling life of their younger counterparts. 'Young roostros crow "
+"too much, they move too fast, and frankly have no respect for their elders,' "
+"an elder roostro might say of youths; as they make a gross, smacking sound "
+"with their lips. Though this is of course impossible, as roostros do not "
+"have lips."
+msgstr ""
+"늙은 수탉은 부산스럽게 움직이는 젊은 닭을의 삶을 은퇴한 늙은 닭입니다. '젊은 닭은 너무 큰 소리로 꼬끼오하며 울고, 너무 빠르게 "
+"움직이며, 솔직히 어르신들을 존중해주지 않는다'라고 혀를 차면서 젊은 것들에 대해 말합니다; 물론 입술이 없기 때문에 혀를 차면서 쯧쯧 "
+"소리를 낼 수는 없지만요."
+
+#: 333
+msgctxt "t.elder_hen"
+msgid "Elder Hen"
+msgstr "늙은 암탉"
+
+#: 334
+msgctxt "m.intro.elder_hen"
+msgid "An old bird whose egg-laying days are over, easy."
+msgstr "알을 더이상 낳을 수 없는 만만한 늙은 새"
+
+#: 335
+msgctxt "m.favored_by.elder_hen"
+msgid "(none)"
+msgstr "(없음)"
+
+#: 336
+msgctxt "m.resource_type.elder_hen"
+msgid "Meat"
+msgstr "고기"
+
+#: 337
+msgctxt "m.how_to_use.elder_hen"
+msgid ""
+"An elder hen can no longer lay eggs and serves no other purpose than "
+"becoming a slightly tough chicken dinner."
+msgstr "늙은 암탉은 더이상 알을 낳을 수 없고 약간 질긴 닭고기 저녁이 되는 것 이외에 할 수 있는 것은 없습니다."
+
+#: 338
+msgctxt "m.desc.elder_hen"
+msgid ""
+"Elder hens have lived a full-feathered life. They've met the roostro of "
+"their dreams, seen their little chickadoos grow up, and are ready to start "
+"the next chapter of their chicken lives. In all likelihood this will include "
+"getting the names of countless books, movies and actors wrong. But don't "
+"blame them for that. They're chickens for goodness sake."
+msgstr ""
+"늙은 암탉은 깃털로 가득한 삶을 살았습니다. 암탉은 꿈에 그리던 수탉을 만났고, 어린 병아리가 자라는걸 지켜봤으며, 닭으로서의 인생에 "
+"새로운 장을 열 준비가 되어있습니다. 물론 십중팔구 수 많은 책들, 영화, 배우들의 이름을 틀리거나 까먹는 경우도 있을 것입니다. 그러나 "
+"늙은 암탉을 비난하지는 마세요. 늙은 암탉은 한창 좋을 때일 것입니다."
+
+#: 339
+msgctxt "t.spicy_tofu"
+msgid "Spicy Tofu"
+msgstr ""
+
+#: 340
+msgctxt "m.intro.spicy_tofu"
+msgid "It never quite fills you up."
+msgstr ""
+
+#: 341
+msgctxt "m.favored_by.spicy_tofu"
+msgid "(none)"
+msgstr ""
+
+#: 342
+msgctxt "m.resource_type.spicy_tofu"
+msgid "Food"
+msgstr ""
+
+#: 343
+msgctxt "m.how_to_use.spicy_tofu"
+msgid "Spicy tofu can't be planted in a garden, only fed to slimes."
+msgstr ""
+
+#: 344
+msgctxt "m.desc.spicy_tofu"
+msgid ""
+"This spicy tofu is made from Ogden's own secret recipe. Light, silky, and "
+"with a spicy kick, it is enjoyed by any slime, though none would call it "
+"their favorite. Best of all, if a slime is hungry, they're always willing to "
+"eat more. It's almost as if tofu isn't a real food at all!"
+msgstr ""
+
+#: 345
+msgctxt "t.primordy_oil_craft"
+msgid "Primordy Oil"
+msgstr "프리모디 오일"
+
+#: 346
+msgctxt "m.intro.primordy_oil_craft"
+msgid "This stuff is pre-pre-prehistoric."
+msgstr "선사시대 보다 더 이전의 물건"
+
+#: 347
+msgctxt "m.favored_by.primordy_oil_craft"
+msgid "(not slime food)"
+msgstr "(슬라임이 먹을 수 없음)"
+
+#: 348
+msgctxt "m.resource_type.primordy_oil_craft"
+msgid "Slime Science Material"
+msgstr "제작 재료"
+
+#: 349
+msgctxt "m.how_to_use.primordy_oil_craft"
+msgid ""
+"Deposit primordy oil into the Lab's Refinery where it can then be used for "
+"fabricating Slime Science gadgets."
+msgstr "연구소의 정제소에 프리모디 오일을  넣어서 슬라임 과학 장치를 제작히는데 사용할 수 있습니다."
+
+#: 350
+msgctxt "m.desc.primordy_oil_craft"
+msgid ""
+"Primordy oil is a common resource obtained with a pump.\n"
+"\n"
+"Found deep below the surface of the Far, Far Range, primordy oil is an "
+"ancient substance containing a wide array of organic compounds, making it "
+"perfect as a base for many Slime Science creations."
+msgstr ""
+"프리모디 오일은 펌프로 얻을 수 있는 일반적인 자원입니다.\n"
+"\n"
+"머나먼 방목장 지표 아래 깊은 곳에서 발견할 수 있는 프리모디 오일은 광범위한 유기화합물을 함유하고 있는 고대 물질로, 슬라임 과학의 "
+"제작품에 기초가 되는, 완벽한 물질입니다."
+
+#: 351
+msgctxt "t.deep_brine_craft"
+msgid "Deep Brine"
+msgstr "딥 브리네"
+
+#: 352
+msgctxt "m.intro.deep_brine_craft"
+msgid "Salt of the earth kind of stuff."
+msgstr "지구의 소금 같은 것"
+
+#: 353
+msgctxt "m.favored_by.deep_brine_craft"
+msgid "(not slime food)"
+msgstr "(슬라임이 먹을 수 없음)"
+
+#: 354
+msgctxt "m.resource_type.deep_brine_craft"
+msgid "Slime Science Material"
+msgstr "제작 재료"
+
+#: 355
+msgctxt "m.how_to_use.deep_brine_craft"
+msgid ""
+"Deposit deep brine into the Lab's Refinery where it can then be used for "
+"fabricating Slime Science gadgets."
+msgstr "연구소의 정제소에 딥 브리네를  넣어서 슬라임 과학 장치를 제작히는데 사용할 수 있습니다."
+
+#: 356
+msgctxt "m.desc.deep_brine_craft"
+msgid ""
+"Deep brine is a common resource exclusive to the Dry Reef, obtained with a "
+"pump.\n"
+"\n"
+"Not safe for drinking, deep brine is thought to be water from the Slime Sea "
+"that has been filtered by the subterranean coral of the Dry Reef. It is "
+"significantly denser than fresh water and loaded with salt."
+msgstr ""
+"딥 브리네는 건조한 암초 지역에서만 펌프로 얻을 수 있는 일반적인 자원입니다.\n"
+"\n"
+"마시면 위험한 딥 브리네는 슬라임 바다물이 건조한 암초 지역 지하에 있는 산호에 의해 걸러져서 나온것입니다. 딥 브리네는 강물보다 밀도가 "
+"상당히 높고, 소금으로 가득 차 있습니다."
+
+#: 357
+msgctxt "t.spiral_steam_craft"
+msgid "Spiral Steam"
+msgstr "소용돌이 증기"
+
+#: 358
+msgctxt "m.intro.spiral_steam_craft"
+msgid "If you search for it, you'll find something wonderful."
+msgstr "이것을 찾고자한다면, 당신은 멋진 무언가를 찾게 될것이다."
+
+#: 359
+msgctxt "m.favored_by.spiral_steam_craft"
+msgid "(not slime food)"
+msgstr "(슬라임이 먹을 수 없음)"
+
+#: 360
+msgctxt "m.resource_type.spiral_steam_craft"
+msgid "Slime Science Material"
+msgstr "제작 재료"
+
+#: 361
+msgctxt "m.how_to_use.spiral_steam_craft"
+msgid ""
+"Deposit spiral steam into the Lab's Refinery where it can then be used for "
+"fabricating Slime Science gadgets."
+msgstr "연구소의 정제소에 소용돌이 증기를  넣어서 슬라임 과학 장치를 제작히는데 사용할 수 있습니다."
+
+#: 362
+msgctxt "m.desc.spiral_steam_craft"
+msgid ""
+"Spiral steam is an uncommon resource obtained with a pump.\n"
+"\n"
+"Found in highly pressurized vacuums of rock below the surface, spiral steam "
+"exhibits a curious behavior when released into the atmosphere, swirling into "
+"a series of dancing spirals before dissipating. It is valued for the "
+"countless micro-particles found within the steam itself."
+msgstr ""
+"소용돌이 증기는 펌프로 얻을 수 있는 흔하지 않은 자원입니다.\n"
+"\n"
+"지표면 아래 묻혀서 매우 높은 압력을 받는 돌에서 발견할 수 있는 소용돌이 증기는 공기중으로 방출되어 흩뿌러지기 전에 여러 형태의 나선 "
+"모양으로  맴돌다가 사라지는 신기한 행동을 보입니다. 소용돌이 증기는 증기 자체에 들어있는 무수히 많은 미세 입자들 때문에 가치가 "
+"높습니다."
+
+#: 363
+msgctxt "t.lava_dust_craft"
+msgid "Lava Dust"
+msgstr "용암재"
+
+#: 364
+msgctxt "m.intro.lava_dust_craft"
+msgid "A survey on the state of this matter answered 'undecided.'"
+msgstr "이 물질의 상태에 대한 연구결과는 '미정'입니다."
+
+#: 365
+msgctxt "m.favored_by.lava_dust_craft"
+msgid "(not slime food)"
+msgstr "(슬라임이 먹을 수 없음)"
+
+#: 366
+msgctxt "m.resource_type.lava_dust_craft"
+msgid "Slime Science Material"
+msgstr "제작 재료"
+
+#: 367
+msgctxt "m.how_to_use.lava_dust_craft"
+msgid ""
+"Deposit lava dust into the Lab's Refinery where it can then be used for "
+"fabricating Slime Science gadgets."
+msgstr "연구소의 정제소에 용암재를  넣어서 슬라임 과학 장치를 제작히는데 사용할 수 있습니다."
+
+#: 368
+msgctxt "m.desc.lava_dust_craft"
+msgid ""
+"Lava dust is a rare resource obtained with a pump.\n"
+"\n"
+"Neither a solid or a liquid, lava dust seems to be something in between, "
+"having the characteristics of both. It is believed to be a mixture of magma "
+"and slime, though this has never been proven. And despite its name, lava "
+"dust is only warm to the touch."
+msgstr ""
+"용암재는 펌프로 얻을 수 있는 귀한 재료입니다.\n"
+"\n"
+"고체도 액체도 아닌 용암재는 고체와 액체의 특징을 모두 가지고 있는 무언가로 보입니다. 용암재는 마그마와 슬라임이 섞인 것이라 "
+"여겨지지만, 증명된 것은 아무것도 없습니다. 그리고 용암재라는 이름과는 달리 용암재를 만졌을 때만 따듯한 것이 느껴집니다."
+
+#: 369
+msgctxt "t.buzz_wax_craft"
+msgid "Buzz Wax"
+msgstr "윙윙 밀랍"
+
+#: 370
+msgctxt "m.intro.buzz_wax_craft"
+msgid ""
+"Can be used to make a great scented candle if you enjoy the smell of bee "
+"abdominal glands."
+msgstr ""
+"벌의 배 아래에 있는 분비선에서 나오는 냄새를 좋아한다면 향기가 나는 매우 좋은 양초를 만드는데 윙윙 밀랍을 사용할 수 있습니다."
+
+#: 371
+msgctxt "m.favored_by.buzz_wax_craft"
+msgid "(not slime food)"
+msgstr "(슬라임이 먹을 수 없음)"
+
+#: 372
+msgctxt "m.resource_type.buzz_wax_craft"
+msgid "Slime Science Material"
+msgstr "제작 재료"
+
+#: 373
+msgctxt "m.how_to_use.buzz_wax_craft"
+msgid ""
+"Deposit buzz wax into the Lab's Refinery where it can then be used for "
+"fabricating Slime Science gadgets."
+msgstr "연구소의 정제소에 윙윙 밀랍을 넣어서 슬라임 과학 장치를 제작히는데 사용할 수 있습니다."
+
+#: 374
+msgctxt "m.desc.buzz_wax_craft"
+msgid ""
+"Buzz wax is a common resource obtained with an apiary.\n"
+"\n"
+"Just like bees on Earth, bees on the Far, Far Range produce a waxy substance "
+"that they use to form their hives. Buzz wax is the still malleable deposits "
+"of unused wax found in apiaries. It has many practical uses ranging from "
+"building materials to medicines. You can also chew it as the worst gum in "
+"the world."
+msgstr ""
+"윙윙 밀랍은 양봉기로 얻을수 있는 흔한 자원입니다. \n"
+"\n"
+"지구에 존재하는 벌들처럼, 머나먼 목장에 있는 벌들도 벌집을 형성하는 데 사용하는 밀랍 같은 물질을 생산합니다. 윙윙 밀랍은 양봉장에서 "
+"발견되는 미사용 왁스의 가단성 퇴적물입니다. 그것은 건축 자재에서부터 의약품에 이르기까지실질적인 용도로 다양하게 사용됩니다. 당신은 또한 "
+"이것을 세상에서 가장 별로인 껌으로 씹을 수도 있습니다."
+
+#: 375
+msgctxt "t.wild_honey_craft"
+msgid "Wild Honey"
+msgstr "야생벌꿀"
+
+#: 376
+msgctxt "m.intro.wild_honey_craft"
+msgid "Tastes great in tea or in shameful handfuls when no one is looking."
+msgstr "차에 넣어서 마시거나 아무도 안볼때 손에 가득 뭍혀서 먹으면 맛이 좋다."
+
+#: 377
+msgctxt "m.favored_by.wild_honey_craft"
+msgid "(not slime food)"
+msgstr "(슬라임이 먹을 수 없음)"
+
+#: 378
+msgctxt "m.resource_type.wild_honey_craft"
+msgid "Slime Science Material"
+msgstr "제작 재료"
+
+#: 379
+msgctxt "m.how_to_use.wild_honey_craft"
+msgid ""
+"Deposit wild honey into the Lab's Refinery where it can then be used for "
+"fabricating Slime Science gadgets."
+msgstr "연구소의 정제소에 야생벌꿀을 넣어서 슬라임 과학 장치를 제작히는데 사용할 수 있습니다."
+
+#: 380
+msgctxt "m.desc.wild_honey_craft"
+msgid ""
+"Wild honey is a common resource exclusive to the Moss Blanket, obtained with "
+"an apiary.\n"
+"\n"
+"All the rich pollens and sweet nectars found in the forests of the Moss "
+"Blanket combine in a beautiful alchemy to form some of the most delicious "
+"honey in the galaxy. Wild honey is a staple of rancher life; a dollop of it "
+"makes just about any food taste better, and it provides a natural boost of "
+"energy to get through a tough day of wrangling slimes."
+msgstr ""
+"야생 벌꿀은 이끼담요 숲에서 양봉기로 얻을 수 있는 흔한 자원입니다.\n"
+"\n"
+"이끼담요 숲에서 발견되는 풍부한 꽃가루와 달콤한 과즙은 모두 은하계에서 가장 맛있는 꿀을 형성할 수 있는 아름다운 연금술적인 요소를 "
+"갖추고 있습니다. 야생 벌꿀은 목장생활의 필수 요소입니다; 그것의 한 덩어리는 어떤 음식의 맛을 더 맛있게 만들어 주며, 슬라임과의 "
+"논쟁에서 비롯된 힘든 날을 헤치고 나아갈수 있게하는 자연스러운 에너지를 제공합니다."
+
+#: 381
+msgctxt "t.hexacomb_craft"
+msgid "Hexacomb"
+msgstr "육각벌집"
+
+#: 382
+msgctxt "m.intro.hexacomb_craft"
+msgid "Bee stuff and geometry: the chocolate and peanut butter of nature."
+msgstr "기하학적인 벌들의 물건: 자연이내린 초콜렛과 땅콩버터"
+
+#: 383
+msgctxt "m.favored_by.hexacomb_craft"
+msgid "(not slime food)"
+msgstr "(슬라임이 먹을 수 없음)"
+
+#: 384
+msgctxt "m.resource_type.hexacomb_craft"
+msgid "Slime Science Material"
+msgstr "제작 재료"
+
+#: 385
+msgctxt "m.how_to_use.hexacomb_craft"
+msgid ""
+"Deposit hexacomb into the Lab's Refinery where it can then be used for "
+"fabricating Slime Science gadgets."
+msgstr "연구소의 정제소에 육각벌집을 넣어서 슬라임 과학 장치를 제작히는데 사용할 수 있습니다."
+
+#: 386
+msgctxt "m.desc.hexacomb_craft"
+msgid ""
+"Hexacomb is an uncommon resource obtained with an apiary.\n"
+"\n"
+"Hexacomb is the result of bees arranging buzz wax into complex patterns to "
+"store their honey and eggs. Why the hexagonal shape? Bees understand that "
+"the hexagon is the shape of the future. Bees were Sci-Fi before it was cool."
+msgstr ""
+"육각벌집은 양봉기로 얻을 수 있는 흔하지 않은 자원입니다.\n"
+"\n"
+"육각벌집은 벌들이 꿀과 그들의 알을 저장하기 위해 복잡한 형식으로 윙윙밀랍을 배치 한 결과물 입니다. 왜 육각형이냐고요? 벌은 육각형이 "
+"미래의 모양임을 이해합니다. 벌들은 근사하기 이전에 과학적입니다."
+
+#: 387
+msgctxt "t.royal_jelly_craft"
+msgid "Royal Jelly"
+msgstr "로열 젤리"
+
+#: 388
+msgctxt "m.intro.royal_jelly_craft"
+msgid "The king of all jellies... that is, until you meet the queen."
+msgstr "젤리들의 왕... 음, 당신이 여왕을 만나기 전까진 말이야."
+
+#: 389
+msgctxt "m.favored_by.royal_jelly_craft"
+msgid "(not slime food)"
+msgstr "(슬라임이 먹을 수 없음)"
+
+#: 390
+msgctxt "m.resource_type.royal_jelly_craft"
+msgid "Slime Science Material"
+msgstr "제작 재료"
+
+#: 391
+msgctxt "m.how_to_use.royal_jelly_craft"
+msgid ""
+"Deposit royal jelly into the Lab's Refinery where it can then be used for "
+"fabricating Slime Science gadgets."
+msgstr "연구소의 정제소에 로열 젤리를 넣어서 슬라임 과학 장치를 제작히는데 사용할 수 있습니다."
+
+#: 392
+msgctxt "m.desc.royal_jelly_craft"
+msgid ""
+"Royal jelly is a rare resource obtained with an apiary. \n"
+"\n"
+"The royal jelly found in the hives across the Far, Far Range is special as "
+"it is unnaturally sweet compared to other varieties. It's believed that this "
+"is a result of bees collecting small deposits of slime from honey slimes and "
+"working it into their royal jelly mixture. If a rancher is lucky enough to "
+"acquire some, they'll find its unique properties are very valuable in "
+"certain Slime Science endeavors."
+msgstr ""
+"로열 젤리는 양봉기로 얻을 수 있는 희귀 자원입니다. \n"
+"\n"
+"머나먼 목장의 벌집에서 발견 되는 로열 젤리는 다른 종류의 꿀들에 비해서 이상할 정도로 달콤하기 때문에 특별합니다. 이것은 벌들이 꿀 "
+"슬라임으로 부터 점액을 수집하여 그들의 로열 젤리 혼합물로 만든 결과라고 믿어집니다. 만약 목장주가 그 일부를 획득할만큼 운이 좋다면, "
+"그 고유한 특성이 특정 슬라임 과학을 위한 노력에서 매우 귀중하다는 것을 알게 될 것입니다."
+
+#: 393
+msgctxt "t.jellystone_craft"
+msgid "Jellystone"
+msgstr "젤리스톤"
+
+#: 394
+msgctxt "m.intro.jellystone_craft"
+msgid "It's both solid and squishy at the same time."
+msgstr "딱딱하면서도 질척함을 동시에 가지고있다."
+
+#: 395
+msgctxt "m.favored_by.jellystone_craft"
+msgid "(not slime food)"
+msgstr "(슬라임이 먹을 수 없음)"
+
+#: 396
+msgctxt "m.resource_type.jellystone_craft"
+msgid "Slime Science Material"
+msgstr "제작 재료"
+
+#: 397
+msgctxt "m.how_to_use.jellystone_craft"
+msgid ""
+"Deposit jellystone into the Lab's Refinery where it can then be used for "
+"fabricating Slime Science gadgets."
+msgstr "연구소의 정제소에 젤리스톤을 넣어서 슬라임 과학 장치를 제작히는데 사용할 수 있습니다."
+
+#: 398
+msgctxt "m.desc.jellystone_craft"
+msgid ""
+"Jellystone is a common resource obtained with a drill.\n"
+"\n"
+"Jellystone is a semi-hardened mixture of minerals and slime, possibly "
+"resulting from plorts sinking back into the earth below. Because of its "
+"softer texture, it's a favorite stone for sculptors."
+msgstr ""
+"젤리스톤은 드릴으로 얻을 수 있는 흔한 자원입니다.\n"
+"\n"
+"젤리스톤은 미네랄과 슬라임이 반 경화 된 혼합물이며, 아마 보석들이 지구 아래로 다시 가라앉으면서 생긴 결과물일 것 입니다 . 그것의 "
+"부드러운 질감 때문에, 조각가들이 선호하는 돌입니다."
+
+#: 399
+msgctxt "t.indigonium_craft"
+msgid "Indigonium"
+msgstr "인디고늄"
+
+#: 400
+msgctxt "m.intro.indigonium_craft"
+msgid "Heavy metal experts often call this hard rock 'deep purple.'"
+msgstr "중금속 전문가들은 종종 이 단단한 암석을 '딥 퍼플' 이라고 부릅니다."
+
+#: 401
+msgctxt "m.favored_by.indigonium_craft"
+msgid "(not slime food)"
+msgstr "(슬라임이 먹을 수 없음)"
+
+#: 402
+msgctxt "m.resource_type.indigonium_craft"
+msgid "Slime Science Material"
+msgstr "제작 재료"
+
+#: 403
+msgctxt "m.how_to_use.indigonium_craft"
+msgid ""
+"Deposit indigonium into the Lab's Refinery where it can then be used for "
+"fabricating Slime Science gadgets."
+msgstr "연구소의 정제소에 인디고늄을 넣어서 슬라임 과학 장치를 제작히는데 사용할 수 있습니다."
+
+#: 404
+msgctxt "m.desc.indigonium_craft"
+msgid ""
+"Indigonium is a common resource exclusive to the Indigo Quarry, obtained "
+"with a drill.\n"
+"\n"
+"Indigonium is the ore that gives the Indigo Quarry its name. There's a "
+"little indigonium found in every inch of the quarry, but the purest ore is "
+"only found deep underground."
+msgstr ""
+"인디고늄은 오직 인디고 채석장에서만 드릴로 얻을 수 있는 자원입니다.\n"
+"\n"
+"인디고늄은 인디고 채석장에 그 이름을 부여하는 광석입니다. 채석장의 모든 곳에서 소량의 인디고늄이 발견되지만, 순수한 광석은 오직 지하 "
+"깊숙한 곳에서만 발견됩니다."
+
+#: 405
+msgctxt "t.slime_fossil_craft"
+msgid "Slime Fossil"
+msgstr "슬라임 화석"
+
+#: 406
+msgctxt "m.intro.slime_fossil_craft"
+msgid "If history could smile, it would look like this."
+msgstr "만약 슬라임들에게 역사가 있다면, 이렇게 생겼겠지."
+
+#: 407
+msgctxt "m.favored_by.slime_fossil_craft"
+msgid "(not slime food)"
+msgstr "(슬라임이 먹을 수 없음)"
+
+#: 408
+msgctxt "m.resource_type.slime_fossil_craft"
+msgid "Slime Science Material"
+msgstr "제작 재료"
+
+#: 409
+msgctxt "m.how_to_use.slime_fossil_craft"
+msgid ""
+"Deposit slime fossils into the Lab's Refinery where they can then be used "
+"for fabricating Slime Science gadgets."
+msgstr "연구소의 정제소에 슬라임 화석을 넣어서 슬라임 과학 장치를 제작히는데 사용할 수 있습니다."
+
+#: 410
+msgctxt "m.desc.slime_fossil_craft"
+msgid ""
+"Slime fossils are an uncommon resource obtained with a drill.\n"
+"\n"
+"Prized for the ancient minerals they contain, slime fossils are like nature "
+"capturing a moment in time. Specifically, that moment seems to be when a "
+"great avalanche or mudslide occurred and a slime was totally cool with it."
+msgstr ""
+"슬라임 화석은 드릴로 얻을 수 있는 흔하지 않은 자원입니다.\n"
+"\n"
+"고대의 미네랄이 가지고있음에 귀중한, 슬라임 화석은 잠시 시간을 잡아둔 자연물질입니다. 특히, 그 순간에 거대한 눈사태나 산사태가 "
+"발생하여 슬라임이 완전히 굳어진 것 처럼 보입니다."
+
+#: 411
+msgctxt "t.strange_diamond_craft"
+msgid "Strange Diamond"
+msgstr "이상한 다이아몬드"
+
+#: 412
+msgctxt "m.intro.strange_diamond_craft"
+msgid "Very strange, but even more valuable."
+msgstr "아주 수상하지만, 아주 가치가있지."
+
+#: 413
+msgctxt "m.favored_by.strange_diamond_craft"
+msgid "(not slime food)"
+msgstr "(슬라임이 먹을 수 없음)"
+
+#: 414
+msgctxt "m.resource_type.strange_diamond_craft"
+msgid "Slime Science Material"
+msgstr "제작 재료"
+
+#: 415
+msgctxt "m.how_to_use.strange_diamond_craft"
+msgid ""
+"Deposit strange diamonds into the Lab's Refinery where they can then be used "
+"for fabricating Slime Science gadgets."
+msgstr "연구소의 정제소에 이상한 다이아몬드를 넣어서 슬라임 과학 장치를 제작히는데 사용할 수 있습니다."
+
+#: 416
+msgctxt "m.desc.strange_diamond_craft"
+msgid ""
+"Strange diamonds are a rare resource obtained with a drill.\n"
+"\n"
+"Even in the dark, these diamonds seem to shine as if light is passing "
+"through them. Strange diamonds are highly valued for their use in a variety "
+"of warp tech processes. Being almost impossibly dense and intricate in their "
+"composition, a strange diamond can reflect light within itself so profoundly "
+"that it actually bends time."
+msgstr ""
+"이상한 다이아몬드는 드릴로 얻을 수 있는 희귀 자원입니다.\n"
+"\n"
+"어둠 속 일지라도, 이 다이아몬드들은 마치 빛이 통과하는 것처럼 빛나게 보입니다. 이상한 다이아몬드는 다양한 워프 기술 과정에서 매우 "
+"높은 가치를 가집니다. 그들의 구성에 있어서 거의 불가능한 밀도와 복잡함이, 이상한 다이아몬드가 그 속에서 빛을 매우 깊게 반영 할 "
+"수있기 때문에 시간도 굴절시킬 수 있습니다."
+
+#: 417
+msgctxt "t.silky_sand_craft"
+msgid "Silky Sand"
+msgstr ""
+
+#: 418
+msgctxt "m.intro.silky_sand_craft"
+msgid "The finest, smoothest sand you'll ever see. Rubbish for sand castles."
+msgstr ""
+
+#: 419
+msgctxt "m.favored_by.silky_sand_craft"
+msgid "(not slime food)"
+msgstr ""
+
+#: 420
+msgctxt "m.resource_type.silky_sand_craft"
+msgid "Slime Science Material"
+msgstr ""
+
+#: 421
+msgctxt "m.how_to_use.silky_sand_craft"
+msgid ""
+"Deposit silky sand into the Lab's Refinery where they can then be used for "
+"fabricating Slime Science gadgets."
+msgstr ""
+
+#: 422
+msgctxt "m.desc.silky_sand_craft"
+msgid ""
+"Silky sand is a common resource exclusive to the Glass Desert, obtained with "
+"a pump.\n"
+"\n"
+"Though the Glass Desert is covered with sand, silky sand found deep below "
+"the surface is so smooth and pure it almost feels like water. These "
+"qualities make it very useful in gadget fabrication."
+msgstr ""
+
+#: 423
+msgctxt "t.pepper_jam_craft"
+msgid "Pepper Jam"
+msgstr ""
+
+#: 424
+msgctxt "m.intro.pepper_jam_craft"
+msgid "Sweet, spicy, and delicious! Bees are awesome."
+msgstr ""
+
+#: 425
+msgctxt "m.favored_by.pepper_jam_craft"
+msgid "(not slime food)"
+msgstr ""
+
+#: 426
+msgctxt "m.resource_type.pepper_jam_craft"
+msgid "Slime Science Material"
+msgstr ""
+
+#: 427
+msgctxt "m.how_to_use.pepper_jam_craft"
+msgid ""
+"Deposit pepper jam into the Lab's Refinery where they can then be used for "
+"fabricating Slime Science gadgets."
+msgstr ""
+
+#: 428
+msgctxt "m.desc.pepper_jam_craft"
+msgid ""
+"Pepper jam is a common resource exclusive to the Glass Desert, obtained with "
+"an apiary.\n"
+"\n"
+"Pepper jam is a strange substance found only in beehives of the Glass Desert."
+" It is believed to be a product of desert bees obtaining pollen from the "
+"flowers of a spicy pepper plant found somewhere in the desert. Regardless of "
+"its origin, pepper jam gives an otherwise boring, old toast experience a "
+"real kick!"
+msgstr ""
+
+#: 429
+msgctxt "t.glass_shard_craft"
+msgid "Glass Shard"
+msgstr ""
+
+#: 430
+msgctxt "m.intro.glass_shard_craft"
+msgid "A solid fragment of frozen fire."
+msgstr ""
+
+#: 431
+msgctxt "m.favored_by.glass_shard_craft"
+msgid "(not slime food)"
+msgstr ""
+
+#: 432
+msgctxt "m.resource_type.glass_shard_craft"
+msgid "Slime Science Material"
+msgstr ""
+
+#: 433
+msgctxt "m.how_to_use.glass_shard_craft"
+msgid ""
+"Deposit glass shards into the Lab's Refinery where they can then be used for "
+"fabricating Slime Science gadgets."
+msgstr ""
+
+#: 434
+msgctxt "m.desc.glass_shard_craft"
+msgid ""
+"Glass shards are a common resource exclusive to the Glass Desert, obtained "
+"with a drill.\n"
+"\n"
+"The glass shards found in the desert are small fragments of the monolithic "
+"structures that cover its dunes and cliffs. These structures are believed to "
+"be the cause of the dangerous solar anomalies that scorch the landscape, so "
+"using a drill to collect these shards is a much safer means of collecting "
+"samples of the glass."
+msgstr ""
+
+#: 435
+msgctxt "t.echoes"
+msgid "Echoes"
+msgstr ""
+
+#: 436
+msgctxt "m.intro.echoes"
+msgid "A mote of light, or perhaps, a memory?"
+msgstr ""
+
+#: 437
+msgctxt "m.favored_by.echoes"
+msgid "(not slime food)"
+msgstr ""
+
+#: 438
+msgctxt "m.resource_type.echoes"
+msgid "Unique"
+msgstr ""
+
+#: 439
+msgctxt "m.how_to_use.echoes"
+msgid ""
+"Echoes can be used as decorations. Simply vac them up and shoot them "
+"anywhere you want. They'll hover in that spot until you vac them up."
+msgstr ""
+
+#: 440
+msgctxt "m.desc.echoes"
+msgid ""
+"Within the crumbling walls of the Ancient Ruins, small traces of energy can "
+"be found, never staying in one place for very long. Called echoes, they are "
+"believed to be a phenomenon resulting from some kind of ancient event. Since "
+"they are harmless, echoes are often collected by ranchers as good luck "
+"charms or used as decorations.\n"
+"\n"
+"Echoes appear regularly in the nooks and crannies of the Ancient Ruins, as "
+"well as from extractors."
+msgstr ""
+
+#: 441
+msgctxt "t.slime_toys"
+msgid "Slime Toys"
+msgstr ""
+
+#: 442
+msgctxt "m.intro.slime_toys"
+msgid "Never quit playing around."
+msgstr ""
+
+#: 443
+msgctxt "m.favored_by.slime_toys"
+msgid "(Varies by slime)"
+msgstr ""
+
+#: 444
+msgctxt "m.resource_type.slime_toys"
+msgid "Unique"
+msgstr ""
+
+#: 445
+msgctxt "m.desc.slime_toys"
+msgid ""
+"Slime toys come in a variety of forms, and all reduce slime agitation of any "
+"nearby slimes, so it's a good idea to toss one in a corral for slimes to "
+"enjoy.\n"
+"\n"
+"Each slime has a favorite toy, which reduces their agitation even more. A "
+"largo will favor either of its types.\n"
+"\n"
+"The soothing quality of slime toys do not stack, so while you don't need "
+"more than one in a corral, it certainly doesn't hurt anything either!"
+msgstr ""
+
+#: 446
+msgctxt "t.corral"
+msgid "Corral"
+msgstr "우리"
+
+#: 447
+msgctxt "m.intro.corral"
+msgid "A happy slime makes for a happy rancher."
+msgstr "행복한 슬라임이 행복한 목장을 만든다."
+
+#: 448
+msgctxt "m.desc.corral"
+msgid ""
+"A corral is used to keep slimes on a ranch. The open-air corrals are "
+"designed for maximum slime satisfaction, with the rich soil of the Range "
+"beneath them and its expansive sky above them. Slimes will remain perfectly "
+"happy within corrals so long as they are fed regularly.\n"
+"\n"
+"Remember: You can shoot things THROUGH a corral barrier. Handy!"
+msgstr ""
+"우리는 목장에서 슬라임을 사육하는 데 사용됩니다. 야외에 있는 우리들은 그들 위에 광대한 하늘과 풍부한 목장의 토양과 함께, 슬라임의 "
+"최대 만족을 위해 설계되었습니다. 규칙적으로 먹이를 먹는다면 슬라임은 우리 안에서 완벽하게 행복한 상태로 유지 될 것입니다.\n"
+"\n"
+"기억하세요: 당신은 우리벽을 통과해서 물건을 쏠 수 있습니다. 편리하죠!"
+
+#: 449
+msgctxt "m.upgrade.name.corral.walls"
+msgid "High Walls"
+msgstr "높은 벽"
+
+#: 450
+msgctxt "m.upgrade.desc.corral.walls"
+msgid ""
+"Higher corral walls ensure that even the bounciest of slimes will have "
+"difficulty escaping."
+msgstr "높은 울타리 벽은 잘 튀는 슬라임들이 탈출하는것을 어렵게 만들어준다."
+
+#: 451
+msgctxt "m.upgrade.name.corral.music_box"
+msgid "Music Box"
+msgstr "음악상자"
+
+#: 452
+msgctxt "m.upgrade.desc.corral.music_box"
+msgid ""
+"The music box plays a soothing tune that greatly reduces slime agitation."
+msgstr "음악상자는 슬라임들이 날뛰는 것을 크게 줄일 진정 효과가있는 곡을 연주합니다."
+
+#: 453
+msgctxt "m.upgrade.name.corral.air_net"
+msgid "Air Net"
+msgstr "공기 망"
+
+#: 454
+msgctxt "m.upgrade.desc.corral.air_net"
+msgid ""
+"An air net is a force barrier that covers the top of a corral. It can take a "
+"few hits before needing to recharge."
+msgstr "공기 망은 우리 상단을 덮는 힘의 장벽입니다. 재충전이 필요하기 때문에 몇 번 실수를 할 수 있습니다."
+
+#: 455
+msgctxt "m.upgrade.name.corral.solar_shield"
+msgid "Solar Shield"
+msgstr "자외선 보호막"
+
+#: 456
+msgctxt "m.upgrade.desc.corral.solar_shield"
+msgid ""
+"A solar shield will encase a corral in a dim shade, protecting slimes "
+"sensitive to light."
+msgstr "자외선 보호막은 희미한 그림자로 우리를 감싸서 빛에 민감한 슬라임을 보호합니다."
+
+#: 457
+msgctxt "m.upgrade.name.corral.plort_collector"
+msgid "Plort Collector"
+msgstr "보석 수집기"
+
+#: 458
+msgctxt "m.upgrade.desc.corral.plort_collector"
+msgid ""
+"A plort collector will vacuum up two types of plorts in a corral at regular "
+"intervals, depositing them into a storage tank, so long as space is "
+"available."
+msgstr ""
+"보석 수집기는 정기적인 간격으로 우리안의 두 종류의 보석을 진공 청소기로 빨아들여서 저장 공간에 보관할 수 있는 만큼 보관합니다."
+
+#: 459
+msgctxt "m.upgrade.name.corral.feeder"
+msgid "Auto-Feeder"
+msgstr "자동 급식기"
+
+#: 460
+msgctxt "m.upgrade.desc.corral.feeder"
+msgid ""
+"An auto-feeder will drop food into the corral at regular intervals. Just "
+"remember to keep it stocked!"
+msgstr "자동 급식기는 일정한 간격으로 목장에 음식을 급여합니다. 재고를 유지하는 것을 잊지 마세요!"
+
+#: 461
+msgctxt "t.coop"
+msgid "Coop"
+msgstr "닭장"
+
+#: 462
+msgctxt "m.intro.coop"
+msgid "Keeping chickens in their place prevents the uprising."
+msgstr "그 곳에서 닭을 지키는 것은 폭동을 예방 할 수 있습니다."
+
+#: 463
+msgctxt "m.desc.coop"
+msgid ""
+"Though many ranchers simply let their chickens roam the ranch, a coop is the "
+"tool of the serious poultry producer. Coops keep hens and roostros close, "
+"allowing for maximum egg-laying potential. Just remember to avoid crowding "
+"the coop: chickens won't reproduce when in close proximity to more than a "
+"dozen other hens or roostros. But give them room and watch the love bloom."
+msgstr ""
+"많은 목장주들이 단순히 그들의 닭이 목장을 돌아 다니게하지만, 닭장은 가금류 생산자의 중요한 도구입니다. 닭장은 암탉과 수탉을 가깝게 "
+"유지하여 최대 잠재력의 배란율을 제공합니다. 단지 닭장에 무리 짓는 것을 피하십시오: 12마리 이상의 암탉들이 수탉에 근접해 있으면 닭이 "
+"번식하지 않습니다. 그저 그들에게 방을주고 사랑이 싹트는 것을 지켜볼 뿐이죠."
+
+#: 464
+msgctxt "m.upgrade.name.coop.walls"
+msgid "High Walls"
+msgstr "높은 벽"
+
+#: 465
+msgctxt "m.upgrade.desc.coop.walls"
+msgid "Great for keeping chickens in and hungry slimes out."
+msgstr "배고픈 슬라임으로 부터 닭들을 지키기에 좋음"
+
+#: 466
+msgctxt "m.upgrade.name.coop.feeder"
+msgid "Spring Grass"
+msgstr "봄 풀"
+
+#: 467
+msgctxt "m.upgrade.desc.coop.feeder"
+msgid ""
+"Spring grass attracts scuttle bugs that chickens just love to eat. With "
+"their bellies full, hens will produce eggs twice as fast."
+msgstr "봄 풀은 치킨들이 좋아하는 작은 벌레들을 유인한다. 그들의 배가 가득 차면, 암탉들은 알을 두배나 빠르게 생산해낼 것이다."
+
+#: 468
+msgctxt "m.upgrade.name.coop.vitamizer"
+msgid "Vitamizer"
+msgstr "비타마이저"
+
+#: 469
+msgctxt "m.upgrade.desc.coop.vitamizer"
+msgid ""
+"The very latest in advanced poultry tech, the vitamizer bathes the chickens "
+"in 'vita-rays,' allowing them to grow into healthy hens and roostros twice "
+"as fast."
+msgstr ""
+"가금류 기술의 최신 버전인 비타마이저는 '비타-광선'으로 닭들을 목욕시키고, 건강한 암탉과 수탉으로 두배나 빠르게 성장할 수 있게 합니다."
+""
+
+#: 470
+msgctxt "t.garden"
+msgid "Garden"
+msgstr "정원"
+
+#: 471
+msgctxt "m.intro.garden"
+msgid "Nothing beats the taste of food grown in your own backyard."
+msgstr "당신의 뒷마당에 자라는 작물들 보다 맛있는 것은 없지."
+
+#: 472
+msgctxt "m.desc.garden"
+msgid ""
+"The gardens used by ranchers use advanced technology to rapidly grow clones "
+"of fruits and veggies in a natural, though greatly sped up, way. By placing "
+"a sample into the replicator, the garden's soil is instantly populated by a "
+"fruit tree or veggie patch that will keep producing harvests until removed."
+msgstr ""
+"목장주들이 사용하는 정원은 첨단 기술을 사용하여 자연에서 나는 채소나 과일의 복제품을, 속도를 매우 높여서, 빠르게 자라나게 합니다. "
+"샘플을 정원 복제기에 넣으면, 정원의 토양은 수확물을 재배하기 위해서 과일 나무나 채소 밭로 즉시 채워지게 되고 여러번 수확할 수 "
+"있게됩니다!"
+
+#: 473
+msgctxt "m.upgrade.name.garden.sprinkler"
+msgid "Sprinkler"
+msgstr "살포기"
+
+#: 474
+msgctxt "m.upgrade.desc.garden.sprinkler"
+msgid ""
+"A sprinkler ensures that your crops are always watered, making them grow "
+"twice as fast."
+msgstr "살포기는 작물에게 항상 물을 주도록하여 두 배나 빨리 자라게 합니다."
+
+#: 475
+msgctxt "m.upgrade.name.garden.soil"
+msgid "Nutrient Soil"
+msgstr "양분 토양"
+
+#: 476
+msgctxt "m.upgrade.desc.garden.soil"
+msgid ""
+"Nutrient soil contains compost from the Moss Blanket and minerals from the "
+"Indigo Quarry. Makes crops always yield the maximum harvest."
+msgstr "양분 토양은 이끼 담요 숲의 퇴비와 인디고 채석장의 미네랄을 포함하고 있습니다. 작물이 항상 최대 수확량만큼 자라게합니다."
+
+#: 477
+msgctxt "m.upgrade.name.garden.scareslime"
+msgid "Scareslime"
+msgstr "슬라임아비"
+
+#: 478
+msgctxt "m.upgrade.desc.garden.scareslime"
+msgid ""
+"A scareslime is a stuffed tarr model designed to keep wandering slimes away "
+"from your crops. Simple, but terrifying."
+msgstr "슬라임아비는 타르를 모델로 하여 만들어져서 당신 작물 주변에서 돌아다니는 \n"
+"슬라임을 쫓아냅니다. 간단하지만, 무섭거든요."
+
+#: 479
+msgctxt "m.upgrade.name.garden.miracle_mix"
+msgid "Miracle Mix"
+msgstr ""
+
+#: 480
+msgctxt "m.upgrade.desc.garden.miracle_mix"
+msgid ""
+"This special mix greatly increases the time it takes for ripe fruits and "
+"veggies to rot, so long as they are touching the garden's soil."
+msgstr ""
+
+#: 481
+msgctxt "m.upgrade.name.garden.deluxe"
+msgid "Deluxe Upgrade"
+msgstr ""
+
+#: 482
+msgctxt "m.upgrade.desc.garden.deluxe"
+msgid ""
+"A special upgrade designed by Ogden Ortiz that tweaks the garden's "
+"replicator to produce a bigger harvest than normally possible."
+msgstr ""
+
+#: 483
+msgctxt "t.silo"
+msgid "Silo"
+msgstr "창고"
+
+#: 484
+msgctxt "m.intro.silo"
+msgid "You can't take it with you when you go, so put it in storage."
+msgstr "어디론가 떠날때 가지고갈수 없다면, 창고에 넣어두자."
+
+#: 485
+msgctxt "m.desc.silo"
+msgid ""
+"A silo lets a rancher neatly store plorts and resources in a handy, compact "
+"unit. Simply shoot into an available silo port to fill it, or vac it to "
+"retrieve the items within. Remember, a clean ranch is a happy ranch!"
+msgstr ""
+"창고를 사용하면 목장 주인이 편리하고, 간딘한 장치에 보석 및 자원을 깔끔하게 보관할 수 있습니다. 그저 그것을 채울 수있는 물건으로 "
+"창고 입구에 발사하거나, 또는 그 안에있는 물건을 다시 빨아들여서 비우기만 하면 됩니다. 기억하세요, 깨끗한 목장이 행복한 목장이 "
+"된답니다!"
+
+#: 486
+msgctxt "m.upgrade.name.silo.storage2"
+msgid "Additional Storage"
+msgstr "창고 추가"
+
+#: 487
+msgctxt "m.upgrade.desc.silo.storage2"
+msgid "A silo can have up to four ports for storing plorts and resources."
+msgstr "보석과 자원들을 저장하기 위해 창고는 총 네개의 공간을 가질 수 있다."
+
+#: 488
+msgctxt "t.incinerator"
+msgid "Incinerator"
+msgstr "소각로"
+
+#: 489
+msgctxt "m.intro.incinerator"
+msgid "Don't need it? Burn it!"
+msgstr "필요없다고? 태워버려!"
+
+#: 490
+msgctxt "m.desc.incinerator"
+msgid ""
+"An incinerator will instantly burn anything it touches into ash, and then "
+"burn that ash into nothing. It's an excellent solution for eliminating a "
+"tarr outbreak or for simply disposing of unwanted slimes if you're a "
+"terrible, heartless monster."
+msgstr ""
+"소각로는 즉시 화산재에 닿은 모든 것을 태우고, 사라지게 만듭니다. 이것은 타르들을 제거하거나 단순히 원치 않는 슬라임들을 처리하는데 "
+"훌륭한 방법입니다. 만약 당신이 끔찍하고, 무자비한 괴물이라면요."
+
+#: 491
+msgctxt "m.upgrade.name.incinerator.ash_trough"
+msgid "Ash Trough"
+msgstr ""
+
+#: 492
+msgctxt "m.upgrade.desc.incinerator.ash_trough"
+msgid ""
+"An ash trough allows you to collect the ash of incinerated food at its base, "
+"which is eaten exclusively by fire slimes. It's gross."
+msgstr ""
+
+#: 493
+msgctxt "t.pond"
+msgid "Pond"
+msgstr "연못"
+
+#: 494
+msgctxt "m.intro.pond"
+msgid "Water you going to do with this?"
+msgstr "이 물로 뭘 할수있을까?"
+
+#: 495
+msgctxt "m.desc.pond"
+msgid ""
+"A pond gives you a source of fresh water on the ranch that you can use for "
+"watering gardens, calming slimes in a corral, defeating tarr, or giving your "
+"puddle slimes a place to hang out and feed."
+msgstr ""
+"연못은 당신의 정원에 물을주기 위해 사용할 수있는 신선한 물을 목장에서 제공 할 수 있게 합니다. 우리속의 슬라임을 진정시키거나, 타르를 "
+"물리치거나, 또는 물웅덩이 슬라임이 놀수있는 장소를 마련하세요.\n"
+"\n"
+"연못은 물웅덩이 슬라임이 마시거나 증발되면서 서서히 소모되지만 시간이 지남에 따라 다시 천천히 보충됩니다. 당신은 가방에 비축 된 물을 "
+"연못으로 옮길 수 있으며, 비가 올 때도 즉시 보충됩니다."
+
+#: 496
+msgctxt "t.plort_market"
+msgid "Plort Market"
+msgstr "보석 시장"
+
+#: 497
+msgctxt "m.intro.plort_market"
+msgid "Feed slimes. Collect plorts. Get paid."
+msgstr "슬라임들을 먹이고, 보석을 수집하고, 돈을벌자."
+
+#: 498
+msgctxt "m.desc.plort_market"
+msgid ""
+"The plort market is a network of buyers and sellers of plorts across the "
+"galaxy. Ranchers use plort market machines on their ranch to send plorts to "
+"the market for sale. Ranchers are paid immediately when depositing plorts at "
+"the plort's current market value.\n"
+"\n"
+"Plort market values fluctuate and some of the more savvy ranchers will hoard "
+"certain plorts for days when sale prices are high, especially rare plorts."
+msgstr ""
+"보석 시장은 은하 전역에 걸친 구매자와 판매자의 네트워크입니다. 목장주들은 보석 시장 기계를 사용하여 목장에서 판매용 보석들을 보석 "
+"시장에 보냅니다. 목장주는 최근의 시장가로 보석의 예치금을 즉시 받게 됩니다.\n"
+"\n"
+"보석 시장의 가격은 계속 변동하며, 시장에 대해서 잘 아는 일부 목장주들은 판매가가 높은 일정 기간 동안에만 판매를 할 것입니다, 특히 "
+"희귀 보석을요."
+
+#: 499
+msgctxt "t.overgrowth"
+msgid "The Overgrowth"
+msgstr "과도한 성장"
+
+#: 500
+msgctxt "m.intro.overgrowth"
+msgid "The ranch's very own wild side."
+msgstr "목장에서 아주 야생적인 곳입니다."
+
+#: 501
+msgctxt "m.desc.overgrowth"
+msgid ""
+"The Overgrowth is an expansion to the ranch that is covered in moss and tall "
+"grasses. The thicket it creates allows for fruits and veggies to grow "
+"naturally and attracts the occasional wild chicken, making it an ideal space "
+"for a rancher that wants to let their slimes roam more freely."
+msgstr ""
+"과도한 성장 지대는 이끼와 키가 큰 목초로 덮힌 확장 된 목장입니다. 그것이 생성해내는 덤불은 과일과 채소가 자연적으로 자랄 수있게 "
+"해주며 가끔 야생 닭을 유인하고, 자신의 슬라임이 더 자유롭게 배회할수있도록 하고싶어하는 목장주들을 위한 이상적인 공간을 이루고 있습니다."
+""
+
+#: 502
+msgctxt "t.grotto"
+msgid "The Grotto"
+msgstr "작은 동굴"
+
+#: 503
+msgctxt "m.intro.grotto"
+msgid ""
+"A dark and gloomy cavern above the sea and a likely first chapter to that "
+"novel of yours."
+msgstr "바다 위에 존재하는 어둡고 우울한 동굴로써 마치 당신이 써내려갈 소설에 대한 첫 번째 장과 같습니다."
+
+#: 504
+msgctxt "m.desc.grotto"
+msgid ""
+"The Grotto is an expansion to the ranch set inside a (slightly spooky) cave "
+"that allows a rancher to care for light-sensitive slimes without the need "
+"for a solar shield. Never has a phosphor slime felt so liberated."
+msgstr ""
+"작은 동굴은 목장 안쪽에있는 (약간 으스스한) 동굴을 확장 한 것으로 빛에 민감한 슬라임을 관리할때 자외선 보호막이 필요 없습니다. 절대 "
+"해방된 형광 슬라임이 없습니다."
+
+#: 505
+msgctxt "t.lab"
+msgid "The Lab"
+msgstr "실험실"
+
+#: 506
+msgctxt "m.intro.lab"
+msgid ""
+"Allows you to begin your career as an amateur, unlicensed Slime Scientist."
+msgstr "아마추어, 그리고 무면허 슬라임 과학자로서 경력을 쌓을 수 있습니다."
+
+#: 507
+msgctxt "m.desc.lab"
+msgid ""
+"The Lab is an expansion to the ranch that houses a barn containing Hobson's "
+"old, Slime Science workshop. Once unlocked, the Lab will allow you to "
+"fabricate dozens of useful gadgets using Slime Science!\n"
+"\n"
+"It is recommended that only more experienced ranchers unlock the Lab, as "
+"Slime Science requires a great many resources and lots of newbucks to fully "
+"master."
+msgstr ""
+"실험실은 홉슨의 오래된 슬라임 과학 워크샵이 들어있는 헛간이있는 확장된 목장입니다. 잠금을 해제하면, 실험실에서 슬라임 과학을 사용하여 "
+"유용한 도구를 수십 가지로 만들 수 있습니다! \n"
+"\n"
+"슬라임 과학은, 엄청난 자원과 수많은 돈을 필요로하기 때문에 숙련된 목장주만 실험실의 잠금을 해제하는 것이 좋습니다."
+
+#: 508
+msgctxt "t.docks"
+msgid "The Docks"
+msgstr ""
+
+#: 509
+msgctxt "m.intro.docks"
+msgid ""
+"Deep, deep down in the great, blue sea, I saw a thousand slimes smiling back "
+"at me."
+msgstr ""
+
+#: 510
+msgctxt "m.desc.docks"
+msgid ""
+"The Docks is an expansion to the ranch that repurposes a cozy, little "
+"lookout along the waterfront. This expansion offers a few extra ranch "
+"patches flanked on several sides with fishing nets. The nets can be used to "
+"temporarily catch escaped slimes or as a means of creating physical collages "
+"of slimes because it's fun.\n"
+"\n"
+"It also houses a natural wellspring, allowing you to fill your tank with "
+"unlimited fresh water, or for a few puddle slimes that prefer a natural "
+"place to soak."
+msgstr ""
+
+#: 511
+msgctxt "t.ogden_retreat"
+msgid "Ogden's Retreat"
+msgstr ""
+
+#: 512
+msgctxt "m.intro.ogden_retreat"
+msgid "Where to retreat after you've escaped."
+msgstr ""
+
+#: 513
+msgctxt "m.desc.ogden_retreat"
+msgid ""
+"Ogden built this little getaway as a place where he could take a break from "
+"his ranch and collect his thoughts. But soon it led to an obsession as he "
+"discovered the nearby Wilds, and the tasty kookadoba fruit within."
+msgstr ""
+
+#: 514
+msgctxt "t.partner"
+msgid "7Zee Rewards Club"
+msgstr ""
+
+#: 515
+msgctxt "m.intro.partner"
+msgid "Style. Sophistication. Other good things. 7Zee."
+msgstr ""
+
+#: 516
+msgctxt "m.desc.partner"
+msgid ""
+"The 7Zee Rewards Club is an optional program that allows you to purchase "
+"prestigious rewards for large sums of newbucks. Each rank brings unique "
+"rewards and a new rank title.\n"
+"\n"
+"Some ranchers point out that the whole thing seems like a way of siphoning "
+"enormous sums of newbucks in exchange for fancy colors and trophies that "
+"don't actually serve any real purpose. But those ranchers aren't sporting "
+"the latest, most fashionable vacpack colors and obviously cannot be trusted."
+msgstr ""
+
+#: 517
+msgctxt "t.chroma"
+msgid "Chroma Packs"
+msgstr ""
+
+#: 518
+msgctxt "m.intro.chroma"
+msgid ""
+"A picture is always more beautiful when there are more colors than you can "
+"count."
+msgstr ""
+
+#: 519
+msgctxt "m.desc.chroma"
+msgid ""
+"Chroma Packs can be applied from the terminal on the ranch earned in the "
+"7Zee Rewards Club. They allow you to apply color schemes you have earned to "
+"your ranch house, vacpack, and ranch tech such as corrals and silos.\n"
+"\n"
+"You can acquire more chroma packs by continuing to rank up in the 7Zee "
+"Rewards Club. Only the most successful ranchers will be able to show off the "
+"rarest chroma packs!"
+msgstr ""
+
+#: 520
+msgctxt "t.reef"
+msgid "The Dry Reef"
+msgstr "메마른 암초"
+
+#: 521
+msgctxt "m.intro.reef"
+msgid "A coral-crusted ocean floor that now basks under a golden sun."
+msgstr "금빛 태양 아래서 햇빛이 쪼이는 산호로 덮힌 바다."
+
+#: 522
+msgctxt "m.desc.reef"
+msgid ""
+"The environment surrounding the ranch is known as the Dry Reef and is an "
+"arid, wind-swept land covered in dusty crags and rocky cliffs shaped by the "
+"wind over the millennia.\n"
+"\n"
+"The Dry Reef is primarily home to pink, tabby, and rock slimes though "
+"phosphor slimes will also come out of hiding when the sun sets. The Dry "
+"Reef's climate doesn't make for an abundance of any particular resource, but "
+"plenty of carrots, pogofruit, and hen hens are everywhere, as well as some "
+"less common resources if you know where to look."
+msgstr ""
+"목장을 둘러싼 환경은 건조한 암초로 알려져 있으며 수천 년 동안 바람에 의해 형성된 먼지 투성이의 험준한 바위와 바위가 많은 절벽으로 "
+"덮인 건조하고 바람이 부는 땅입니다.\n"
+"\n"
+"건조한 암초는 분홍, 고양이, 암석 슬라임의 주요 활동지이고, 태양이 떠있을 때 숨어 있던 형광 슬라임이 튀어 나오기도 합니다. 건조한 "
+"암초의 기후에서는 어느 특정 자원만이 풍부한 것은 아니지만 많은 당근과 포고프루트, 암탉이 어디에나 있을 뿐만 아니라, 어디에 있는지 "
+"위치만 안다면 몇몇 덜 흔한 자원들도 얻을 수 있습니다."
+
+#: 523
+msgctxt "t.quarry"
+msgid "The Indigo Quarry"
+msgstr "인디고 채석장"
+
+#: 524
+msgctxt "m.intro.quarry"
+msgid "All that remains of a mining project that quickly went bust."
+msgstr "빠른속도로 파산한 광산 연구의 모든 것이 남아 있습니다."
+
+#: 525
+msgctxt "m.desc.quarry"
+msgid ""
+"The Indigo Quarry is a winding network of caves and cliffs, striated with "
+"deep purple hues from the rare minerals found within it. It was once the "
+"site of a mining project but went bust after the discovery that the rare "
+"ores it produces quickly break down in atmospheres other than that of the "
+"Far, Far Range.\n"
+"\n"
+"It was later discovered that the means to harness these metals was via rock "
+"slime plorts. Somehow, rock slime plorts preserve the minerals within, a "
+"process that eludes even the most prestigious slime scientists.\n"
+"\n"
+"The Indigo Quarry is a natural home for rock slimes and the more elusive rad "
+"slime, and its naturally mineral-rich soil make it a great place to harvest "
+"most wild veggies."
+msgstr ""
+"인디고 채석장은 동굴들이 이리 저리 연결되어있고 희귀한 미네랄로 된 짙은 자주색 색조에 가로로 금이 가있는 절벽이 있습니다. 그 곳은 "
+"한때 광산 프로젝트 현장 이었지만, 발견 된 희귀한 광석은 머나먼 방목장 이외의 대기에서는 빠르게 분해됩니다.\n"
+"\n"
+"암석 슬라임 보석으로 이러한 금속들을 채집하는 방법은 나중에 되서야 발견됬습니다. 어떻게든 암석 슬라임 보석은 저명한 과학자들도 어찌하지 "
+"못했던 금속이 분해되는 현상을 방지했습니다.\n"
+"\n"
+"인디고 채석장 (Indigo Quarry)은 암석 슬라임과 찾기 힘든 방사능 슬라임의 고향이며 천연 미네랄이 풍부한 토양에 풍부해서 야생 "
+"채소를 수확하기에 좋은 곳입니다."
+
+#: 526
+msgctxt "t.moss"
+msgid "The Moss Blanket"
+msgstr "이끼 담요 숲"
+
+#: 527
+msgctxt "m.intro.moss"
+msgid ""
+"Like a flower blooming from a rocky crack, this emerald expanse hints at "
+"what could be."
+msgstr "바위의 틈에서 피는 꽃처럼, 이 에메랄드 창공도 있을 수있다는 것을 암시합니다."
+
+#: 528
+msgctxt "m.desc.moss"
+msgid ""
+"The Moss Blanket is an island covered in a thick layer of moss where flora "
+"grows wild in great, tangling knots at every turn. The high walls of the "
+"cliffs surrounding the island and its great canopy of trees allow for sea "
+"mists to pass in and become trapped, creating a unique climate within the "
+"otherwise arid range.\n"
+"\n"
+"The slimes primarily found within the Moss Blanket find its jungle-like "
+"conditions perfect: tabby and boom slimes hunt their prey through the "
+"thickets with abandon, and honey slimes lounge in the flower beds, eating "
+"the great abundance of fruit that can be found at every turn."
+msgstr ""
+"이끼 담요 숲는 이끼가 두꺼운 층으로 덮여있고 식물들이 거대하게 얼기설기 덤불을 만들면서 자라나는 섬입니다. 섬을 둘러싸고있는 절벽의 "
+"높은 벽과 나무로 된 커다란 덮개 때문에 바다 안개가 흘러 들어가 갇혀서 다른 건조한 방목장 지대에 특이한 기후를 만듭니다.\n"
+"\n"
+"정글과 똑같은 조건을 볼 수 있는 이끼 담요 숲에서 첫번째로 발견 된 슬라임인 고양이 슬라임, 폭발 슬라임은 덤불 사이에 있는 먹이들을 "
+"되는대로 사냥하며, 꿀 슬라임은 꽃순에서 꿀을 빨고 어디서든지 발견할 수 있는 매우 풍부한 과일을 먹습니다."
+
+#: 529
+msgctxt "t.ruins"
+msgid "The Ancient Ruins"
+msgstr "고대 유적"
+
+#: 530
+msgctxt "m.intro.ruins"
+msgid "All that is lost is eventually found, and lost once more."
+msgstr "잃어버린 모든 것은 결국 발견되었고 한번 더 잃어버렸다."
+
+#: 531
+msgctxt "m.desc.ruins"
+msgid ""
+"Hidden behind a vast mountain range, the Ancient Ruins stand as one of the "
+"few known unnatural structures on the Far, Far Range. Their origin remains a "
+"mystery, as do the strange occurences that happen within.\n"
+"\n"
+"Home to quantum slimes that seem to express many other possible realities of "
+"their being, and phase lemon trees that do not remain in one time or place "
+"for very long, the Ancient Ruins defy logic and expectation.\n"
+"\n"
+"Only one thing is certain in the Ancient Ruins: within its deepest chambers "
+"lies its greatest secret."
+msgstr ""
+
+#: 532
+msgctxt "t.desert"
+msgid "The Glass Desert"
+msgstr "유리 사막"
+
+#: 533
+msgctxt "m.intro.desert"
+msgid "Under a blistering sun, prismatic giants evoke beauty and peril."
+msgstr "TBD"
+
+#: 534
+msgctxt "m.desc.desert"
+msgid ""
+"The Glass Desert is mostly uncharted territory within the Far, Far Range, "
+"located so far beyond the ranch it is only accessible via teleportation.\n"
+"\n"
+"The Glass Desert gets its name from the monolithic glass structures that dot "
+"its landscape. Resembling prismatic, frozen flames, these glass structures "
+"are believed to have been created during a violent solar event, scorching "
+"the land and heating sand and stone into glass. These glass structures are "
+"also believed to be the catalyst for the dangerous solar anomalies that "
+"regularly occur in the Glass Desert: firestorms that burst from the ground, "
+"as if intense heat is desperate to escape the ground below.\n"
+"\n"
+"But the desert's barren, unforgiving, sometimes violent environment hides a "
+"secret: somewhere deep within it lies a memory of what once was, and a means "
+"of restoring parts of that memory."
+msgstr "TBD"
+
+#: 535
+msgctxt "t.sea"
+msgid "The Slime Sea"
+msgstr "슬라임 바다"
+
+#: 536
+msgctxt "m.intro.sea"
+msgid ""
+"An expansive body of water and slime compound that's not fit for swimming, "
+"let alone drinking."
+msgstr "마시기는 커녕 수영을하기에도 적합하지 물과 슬라임이 혼합된 커다란 덩어리."
+
+#: 537
+msgctxt "m.desc.sea"
+msgid ""
+"The Slime Sea that covers most of the Far, Far Range is something of a "
+"mystery. It is seemingly a mixture of water and slime that is believed to be "
+"the primordial pool whence all slimes emerged, though its true purpose is "
+"entirely unknown by even the most esteemed slime scientists.\n"
+"\n"
+"What is known is that the liquid found within the Slime Sea is not fit for "
+"drinking, watering crops, or even swimming, as most things seem to quickly "
+"sink to the bottom. When a slime enters the slime sea it quickly vanishes "
+"but it is widely believed that this far from ends the slime's existence, for "
+"slimes that enter the sea can often be seen quickly reappearing back on "
+"land, happy as ever. In fact, many slime scientists believe that slimes use "
+"the sea as a means of transportation, moving swiftly below the surface and "
+"popping out on land wherever they see fit.\n"
+"\n"
+"But all theories aside, one fact remains very clear, most especially to "
+"ranchers: don't enter the Slime Sea!"
+msgstr ""
+"머나먼 방목장의 대부분을 이루는 슬라임 바다는 수수께끼일 뿐입니다. 겉으로 보기에는 물과 슬라임이 혼합되어있어 모든 슬라임이 태어난 "
+"태초의 못이라고 여겨졌습니다. 하지만 진정한 목적은 저명한 슬라임 과학자들조차도 모릅니다.\n"
+"\n"
+"슬라임 바다에서 발견 된 액체를 마시거나, 작물에 물을 주거나, 대부분의 물건들이 빠르게 바닥에 가라 앉는 것으로 볼 때 수영하는 것이 "
+"적합하지 않다고 알려져있습니다.  슬라임이 슬라임 바다로 들어가면 빠르게 사라집니다만, 넓게 보면 슬라임의 존재가 끝나는 것과는 다르다고 "
+"여겨집니다. 바다로 들어간 슬라임이 종종 육지로 빠르게 되돌아 오고, 여전히 행복해하기 때문입니다.   사실, 많은 점액 과학자들은 "
+"슬라임이 바다를 지표면 아래로 신속히 움직이고, 적당한 곳으로 보이는 땅위 어디든지로 뛰어 오를 수 있는 교통 수단으로 사용하고 있다고 "
+"믿습니다.\n"
+"\n"
+"그러나 모든 이론적인 면은 제쳐두고, 특히 목장주에게 매우 분명한 사실 하나는 : 슬라임 바다로 들어 가지 마십시오!"
+
+#: 538
+msgctxt "t.wilds"
+msgid "The Wilds"
+msgstr ""
+
+#: 539
+msgctxt "m.intro.wilds"
+msgid "Filled with the deepest roots of the slime family tree."
+msgstr ""
+
+#: 540
+msgctxt "m.desc.wilds"
+msgid ""
+"The Wilds are an ancient, untamed collection of islands that are home to an "
+"enormous population of feral slimes. All of these slimes are largo "
+"desecendants of saber slimes, one of the oldest known species of slimes.\n"
+"\n"
+"Ogden Ortiz once explored The Wilds and discovered the rare kookadoba fruit "
+"growing within. Since then he has contracted out the dangerous task of "
+"collecting these fruits to anyone willing to take on the risk."
+msgstr ""
+
+#: 541
+msgctxt "t.the_ranch"
+msgid "The Ranch"
+msgstr "목장"
+
+#: 542
+msgctxt "m.intro.the_ranch"
+msgid "A distant home for distant hearts."
+msgstr "멀리있는 마음을 위한 멀리있는 집."
+
+#: 543
+msgctxt "m.desc.the_ranch"
+msgid ""
+"Beatrix begins her life on a humble ranch in the middle of an area of the "
+"Far, Far Range known as the Dry Reef. Once the property of the legendary "
+"slime rancher and notorious old codger, Hobson Twillgers, the ranch has seen "
+"better days, as Hobson let it come into a state of disrepair shortly before "
+"disappearing completely.\n"
+"\n"
+"Hobson's whereabouts are currently unknown."
+msgstr ""
+"Beatrix는 건조한 암초로 알려진 머나먼 방목장의 한가운데 있는 소박한 목장에서 그녀의 삶을 시작합니다. 한때 슬라임 목장주 중 "
+"재력가였고 악명 높은 늙은 영감탱이인 Hobson Twillgers가 건조한 암초 지역에서 완전히 순식간에 사라지기 전에 암초 지역을 "
+"망가진 상태로 만들어서 목장의 상태가 좋지 않게 되었습니다.\n"
+"\n"
+"Hobson의 소재는 현재 알려지지 않았습니다."
+
+#: 544
+msgctxt "t.keys"
+msgid "Slime Keys"
+msgstr "슬라임 열쇠"
+
+#: 545
+msgctxt "m.intro.keys"
+msgid "An ancient key for an ancient lock."
+msgstr "고대의 자물쇠를 위한 고대의 열쇠."
+
+#: 546
+msgctxt "m.desc.keys"
+msgid ""
+"Slime Keys are large, stone keys that are used to open the ancient slime "
+"gates across the range. These gates often lead to new areas to explore or "
+"create shortcuts to familiar ones."
+msgstr ""
+"슬라임 열쇠는 목장 내의 고대 슬라임 문을 여는 데 사용되는 대형 돌로 된 열쇠입니다. 이러한 문들은 익숙한 지역에 대해 워프를 만들 수 "
+"있거나 탐색할 수 있는 새로운 지역으로 이어집니다."
+
+#: 547
+msgctxt "t.refinery"
+msgid "Refinery"
+msgstr "정제소"
+
+#: 548
+msgctxt "m.intro.refinery"
+msgid "The first step to building fantastic gadgets."
+msgstr "멋진 장치를 만들기위한 첫번째 단계."
+
+#: 549
+msgctxt "m.desc.refinery"
+msgid ""
+"Using advanced technology, the Refinery breaks down plorts and other "
+"resources to their molecular level, allowing them to be fabricated into "
+"various Slime Science gadgets. Aside from plorts, the bulk of resources you "
+"will use in Slime Science will be obtained from extractors.\n"
+"\n"
+"Be sure to choose what to deposit into the Refinery wisely: any resources "
+"you deposit cannot be removed from the refinery, but instead used only for "
+"building gadgets."
+msgstr ""
+"고급 기술을 사용하여 정제소는 보석과 기타 자원을 분자 단위로 분해하여 다양한 슬라임 과학 장치로 제작할 수 있도록 합니다. 보석 외에 "
+"슬라임 과학에서 사용할 대부분의 자원은 추출기에서 얻을 수 있습니다.\n"
+"\n"
+"무엇을 정제소에 투입할 것인지 확실하게 정하십시오. : 투입한 모든 자원은 장치를 만드는 용도 이외에는 절대로 꺼낼 수 없습니다."
+
+#: 550
+msgctxt "t.fabricator"
+msgid "Fabricator"
+msgstr "제작기"
+
+#: 551
+msgctxt "m.intro.fabricator"
+msgid "Let's get crafty."
+msgstr "만들어보자고."
+
+#: 552
+msgctxt "m.desc.fabricator"
+msgid ""
+"The Fabricator allows you to craft gadgets from a blueprint using resources "
+"you have stored in the Refinery. You can generally build as many gadgets of "
+"a specific blueprint as you wish, however some special gadgets have build "
+"limits, allowing you to only own a certain number of them at a time."
+msgstr ""
+"제작기를 사용하면 정제소에 저장한 자원을 사용하여 설계도면에서 도구를 만들 수 있습니다. 일반적으로 특정 설계도면의 도구를 원하는만큼 "
+"만들 수 있지만 일부 특수 도구는 제작에 제한이 있으므로 한 번에 일정 갯수만 소유 할 수 있습니다."
+
+#: 553
+msgctxt "t.blueprints"
+msgid "Blueprints"
+msgstr "설계도면"
+
+#: 554
+msgctxt "m.intro.blueprints"
+msgid "All great scientists have a plan... most of the time."
+msgstr "모든 유능한 과학자들은 계획을 가지고 있지... 대부분의 시간에 말이야."
+
+#: 555
+msgctxt "m.desc.blueprints"
+msgid ""
+"Blueprints allow you to craft gadgets at the Fabricator. Once you own a "
+"blueprint for a specific gadget, you can craft it as many times as you like, "
+"provided you have the necessary resources and are not exceeding the build "
+"limit.\n"
+"\n"
+"Blueprints can be purchased from the Builder's Shop, or found in treasure "
+"pods throughout the Far, Far Range. Some of them are hiding in really secret "
+"spots!"
+msgstr ""
+"설계도면을 사용하여 제작소에서 장치를 만들 수 있습니다. 특정 장치의 설계도면을 한번이라도 얻으면, 필요한 재료가 있고 건설 제한을 "
+"초과하지 않는 한, 제작하고 싶은 만큼 제작할 수 있습니다.\n"
+"\n"
+"설계도면은 장인의 상점에서 구입하거나 머나먼 방목장의 보물 창에서 찾을 수 있습니다. 설계도면 중 일부는 정말로 비밀 장소에 숨겨져 "
+"있습니다!"
+
+#: 556
+msgctxt "t.extractors"
+msgid "Extractors"
+msgstr "추출기"
+
+#: 557
+msgctxt "m.intro.extractors"
+msgid "Nature is a treasure hoarder."
+msgstr "자연은 보물 축적가지."
+
+#: 558
+msgctxt "m.desc.extractors"
+msgid ""
+"Extractors are a special class of Slime Science gadgets that are essential "
+"for building all other types of gadgets. Extractors include drills, pumps, "
+"and apiaries.\n"
+"\n"
+"Once placed on a build site, an extractor will begin working, collecting "
+"resources from the environment over time. Once it is full of resources, an "
+"extractor can be emptied. The best extractors can repeat this cycle multiple "
+"times before they finally break down.\n"
+"\n"
+"Each extractor can find exclusive resources if used in the correct zone:\n"
+"Pumps can find a special resource in the Dry Reef.\n"
+"Drills can find a special resource in the Indigo Quarry.\n"
+"Apiaries can find a special resource in the Moss Blanket.\n"
+"All extractors can find special resources in the Glass Desert."
+msgstr ""
+"추출기는 추출기를 제외한 모든 종류의 슬라임 과학 장치를 제작하는 데 필수적인 특별한 장치 종류입니다. 추출기에는 드릴, 펌프, 양봉장이 "
+"있습니다.\n"
+"\n"
+"건설 부지에 추출기를 놓으면 추출기가 일을 하기 시작하여 일정 동안 주변에서 자원을 수집합니다.  자원이 충분히 모이면 추출기를 비울 수 "
+"있습니다. 가장 좋은 추출기는 최종적으로 부숴지기 전까지 여러번 작업을 반복할 수 있습니다.\n"
+"\n"
+"각 추출기는 정확한 구역에서 사용하면 특별한 자원을 찾을 수 있습니다.\n"
+"펌프는 건조한 암초에서 특별한 자원을 찾을 수 있습니다.\n"
+"드릴은 인디고 채석장에서 특별한 자원을 찾을 수 있습니다.\n"
+"양봉장은 이끼 담요 숲에서 특별한 자원을 찾을 수 있습니다."
+
+#: 559
+msgctxt "t.utilities"
+msgid "Utilities"
+msgstr "도구"
+
+#: 560
+msgctxt "m.intro.utilities"
+msgid "Tools for getting the job done."
+msgstr "작업을 완료하기 위한 도구."
+
+#: 561
+msgctxt "m.desc.utilities"
+msgid ""
+"Utilities are a class of Slime Science gadgets that provide useful features "
+"to aid you in managing your ranch, as well as exploring the range.\n"
+"\n"
+"Craft utilities in order to make your slime ranching a little easier."
+msgstr ""
+"도구는 당신의 목장 안을 관리하고 목장 밖을 탐색하는 데 도움이 되는 유용한 기능을제공하는 슬라임 과학 도구입니다.\n"
+"\n"
+"슬라임 목장을 좀 더 용이하게 만들어주기 위한 제품입니다."
+
+#: 562
+msgctxt "t.warp_tech"
+msgid "Warp Tech"
+msgstr "워프 기술"
+
+#: 563
+msgctxt "m.intro.warp_tech"
+msgid "Try not to think about how it works."
+msgstr "어떻게 작동하는지는 생각하지 말자."
+
+#: 564
+msgctxt "m.desc.warp_tech"
+msgid ""
+"Warp tech is a class of Slime Science gadgets that allow you to harness the "
+"power of instantaneous travel. It includes teleporters that you can use to "
+"create shortcuts, as well as gadgets that allow you to transport items.\n"
+"\n"
+"Craft warp tech in order to ranch and explore much faster and more "
+"efficiently."
+msgstr ""
+"워프 기술은 시간 여행의 힘을 사용할 수 있는 슬라임 과학 도구 중 하나입니다. 여기에는 원하는 장소로 바로 가기 위한 도구를 만드는 데 "
+"사용 할 수있는 텔레포터와 아이템을을 전송할 수 있는 도구가포함됩니다.\n"
+"\n"
+"워프 기술을 제작하여 훨씬 빠르고 효율적으로 목장 일과 모험을 할 수 있습니다."
+
+#: 565
+msgctxt "t.decorations"
+msgid "Decorations"
+msgstr "장식"
+
+#: 566
+msgctxt "m.intro.decorations"
+msgid "Be the best rancher, but do it in style."
+msgstr "최고의 목장주가 되자, 하지만 스타일도 포기할 수 없지."
+
+#: 567
+msgctxt "m.desc.decorations"
+msgid ""
+"Decorations are a class of Slime Science gadgets that allow you to decorate "
+"the world with attractive objects or recreations of natural findings from "
+"the environment.\n"
+"\n"
+"Craft decorations in order to make your slime ranching a more beautiful "
+"experience!"
+msgstr ""
+"장식은 자연에서 발견 한 매력적인 물건이나 자연물로 세계를 장식 할 수있게 해주는 슬라임 과학 도구입니다.\n"
+"\n"
+"장식품을 제작해보세요 당신의 슬라임 농장이 더 아름다운 경험을 하게 만들기위해서!"
+
+#: 568
+msgctxt "t.curios"
+msgid "Curios"
+msgstr "골동품"
+
+#: 569
+msgctxt "m.intro.curios"
+msgid "Because why not?"
+msgstr "왜 안되겠어?"
+
+#: 570
+msgctxt "m.desc.curios"
+msgid ""
+"Curios are a class of Slime Science gadgets that while functional, are not "
+"necessarily useful. Curios include toys, games, and other gimmicky gadgets "
+"that can be a great time with an equally great imagination.\n"
+"\n"
+"Craft curios in order to make your slime ranching a little sillier (which is "
+"the best kind of slime ranching, to be honest)."
+msgstr ""
+"골동품은 실용적이지만 반드시 유용한 것은 아니라는 점에서 슬라임 과학 도구의 한 종류입니다. 골동품에는 장난감, 게임과 같은 훌륭한 "
+"상상력으로 좋은 시간이 될 수있는 기타 도구가 포함됩니다.\n"
+"\n"
+"제작된 골동품은 당신의 슬라임 목장을 약간 바보같이 만들 수도 있습니다 (정직하게 말하자면, 이것은 가장 멋진 슬라임 목장일지도 "
+"모릅니다)."
+
+#: 571
+msgctxt "t.pink_gordo"
+msgid "Pink Gordo"
+msgstr "분홍 고르도"
+
+#: 572
+msgctxt "t.rock_gordo"
+msgid "Rock Gordo"
+msgstr "암석 고르도"
+
+#: 573
+msgctxt "t.tabby_gordo"
+msgid "Tabby Gordo"
+msgstr "고양이 고르도"
+
+#: 574
+msgctxt "t.phosphor_gordo"
+msgid "Phosphor Gordo"
+msgstr "반딧불 고르도"
+
+#: 575
+msgctxt "t.rad_gordo"
+msgid "Rad Gordo"
+msgstr "방사능 고르도"
+
+#: 576
+msgctxt "t.boom_gordo"
+msgid "Boom Gordo"
+msgstr "폭발 고르도"
+
+#: 577
+msgctxt "t.honey_gordo"
+msgid "Honey Gordo"
+msgstr "꿀 고르도"
+
+#: 578
+msgctxt "t.hunter_gordo"
+msgid "Hunter Gordo"
+msgstr "사냥꾼 고르도"
+
+#: 579
+msgctxt "t.puddle_gordo"
+msgid "Puddle Gordo"
+msgstr "물웅덩이 고르도"
+
+#: 580
+msgctxt "t.crystal_gordo"
+msgid "Crystal Gordo"
+msgstr ""
+
+#: 581
+msgctxt "t.quantum_gordo"
+msgid "Quantum Gordo"
+msgstr ""
+
+#: 582
+msgctxt "t.dervish_gordo"
+msgid "Dervish Gordo"
+msgstr ""
+
+#: 583
+msgctxt "t.mosaic_gordo"
+msgid "Mosaic Gordo"
+msgstr ""
+
+#: 584
+msgctxt "t.tangle_gordo"
+msgid "Tangle Gordo"
+msgstr ""
+
+#: 585
+msgctxt "t.gold_gordo"
+msgid "Gold Gordo"
+msgstr ""
+
+#: 586
+msgctxt "t.beach_ball_toy"
+msgid "Beach Ball"
+msgstr "물놀이용 공"
+
+#: 587
+msgctxt "t.big_rock_toy"
+msgid "Big Rock"
+msgstr "큰 바위"
+
+#: 588
+msgctxt "t.yarn_ball_toy"
+msgid "Yarn Ball"
+msgstr "실 뭉치"
+
+#: 589
+msgctxt "t.night_light_toy"
+msgid "Night Light"
+msgstr ""
+
+#: 590
+msgctxt "t.power_cell_toy"
+msgid "Power Cell"
+msgstr "연료 전지"
+
+#: 591
+msgctxt "t.bomb_ball_toy"
+msgid "Bomb Ball"
+msgstr "폭탄 공"
+
+#: 592
+msgctxt "t.buzzy_bee_toy"
+msgid "Buzzy Bee"
+msgstr ""
+
+#: 593
+msgctxt "t.rubber_ducky_toy"
+msgid "Rubber Ducky"
+msgstr "러버덕"
+
+#: 594
+msgctxt "t.crystal_ball_toy"
+msgid "Crystal Ball"
+msgstr "수정 공"
+
+#: 595
+msgctxt "t.stuffed_chicken_toy"
+msgid "Stuffed Chicken"
+msgstr "박제 닭"
+
+#: 596
+msgctxt "t.puzzle_cube_toy"
+msgid "Puzzle Cube"
+msgstr "큐브"
+
+#: 597
+msgctxt "t.disco_ball_toy"
+msgid "Disco Ball"
+msgstr ""
+
+#: 598
+msgctxt "t.gyro_top_toy"
+msgid "Gyro Top"
+msgstr ""
+
+#: 599
+msgctxt "t.sol_mate_toy"
+msgid "Sol Mate"
+msgstr ""
+
+#: 600
+msgctxt "t.charcoal_brick_toy"
+msgid "Charcoal Brick"
+msgstr ""
+
+#: 601
+msgctxt "t.stego_buddy_toy"
+msgid "Stego Buddy"
+msgstr ""
+
+#: 602
+msgctxt "t.kookadoba_ball"
+msgid "Saber Slime Mudball"
+msgstr ""
+
+#: 603
+msgctxt "m.upgrade.name.personal.liquid_slot"
+msgid "Water Tank"
+msgstr "물 탱크"
+
+#: 604
+msgctxt "m.upgrade.desc.personal.liquid_slot"
+msgid "Adds a specialized vac tank that allows you to store fresh water."
+msgstr "신선한 물을 저장할 수 있는 특수한 포획 탱크를 추가합니다."
+
+#: 605
+msgctxt "m.upgrade.name.personal.jetpack"
+msgid "Jetpack"
+msgstr "제트팩"
+
+#: 606
+msgctxt "m.upgrade.desc.personal.jetpack"
+msgid "Keep your head in the clouds with this amazing, personal jetpack!"
+msgstr "놀랍고 개인용 제트팩으로 구름 위를 거닐어보세요!"
+
+#: 607
+msgctxt "m.upgrade.name.personal.jetpack_efficiency"
+msgid "Air Drive"
+msgstr "에어 드라이브"
+
+#: 608
+msgctxt "m.upgrade.desc.personal.jetpack_efficiency"
+msgid ""
+"Enhanced jetpack thrusters that consume 20% less energy but produce double "
+"the fun."
+msgstr "향상된 제트팩 추진력으로 20% 에너지 절감과 2배 향상된 재미."
+
+#: 609
+msgctxt "m.upgrade.name.personal.run_efficiency"
+msgid "Dash Boots"
+msgstr "대쉬 신발"
+
+#: 610
+msgctxt "m.upgrade.desc.personal.run_efficiency"
+msgid ""
+"These highly advanced and, frankly, fashion-forward boots reduce the energy "
+"consumption of sprinting."
+msgstr "고도로 진보되고, 솔직히, 디자인 지향적인 부츠는 전력질주할 때 에너지 소모를 반으로 줄여줍니다."
+
+#: 611
+msgctxt "m.upgrade.name.personal.run_efficiency_2"
+msgid "Ultra Dash Boots"
+msgstr ""
+
+#: 612
+msgctxt "m.upgrade.desc.personal.run_efficiency_2"
+msgid ""
+"Experimental footwear capable of reducing the cost of sprinting even further."
+" It makes you think walking is for suckers."
+msgstr ""
+
+#: 613
+msgctxt "m.upgrade.name.personal.air_burst"
+msgid "Pulse Wave"
+msgstr "충격파"
+
+#: 614
+msgctxt "m.upgrade.desc.personal.air_burst"
+msgid ""
+"Adds a pulse wave emitter feature to your vacpack that pushes away slimes "
+"whenever you need some personal space."
+msgstr "개인적인 공간이 필요할 때 슬라임을 저 멀리 밀어낼 수 있는 충격파 발생기를 vacpack에 추가합니다."
+
+#: 615
+msgctxt "m.upgrade.name.personal.health_1"
+msgid "Heart Module"
+msgstr "심장 모듈"
+
+#: 616
+msgctxt "m.upgrade.desc.personal.health_1"
+msgid ""
+"Syncs with your body's own vital processes to enhance life systems, boosting "
+"health to 150. Plus, it's sparkly."
+msgstr "생명 시스템을 강화하여 몸의 생명 활동을 조화롭게 하고 체력을 150으로 끌어올리세요. 게다가 생기가 넘치기까지."
+
+#: 617
+msgctxt "m.upgrade.name.personal.health_2"
+msgid "Heart Module Mk II"
+msgstr "심장 모듈 Mk II"
+
+#: 618
+msgctxt "m.upgrade.desc.personal.health_2"
+msgid ""
+"A more advanced and even sparklier heart module that boosts health to 200."
+msgstr "더 진보되고 심지어 생기가 더욱 넘치는 심장 모듈로 체력을 200까지 끌어올리세요."
+
+#: 619
+msgctxt "m.upgrade.name.personal.health_3"
+msgid "Heart Module Mk III"
+msgstr "심장 모듈 Mk III"
+
+#: 620
+msgctxt "m.upgrade.desc.personal.health_3"
+msgid ""
+"The latest in life system amplification and sparkliness technology boosts "
+"health to 250."
+msgstr "최종 생명 시스템 증폭과 생명력 기술으로 체력을 250까지 끌어올리세요."
+
+#: 621
+msgctxt "m.upgrade.name.personal.health_4"
+msgid "Heart Module Ultra"
+msgstr ""
+
+#: 622
+msgctxt "m.upgrade.desc.personal.health_4"
+msgid ""
+"An experimental life system amplification device that pushes the technology "
+"to the limit... of healthiness."
+msgstr ""
+
+#: 623
+msgctxt "m.upgrade.name.personal.energy_1"
+msgid "Power Core"
+msgstr "파워 코어"
+
+#: 624
+msgctxt "m.upgrade.desc.personal.energy_1"
+msgid ""
+"Augments your vacpack with an almost-certainly-safe micro fusion generator "
+"that boosts energy to 150."
+msgstr "거의 확실하게 안전한 마이크로 융합 발전기로 vacpack을 강화하여 에너지를 150까지 끌어올리세요."
+
+#: 625
+msgctxt "m.upgrade.name.personal.energy_2"
+msgid "Power Core Mk II"
+msgstr "파워 코어 Mk II"
+
+#: 626
+msgctxt "m.upgrade.desc.personal.energy_2"
+msgid ""
+"This enhanced micro generator boosts energy to 200; but more importantly, is "
+"even smaller."
+msgstr "향상된 마이크로 발전기는 에너지를 200으로 끌어올립니다; 하지만 가장 중요한건, 크기가 더욱 작아졌다는거죠."
+
+#: 627
+msgctxt "m.upgrade.name.personal.energy_3"
+msgid "Power Core Mk III"
+msgstr "파워 코어 Mk III"
+
+#: 628
+msgctxt "m.upgrade.desc.personal.energy_3"
+msgid ""
+"The latest micro generator boosts personal energy to 250, but not high "
+"enough to give up coffee entirely."
+msgstr "최신의 마이크로 발전기는 개인의 에너지를 250으로 끌어올리지만, 커피를 포기할 만큼 충분히 높지는 않습니다."
+
+#: 629
+msgctxt "m.upgrade.name.personal.ammo_1"
+msgid "Tank Booster"
+msgstr "탱크 부스터"
+
+#: 630
+msgctxt "m.upgrade.desc.personal.ammo_1"
+msgid ""
+"Improved nano-storage cell technology allows your vac tanks to hold 30 units "
+"of whatever you can vac up."
+msgstr "개선된 나노 저장 소자 기술로 무엇이든지 포획하든 간에 포획 탱크에 30개를 보관할 수 있습니다."
+
+#: 631
+msgctxt "m.upgrade.name.personal.ammo_2"
+msgid "Tank Booster Mk II"
+msgstr "탱크 부스터 Mk II"
+
+#: 632
+msgctxt "m.upgrade.desc.personal.ammo_2"
+msgid ""
+"These enhanced nano-storage cells throw caution to the wind and allow you to "
+"cram 40 units into each vac tank."
+msgstr "나노 저장 소자를 과감하게 향상시켜 각 진공 탱크에 40개를 꽉 채워넣을 수 있습니다."
+
+#: 633
+msgctxt "m.upgrade.name.personal.ammo_3"
+msgid "Tank Booster Mk III"
+msgstr "탱크 부스터 Mk III"
+
+#: 634
+msgctxt "m.upgrade.desc.personal.ammo_3"
+msgid ""
+"More is better, but in this case, it's best. These premium nano-storage "
+"cells can hold 50 units in each vac tank."
+msgstr "많으면 많을 수록 좋지만, 이번 경우에는 이것이 최선입니다. 프리미엄 나노 저장 소자로 50개 까지 보관할 수 있습니다."
+
+#: 635
+msgctxt "m.upgrade.name.personal.ammo_4"
+msgid "Tank Booster Ultra"
+msgstr ""
+
+#: 636
+msgctxt "m.upgrade.desc.personal.ammo_4"
+msgid ""
+"The secret best vac tank available using experimental nano-storage "
+"technology that's absolutely probably maybe legal."
+msgstr ""
+
+#: 637
+msgctxt "m.upgrade.name.personal.treasure_cracker_1"
+msgid "Treasure Cracker"
+msgstr "보물 절단기"
+
+#: 638
+msgctxt "m.upgrade.desc.personal.treasure_cracker_1"
+msgid "Allows you to bypass the locks on basic treasure pods."
+msgstr "기본 보물 포드의 잠금을 해제할 수 있습니다."
+
+#: 639
+msgctxt "m.upgrade.name.personal.treasure_cracker_2"
+msgid "Treasure Cracker Mk II"
+msgstr "보물 절단기 Mk II"
+
+#: 640
+msgctxt "m.upgrade.desc.personal.treasure_cracker_2"
+msgid "Allows you to bypass the locks on more advanced treasure pods."
+msgstr "고급 보물 포드의 잠금을 해제할 수 있습니다."
+
+#: 641
+msgctxt "m.upgrade.name.personal.treasure_cracker_3"
+msgid "Treasure Cracker Mk III"
+msgstr "보물 절단기 Mk III"
+
+#: 642
+msgctxt "m.upgrade.desc.personal.treasure_cracker_3"
+msgid "Allows you to bypass the locks on the most advanced treasure pods."
+msgstr "최고급 보물 포드의 잠금을 해제할 수 있습니다."
+
+#: 643
+msgctxt "m.upgrade.name.personal.golden_sureshot"
+msgid "Golden Sureshot"
+msgstr ""
+
+#: 644
+msgctxt "m.upgrade.desc.personal.golden_sureshot"
+msgid ""
+"A special vacpack upgrade that hones in on gold slime weakpoints (their "
+"secret bellybutton?) and triples the amount of gold plorts they produce when "
+"hit."
+msgstr ""
+
+#: 645
+msgctxt "m.upgrade.name.personal.spare_key"
+msgid "Slime Key"
+msgstr ""
+
+#: 646
+msgctxt "m.upgrade.desc.personal.spare_key"
+msgid ""
+"A single spare slime key just in case you can't seem to find the last one!"
+msgstr ""
+
+#: 647
+msgctxt "m.toy.name.beach_ball"
+msgid "Beach Ball"
+msgstr ""
+
+#: 648
+msgctxt "m.toy.desc.beach_ball"
+msgid ""
+"Reduces agitation of nearby slimes, especially pink slimes who enjoy fun in "
+"the sun."
+msgstr ""
+
+#: 649
+msgctxt "m.toy.name.big_rock"
+msgid "Big Rock"
+msgstr ""
+
+#: 650
+msgctxt "m.toy.desc.big_rock"
+msgid ""
+"Reduces agitation of nearby slimes, especially rock slimes who obviously "
+"don't understand toys."
+msgstr ""
+
+#: 651
+msgctxt "m.toy.name.yarn_ball"
+msgid "Yarn Ball"
+msgstr ""
+
+#: 652
+msgctxt "m.toy.desc.yarn_ball"
+msgid ""
+"Reduces agitation of nearby slimes, especially tabby slimes. Though, they "
+"still don't know how to knit any more than other slimes."
+msgstr ""
+
+#: 653
+msgctxt "m.toy.name.night_light"
+msgid "Night Light"
+msgstr ""
+
+#: 654
+msgctxt "m.toy.desc.night_light"
+msgid ""
+"Reduces agitation of nearby slimes, especially phosphor slimes who are just "
+"as spooked by the dark as the rest of us."
+msgstr ""
+
+#: 655
+msgctxt "m.toy.name.power_cell"
+msgid "Power Cell"
+msgstr ""
+
+#: 656
+msgctxt "m.toy.desc.power_cell"
+msgid ""
+"Reduces agitation of nearby slimes, especially rad slimes who like to live "
+"dangerously."
+msgstr ""
+
+#: 657
+msgctxt "m.toy.name.bomb_ball"
+msgid "Bomb Ball"
+msgstr ""
+
+#: 658
+msgctxt "m.toy.desc.bomb_ball"
+msgid ""
+"Reduces agitation of nearby slimes, especially boom slimes who probably "
+"think this sort of thing is funny."
+msgstr ""
+
+#: 659
+msgctxt "m.toy.name.buzzy_bee"
+msgid "Buzzy Bee"
+msgstr ""
+
+#: 660
+msgctxt "m.toy.desc.buzzy_bee"
+msgid ""
+"Reduces agitation of nearby slimes, especially honey slimes who are sweet on "
+"honeybees."
+msgstr ""
+
+#: 661
+msgctxt "m.toy.name.rubber_ducky"
+msgid "Rubber Ducky"
+msgstr ""
+
+#: 662
+msgctxt "m.toy.desc.rubber_ducky"
+msgid ""
+"Reduces agitation of nearby slimes, especially puddle slimes who are less "
+"shy when a rubber ducky buddy is nearby."
+msgstr ""
+
+#: 663
+msgctxt "m.toy.name.crystal_ball"
+msgid "Crystal Ball"
+msgstr ""
+
+#: 664
+msgctxt "m.toy.desc.crystal_ball"
+msgid ""
+"Reduces agitation of nearby slimes, especially crystal slimes who can use it "
+"to see the future but will never tell."
+msgstr ""
+
+#: 665
+msgctxt "m.toy.name.stuffed_chicken"
+msgid "Stuffed Chicken"
+msgstr ""
+
+#: 666
+msgctxt "m.toy.desc.stuffed_chicken"
+msgid ""
+"Reduces agitation of nearby slimes, especially hunter slimes who love toys "
+"they can pretend to murder."
+msgstr ""
+
+#: 667
+msgctxt "m.toy.name.puzzle_cube"
+msgid "Puzzle Cube"
+msgstr ""
+
+#: 668
+msgctxt "m.toy.desc.puzzle_cube"
+msgid ""
+"Reduces agitation of nearby slimes, especially quantum slimes who have both "
+"solved and not solved it before already."
+msgstr ""
+
+#: 669
+msgctxt "m.toy.name.disco_ball"
+msgid "Disco Ball"
+msgstr ""
+
+#: 670
+msgctxt "m.toy.desc.disco_ball"
+msgid ""
+"Reduces agitation of nearby slimes, especially mosaic slimes who dance the "
+"night away when no one is looking."
+msgstr ""
+
+#: 671
+msgctxt "m.toy.name.gyro_top"
+msgid "Gyro Top"
+msgstr ""
+
+#: 672
+msgctxt "m.toy.desc.gyro_top"
+msgid ""
+"Reduces agitation of nearby slimes, especially dervish slimes who didn't "
+"think spinning could be topped."
+msgstr ""
+
+#: 673
+msgctxt "m.toy.name.sol_mate"
+msgid "Sol Mate"
+msgstr ""
+
+#: 674
+msgctxt "m.toy.desc.sol_mate"
+msgid ""
+"Reduces agitation of nearby slimes, especially tangle slimes who love a good "
+"reference to photosynthesis."
+msgstr ""
+
+#: 675
+msgctxt "m.toy.name.charcoal_brick"
+msgid "Charcoal Brick"
+msgstr ""
+
+#: 676
+msgctxt "m.toy.desc.charcoal_brick"
+msgid ""
+"Reduces agitation of nearby slimes, especially fire slimes who can bring the "
+"heat because they're literally on fire."
+msgstr ""
+
+#: 677
+msgctxt "m.toy.name.stego_buddy"
+msgid "Stego Buddy"
+msgstr ""
+
+#: 678
+msgctxt "m.toy.desc.stego_buddy"
+msgid ""
+"Reduces agitation of nearby slimes, especially saber slimes who are the only "
+"slimes to have known stegos in-person."
+msgstr ""
+
+#: 679
+msgctxt "m.gadget.name.extractor_drill_novice"
+msgid "Novice Drill"
+msgstr "초보자의 드릴"
+
+#: 680
+msgctxt "m.gadget.desc.extractor_drill_novice"
+msgid "Allows you to drill for buried resources. Lasts 1 cycle."
+msgstr "매장된 미네랄을 캘 수 있습니다. 1회 사용가능합니다."
+
+#: 681
+msgctxt "m.gadget.name.extractor_drill_advanced"
+msgid "Advanced Drill"
+msgstr "숙련자의 드릴"
+
+#: 682
+msgctxt "m.gadget.desc.extractor_drill_advanced"
+msgid ""
+"A drill that unearths more resources, with a higher chance for rare "
+"resources. Lasts 3 cycles."
+msgstr "더 높은 확률로 희귀 미네랄을 캘 수 있고, 더 많은 량의 미네랄을 캘 수 있는 드릴. 3 회 사용가능합니다."
+
+#: 683
+msgctxt "m.gadget.name.extractor_drill_master"
+msgid "Master Drill"
+msgstr "전문가의 드릴"
+
+#: 684
+msgctxt "m.gadget.desc.extractor_drill_master"
+msgid ""
+"A drill that unearths the most resources, with a very high chance for rare "
+"resources. Lasts 9 cycles."
+msgstr "매우 높은 확률로 희귀 미네랄을 캘 수 있고, 대부분의 미네랄을 캘 수 있는 드릴. 9 회 사용가능합니다."
+
+#: 685
+msgctxt "m.gadget.name.extractor_drill_titan"
+msgid "Titan Drill"
+msgstr "타이탄 드릴"
+
+#: 686
+msgctxt "m.gadget.desc.extractor_drill_titan"
+msgid ""
+"A secret drill manufactured by 7Zee that offers the highest chance for rare "
+"resources. Lasts 12 cycles."
+msgstr "TBD"
+
+#: 687
+msgctxt "m.gadget.name.extractor_pump_novice"
+msgid "Novice Pump"
+msgstr "초보자용 펌프"
+
+#: 688
+msgctxt "m.gadget.desc.extractor_pump_novice"
+msgid "Allows you to siphon underground resources. Lasts 1 cycle."
+msgstr "지하 자원을 뽑아올릴 수 있습니다. 1회 사용가능합니다."
+
+#: 689
+msgctxt "m.gadget.name.extractor_pump_advanced"
+msgid "Advanced Pump"
+msgstr "숙련자의 펌프"
+
+#: 690
+msgctxt "m.gadget.desc.extractor_pump_advanced"
+msgid ""
+"A pump that siphons more resources, with a higher chance for rare resources. "
+"Lasts 3 cycles."
+msgstr "더 높은 확률로 희귀 자원을 뽑아내고, 더 많은 자원들을 뽑아낼 수 있는 펌프. 3회 사용가능합니다."
+
+#: 691
+msgctxt "m.gadget.name.extractor_pump_master"
+msgid "Master Pump"
+msgstr "전문가의 펌프"
+
+#: 692
+msgctxt "m.gadget.desc.extractor_pump_master"
+msgid ""
+"A pump that siphons the most resources, with a very high chance for rare "
+"resources. Lasts 9 cycles."
+msgstr "TBD"
+
+#: 693
+msgctxt "m.gadget.name.extractor_pump_abyssal"
+msgid "Abyssal Pump"
+msgstr "심해용 펌프"
+
+#: 694
+msgctxt "m.gadget.desc.extractor_pump_abyssal"
+msgid ""
+"A secret pump manufactured by 7Zee that offers the highest chance for rare "
+"resources. Lasts 12 cycles."
+msgstr "TBD"
+
+#: 695
+msgctxt "m.gadget.name.extractor_apiary_novice"
+msgid "Novice Apiary"
+msgstr "초보자의 양봉장"
+
+#: 696
+msgctxt "m.gadget.desc.extractor_apiary_novice"
+msgid "Allows you to collect resources from wild bees. Lasts 1 cycle."
+msgstr "야생 꿀벌이 만드는 자원을 모을 수 있습니다. 1회 사용가능합니다."
+
+#: 697
+msgctxt "m.gadget.name.extractor_apiary_advanced"
+msgid "Advanced Apiary"
+msgstr "숙련자의 양봉장"
+
+#: 698
+msgctxt "m.gadget.desc.extractor_apiary_advanced"
+msgid ""
+"An apiary that collects more resources, with a higher chance for rare "
+"resources. Lasts 3 cycles."
+msgstr "더 높은 확률로 희귀 자원이 나오고, 더 많은 자원을 모을 수 있는 양봉장. 3회 사용가능합니다."
+
+#: 699
+msgctxt "m.gadget.name.extractor_apiary_master"
+msgid "Master Apiary"
+msgstr "전문가의 양봉장"
+
+#: 700
+msgctxt "m.gadget.desc.extractor_apiary_master"
+msgid ""
+"An apiary that collects the most resources, with a very high chance for rare "
+"resources. Lasts 9 cycles."
+msgstr "TBD"
+
+#: 701
+msgctxt "m.gadget.name.extractor_apiary_royal"
+msgid "Royal Apiary"
+msgstr "왕실의 양봉장"
+
+#: 702
+msgctxt "m.gadget.desc.extractor_apiary_royal"
+msgid ""
+"A secret apiary manufactured by 7Zee that offers the highest chance for rare "
+"resources. Lasts 12 cycles."
+msgstr "TBD"
+
+#: 703
+msgctxt "m.gadget.name.teleporter_pink"
+msgid "Pink Teleporter"
+msgstr "분홍 텔러포터"
+
+#: 704
+msgctxt "m.gadget.desc.teleporter_pink"
+msgid ""
+"A set of two teleporters that can be used to create your own quick travel "
+"link."
+msgstr "두 지점간에 빠른 이동을 할 수 있는 연결점을 만드는 텔레포터"
+
+#: 705
+msgctxt "m.gadget.name.teleporter_blue"
+msgid "Blue Teleporter"
+msgstr "파랑 텔레포터"
+
+#: 706
+msgctxt "m.gadget.desc.teleporter_blue"
+msgid ""
+"A set of two teleporters that can be used to create your own quick travel "
+"link."
+msgstr "두 지점간에 빠른 이동을 할 수 있는 연결점을 만드는 텔레포터"
+
+#: 707
+msgctxt "m.gadget.name.teleporter_violet"
+msgid "Violet Teleporter"
+msgstr "보라 텔레포터"
+
+#: 708
+msgctxt "m.gadget.desc.teleporter_violet"
+msgid ""
+"A set of two teleporters that can be used to create your own quick travel "
+"link."
+msgstr "두 지점간에 빠른 이동을 할 수 있는 연결점을 만드는 텔레포터"
+
+#: 709
+msgctxt "m.gadget.name.teleporter_grey"
+msgid "Grey Teleporter"
+msgstr "회색 텔레포터"
+
+#: 710
+msgctxt "m.gadget.desc.teleporter_grey"
+msgid ""
+"A set of two teleporters that can be used to create your own quick travel "
+"link."
+msgstr "두 지점간에 빠른 이동을 할 수 있는 연결점을 만드는 텔레포터"
+
+#: 711
+msgctxt "m.gadget.name.teleporter_green"
+msgid "Green Teleporter"
+msgstr "초록 텔레포터"
+
+#: 712
+msgctxt "m.gadget.desc.teleporter_green"
+msgid ""
+"A set of two teleporters that can be used to create your own quick travel "
+"link."
+msgstr "두 지점간에 빠른 이동을 할 수 있는 연결점을 만드는 텔레포터"
+
+#: 713
+msgctxt "m.gadget.name.teleporter_red"
+msgid "Red Teleporter"
+msgstr "빨강 텔레포터"
+
+#: 714
+msgctxt "m.gadget.desc.teleporter_red"
+msgid ""
+"A set of two teleporters that can be used to create your own quick travel "
+"link."
+msgstr "두 지점간에 빠른 이동을 할 수 있는 연결점을 만드는 텔레포터"
+
+#: 715
+msgctxt "m.gadget.name.teleporter_amber"
+msgid "Amber Teleporter"
+msgstr "호박색 텔레포터"
+
+#: 716
+msgctxt "m.gadget.desc.teleporter_amber"
+msgid ""
+"A set of two teleporters that can be used to create your own quick travel "
+"link."
+msgstr "두 지점간에 빠른 이동을 할 수 있는 연결점을 만드는 텔레포터"
+
+#: 717
+msgctxt "m.gadget.name.teleporter_gold"
+msgid "Gold Teleporter"
+msgstr "황금 텔레포터"
+
+#: 718
+msgctxt "m.gadget.desc.teleporter_gold"
+msgid ""
+"A set of two teleporters that can be used to create your own quick travel "
+"link."
+msgstr "두 지점간에 빠른 이동을 할 수 있는 연결점을 만드는 텔레포터"
+
+#: 719
+msgctxt "m.gadget.name.teleporter_berry"
+msgid "Berry Teleporter"
+msgstr ""
+
+#: 720
+msgctxt "m.gadget.desc.teleporter_berry"
+msgid ""
+"A set of two teleporters that can be used to create your own quick travel "
+"link."
+msgstr ""
+
+#: 721
+msgctxt "m.gadget.name.teleporter_cocoa"
+msgid "Cocoa Teleporter"
+msgstr ""
+
+#: 722
+msgctxt "m.gadget.desc.teleporter_cocoa"
+msgid ""
+"A set of two teleporters that can be used to create your own quick travel "
+"link."
+msgstr ""
+
+#: 723
+msgctxt "m.gadget.name.teleporter_butterscotch"
+msgid "Butterscotch Teleporter"
+msgstr ""
+
+#: 724
+msgctxt "m.gadget.desc.teleporter_butterscotch"
+msgid ""
+"A set of two teleporters that can be used to create your own quick travel "
+"link."
+msgstr ""
+
+#: 725
+msgctxt "m.gadget.name.warp_depot_pink"
+msgid "Pink Warp Depot"
+msgstr "분홍 워프 창고"
+
+#: 726
+msgctxt "m.gadget.desc.warp_depot_pink"
+msgid ""
+"A set of two gadgets that allow you to remotely transfer resources between "
+"two points."
+msgstr "정해진 두 장치 간 서로 자원을 전송할 수 있습니다."
+
+#: 727
+msgctxt "m.gadget.name.warp_depot_blue"
+msgid "Blue Warp Depot"
+msgstr "파랑 워프 창고"
+
+#: 728
+msgctxt "m.gadget.desc.warp_depot_blue"
+msgid ""
+"A set of two gadgets that allow you to remotely transfer resources between "
+"two points."
+msgstr "정해진 두 장치 간 서로 자원을 전송할 수 있습니다."
+
+#: 729
+msgctxt "m.gadget.name.warp_depot_violet"
+msgid "Violet Warp Depot"
+msgstr "보라 워프 창고"
+
+#: 730
+msgctxt "m.gadget.desc.warp_depot_violet"
+msgid ""
+"A set of two gadgets that allow you to remotely transfer resources between "
+"two points."
+msgstr "정해진 두 장치 간 서로 자원을 전송할 수 있습니다."
+
+#: 731
+msgctxt "m.gadget.name.warp_depot_grey"
+msgid "Grey Warp Depot"
+msgstr "회색 워프 창고"
+
+#: 732
+msgctxt "m.gadget.desc.warp_depot_grey"
+msgid ""
+"A set of two gadgets that allow you to remotely transfer resources between "
+"two points."
+msgstr "정해진 두 장치 간 서로 자원을 전송할 수 있습니다."
+
+#: 733
+msgctxt "m.gadget.name.warp_depot_green"
+msgid "Green Warp Depot"
+msgstr "초록 워프 창고"
+
+#: 734
+msgctxt "m.gadget.desc.warp_depot_green"
+msgid ""
+"A set of two gadgets that allow you to remotely transfer resources between "
+"two points."
+msgstr "정해진 두 장치 간 서로 자원을 전송할 수 있습니다."
+
+#: 735
+msgctxt "m.gadget.name.warp_depot_red"
+msgid "Red Warp Depot"
+msgstr "빨강 워프 창고"
+
+#: 736
+msgctxt "m.gadget.desc.warp_depot_red"
+msgid ""
+"A set of two gadgets that allow you to remotely transfer resources between "
+"two points."
+msgstr "정해진 두 장치 간 서로 자원을 전송할 수 있습니다."
+
+#: 737
+msgctxt "m.gadget.name.warp_depot_amber"
+msgid "Amber Warp Depot"
+msgstr "호박색 워프 창고"
+
+#: 738
+msgctxt "m.gadget.desc.warp_depot_amber"
+msgid ""
+"A set of two gadgets that allow you to remotely transfer resources between "
+"two points."
+msgstr "정해진 두 장치 간 서로 자원을 전송할 수 있습니다."
+
+#: 739
+msgctxt "m.gadget.name.warp_depot_gold"
+msgid "Gold Warp Depot"
+msgstr "황금 워프 창고"
+
+#: 740
+msgctxt "m.gadget.desc.warp_depot_gold"
+msgid ""
+"A set of two gadgets that allow you to remotely transfer resources between "
+"two points."
+msgstr "정해진 두 장치 간 서로 자원을 전송할 수 있습니다."
+
+#: 741
+msgctxt "m.gadget.name.warp_depot_berry"
+msgid "Berry Warp Depot"
+msgstr ""
+
+#: 742
+msgctxt "m.gadget.desc.warp_depot_berry"
+msgid ""
+"A set of two gadgets that allow you to remotely transfer resources between "
+"two points."
+msgstr ""
+
+#: 743
+msgctxt "m.gadget.name.warp_depot_cocoa"
+msgid "Cocoa Warp Depot"
+msgstr ""
+
+#: 744
+msgctxt "m.gadget.desc.warp_depot_cocoa"
+msgid ""
+"A set of two gadgets that allow you to remotely transfer resources between "
+"two points."
+msgstr ""
+
+#: 745
+msgctxt "m.gadget.name.warp_depot_butterscotch"
+msgid "Butterscotch Warp Depot"
+msgstr ""
+
+#: 746
+msgctxt "m.gadget.desc.warp_depot_butterscotch"
+msgid ""
+"A set of two gadgets that allow you to remotely transfer resources between "
+"two points."
+msgstr ""
+
+#: 747
+msgctxt "m.gadget.name.market_link"
+msgid "Market Link"
+msgstr ""
+
+#: 748
+msgctxt "m.gadget.desc.market_link"
+msgid ""
+"A compact plort market that allows you to make quick sales. Consult the main "
+"plort market for price data."
+msgstr ""
+
+#: 749
+msgctxt "m.gadget.name.med_station"
+msgid "Med Station"
+msgstr "의학 스테이션"
+
+#: 750
+msgctxt "m.gadget.desc.med_station"
+msgid "Rapidly drains your energy to restore health. Fixes you up fast!"
+msgstr "에너지를 소모하여 빠르게 체력을 회복합니다. 빠르게 복귀할 수 있습니다!"
+
+#: 751
+msgctxt "m.gadget.name.hydro_turret"
+msgid "Hydro Turret"
+msgstr "살수탑"
+
+#: 752
+msgctxt "m.gadget.desc.hydro_turret"
+msgid ""
+"A defensive cannon that will automatically target tarr and blast them with "
+"water."
+msgstr "물로 타르를 자동으로 타격하여 타르를 터트리는 방어용 대포"
+
+#: 753
+msgctxt "m.gadget.name.super_hydro_turret"
+msgid "Super Hydro Turret"
+msgstr ""
+
+#: 754
+msgctxt "m.gadget.desc.super_hydro_turret"
+msgid "An advanced defensive cannon that doubles the firepower against tarr."
+msgstr ""
+
+#: 755
+msgctxt "m.gadget.name.hydro_shower"
+msgid "Hydro Shower"
+msgstr "하이드로 샤워"
+
+#: 756
+msgctxt "m.gadget.desc.hydro_shower"
+msgid "TBD"
+msgstr "TBD"
+
+#: 757
+msgctxt "m.gadget.name.spring_pad"
+msgid "Spring Pad"
+msgstr "용수철 패드"
+
+#: 758
+msgctxt "m.gadget.desc.spring_pad"
+msgid "Launches anything that touches it straight into the air!"
+msgstr "닿이는 것은 뭐든지 발사하여 하늘에 똑바로 날려 보냅니다."
+
+#: 759
+msgctxt "m.gadget.name.refinery_link"
+msgid "Refinery Link"
+msgstr "정제소 링크"
+
+#: 760
+msgctxt "m.gadget.desc.refinery_link"
+msgid "Allows you to remotely deposit resources into the refinery."
+msgstr "자원을 정제소에 멀리서도 넣을 수 있습니다."
+
+#: 761
+msgctxt "m.gadget.name.potted_tactus"
+msgid "Potted Tactus"
+msgstr "화분에 심은 선인장"
+
+#: 762
+msgctxt "m.gadget.desc.potted_tactus"
+msgid ""
+"A cactus found in the Glass Desert that slimes and other items can stick to "
+"for a short while."
+msgstr "TBD"
+
+#: 763
+msgctxt "m.gadget.name.taming_bell"
+msgid "Taming Bell"
+msgstr "은은한 종"
+
+#: 764
+msgctxt "m.gadget.desc.taming_bell"
+msgid ""
+"The dulcet tone of this curious bell will calm the anger of any feral slime "
+"that hears it."
+msgstr "신비로운 종의 감미로운 종소리로 야생 슬라임의 분노를 진정시킬 것입니다."
+
+#: 765
+msgctxt "m.gadget.name.slime_hoop"
+msgid "Slimeball Hoop"
+msgstr "슬라임골대"
+
+#: 766
+msgctxt "m.gadget.desc.slime_hoop"
+msgid ""
+"Begins a round of slimeball as soon as a single slime passes through the "
+"hoop. What's your high score?"
+msgstr "골대에 슬라임을 통과시키면 슬라임농구가 시작됩니다. 최고 성적은?"
+
+#: 767
+msgctxt "m.gadget.name.slime_stage"
+msgid "#1 Slime Stage"
+msgstr "최고의 슬라임 무대"
+
+#: 768
+msgctxt "m.gadget.desc.slime_stage"
+msgid ""
+"Allows you to let other slimes know who is, unequivocally, the number one "
+"slime."
+msgstr "다른 슬라임이 누구인지 분명하게 구분할 수 있습니다."
+
+#: 769
+msgctxt "m.gadget.name.lamp_pink"
+msgid "Pink Slime Lamp"
+msgstr "분홍 슬라임 램프"
+
+#: 770
+msgctxt "m.gadget.desc.lamp_pink"
+msgid "A decorative lamp housing a happy slime."
+msgstr "행복한 슬라임 모양의 장식용 램프입니다."
+
+#: 771
+msgctxt "m.gadget.name.lamp_blue"
+msgid "Blue Slime Lamp"
+msgstr "파랑 슬라임 램프"
+
+#: 772
+msgctxt "m.gadget.desc.lamp_blue"
+msgid "A decorative lamp housing a happy slime."
+msgstr "행복한 슬라임 모양의 장식용 램프입니다."
+
+#: 773
+msgctxt "m.gadget.name.lamp_violet"
+msgid "Violet Slime Lamp"
+msgstr "보라 슬라임 램프"
+
+#: 774
+msgctxt "m.gadget.desc.lamp_violet"
+msgid "A decorative lamp housing a happy slime."
+msgstr "행복한 슬라임 모양의 장식용 램프입니다."
+
+#: 775
+msgctxt "m.gadget.name.lamp_grey"
+msgid "Grey Slime Lamp"
+msgstr "회색 슬라임 램프"
+
+#: 776
+msgctxt "m.gadget.desc.lamp_grey"
+msgid "A decorative lamp housing a happy slime."
+msgstr "행복한 슬라임 모양의 장식용 램프입니다."
+
+#: 777
+msgctxt "m.gadget.name.lamp_green"
+msgid "Green Slime Lamp"
+msgstr "초록 슬라임 램프"
+
+#: 778
+msgctxt "m.gadget.desc.lamp_green"
+msgid "A decorative lamp housing a happy slime."
+msgstr "행복한 슬라임 모양의 장식용 램프입니다."
+
+#: 779
+msgctxt "m.gadget.name.lamp_red"
+msgid "Red Slime Lamp"
+msgstr "빨간 슬라임 램프"
+
+#: 780
+msgctxt "m.gadget.desc.lamp_red"
+msgid "A decorative lamp housing a happy slime."
+msgstr "행복한 슬라임 모양의 장식용 램프입니다."
+
+#: 781
+msgctxt "m.gadget.name.lamp_amber"
+msgid "Amber Slime Lamp"
+msgstr "호박색 슬라임 램프"
+
+#: 782
+msgctxt "m.gadget.desc.lamp_amber"
+msgid "A decorative lamp housing a happy slime."
+msgstr "행복한 슬라임 모양의 장식용 램프입니다."
+
+#: 783
+msgctxt "m.gadget.name.lamp_gold"
+msgid "Gold Slime Lamp"
+msgstr ""
+
+#: 784
+msgctxt "m.gadget.desc.lamp_gold"
+msgid "A decorative lamp housing a happy slime."
+msgstr ""
+
+#: 785
+msgctxt "m.gadget.name.lamp_berry"
+msgid "Berry Slime Lamp"
+msgstr ""
+
+#: 786
+msgctxt "m.gadget.desc.lamp_berry"
+msgid "A decorative lamp housing a happy slime."
+msgstr ""
+
+#: 787
+msgctxt "m.gadget.name.lamp_cocoa"
+msgid "Cocoa Slime Lamp"
+msgstr ""
+
+#: 788
+msgctxt "m.gadget.desc.lamp_cocoa"
+msgid "A decorative lamp housing a happy slime."
+msgstr ""
+
+#: 789
+msgctxt "m.gadget.name.lamp_butterscotch"
+msgid "Butterscotch Slime Lamp"
+msgstr ""
+
+#: 790
+msgctxt "m.gadget.desc.lamp_butterscotch"
+msgid "A decorative lamp housing a happy slime."
+msgstr ""
+
+#: 791
+msgctxt "m.gadget.name.gordo_snare_novice"
+msgid "Novice Gordo Snare"
+msgstr ""
+
+#: 792
+msgctxt "m.gadget.desc.gordo_snare_novice"
+msgid ""
+"A special snare that captures a gordo slime. Bait it with food and wait..."
+msgstr ""
+
+#: 793
+msgctxt "m.gadget.name.gordo_snare_advanced"
+msgid "Advanced Gordo Snare"
+msgstr ""
+
+#: 794
+msgctxt "m.gadget.desc.gordo_snare_advanced"
+msgid ""
+"A more advanced gordo snare that with less random results. Bait it with food "
+"and wait..."
+msgstr ""
+
+#: 795
+msgctxt "m.gadget.name.gordo_snare_master"
+msgid "Master Gordo Snare"
+msgstr ""
+
+#: 796
+msgctxt "m.gadget.desc.gordo_snare_master"
+msgid ""
+"A master-class gordo snare that guarantees a gordo who favors the food used."
+msgstr ""
+
+#: 797
+msgctxt "m.gadget.name.echo_net"
+msgid "Echo Net"
+msgstr ""
+
+#: 798
+msgctxt "m.gadget.desc.echo_net"
+msgid ""
+"Install this strange device in the Ancient Ruins to capture wandering echoes "
+"over time."
+msgstr ""
+
+#: 799
+msgctxt "m.gadget.name.fashion_pod_handlebar"
+msgid "Handlebar Fashion Pod"
+msgstr "핸들바 패션 포드"
+
+#: 800
+msgctxt "m.gadget.desc.fashion_pod_handlebar"
+msgid ""
+"Fashion pods allow you to vac up fashionable accessories for your slimes. "
+"Shoot them on to slimes to totally up their game."
+msgstr ""
+"슬라임을 위한 패션 장신구를 패션 포드에서 가져올 수 있습니다. 패션 장신구를 슬라임에게 쏘세요, 받을 수 있는건 그들의 게임에 "
+"달려있습니다."
+
+#: 801
+msgctxt "m.gadget.name.fashion_pod_shady"
+msgid "Shady Fashion Pod"
+msgstr "선글라스 패션 포드"
+
+#: 802
+msgctxt "m.gadget.desc.fashion_pod_shady"
+msgid ""
+"Fashion pods allow you to vac up fashionable accessories for your slimes. "
+"Shoot them on to slimes to totally up their game."
+msgstr ""
+"슬라임을 위한 패션 장신구를 패션 포드에서 가져올 수 있습니다. 패션 장신구를 슬라임에게 쏘세요, 받을 수 있는건 그들의 게임에 "
+"달려있습니다."
+
+#: 803
+msgctxt "m.gadget.name.fashion_pod_clip_on"
+msgid "Clip-On Fashion Pod"
+msgstr "클립식 장신구 패션 포드"
+
+#: 804
+msgctxt "m.gadget.desc.fashion_pod_clip_on"
+msgid ""
+"Fashion pods allow you to vac up fashionable accessories for your slimes. "
+"Shoot them on to slimes to totally up their game."
+msgstr ""
+"슬라임을 위한 패션 장신구를 패션 포드에서 가져올 수 있습니다. 패션 장신구를 슬라임에게 쏘세요, 받을 수 있는건 그들의 게임에 "
+"달려있습니다."
+
+#: 805
+msgctxt "m.gadget.name.fashion_pod_googly"
+msgid "Googly Fashion Pod"
+msgstr "인형같게 보이는 패션 포드"
+
+#: 806
+msgctxt "m.gadget.desc.fashion_pod_googly"
+msgid ""
+"Fashion pods allow you to vac up fashionable accessories for your slimes. "
+"Shoot them on to slimes to totally up their game."
+msgstr ""
+"슬라임을 위한 패션 장신구를 패션 포드에서 가져올 수 있습니다. 패션 장신구를 슬라임에게 쏘세요, 받을 수 있는건 그들의 게임에 "
+"달려있습니다."
+
+#: 807
+msgctxt "m.gadget.name.fashion_pod_serious"
+msgid "Serious Fashion Pod"
+msgstr "진지하게 보이는 패션 포드"
+
+#: 808
+msgctxt "m.gadget.desc.fashion_pod_serious"
+msgid ""
+"Fashion pods allow you to vac up fashionable accessories for your slimes. "
+"Shoot them on to slimes to totally up their game."
+msgstr ""
+"슬라임을 위한 패션 장신구를 패션 포드에서 가져올 수 있습니다. 패션 장신구를 슬라임에게 쏘세요, 받을 수 있는건 그들의 게임에 "
+"달려있습니다."
+
+#: 809
+msgctxt "m.gadget.name.fashion_pod_smart"
+msgid "Smart Fashion Pod"
+msgstr "똑똑해보이는 패션 포드"
+
+#: 810
+msgctxt "m.gadget.desc.fashion_pod_smart"
+msgid ""
+"Fashion pods allow you to vac up fashionable accessories for your slimes. "
+"Shoot them on to slimes to totally up their game."
+msgstr ""
+"슬라임을 위한 패션 장신구를 패션 포드에서 가져올 수 있습니다. 패션 장신구를 슬라임에게 쏘세요, 받을 수 있는건 그들의 게임에 "
+"달려있습니다."
+
+#: 811
+msgctxt "m.gadget.name.fashion_pod_dandy"
+msgid "Dandy Fashion Pod"
+msgstr ""
+
+#: 812
+msgctxt "m.gadget.desc.fashion_pod_dandy"
+msgid ""
+"Fashion pods allow you to vac up fashionable accessories for your slimes. "
+"Shoot them on to slimes to totally up their game."
+msgstr ""
+
+#: 813
+msgctxt "m.gadget.name.fashion_pod_cute"
+msgid "Cute Fashion Pod"
+msgstr ""
+
+#: 814
+msgctxt "m.gadget.desc.fashion_pod_cute"
+msgid ""
+"Fashion pods allow you to vac up fashionable accessories for your slimes. "
+"Shoot them on to slimes to totally up their game."
+msgstr ""
+
+#: 815
+msgctxt "m.gadget.name.fashion_pod_royal"
+msgid "Royal Fashion Pod"
+msgstr ""
+
+#: 816
+msgctxt "m.gadget.desc.fashion_pod_royal"
+msgid ""
+"Fashion pods allow you to vac up fashionable accessories for your slimes. "
+"Shoot them on to slimes to totally up their game."
+msgstr ""
+
+#: 817
+msgctxt "m.gadget.name.fashion_pod_remover"
+msgid "Fashion Pod Remover"
+msgstr ""
+
+#: 818
+msgctxt "m.gadget.desc.fashion_pod_remover"
+msgid ""
+"A special fashion pod that removes fashion pod accessories from slimes."
+msgstr ""
+
+#: 819
+msgctxt "m.gadget.name.sponge_tree"
+msgid "Sponge Tree"
+msgstr "스펀지 나무"
+
+#: 820
+msgctxt "m.gadget.desc.sponge_tree"
+msgid "A squishy sponge tree that can store a lot of water during dry months."
+msgstr "건조한 동안 많은 물을 저장할 수 있는 흐물흐물한 스펀지 나무"
+
+#: 821
+msgctxt "m.gadget.name.sponge_shrub"
+msgid "Sponge Shrub"
+msgstr "스펀지 떨기나무"
+
+#: 822
+msgctxt "m.gadget.desc.sponge_shrub"
+msgid "Chunks of these shrubs are great for scrubbing up in the bath."
+msgstr "떨기나무 덩어리는 욕조를 문질러 씻는데 좋다."
+
+#: 823
+msgctxt "m.gadget.name.pink_coral_columns"
+msgid "Pink Coral Columns"
+msgstr "분홍 산호 기둥"
+
+#: 824
+msgctxt "m.gadget.desc.pink_coral_columns"
+msgid ""
+"These coral towers are a reminder that the dry reef was once below the slime "
+"sea."
+msgstr "이 산호초들은 건조한 산호초 지대가 슬라임 바다 밑에 있었다는 흔적입니다."
+
+#: 825
+msgctxt "m.gadget.name.coral_grass_patch"
+msgid "Coral Grass Patch"
+msgstr "작은 산호초 바닥"
+
+#: 826
+msgctxt "m.gadget.desc.coral_grass_patch"
+msgid "This soft, pink grass makes for a lovely place to take a nap."
+msgstr "부드럽고 분홍색의 잔디위에 낮잠을 잘 수 있는 사랑스런 장소가 됩니다."
+
+#: 827
+msgctxt "m.gadget.name.mossy_tree"
+msgid "Mossy Tree"
+msgstr "이끼 나무"
+
+#: 828
+msgctxt "m.gadget.desc.mossy_tree"
+msgid ""
+"A deeply verdant tree found in the tangled thicket of the Moss Blanket."
+msgstr "이끼지대의 덤불 숲에 있는 짙은 초록색 나무"
+
+#: 829
+msgctxt "m.gadget.name.mossy_tree_stump"
+msgid "Mossy Tree Stump"
+msgstr "이끼 나무 그루터기"
+
+#: 830
+msgctxt "m.gadget.desc.mossy_tree_stump"
+msgid "All that remains of one of the great trees found in the Moss Blanket."
+msgstr "이끼 지대에 있는 위대한 나무중 하나의 잔해물"
+
+#: 831
+msgctxt "m.gadget.name.glow_cones"
+msgid "Glow Cones"
+msgstr "빛나는 솔방울"
+
+#: 832
+msgctxt "m.gadget.desc.glow_cones"
+msgid ""
+"A strange flora that explorers often used to find their way in the night."
+msgstr "탐험가들이 밤에 길을 찾을 때 사용했던 이상한 식물"
+
+#: 833
+msgctxt "m.gadget.name.wildflower_patch"
+msgid "Wildflower Patch"
+msgstr "야생화 조각"
+
+#: 834
+msgctxt "m.gadget.desc.wildflower_patch"
+msgid "A patch of the sweet-smelling flowers that honey slimes enjoy."
+msgstr "꿀 슬라임이 즐기는 달콤한 냄새의 꽃 한줌"
+
+#: 835
+msgctxt "m.gadget.name.jumbo_shroom"
+msgid "Jumbo Shroom"
+msgstr "거대 환각 버섯"
+
+#: 836
+msgctxt "m.gadget.desc.jumbo_shroom"
+msgid "Not a regular shroom, or even a large one. No, something more."
+msgstr "일반 크기의 환각 버섯 보다 더 큰 버섯. 그외에 더 많은 무언가."
+
+#: 837
+msgctxt "m.gadget.name.minty_grass_patch"
+msgid "Minty Grass Patch"
+msgstr "민트 풀 조각"
+
+#: 838
+msgctxt "m.gadget.desc.minty_grass_patch"
+msgid ""
+"Though this grass does indeed have a pleasant, minty aroma, the taste is "
+"quite bitter."
+msgstr "민트 풀은 기분 좋은 민트 향이 나지만 맛은 약간 씁니다."
+
+#: 839
+msgctxt "m.gadget.name.blue_coral_columns"
+msgid "Blue Coral Columns"
+msgstr "파란 산호 기둥"
+
+#: 840
+msgctxt "m.gadget.desc.blue_coral_columns"
+msgid ""
+"Coral towers whose color has shifted to the minerals found in the Indigo "
+"Quarry."
+msgstr "인디고 채석장에 있는 미네랄 색으로 바뀐 산호 기둥"
+
+#: 841
+msgctxt "m.gadget.name.hexium_formation"
+msgid "Hexium Formation"
+msgstr "헥시멈 모양의 물질"
+
+#: 842
+msgctxt "m.gadget.desc.hexium_formation"
+msgid ""
+"A strange ore whose geometric array is consistent on even a molecular level."
+msgstr "기하학적 구조가 분자 구조 단계까지 일정하게 유지되는 이상한 광석"
+
+#: 843
+msgctxt "m.gadget.name.crystal_cluster"
+msgid "Crystal Cluster"
+msgstr "크리스탈 무리"
+
+#: 844
+msgctxt "m.gadget.desc.crystal_cluster"
+msgid ""
+"You may think this is a clutch or even a collection of crystals. You would "
+"be wrong."
+msgstr "크리스탈 무리가 알 무리 이거나 크리스탈 모음이라 생각할 수도 있습니다. 아마 틀렸을 겁니다."
+
+#: 845
+msgctxt "m.gadget.name.fireflower_patch"
+msgid "Fireflower Patch"
+msgstr "불꽃 조각"
+
+#: 846
+msgctxt "m.gadget.desc.fireflower_patch"
+msgid "Flowers grown from volcanic ash that take on a burning hue."
+msgstr "회산재속에서 발견할 수 있는 불타는 빛깔을 가진 꽃"
+
+#: 847
+msgctxt "m.gadget.name.sunburst_tree"
+msgid "Sunburst Tree"
+msgstr ""
+
+#: 848
+msgctxt "m.gadget.desc.sunburst_tree"
+msgid ""
+"A tree from the mysterious ruins whose golden leaves shine like the sun."
+msgstr ""
+
+#: 849
+msgctxt "m.gadget.name.verdant_grass_patch"
+msgid "Verdant Grass Patch"
+msgstr ""
+
+#: 850
+msgctxt "m.gadget.desc.verdant_grass_patch"
+msgid ""
+"The grass in the ruins is unusually rich, as if the soil contains minerals "
+"unlike anywhere on the range."
+msgstr ""
+
+#: 851
+msgctxt "m.gadget.name.star_flower_patch"
+msgid "Star Flower Patch"
+msgstr ""
+
+#: 852
+msgctxt "m.gadget.desc.star_flower_patch"
+msgid ""
+"Star flowers are said to have grown from the fragments of a shooting star, "
+"but of course, that's impossible."
+msgstr ""
+
+#: 853
+msgctxt "m.gadget.name.ruined_pillar"
+msgid "Ruined Pillar"
+msgstr ""
+
+#: 854
+msgctxt "m.gadget.desc.ruined_pillar"
+msgid ""
+"The stone structures of the ruins once supported vast temples, and some say, "
+"time itself."
+msgstr ""
+
+#: 855
+msgctxt "m.gadget.name.glow_sticks"
+msgid "Glow Sticks"
+msgstr ""
+
+#: 856
+msgctxt "m.gadget.desc.glow_sticks"
+msgid ""
+"Though these luminescent devices are similar to other elements of the ruins, "
+"they are not nearly as old."
+msgstr ""
+
+#: 857
+msgctxt "m.gadget.name.crystal_sconce"
+msgid "Crystal Sconce"
+msgstr ""
+
+#: 858
+msgctxt "m.gadget.desc.crystal_sconce"
+msgid ""
+"The light from these sconces appears to be endless, perhaps illuminating the "
+"past as much as the present."
+msgstr ""
+
+#: 859
+msgctxt "m.gadget.name.fiery_glass_sculpture"
+msgid "Fiery Glass Sculpture"
+msgstr ""
+
+#: 860
+msgctxt "m.gadget.desc.fiery_glass_sculpture"
+msgid ""
+"A beautiful glass structure from the Glass Desert that resembles frozen fire."
+""
+msgstr ""
+
+#: 861
+msgctxt "m.gadget.name.thundering_glass_sculpture"
+msgid "Thundering Glass Sculpture"
+msgstr ""
+
+#: 862
+msgctxt "m.gadget.desc.thundering_glass_sculpture"
+msgid ""
+"A beautiful glass structure from the Glass Desert that resembles a lightning "
+"strike."
+msgstr ""
+
+#: 863
+msgctxt "m.gadget.name.towering_glass_sculpture"
+msgid "Towering Glass Sculpture"
+msgstr ""
+
+#: 864
+msgctxt "m.gadget.desc.towering_glass_sculpture"
+msgid ""
+"A beautiful glass structure from the Glass Desert that resembles a monolith."
+msgstr ""
+
+#: 865
+msgctxt "m.gadget.name.palm_tree"
+msgid "Palm Tree"
+msgstr ""
+
+#: 866
+msgctxt "m.gadget.desc.palm_tree"
+msgid ""
+"A tropical tree found in the oases of the Glass Desert. Makes a great shade."
+msgstr ""
+
+#: 867
+msgctxt "m.gadget.name.palm_sprout"
+msgid "Palm Sprout"
+msgstr ""
+
+#: 868
+msgctxt "m.gadget.desc.palm_sprout"
+msgid "A stout palm tree whose pulp is water-rich and quite sweet."
+msgstr ""
+
+#: 869
+msgctxt "m.gadget.name.coil_grass"
+msgid "Coil Grass"
+msgstr ""
+
+#: 870
+msgctxt "m.gadget.desc.coil_grass"
+msgid ""
+"This alien ground cover is among the first flora to sprout when desert oases "
+"are restored."
+msgstr ""
+
+#: 871
+msgctxt "m.gadget.name.ruined_desert_column"
+msgid "Ruined Desert Column"
+msgstr ""
+
+#: 872
+msgctxt "m.gadget.desc.ruined_desert_column"
+msgid ""
+"A support beam to a long lost temple, perhaps even before the desert existed."
+""
+msgstr ""
+
+#: 873
+msgctxt "m.gadget.name.ruined_desert_blocks"
+msgid "Ruined Desert Blocks"
+msgstr ""
+
+#: 874
+msgctxt "m.gadget.desc.ruined_desert_blocks"
+msgid "Heavy stones arranged in a geometric fashion for an unknown purpose."
+msgstr ""
+
+#: 875
+msgctxt "m.gadget.name.wilds_rocks_1"
+msgid "Cave Rocks"
+msgstr ""
+
+#: 876
+msgctxt "m.gadget.desc.wilds_rocks_1"
+msgid "A cluster of rocks found in the darkest corners of The Wilds."
+msgstr ""
+
+#: 877
+msgctxt "m.gadget.name.wilds_rocks_2"
+msgid "Glow Rocks"
+msgstr ""
+
+#: 878
+msgctxt "m.gadget.desc.wilds_rocks_2"
+msgid "Carved rocks whose crevices house luminescent spores."
+msgstr ""
+
+#: 879
+msgctxt "m.gadget.name.wilds_rocks_3"
+msgid "Carved Rocks"
+msgstr ""
+
+#: 880
+msgctxt "m.gadget.desc.wilds_rocks_3"
+msgid "A collection of rocks carved in an ancient time."
+msgstr ""
+
+#: 881
+msgctxt "m.gadget.name.wilds_tree"
+msgid "Peach Cloud Tree"
+msgstr ""
+
+#: 882
+msgctxt "m.gadget.desc.wilds_tree"
+msgid "Its bright, delightful foliage contrasts the danger of The Wilds."
+msgstr ""
+
+#: 883
+msgctxt "m.gadget.name.wilds_coral_column"
+msgid "Wild Coral Columns"
+msgstr ""
+
+#: 884
+msgctxt "m.gadget.desc.wilds_coral_column"
+msgid ""
+"Further evidence that at one time, all of the Far, Far Range was covered in "
+"the Slime Sea."
+msgstr ""
+
+#: 885
+msgctxt "m.gadget.name.wilds_grass_patch"
+msgid "Wild Grass Patch"
+msgstr ""
+
+#: 886
+msgctxt "m.gadget.desc.wilds_grass_patch"
+msgid "The wild, untamed cousin... of grass."
+msgstr ""
+
+#: 887
+msgctxt "m.gadget.name.wilds_flower_patch"
+msgid "Cotton Flower Patch"
+msgstr ""
+
+#: 888
+msgctxt "m.gadget.desc.wilds_flower_patch"
+msgid "A patch of flowers whose petals are soft and pure as cotton."
+msgstr ""
+
+#: 889
+msgctxt "m.palette.desc"
+msgid ""
+"Add a custom paint job to your ranch house, vacpack, or ranch tech. Express "
+"yourself!"
+msgstr ""
+
+#: 890
+msgctxt "m.palette.name.default"
+msgid "Classic"
+msgstr ""
+
+#: 891
+msgctxt "m.palette.name.palette01"
+msgid "Cobalt"
+msgstr ""
+
+#: 892
+msgctxt "m.palette.name.palette02"
+msgid "Eventide"
+msgstr ""
+
+#: 893
+msgctxt "m.palette.name.palette03"
+msgid "Knight Light"
+msgstr ""
+
+#: 894
+msgctxt "m.palette.name.palette04"
+msgid "Grapeshot"
+msgstr ""
+
+#: 895
+msgctxt "m.palette.name.palette05"
+msgid "Robo Ranger"
+msgstr ""
+
+#: 896
+msgctxt "m.palette.name.palette06"
+msgid "Maidatron"
+msgstr ""
+
+#: 897
+msgctxt "m.palette.name.palette07"
+msgid "Royalton"
+msgstr ""
+
+#: 898
+msgctxt "m.palette.name.palette08"
+msgid "Salamander"
+msgstr ""
+
+#: 899
+msgctxt "m.palette.name.palette09"
+msgid "Ghost Wine"
+msgstr ""
+
+#: 900
+msgctxt "m.palette.name.palette10"
+msgid "Firecracker"
+msgstr ""
+
+#: 901
+msgctxt "m.palette.name.palette11"
+msgid "Neopolitan"
+msgstr ""
+
+#: 902
+msgctxt "m.palette.name.palette12"
+msgid "Mint Chip"
+msgstr ""
+
+#: 903
+msgctxt "m.palette.name.palette13"
+msgid "Volcanic"
+msgstr ""
+
+#: 904
+msgctxt "m.palette.name.palette14"
+msgid "Astro Pearl"
+msgstr ""
+
+#: 905
+msgctxt "m.palette.name.palette15"
+msgid "Goldleaf"
+msgstr ""
+
+#: 906
+msgctxt "m.palette.name.palette16"
+msgid "Frozen Violet"
+msgstr ""
+
+#: 907
+msgctxt "m.palette.name.palette17"
+msgid "Willow"
+msgstr ""
+
+#: 908
+msgctxt "m.palette.name.palette18"
+msgid "Vanguard"
+msgstr ""
+
+#: 909
+msgctxt "m.palette.name.palette19"
+msgid "Pretty Loud"
+msgstr ""
+
+#: 910
+msgctxt "m.palette.name.palette20"
+msgid "Gingersnap"
+msgstr ""
+
+#: 911
+msgctxt "m.palette.name.palette21"
+msgid "Peapod"
+msgstr ""
+
+#: 912
+msgctxt "m.palette.name.palette22"
+msgid "Daybreak"
+msgstr ""
+
+#: 913
+msgctxt "m.palette.name.palette23"
+msgid "Milkshake"
+msgstr ""
+
+#: 914
+msgctxt "m.palette.name.palette24"
+msgid "Silverfox"
+msgstr ""
+
+#: 915
+msgctxt "m.palette.name.palette25"
+msgid "Amethyst"
+msgstr ""
+
+#: 916
+msgctxt "m.palette.name.palette26"
+msgid "Ruby"
+msgstr ""
+
+#: 917
+msgctxt "m.palette.name.palette27"
+msgid "Palette27"
+msgstr ""
+
+#: 918
+msgctxt "m.palette.name.palette28"
+msgid "Palette28"
+msgstr ""
+
+#: 919
+msgctxt "m.palette.name.palette29"
+msgid "Palette29"
+msgstr ""
+
+#: 920
+msgctxt "m.palette.name.palette30"
+msgid "Palette30"
+msgstr ""
+

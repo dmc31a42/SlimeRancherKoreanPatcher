@@ -1,0 +1,298 @@
+# rakwon choi <ch0494@gmail.com>, 2017. #zanata
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"PO-Revision-Date: 2017-12-11 09:20-0500\n"
+"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+"Language-Team: Korean\n"
+"Language: ko\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: 1
+msgctxt "m.None"
+msgid "None"
+msgstr "None"
+
+#: 2
+msgctxt "m.Key0"
+msgid "0"
+msgstr "0"
+
+#: 3
+msgctxt "m.Key1"
+msgid "1"
+msgstr "1"
+
+#: 4
+msgctxt "m.Key2"
+msgid "2"
+msgstr "2"
+
+#: 5
+msgctxt "m.Key3"
+msgid "3"
+msgstr "3"
+
+#: 6
+msgctxt "m.Key4"
+msgid "4"
+msgstr "4"
+
+#: 7
+msgctxt "m.Key5"
+msgid "5"
+msgstr "5"
+
+#: 8
+msgctxt "m.Key6"
+msgid "6"
+msgstr "6"
+
+#: 9
+msgctxt "m.Key7"
+msgid "7"
+msgstr "7"
+
+#: 10
+msgctxt "m.Key8"
+msgid "8"
+msgstr "8"
+
+#: 11
+msgctxt "m.Key9"
+msgid "9"
+msgstr "9"
+
+#: 12
+msgctxt "m.Pad0"
+msgid "Num0"
+msgstr "Num0"
+
+#: 13
+msgctxt "m.Pad1"
+msgid "Num1"
+msgstr "Num1"
+
+#: 14
+msgctxt "m.Pad2"
+msgid "Num2"
+msgstr "Num2"
+
+#: 15
+msgctxt "m.Pad3"
+msgid "Num3"
+msgstr "Num3"
+
+#: 16
+msgctxt "m.Pad4"
+msgid "Num4"
+msgstr "Num4"
+
+#: 17
+msgctxt "m.Pad5"
+msgid "Num5"
+msgstr "Num5"
+
+#: 18
+msgctxt "m.Pad6"
+msgid "Num6"
+msgstr "Num6"
+
+#: 19
+msgctxt "m.Pad7"
+msgid "Num7"
+msgstr "Num7"
+
+#: 20
+msgctxt "m.Pad8"
+msgid "Num8"
+msgstr "Num8"
+
+#: 21
+msgctxt "m.Pad9"
+msgid "Num9"
+msgstr "Num9"
+
+#: 22
+msgctxt "m.LeftButton"
+msgid "MouseLeft"
+msgstr "마우스왼쪽"
+
+#: 23
+msgctxt "m.RightButton"
+msgid "MouseRight"
+msgstr "마우스오른쪽"
+
+#: 24
+msgctxt "m.MiddleButton"
+msgid "MouseMid"
+msgstr "마우스휠"
+
+#: 25
+msgctxt "m.PositiveScrollWheel"
+msgid "ScrollUp"
+msgstr "스크롤업"
+
+#: 26
+msgctxt "m.NegativeScrollWheel"
+msgid "ScrollDown"
+msgstr "스크롤다운"
+
+#: 27
+msgctxt "m.LeftShift"
+msgid "LeftShift"
+msgstr "왼쪽Shift"
+
+#: 28
+msgctxt "m.RightShift"
+msgid "RightShift"
+msgstr "오른쪽Shift"
+
+#: 29
+msgctxt "m.LeftCtrl"
+msgid "LeftCtrl"
+msgstr "왼쪽Ctrl"
+
+#: 30
+msgctxt "m.RightCtrl"
+msgid "RightCtrl"
+msgstr "오른쪽Ctrl"
+
+#: 31
+msgctxt "m.LeftAlt"
+msgid "LeftAlt"
+msgstr "왼쪽Alt"
+
+#: 32
+msgctxt "m.RightAlt"
+msgid "RightAlt"
+msgstr "오른쪽Alt"
+
+#: 33
+msgctxt "m.UpArrow"
+msgid "UpArrow"
+msgstr "위방향키"
+
+#: 34
+msgctxt "m.DownArrow"
+msgid "DownArrow"
+msgstr "아래방향키"
+
+#: 35
+msgctxt "m.LeftArrow"
+msgid "LeftArrow"
+msgstr "왼쪽방향키"
+
+#: 36
+msgctxt "m.RightArrow"
+msgid "RightArrow"
+msgstr "오른쪽방향키"
+
+#: 37
+msgctxt "m.Space"
+msgid "Space"
+msgstr "스페이스"
+
+#: 38
+msgctxt "m.Slash"
+msgid "Slash"
+msgstr "슬래시/"
+
+#: 39
+msgctxt "m.Backslash"
+msgid "Backslash"
+msgstr "역슬래시\\"
+
+#: 40
+msgctxt "m.Action1"
+msgid "A"
+msgstr "A"
+
+#: 41
+msgctxt "m.Action2"
+msgid "B"
+msgstr "B"
+
+#: 42
+msgctxt "m.Action3"
+msgid "X"
+msgstr "X"
+
+#: 43
+msgctxt "m.Action4"
+msgid "Y"
+msgstr "Y"
+
+#: 44
+msgctxt "m.LeftTrigger"
+msgid "LT"
+msgstr "LT"
+
+#: 45
+msgctxt "m.LeftBumper"
+msgid "LB"
+msgstr "LB"
+
+#: 46
+msgctxt "m.RightTrigger"
+msgid "RT"
+msgstr "RT"
+
+#: 47
+msgctxt "m.RightBumper"
+msgid "RB"
+msgstr "RB"
+
+#: 48
+msgctxt "m.DPadUp"
+msgid "Up"
+msgstr "위"
+
+#: 49
+msgctxt "m.DPadDown"
+msgid "Down"
+msgstr "아래"
+
+#: 50
+msgctxt "m.DPadLeft"
+msgid "Left"
+msgstr "왼쪽"
+
+#: 51
+msgctxt "m.DPadRight"
+msgid "Right"
+msgstr "오른쪽"
+
+#: 52
+msgctxt "m.Back"
+msgid "Back"
+msgstr "Back"
+
+#: 53
+msgctxt "m.Start"
+msgid "Start"
+msgstr "Start"
+
+#: 54
+msgctxt "m.LeftStickButton"
+msgid "Left Stick"
+msgstr "왼쪽 스틱"
+
+#: 55
+msgctxt "m.RightStickButton"
+msgid "Right Stick"
+msgstr "오른쪽 스틱"
+
+#: 56
+msgctxt "m.View"
+msgid "View"
+msgstr "View"
+
+#: 57
+msgctxt "m.Menu"
+msgid "Menu"
+msgstr "Menu"
+

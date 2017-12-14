@@ -1,0 +1,28 @@
+# rakwon choi <ch0494@gmail.com>, 2017. #zanata
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"PO-Revision-Date: 2017-12-04 07:57-0500\n"
+"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+"Language-Team: Korean\n"
+"Language: ko\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: 1
+msgctxt "m.dry_reef"
+msgid "Dry Reef"
+msgstr "건조한 암초"
+
+#: 2
+msgctxt "m.quarry"
+msgid "Quarry"
+msgstr "채석장"
+
+#: 3
+msgctxt "m.teleporter.ranch"
+msgid "Ranch"
+msgstr "목장"
+

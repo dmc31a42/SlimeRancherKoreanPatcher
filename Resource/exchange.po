@@ -1,0 +1,481 @@
+# rakwon choi <ch0494@gmail.com>, 2017. #zanata
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"PO-Revision-Date: 2017-12-11 09:19-0500\n"
+"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+"Language-Team: Korean\n"
+"Language: ko\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: 1
+msgctxt "m.rancher.thora"
+msgid "Thora West"
+msgstr "토라 웨스트"
+
+#: 2
+msgctxt "m.rancher.viktor"
+msgid "Viktor Humphries"
+msgstr "빅토르 험프리"
+
+#: 3
+msgctxt "m.rancher.ogden"
+msgid "Ogden Ortiz"
+msgstr "오그덴 오티즈"
+
+#: 4
+msgctxt "m.rancher.mochi"
+msgid "Mochi Miles"
+msgstr "모치 마일즈"
+
+#: 5
+msgctxt "m.rancher.bob"
+msgid "BOb"
+msgstr "밥"
+
+#: 6
+msgctxt "m.offer_1.thora"
+msgid "Help me out here and I'll make sure you get what's owed."
+msgstr "신참이 한번에 모두를 능가할 가능성은 얼마나 될까?"
+
+#: 7
+msgctxt "m.offer_2.thora"
+msgid "Don't suppose you also got a cup a sugar kicking around too?"
+msgstr "너도 설탕이 넘치는 컵을 갖고 있다고 생각하지 않나요?"
+
+#: 8
+msgctxt "m.offer_3.thora"
+msgid "Up too late last night, need a few things."
+msgstr "어젯밤에 너무 늦었어. 몇 가지 더 필요해."
+
+#: 9
+msgctxt "m.offer_4.thora"
+msgid ""
+"Best part of the range? You hear all those cars and people? Yeah, I don't "
+"either."
+msgstr "목장의 가장 좋은 점? 넌 차들과 사람들의 모든것이 들리니? 그래, 나도 몰라."
+
+#: 10
+msgctxt "m.offer_5.thora"
+msgid ""
+"You ever try to lasso a slime? Makes the whole vacpack thing pretty obvious."
+msgstr "슬라임을 묶어 놓으려고 해본적이 있나요? vacpack만 있으면 모든것이 완벽하죠"
+
+#: 11
+msgctxt "m.bonusoffer.thora"
+msgid "Drinks are on me if you can get me these things in a hurry!"
+msgstr "음료는 나에게 달려있어, 네가 이것들을 나에게 빨리 가져다주기만 한다면 말이야!"
+
+#: 12
+msgctxt "m.offer_1.viktor"
+msgid ""
+"If possible, please acquire the following for a future study. My thanks."
+msgstr "가능하다면 미래의 연구를 위해 그걸 얻도록 해. 고마워."
+
+#: 13
+msgctxt "m.offer_2.viktor"
+msgid ""
+"Are rad slimes a natural evolution or result of exposure to foreign matter?"
+msgstr "방사능 슬라임들은 자연적인 진화거나, 혹은 뭔가에 노출될 결과일거야"
+
+#: 14
+msgctxt "m.offer_3.viktor"
+msgid ""
+"Have you ever seen a Django's Tiger? Of course not, you can only hear it. "
+"Pardon me, that was a joke."
+msgstr ""
+"너 장고의 호랑이를 본적있어? 당연히 못봤겠지, 그건 오직 들을 수 만 있거든. 미안, 농담이였어. (Django's Tiger 는 "
+"곡명입니다.)"
+
+#: 15
+msgctxt "m.offer_4.viktor"
+msgid ""
+"If you listen very closely, you can hear a boom slime's cells vibrate. But "
+"don't listen for long."
+msgstr "아주 주의깊게 들어보면, 폭탄 슬라임의 세포들이 진동하는게 들릴거야. 하지만 너무 오래듣지는 마."
+
+#: 16
+msgctxt "m.bonusoffer.viktor"
+msgid ""
+"I'm afraid that one of my studies has gone a bit, well, please just get me "
+"these things at once!"
+msgstr "내 연구 중 하나가 약간 틀어졌을까 걱정이 되긴하네, 그럼, 나에게 이러한 것을들 바로 보내주길 바란다!"
+
+#: 17
+msgctxt "m.offer_1.ogden"
+msgid "I'm working on a new recipe. Help me out?"
+msgstr "난 새로운 제조법을 연구 중이야. 도와줄래?"
+
+#: 18
+msgctxt "m.offer_2.ogden"
+msgid "Eating carrots help you see in the dark!"
+msgstr "당근 먹기는 밤에 보는데 도움이 돼!"
+
+#: 19
+msgctxt "m.offer_3.ogden"
+msgid ""
+"The best part of an orange is the peel. But the inside's pretty good too."
+msgstr "오렌지의 좋은 부분은 껍질이지만, 안의 것도 꽤 좋아!"
+
+#: 20
+msgctxt "m.offer_4.ogden"
+msgid ""
+"Sometimes I like to take a nap in the Moss Blanket. But those darn boom "
+"slimes always wake me up!"
+msgstr "때로는 이끼 담요에서 자기도 하지만, 그 폭탄 슬라임들이 항상 나를 깨우곤 해!"
+
+#: 21
+msgctxt "m.offer_5.ogden"
+msgid ""
+"Ogden's Party Punch: 1 part pogofruit juice, 1 parts prickle pear juice, 2 "
+"parts starfire rum. Gets you dancing!"
+msgstr "오그덴의 특제 칵테일:포고프루트 주스 1번, 프리클피어 주스 1번, 스타파이어 럼 2번. 널 춤추게 만들껄!"
+
+#: 22
+msgctxt "m.bonusoffer.ogden"
+msgid "I'm in a real pickle here!"
+msgstr "나 지금 진짜 큰일났어!"
+
+#: 23
+msgctxt "m.offer_1.mochi"
+msgid "I need these plorts post-haste, whatever that means."
+msgstr "그것이 뭘 의미하던지 간에, 난 이 보석들이 가급적 빨리 필요해."
+
+#: 24
+msgctxt "m.offer_2.mochi"
+msgid ""
+"The last thing I want to do is make you look bad. But it's still on the list."
+""
+msgstr "마지막으로 내가 하고싶은건 널 나빠 보이게 하는거야. 하지만 아직은 명단에있지."
+
+#: 25
+msgctxt "m.offer_3.mochi"
+msgid "I promise you this is a good deal, banana peel."
+msgstr "나는 이게 바나나 껍질 벗기듯이 좋은 거래일 거라고 약속하지."
+
+#: 26
+msgctxt "m.offer_4.mochi"
+msgid "My ranching skills are gonna make you squirm, wiggle worm!"
+msgstr "내 목장운영 기술들이 널 꼼지락 거리게 할걸, 꿈틀거리는 지렁이 처럼말이지!"
+
+#: 27
+msgctxt "m.offer_5.mochi"
+msgid "Let's make a trade, lemonade."
+msgstr "교환하자. 레모네이드."
+
+#: 28
+msgctxt "m.bonusoffer.mochi"
+msgid "My toast is in a jam here! Help out a pal, yeah?"
+msgstr "내 토스트 잼은 여기 있어. 좀 도와줄래? 친구?"
+
+#: 29
+msgctxt "m.offer_1.bob"
+msgid "cHickeN? chicckens."
+msgstr "치킨? 치키이이인."
+
+#: 30
+msgctxt "m.offer_2.bob"
+msgid "askjhsfdkjh!!"
+msgstr "ㅁ나ㅓㅗㄴㄹ아ㅓㅗ!!"
+
+#: 31
+msgctxt "m.offer_3.bob"
+msgid "hallOO. chikkEN. OKs?"
+msgstr "헬로오오오. 치킨. 오케이?"
+
+#: 32
+msgctxt "m.offer_4.bob"
+msgid "ok oKok OK, OK!!  chiCKEn ok?"
+msgstr "오케이 오케오케오케, 오케!! 치킨 오케이?"
+
+#: 33
+msgctxt "m.bonusoffer.bob"
+msgid "CHICKKENN! askjasdljhsdfjkhasdlasdlkajs!!!!!"
+msgstr "치키이이이인!! ㅁ나ㅓㅁㄴ이ㅑㅓㅗㄴㅇ랴ㅏㅗㅁ넌!!!!"
+
+#: 34
+msgctxt "m.offer.ogden_rewards_level1.intro.1"
+msgid ""
+"Hiya, Beatrix! Thanks for coming down to my Retreat and hearing me out on my "
+"offer. So, let's get right down to business!"
+msgstr ""
+
+#: 35
+msgctxt "m.offer.ogden_rewards_level1.intro.2"
+msgid ""
+"I built this place years ago as a little vacation spot for myself. Later on "
+"I realized that it neighbors a cluster of islands filled with primitive "
+"saber slimes!"
+msgstr ""
+
+#: 36
+msgctxt "m.offer.ogden_rewards_level1.intro.3"
+msgid ""
+"I called these islands The Wilds, and after exploring them they revealed "
+"their true secret: the rare kookadoba fruit!"
+msgstr ""
+
+#: 37
+msgctxt "m.offer.ogden_rewards_level1.intro.4"
+msgid ""
+"What's a kookadoba? Why it's only the most delectable, irresistable fruit in "
+"the known universe! Well, MOST people say it tastes like rotten cheese but "
+"they're wrong!"
+msgstr ""
+
+#: 38
+msgctxt "m.offer.ogden_rewards_level1.intro.5"
+msgid ""
+"Anyway, I soon became obsessed with kookadobas, but I found myself quickly "
+"becoming too old and too slow to deal with the risk."
+msgstr ""
+
+#: 39
+msgctxt "m.offer.ogden_rewards_level1.intro.6"
+msgid ""
+"You see, The Wilds are home to hordes of feral slimes, the descendants of "
+"the ancient saber slimes that once hunted these lands. Collecting kookadobas "
+"is dangerous."
+msgstr ""
+
+#: 40
+msgctxt "m.offer.ogden_rewards_level1.intro.7"
+msgid ""
+"And that's where you come in! I'll happily reward you for collecting those "
+"sweet, sweet  kookadobas for me. Just deposit them into this custom range "
+"exchange here and we're in business!"
+msgstr ""
+
+#: 41
+msgctxt "m.offer.ogden_rewards_level1.intro.8"
+msgid ""
+"Collect enough of them for me and I'll start by giving you my secret miracle "
+"mix for your gardens! I'll also reward you with a block of my special spicy "
+"tofu for every 3 kookadobas."
+msgstr ""
+
+#: 42
+msgctxt "m.offer.ogden_rewards_level1.intro.9"
+msgid ""
+"I've activated the teleporter to The Wilds here at the Retreat and it's now "
+"yours to explore as you see fit. Just know that the warp network there is a "
+"little buggy..."
+msgstr ""
+
+#: 43
+msgctxt "m.offer.ogden_rewards_level1.intro.10"
+msgid ""
+"You won't always arrive at the same place and you'll have to find a working "
+"teleporter to make your way back. It's buggy, I know. Just be prepared!"
+msgstr ""
+
+#: 44
+msgctxt "m.offer.ogden_rewards_level1.repeat.1"
+msgid ""
+"Head in to The Wilds and get those kookadoba fruits! Just be careful: "
+"there're lots of feral saber slimes roaming every inch of those islands."
+msgstr ""
+
+#: 45
+msgctxt "m.offer.ogden_rewards_level1.repeat.2"
+msgid ""
+"Oh, and one more thing! Saber slimes have an odd habit of bundling up "
+"kookadoba into mudballs that harden up like stone. The only way to break "
+"them open is with something I designed called a kookacracker!"
+msgstr ""
+
+#: 46
+msgctxt "m.offer.ogden_rewards_level1.repeat.3"
+msgid ""
+"You'll find them scattered across The Wilds; can't miss them! Just shoot a "
+"mudball into them and collect those sweet... delicious- my mouth is watering "
+"just thinking about them! Go, go, go!"
+msgstr ""
+
+#: 47
+msgctxt "m.offer.ogden_rewards_level2.intro.1"
+msgid ""
+"Thanks so much for all those kookadobas! You're off to a great start. The "
+"miracle mix I developed for my own crops is now available in your garden "
+"upgrades."
+msgstr ""
+
+#: 48
+msgctxt "m.offer.ogden_rewards_level2.intro.2"
+msgid ""
+"Miracle mix prevents fruits and veggies from rotting. And don't worry, I "
+"make it with all-natural materials; good, healthy stuff."
+msgstr ""
+
+#: 49
+msgctxt "m.offer.ogden_rewards_level2.intro.3"
+msgid ""
+"But I didn't always think this way. I used to run a huge company on Earth "
+"that made insta-food: quick, cheap meals made of nothing but chemicals and "
+"preservatives."
+msgstr ""
+
+#: 50
+msgctxt "m.offer.ogden_rewards_level2.intro.4"
+msgid ""
+"We made billions, but we weren't making real food. Instead, our  'food "
+"engineers' worked to 'design products.' It wasn't right..."
+msgstr ""
+
+#: 51
+msgctxt "m.offer.ogden_rewards_level2.intro.5"
+msgid ""
+"So I came to the Far, Far Range to grow my own wholesome food with my two "
+"hands. I wanted to leave my life on Earth behind."
+msgstr ""
+
+#: 52
+msgctxt "m.offer.ogden_rewards_level2.intro.6"
+msgid ""
+"But enough about that, on to more kookadobas! If you get me a bunch more "
+"I'll give you the specs for a deluxe upgrade for your gardens!"
+msgstr ""
+
+#: 53
+msgctxt "m.offer.ogden_rewards_level2.intro.7"
+msgid ""
+"Get to it, Beatrix! I've got a new recipe here and I need loads of kookadoba "
+"to get it juuuust right!"
+msgstr ""
+
+#: 54
+msgctxt "m.offer.ogden_rewards_level2.repeat.1"
+msgid ""
+"Head back into The Wilds and collect those kookadobas! I'll reward you with "
+"a deluxe upgrade for your gardens if you get me enough!"
+msgstr ""
+
+#: 55
+msgctxt "m.offer.ogden_rewards_level3.intro.1"
+msgid ""
+"You did it! I can try out my new recipe with all these delicious kookadobas!"
+msgstr ""
+
+#: 56
+msgctxt "m.offer.ogden_rewards_level3.intro.2"
+msgid ""
+"I really love to cook, it calms me down and lets me focus on making "
+"something nutritious for body and soul."
+msgstr ""
+
+#: 57
+msgctxt "m.offer.ogden_rewards_level3.intro.3"
+msgid ""
+"It's funny, food only became a true passion for me after leaving my insta-"
+"food company."
+msgstr ""
+
+#: 58
+msgctxt "m.offer.ogden_rewards_level3.intro.4"
+msgid ""
+"To be honest, I didn't leave. I was ousted by the board of directors because "
+"I tried to sabotage the company. I wanted to see it fall."
+msgstr ""
+
+#: 59
+msgctxt "m.offer.ogden_rewards_level3.intro.5"
+msgid ""
+"We were making people sick, Beatrix. The 'food' we sold was garbage and we "
+"knew it. It was all about the money. I wanted it all to go away."
+msgstr ""
+
+#: 60
+msgctxt "m.offer.ogden_rewards_level3.intro.6"
+msgid ""
+"But it had become too big. I couldn't stand up against it so I was gone. I "
+"got my ticket to the Far, Far Range soon thereafter."
+msgstr ""
+
+#: 61
+msgctxt "m.offer.ogden_rewards_level3.intro.7"
+msgid ""
+"And so here we are! Listening to me carry on about the past instead of "
+"focusing on those kookadobas! Let's get back on track."
+msgstr ""
+
+#: 62
+msgctxt "m.offer.ogden_rewards_level3.intro.8"
+msgid ""
+"Get me another load of kookadobas and I'll be so grateful that I'll give you "
+"the keys to my Retreat! That's right, it'll all be yours to keep."
+msgstr ""
+
+#: 63
+msgctxt "m.offer.ogden_rewards_level3.intro.9"
+msgid "Good luck out there!"
+msgstr ""
+
+#: 64
+msgctxt "m.offer.ogden_rewards_level3.repeat.1"
+msgid ""
+"Get me this last load of kookadobas and this retreat is yours to keep! Good "
+"luck!"
+msgstr ""
+
+#: 65
+msgctxt "m.offer.ogden_recur.intro.1"
+msgid "Oh my! Oh dear! That's so many kookadobas!"
+msgstr ""
+
+#: 66
+msgctxt "m.offer.ogden_recur.intro.2"
+msgid ""
+"I can taste it now: hearty kookadoba and parsnip pie, sweet kookadoba jam "
+"for years... oh! Kookadoba omlettes with painted hen eggs!"
+msgstr ""
+
+#: 67
+msgctxt "m.offer.ogden_recur.intro.3"
+msgid ""
+"You've given me such a gift here, Beatrix. I'm so grateful. Ogden's Retreat "
+"is now yours to use as you see fit."
+msgstr ""
+
+#: 68
+msgctxt "m.offer.ogden_recur.intro.4"
+msgid ""
+"But you know... if you wanted to keep exploring The Wilds and giving me "
+"kookadobas I'd be happy to pay you in tofu."
+msgstr ""
+
+#: 69
+msgctxt "m.offer.ogden_recur.intro.5"
+msgid ""
+"So thanks again Beatrix! It was great working with you and getting a chance "
+"to talk to someone."
+msgstr ""
+
+#: 70
+msgctxt "m.offer.ogden_recur.intro.6"
+msgid ""
+"Life on the range is wonderful, but it can get a little lonely out here when "
+"it's just you and the memories you can't let go..."
+msgstr ""
+
+#: 71
+msgctxt "m.offer.ogden_recur.intro.7"
+msgid ""
+"So it's good to have someone who's there for you, even if they just listen "
+"every now and again."
+msgstr ""
+
+#: 72
+msgctxt "m.offer.ogden_recur.intro.8"
+msgid "Thanks for listening Beatrix. Now let's get back to work!"
+msgstr ""
+
+#: 73
+msgctxt "m.offer.ogden_recur.repeat.1"
+msgid ""
+"The Retreat is yours but I'll be happy to give you a block of my special "
+"spicy tofu for every 3 kookadobas you harvest from The Wilds. Be careful!"
+msgstr ""
+
