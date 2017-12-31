@@ -25,7 +25,7 @@ namespace SlimeRancherKoreanPatcherCShop
         const string UNITY_RESOURCES_ASSETS_NAME = "resources.assets";
         const string UNITY_SHARED0_ASSETS_NAME = "sharedassets0.assets";
         const bool DEBUG = true;
-        const string currentVersion = "20171214";
+        const string currentVersion = "20180101";
         const string currentVersionURL = @"https://github.com/dmc31a42/SlimeRancherKoreanPatcher/raw/ModifyParserAndCSV2Zanata/currentVersion.txt";
 
         static void Main(string[] args)
@@ -193,6 +193,10 @@ namespace SlimeRancherKoreanPatcherCShop
             {
                 return GAME_DATA_NAME + @"_Data\";
             }
+            if (FolderExist(@"..\" + GAME_DATA_NAME + @"_Data\"))
+            {
+                return @"..\" + GAME_DATA_NAME + @"_Data\";
+            }
             if (FileExist(UNITY_RESOURCES_ASSETS_NAME))
             {
                 return @".\";
@@ -346,7 +350,6 @@ namespace SlimeRancherKoreanPatcherCShop
             }
             return ListFileName;
         }
-
         static void DownloadWebFileOrCopyOfflineFile(string name, string url, string extension)
         {
             if(extension != string.Empty & extension[0] != '.')
