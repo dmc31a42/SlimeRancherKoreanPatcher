@@ -26,7 +26,7 @@ namespace SlimeRancherKoreanPatcherCShop
         const string UNITY_RESOURCES_ASSETS_NAME = "resources.assets";
         const string UNITY_SHARED0_ASSETS_NAME = "sharedassets0.assets";
         const bool DEBUG = true;
-        const string currentVersion = "20171204";
+        const string currentVersion = "20180101";
 
         static void Main(string[] args)
         {
@@ -192,6 +192,10 @@ namespace SlimeRancherKoreanPatcherCShop
             if (FolderExist(GAME_DATA_NAME + @"_Data\"))
             {
                 return GAME_DATA_NAME + @"_Data\";
+            }
+            if (FolderExist(@"..\" + GAME_DATA_NAME + @"_Data\"))
+            {
+                return @"..\" + GAME_DATA_NAME + @"_Data\";
             }
             if (FileExist(UNITY_RESOURCES_ASSETS_NAME))
             {
