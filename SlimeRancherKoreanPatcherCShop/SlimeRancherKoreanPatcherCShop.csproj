@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1FDDCCE7-1E1D-4B91-9051-F2E290AC1F55}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>SlimeRancherKoreanPatcherCShop</RootNamespace>
+    <AssemblyName>SlimeRancherKoreanPatcherCShop</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SlimeRancherKoreanPatcherManagedCpp\SlimeRancherKoreanPatcherManagedCpp.vcxproj">
+      <Project>{773ec032-8e96-4ccc-a983-cc5aaf8e7957}</Project>
+      <Name>SlimeRancherKoreanPatcherManagedCpp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TextParser\TextParser.csproj">
+      <Project>{359b32d0-addb-4476-a0d5-aa072fcf1378}</Project>
+      <Name>TextParser</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>xcopy "$(ProjectDir)..\UABE_API\bin32\AssetsTools.dll" "$(ProjectDir)$(OutDir)" /Y
+xcopy "$(ProjectDir)..\msvc100\*" "$(ProjectDir)$(OutDir)" /Y
+xcopy "$(ProjectDir)..\Resource\*" "$(ProjectDir)$(OutDir)Resource\" /Y
+
+set OUTPUT_FOLDER=슬라임랜처 한글패치
+rmdir "$(ProjectDir)..\%25OUTPUT_FOLDER%25\" /S /Q
+xcopy "$(ProjectDir)$(OutDir)Resource\*" "$(ProjectDir)..\%25OUTPUT_FOLDER%25\Resource\"
+xcopy "$(ProjectDir)$(OutDir)*.dll" "$(ProjectDir)..\%25OUTPUT_FOLDER%25\"
+echo f | xcopy "$(ProjectDir)$(OutDir)$(TargetName).exe" "$(ProjectDir)..\%25OUTPUT_FOLDER%25\%25OUTPUT_FOLDER%25.exe" /Y
+bandizip.exe c -y "$(ProjectDir)..\%25OUTPUT_FOLDER%25.zip" "$(ProjectDir)..\%25OUTPUT_FOLDER%25\"
+
+</PostBuildEvent>
+  </PropertyGroup>
+</Project>

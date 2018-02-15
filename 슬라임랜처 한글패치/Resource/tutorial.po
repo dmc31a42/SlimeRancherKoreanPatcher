@@ -1,0 +1,611 @@
+# rakwon choi <ch0494@gmail.com>, 2017. #zanata
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"PO-Revision-Date: 2017-12-11 09:23-0500\n"
+"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+"Language-Team: Korean\n"
+"Language: ko\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: 1
+msgctxt "t.basic_movement"
+msgid "Let's get moving!"
+msgstr "움직여 봅시다!"
+
+#: 2
+msgctxt "m.input.basic_movement.1"
+msgid "W"
+msgstr "W"
+
+#: 3
+msgctxt "m.inputdesc.basic_movement.1"
+msgid "move forward"
+msgstr "앞으로 가기"
+
+#: 4
+msgctxt "m.input.basic_movement.2"
+msgid "A"
+msgstr "A"
+
+#: 5
+msgctxt "m.inputdesc.basic_movement.2"
+msgid "move left"
+msgstr "왼쪽으로 가기"
+
+#: 6
+msgctxt "m.input.basic_movement.3"
+msgid "S"
+msgstr "S"
+
+#: 7
+msgctxt "m.inputdesc.basic_movement.3"
+msgid "move backward"
+msgstr "뒤로 가기"
+
+#: 8
+msgctxt "m.input.basic_movement.4"
+msgid "D"
+msgstr "D"
+
+#: 9
+msgctxt "m.inputdesc.basic_movement.4"
+msgid "move right"
+msgstr "오른쪽으로 가기"
+
+#: 10
+msgctxt "m.input.gamepad.basic_movement.1"
+msgid "Move"
+msgstr "이동"
+
+#: 11
+msgctxt "m.inputdesc.gamepad.basic_movement.1"
+msgid "move"
+msgstr "이동"
+
+#: 12
+msgctxt "t.jumping"
+msgid "Hop to it!"
+msgstr "폴짝 뛰기!"
+
+#: 13
+msgctxt "m.input.jumping.1"
+msgid "Spacebar"
+msgstr "스페이스 바"
+
+#: 14
+msgctxt "m.inputdesc.jumping.1"
+msgid "jump"
+msgstr "점프"
+
+#: 15
+msgctxt "m.input.jumping.2"
+msgid "Hold Shift"
+msgstr "쉬프트를 눌르시오."
+
+#: 16
+msgctxt "m.inputdesc.jumping.2"
+msgid "sprint"
+msgstr "전력질주"
+
+#: 17
+msgctxt "m.input.gamepad.jumping.1"
+msgid "Jump"
+msgstr "점프"
+
+#: 18
+msgctxt "m.inputdesc.gamepad.jumping.1"
+msgid "jump"
+msgstr "점프"
+
+#: 19
+msgctxt "m.input.gamepad.jumping.2"
+msgid "Run"
+msgstr "뛰기"
+
+#: 20
+msgctxt "m.inputdesc.gamepad.jumping.2"
+msgid "sprint"
+msgstr "전력질주"
+
+#: 21
+msgctxt "t.vaccing"
+msgid "How to vac like a rancher"
+msgstr "목장주처럼 포획하는 방법"
+
+#: 22
+msgctxt "m.text.vaccing"
+msgid "Your vacpack can vac things up and store them in a vac tank."
+msgstr "포집기는 물건들을 끌어다 포획하고 포획통에 보관할 수 있습니다."
+
+#: 23
+msgctxt "m.input.vaccing.1"
+msgid "Hold Right Mouse"
+msgstr "마우스 오른쪽 버튼을 누르세요"
+
+#: 24
+msgctxt "m.inputdesc.vaccing.1"
+msgid "vac"
+msgstr "포획"
+
+#: 25
+msgctxt "m.input.gamepad.vaccing.1"
+msgid "Vac"
+msgstr "포획"
+
+#: 26
+msgctxt "m.inputdesc.gamepad.vaccing.1"
+msgid "vac"
+msgstr "포획"
+
+#: 27
+msgctxt "t.shooting"
+msgid "You vac'd a slime!"
+msgstr "슬라임을 잡았습니다."
+
+#: 28
+msgctxt "m.text.shooting"
+msgid ""
+"Slimes are key to your success. Shoot slimes THROUGH a corral barrier into "
+"the corral on the ranch."
+msgstr "슬라임은 성공의 열쇠입니다. 슬라임을 목장 장벽 너머로 쏴서 넣으세요!"
+
+#: 29
+msgctxt "m.input.shooting.1"
+msgid "Mouse Wheel"
+msgstr "마우스 휠"
+
+#: 30
+msgctxt "m.inputdesc.shooting.1"
+msgid "select vac tank"
+msgstr "포획 탱크를 선택"
+
+#: 31
+msgctxt "m.input.shooting.2"
+msgid "Hold Left Mouse"
+msgstr "마우스 왼쪽 버튼을 누르세요"
+
+#: 32
+msgctxt "m.inputdesc.shooting.2"
+msgid "shoot"
+msgstr "쏘기"
+
+#: 33
+msgctxt "m.input.gamepad.shooting.1"
+msgid "PrevSlot"
+msgstr "이전 슬롯"
+
+#: 34
+msgctxt "m.inputdesc.gamepad.shooting.1"
+msgid "select prev vac tank"
+msgstr "이전 포획 탱크를 선택"
+
+#: 35
+msgctxt "m.input.gamepad.shooting.2"
+msgid "NextSlot"
+msgstr "다음 슬롯"
+
+#: 36
+msgctxt "m.inputdesc.gamepad.shooting.2"
+msgid "select next vac tank"
+msgstr "다음 포획 탱크를 선택"
+
+#: 37
+msgctxt "m.input.gamepad.shooting.3"
+msgid "Attack"
+msgstr "공격"
+
+#: 38
+msgctxt "m.inputdesc.gamepad.shooting.3"
+msgid "shoot"
+msgstr "발사"
+
+#: 39
+msgctxt "t.food"
+msgid "Tasty food acquired!"
+msgstr "맛있는 음식이 필요함!"
+
+#: 40
+msgctxt "m.text.food"
+msgid ""
+"Food like fruits, veggies, or chickens are used to feed slimes. Try shooting "
+"food at a pink slime; they'll eat anything."
+msgstr "과일,채소,닭 같은 음식들은 슬라임을 먹이는데 사용됩니다.핑크 슬라임에게 음식을 던져보세요.그들은 아무거나 먹을 것입니다."
+
+#: 41
+msgctxt "m.input.food.1"
+msgid "Mouse Wheel"
+msgstr "마우스 휠"
+
+#: 42
+msgctxt "m.inputdesc.food.1"
+msgid "select vac tank"
+msgstr "포획 탱크를 선택"
+
+#: 43
+msgctxt "m.input.food.2"
+msgid "Hold Left Mouse"
+msgstr "마우스 왼쪽 버튼을 누르세요"
+
+#: 44
+msgctxt "m.inputdesc.food.2"
+msgid "shoot"
+msgstr "쏘기"
+
+#: 45
+msgctxt "m.input.gamepad.food.1"
+msgid "PrevSlot"
+msgstr "이전 슬롯"
+
+#: 46
+msgctxt "m.inputdesc.gamepad.food.1"
+msgid "select prev vac tank"
+msgstr "이전 포획 탱크를 선택"
+
+#: 47
+msgctxt "m.input.gamepad.food.2"
+msgid "NextSlot"
+msgstr "다음 슬롯"
+
+#: 48
+msgctxt "m.inputdesc.gamepad.food.2"
+msgid "select next vac tank"
+msgstr "다음 포획 탱크를 선택"
+
+#: 49
+msgctxt "m.input.gamepad.food.3"
+msgid "Attack"
+msgstr "공격"
+
+#: 50
+msgctxt "m.inputdesc.gamepad.food.3"
+msgid "shoot"
+msgstr "쏘기"
+
+#: 51
+msgctxt "t.plort"
+msgid "You acquired a slime plort!"
+msgstr "슬라임 플롯을 획득함!"
+
+#: 52
+msgctxt "m.text.plort"
+msgid ""
+"When slimes eat they make plorts.\n"
+"\n"
+"Head on over to the Plort Market to cash in your plort."
+msgstr "슬라임이 밥을 먹으면 플롯을 만듭니다.\n"
+"\n"
+"  보석을 돈으로 바꾸기 위해 보석 상점으로 향하세요."
+
+#: 53
+msgctxt "t.market"
+msgid "The Plort Market"
+msgstr "보석 상점"
+
+#: 54
+msgctxt "m.text.market"
+msgid ""
+"The Plort Market gives you newbucks for your hard-earned plorts.\n"
+"\n"
+"Shoot a plort into the Plort Market and earn some cash!"
+msgstr "보석 상점은 당신이 힘들여 얻은 보석에 대한 보상을 제공합니다.\n"
+"\n"
+"  보석을 보석 상점을 향해 쏴서 돈을 얻으세요!"
+
+#: 55
+msgctxt "m.input.market.1"
+msgid "Mouse Wheel"
+msgstr "마우스 휠"
+
+#: 56
+msgctxt "m.inputdesc.market.1"
+msgid "select vac tank"
+msgstr "포획 탱크를 선택"
+
+#: 57
+msgctxt "m.input.market.2"
+msgid "Hold Left Mouse"
+msgstr "마우스 왼쪽 버튼을 누르세요"
+
+#: 58
+msgctxt "m.inputdesc.market.2"
+msgid "shoot"
+msgstr "쏘기"
+
+#: 59
+msgctxt "m.input.gamepad.market.1"
+msgid "PrevSlot"
+msgstr "이전 슬롯"
+
+#: 60
+msgctxt "m.inputdesc.gamepad.market.1"
+msgid "select prev vac tank"
+msgstr "이전 포획 탱크를 선택"
+
+#: 61
+msgctxt "m.input.gamepad.market.2"
+msgid "NextSlot"
+msgstr "다음 슬롯"
+
+#: 62
+msgctxt "m.inputdesc.gamepad.market.2"
+msgid "select next vac tank"
+msgstr "다음 포획 탱크를 선택"
+
+#: 63
+msgctxt "m.input.gamepad.market.3"
+msgid "Attack"
+msgstr "공격"
+
+#: 64
+msgctxt "m.inputdesc.gamepad.market.3"
+msgid "shoot"
+msgstr "쏘기"
+
+#: 65
+msgctxt "t.death"
+msgid "Welcome back..."
+msgstr "다시오신것을 환영합니다......"
+
+#: 66
+msgctxt "m.text.death"
+msgid ""
+"When you're knocked out you'll rest at least 12 hours in order to recover. "
+"If you're not careful, you might wake up to a mob of hungry, unruly slimes "
+"on your ranch!"
+msgstr ""
+"만약 당신이 기절하게 되면 회복하는 데 12시간이 걸립니다. 주의하지 않으면, 일어난 후에 배고프고 무질서한 슬라임 폭도를 보게 될 "
+"것입니다."
+
+#: 67
+msgctxt "t.garden"
+msgid "You built a garden!"
+msgstr "당신은 정원을 만들었다!"
+
+#: 68
+msgctxt "m.text.garden"
+msgid ""
+"Shoot a fruit or veggie into the depositor to begin growing more of that "
+"type!"
+msgstr "과일이나 채소를 기르기를 시작하려면 투입구에 그 과일이나 채소를 쏘세요!"
+
+#: 69
+msgctxt "t.largo"
+msgid "Oh my largo!"
+msgstr "오! 나의 느림보님"
+
+#: 70
+msgctxt "m.text.largo"
+msgid ""
+"Largo slimes are large slime hybrids formed when a slime eats a plort unlike "
+"its own.\n"
+"\n"
+"Vac to keep them on your nozzle, or shoot to send them flying!"
+msgstr ""
+"느림보 슬라임은 슬라임이 자신과는 다른 슬라임의 보석을 먹을 때 생기는 큰 혼종 슬라임입니다.\n"
+"  \n"
+"  노즐로 흡입하여 느림보 슬라임을 붙여 다니거나 쏘아서 하늘로 날리세요!"
+
+#: 71
+msgctxt "t.explore"
+msgid "That about covers the basics!"
+msgstr "이러한 것들이 기본 내용!"
+
+#: 72
+msgctxt "m.text.explore"
+msgid ""
+"You've learned the fundamentals, now it's time to get out there and explore!\n"
+"\n"
+"Remember, the best way to become a pro rancher is to experiment. Nothing "
+"ventured, nothing gained!"
+msgstr ""
+"기본에 대해 배웠습니다. 이제 밖으로 나가 탐험을 할 시간입니다.\n"
+"  \n"
+"  기억하세요, 전문 목장주가 되는 가장 좋은 방법은 탐험입니다. 모험이 없으면,얻는것도 없다"
+
+#: 73
+msgctxt "t.science_barn"
+msgid "Slime Science!"
+msgstr "슬리임 과학!"
+
+#: 74
+msgctxt "m.text.science_barn"
+msgid ""
+"You've unlocked The Lab, a special Ranch expansion that will allow you to "
+"create gadgets using Slime Science!\n"
+"\n"
+"Head on over to the barn and get started!"
+msgstr ""
+"연구실을 해제했습니다. 연구실은 특별한 목장의 확장기능으로 장치들을 만들 수 있게 합니다  슬라임 과학을 이용해서!\n"
+"  \n"
+"  헛간으로 가서 시작하세요!"
+
+#: 75
+msgctxt "t.science_summary"
+msgid "Time to get crafty!"
+msgstr "수공예를 할 시간!"
+
+#: 76
+msgctxt "m.text.science_summary"
+msgid ""
+"This barn has all the equipment you'll need to begin crafting gadgets using "
+"Slime Science. Gadgets include useful utilities to aid in exploring, "
+"defensive turrets, decorations, and more!"
+msgstr ""
+"이 헛간에는 슬라임 과학을 사용하여 장치를 만들 수 있는 모든 장비가 갖춰져있습니다.  장치에는 탐험, 방어용 포탑, 장식 등을 돕는 "
+"유용한 도구들이 있습니다."
+
+#: 77
+msgctxt "t.science_refinery"
+msgid "The Refinery"
+msgstr "정제소"
+
+#: 78
+msgctxt "m.text.science_refinery"
+msgid ""
+"In order to fabricate gadgets, you'll need resources in your Refinery. Try "
+"shooting a plort into the Refinery.\n"
+"\n"
+"But remember: any resources deposited into a Refinery CANNOT be removed."
+msgstr ""
+"도구를 제작하기 위해서는 당신의 정제소에 있는 자원들이 필요합니다.Plort을 정제소에 쏴보세요.\n"
+"\n"
+"하지만 정제소에 넣은 자원은 다시 뺄 수 없으니 조심하세요."
+
+#: 79
+msgctxt "t.science_builder_shop"
+msgid "The Builder's Shop"
+msgstr "장인의 집"
+
+#: 80
+msgctxt "m.text.science_builder_shop"
+msgid ""
+"The Builder's Shop allows you to purchase blueprints. A blueprint is "
+"required to build any gadget.\n"
+"\n"
+"Be sure to check the Builder's Shop often for new blueprints!"
+msgstr ""
+"장인의 집에서 청사진을 구입할 수 있습니다. 청사진이 필요합니다  아무 장치나 만들기 위해선\n"
+"  \n"
+"  장인의 집에 자주 들러 새 청사진을 확인하세요!"
+
+#: 81
+msgctxt "t.science_fabricator"
+msgid "The Fabricator"
+msgstr "제작기"
+
+#: 82
+msgctxt "m.text.science_fabricator"
+msgid ""
+"Once you have a blueprint, the Fabricator allows you to craft gadgets, using "
+"resources stored in the Refinery. Give it a try!"
+msgstr "일단 청사진을 가지고 있으면, 제작기로 장치들을 제작할 수 있다  정제소에 저장된 자원들을 사용해서.   시도해보세요!"
+
+#: 83
+msgctxt "t.science_gadget_mode"
+msgid "Gadget Mode"
+msgstr "장치 모드"
+
+#: 84
+msgctxt "m.text.science_gadget_mode"
+msgid "In order to place gadgets, you need to enable Gadget Mode."
+msgstr "장치들을 놓기 위해서는 장치 모드를 활성화 해야 한다."
+
+#: 85
+msgctxt "m.input.science_gadget_mode.1"
+msgid "T"
+msgstr "T"
+
+#: 86
+msgctxt "m.inputdesc.science_gadget_mode.1"
+msgid "Toggle Gadget Mode"
+msgstr "장치 모드 껐다켜기"
+
+#: 87
+msgctxt "m.input.gamepad.science_gadget_mode.1"
+msgid "ToggleGadgetMode"
+msgstr "장치모드토글"
+
+#: 88
+msgctxt "m.inputdesc.gamepad.science_gadget_mode.1"
+msgid "Toggle Gadget Mode"
+msgstr "장치모드 껐다켜기"
+
+#: 89
+msgctxt "t.science_sites"
+msgid "Build Sites"
+msgstr "부지 만들기"
+
+#: 90
+msgctxt "m.text.science_sites"
+msgid ""
+"In Gadget Mode you cannot vac or shoot, but you can see all the build sites "
+"in the world that you can place your gadgets. Have a look around!"
+msgstr ""
+"장치 모드에서는 포획하거나 쏠수는 없지만, 세상에 있는 모든 건설 부지를 볼 수 있다.  장치를 설치할 수 있는.  주변을 둘러보세요!"
+
+#: 91
+msgctxt "t.science_place_site"
+msgid "Place Site"
+msgstr "부지에 놓기"
+
+#: 92
+msgctxt "m.text.science_place_site"
+msgid ""
+"Once you've found a build site, approach it to open to Place Gadget menu. "
+"Then simply select the gadget you wish to place!"
+msgstr "일단 건설 부지를 발견했으면 접근하여 장치 놓기 메뉴를 엽니다.그리고 간단하게 놓고 싶은 장치를 선택하세요!"
+
+#: 93
+msgctxt "t.science_wrapup"
+msgid "Science Class: Passed!"
+msgstr "과학 수업: 통과!"
+
+#: 94
+msgctxt "m.text.science_wrapup"
+msgid ""
+"That covers the basics of Slime Science! To learn more, check out the new "
+"Slime Science section in your Slimepedia. It's loaded with handy info!"
+msgstr ""
+"이러한 것들이 슬라임 과학의 기초입니다. 자세히 알아보기 위해서 슬라임백과의 새 슬라임 과학 섹션을 확인해보세요. 편리한 정보가 "
+"가득합니다!"
+
+#: 95
+msgctxt "t.map"
+msgid "Map Data Acquired!"
+msgstr "지도 데이터를 획득하였습니다!"
+
+#: 96
+msgctxt "m.text.map"
+msgid "Discover map data nodes across the range to uncover more of your map."
+msgstr ""
+
+#: 97
+msgctxt "m.input.map.1"
+msgid "M"
+msgstr "M"
+
+#: 98
+msgctxt "m.inputdesc.map.1"
+msgid "Access your Map"
+msgstr "지도에 접근하기"
+
+#: 99
+msgctxt "m.input.gamepad.map.1"
+msgid "OpenMap"
+msgstr ""
+
+#: 100
+msgctxt "m.inputdesc.gamepad.map.1"
+msgid "Access your Map"
+msgstr ""
+
+#: 101
+msgctxt "t.water"
+msgid "Make a splash!"
+msgstr "텀벙텀벙 소리를 내세요!"
+
+#: 102
+msgctxt "m.text.water"
+msgid ""
+"A blast of fresh water will calm down any slime for a short while, or "
+"dissolve those terrible tarr slimes!\n"
+"\n"
+"A watered garden's crops also grow faster!"
+msgstr ""
+
+#: 103
+msgctxt "t.enter_zone_ogden_ranch"
+msgid "Visit Ogden’s Retreat!"
+msgstr "Ogden의 은신처를 방문하세요!"
+
+#: 104
+msgctxt "m.text.enter_zone_ogden_ranch"
+msgid ""
+"Ogden Ortiz has offered you a job working at his Retreat! Enter the "
+"teleporter near the Overgrowth to learn more."
+msgstr ""
+

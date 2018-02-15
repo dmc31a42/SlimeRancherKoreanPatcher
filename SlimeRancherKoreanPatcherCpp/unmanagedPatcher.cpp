@@ -165,6 +165,8 @@ void unmanagedPatcher::FindInformation()
 	materialCount = materialNames.size();
 
 	monoBehaviourNames.insert(map<string, int>::value_type("OpenSans SDF",0));
+	monoBehaviourNames.insert(map<string, int>::value_type("OpenSans SDF Cyrillic", 0));
+	monoBehaviourNames.insert(map<string, int>::value_type("NotoSansCJKsc-Regular SDF Chinese", 0));
 	monoBehaviourCount = monoBehaviourNames.size();
 	
 	int languageDataCount = 11;

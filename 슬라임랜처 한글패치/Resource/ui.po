@@ -1,0 +1,2887 @@
+# rakwon choi <ch0494@gmail.com>, 2017. #zanata
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"PO-Revision-Date: 2017-12-11 09:52-0500\n"
+"Last-Translator: rakwon choi <ch0494@gmail.com>\n"
+"Language-Team: Korean\n"
+"Language: ko\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: 1
+msgctxt "l.version_watermark"
+msgid "Slime Rancher v {0}"
+msgstr "슬라임 목장 Early Access v {0}"
+
+#: 2
+msgctxt "l.version_watermark_xbox"
+msgid "Slime Rancher v {0}"
+msgstr "슬라임 목장 (Game Preview) v {0}"
+
+#: 3
+msgctxt "l.version_watermark_xboxgp"
+msgid "Slime Rancher (Game Preview) v {0}"
+msgstr ""
+
+#: 4
+msgctxt "l.version_full_watermark"
+msgid "Version: {0} ({1})"
+msgstr "버전: {0} ({1})"
+
+#: 5
+msgctxt "l.version"
+msgid "v {0}"
+msgstr "v {0}"
+
+#: 6
+msgctxt "t.pedia"
+msgid "Slimepedia"
+msgstr "슬라임백과"
+
+#: 7
+msgctxt "m.new_pedia_entry"
+msgid "New Slimepedia Entry:"
+msgstr "새로운 슬라임백과 항목"
+
+#: 8
+msgctxt "b.tutorials"
+msgid "Tutorials"
+msgstr "튜토리얼"
+
+#: 9
+msgctxt "b.slimes"
+msgid "Slimes"
+msgstr "슬라임들"
+
+#: 10
+msgctxt "b.resources"
+msgid "Resources"
+msgstr "자원들"
+
+#: 11
+msgctxt "b.ranch"
+msgid "Ranch"
+msgstr "목장"
+
+#: 12
+msgctxt "b.world"
+msgid "World"
+msgstr "세계"
+
+#: 13
+msgctxt "b.science"
+msgid "Slime Science"
+msgstr "슬라임 과학"
+
+#: 14
+msgctxt "l.favored_by"
+msgid "Favored By:"
+msgstr "선호하는 것:"
+
+#: 15
+msgctxt "l.instructions"
+msgid "Instructions:"
+msgstr "지침:"
+
+#: 16
+msgctxt "l.diet"
+msgid "Diet:"
+msgstr "먹이:"
+
+#: 17
+msgctxt "l.favorite"
+msgid "Favorite:"
+msgstr "선호:"
+
+#: 18
+msgctxt "l.biology"
+msgid "Slimeology:"
+msgstr "슬라임생태학:"
+
+#: 19
+msgctxt "l.risks"
+msgid "Rancher Risks:"
+msgstr "위험 요소:"
+
+#: 20
+msgctxt "l.plorts"
+msgid "Plortonomics:"
+msgstr "보석경제학:"
+
+#: 21
+msgctxt "l.upgrades"
+msgid "Upgrades:"
+msgstr "업그레이드:"
+
+#: 22
+msgctxt "l.resource_type"
+msgid "Type:"
+msgstr "종류:"
+
+#: 23
+msgctxt "l.about"
+msgid "About:"
+msgstr "알아보기:"
+
+#: 24
+msgctxt "l.how_to_use"
+msgid "On the Ranch:"
+msgstr "목장에서는:"
+
+#: 25
+msgctxt "m.pedia_hint"
+msgid "{0}: Slimepedia"
+msgstr "{0}: 슬라임백과"
+
+#: 26
+msgctxt "m.hudinfo_diet"
+msgid "Diet: {0}"
+msgstr "먹이: {0}"
+
+#: 27
+msgctxt "m.hudinfo_type"
+msgid "Food Type: {0}"
+msgstr "음식 종류: {0}"
+
+#: 28
+msgctxt "m.hudinfo_plort"
+msgid "Type: Plort"
+msgstr "종류: 보석"
+
+#: 29
+msgctxt "m.hudinfo_echo"
+msgid "Type: Echo"
+msgstr "종류: 에코"
+
+#: 30
+msgctxt "m.hudinfo_toy"
+msgid "Type: Slime Toy"
+msgstr "종류: 슬라임 장난감"
+
+#: 31
+msgctxt "m.hudinfo_fruitball"
+msgid "Contains Kookadobas"
+msgstr "Kookadobas 함유"
+
+#: 32
+msgctxt "m.foodgroup.veggies"
+msgid "Veggie"
+msgstr "야채"
+
+#: 33
+msgctxt "m.foodgroup.fruit"
+msgid "Fruit"
+msgstr "과일"
+
+#: 34
+msgctxt "m.foodgroup.meat"
+msgid "Meat"
+msgstr "고기"
+
+#: 35
+msgctxt "m.foodgroup.none"
+msgid "None"
+msgstr "없음"
+
+#: 36
+msgctxt "m.foodgroup.all"
+msgid "Everything"
+msgstr "모두"
+
+#: 37
+msgctxt "m.foodgroup.nonblackgold_slimes"
+msgid "Slimes"
+msgstr "슬라임"
+
+#: 38
+msgctxt "m.foodgroup.tarr"
+msgid "Slimes, Meat, and Ranchers"
+msgstr "슬라임, 고기, 그리고 목장주"
+
+#: 39
+msgctxt "m.foodgroup.water"
+msgid "Water"
+msgstr "물"
+
+#: 40
+msgctxt "m.foodgroup.ash"
+msgid "Ash"
+msgstr "재"
+
+#: 41
+msgctxt "b.ok"
+msgid "OK"
+msgstr "예"
+
+#: 42
+msgctxt "b.cancel"
+msgid "Cancel"
+msgstr "취소"
+
+#: 43
+msgctxt "b.retry"
+msgid "Retry"
+msgstr "다시"
+
+#: 44
+msgctxt "m.day"
+msgid "Day {0}"
+msgstr "{0}일"
+
+#: 45
+msgctxt "l.autosave"
+msgid "Game Saved"
+msgstr "게임 저장됨"
+
+#: 46
+msgctxt "l.empty"
+msgid "EMPTY"
+msgstr "비어있음"
+
+#: 47
+msgctxt "l.ammo"
+msgid "x {0}"
+msgstr "x {0}"
+
+#: 48
+msgctxt "t.access_door"
+msgid "Ranch Expansion"
+msgstr "목장 확장"
+
+#: 49
+msgctxt "b.unlock"
+msgid "Unlock"
+msgstr "해금"
+
+#: 50
+msgctxt "b.open_door"
+msgid "Open"
+msgstr "열다"
+
+#: 51
+msgctxt "b.close_door"
+msgid "Close"
+msgstr "닫다"
+
+#: 52
+msgctxt "m.press_to_activate"
+msgid "Press {0} to activate"
+msgstr "{0} 을 눌러 작동시키세요"
+
+#: 53
+msgctxt "m.press_to_activate.pre_gamepad"
+msgid "Press"
+msgstr " "
+
+#: 54
+msgctxt "m.press_to_activate.post_gamepad"
+msgid "to activate"
+msgstr "를 눌러 작동시키세요"
+
+#: 55
+msgctxt "m.press_to_use_key"
+msgid "Press {0} to use a Slime Key"
+msgstr "{0} 을 눌러 슬라임 키를 사용하세요"
+
+#: 56
+msgctxt "m.press_to_use_key.pre_gamepad"
+msgid "Press"
+msgstr " "
+
+#: 57
+msgctxt "m.press_to_use_key.post_gamepad"
+msgid "to use a Slime Key"
+msgstr "을 눌러 슬라임 키를 사용하세요"
+
+#: 58
+msgctxt "m.needs_key"
+msgid "Requires a Slime Key to open"
+msgstr "열기 위해선 슬라임 키가 필요합니다."
+
+#: 59
+msgctxt "m.ranch_house_unavailable"
+msgid "Ranch House unavailable in demo"
+msgstr "목장 건물은 데모에서 사용할 수 없습니다."
+
+#: 60
+msgctxt "m.lab_unavailable"
+msgid "Lab unavailable in demo"
+msgstr "데모에서는 연구소를 사용할 수 없음"
+
+#: 61
+msgctxt "m.press_to_open_pod"
+msgid "Press {0} to open pod"
+msgstr "{0} 을 눌러 포드를 여세요"
+
+#: 62
+msgctxt "m.press_to_open_pod.pre_gamepad"
+msgid "Press"
+msgstr " "
+
+#: 63
+msgctxt "m.press_to_open_pod.post_gamepad"
+msgid "to open pod"
+msgstr "을 눌러 포드를 여세요"
+
+#: 64
+msgctxt "m.needs_treasure_cracker"
+msgid "Treasure Pod is locked"
+msgstr "트레저 포드가 잠겨 있습니다"
+
+#: 65
+msgctxt "m.insuf_treasure_cracker"
+msgid "A more advanced Treasure Cracker is required"
+msgstr "보다 진보된 트레저 크래커가 필요합니다."
+
+#: 66
+msgctxt "m.press_to_open_gate"
+msgid "Press {0} to open the gate"
+msgstr "{0}을 눌러 관문을 여세요"
+
+#: 67
+msgctxt "m.press_to_open_gate.pre_gamepad"
+msgid "Press"
+msgstr " "
+
+#: 68
+msgctxt "m.press_to_open_gate.post_gamepad"
+msgid "to open the gate"
+msgstr "을 눌러 관문을 여세요"
+
+#: 69
+msgctxt "m.gate_locked"
+msgid "The gate is locked"
+msgstr "관문이 잠겨있습니다."
+
+#: 70
+msgctxt "b.purchase"
+msgid "Purchase"
+msgstr "구입"
+
+#: 71
+msgctxt "b.place"
+msgid "Install"
+msgstr "설치"
+
+#: 72
+msgctxt "b.sold_out"
+msgid "Sold Out"
+msgstr "매진"
+
+#: 73
+msgctxt "b.learn_more"
+msgid "Learn More"
+msgstr "더 읽기"
+
+#: 74
+msgctxt "l.curr_count"
+msgid "({0})"
+msgstr "({0})"
+
+#: 75
+msgctxt "b.extractors"
+msgid "Extractors"
+msgstr "추출기"
+
+#: 76
+msgctxt "b.warp_tech"
+msgid "Warp Tech"
+msgstr "워프 기술"
+
+#: 77
+msgctxt "b.utilities"
+msgid "Utilities"
+msgstr "도구"
+
+#: 78
+msgctxt "b.decorations"
+msgid "Decorations"
+msgstr "장식"
+
+#: 79
+msgctxt "b.curios"
+msgid "Curios"
+msgstr "골동품"
+
+#: 80
+msgctxt "b.tech"
+msgid "Tech"
+msgstr "기술"
+
+#: 81
+msgctxt "b.house"
+msgid "House"
+msgstr "집"
+
+#: 82
+msgctxt "b.vac"
+msgid "Vac"
+msgstr "흡입기"
+
+#: 83
+msgctxt "b.select"
+msgid "Select"
+msgstr "선택"
+
+#: 84
+msgctxt "b.already_selected"
+msgid "Selected"
+msgstr "선택됨"
+
+#: 85
+msgctxt "l.cost"
+msgid "Cost:"
+msgstr "비용:"
+
+#: 86
+msgctxt "m.upgrades"
+msgid "Upgrades:"
+msgstr "업그레이드:"
+
+#: 87
+msgctxt "b.demolish"
+msgid "Demolish"
+msgstr "파괴"
+
+#: 88
+msgctxt "b.pick_up"
+msgid "Pick Up"
+msgstr "집어들기"
+
+#: 89
+msgctxt "l.demolish_plot"
+msgid "Demolish Plot"
+msgstr "터 파괴"
+
+#: 90
+msgctxt "l.demolish_gadget"
+msgid "Demolish Gadget"
+msgstr "장치 파괴"
+
+#: 91
+msgctxt "l.demolish_linked_gadget"
+msgid "Demolish Linked Gadget"
+msgstr "연결된 장치 파괴"
+
+#: 92
+msgctxt "l.pick_up_gadget"
+msgid "Pick Up Gadget"
+msgstr "장치 집어들기"
+
+#: 93
+msgctxt "m.desc.demolish_plot"
+msgid "Clears this ranch plot and allows you to build something new."
+msgstr "이 목장 터를 철거하고 새로운 것을 지을 수 있습니다."
+
+#: 94
+msgctxt "m.desc.demolish_gadget"
+msgid ""
+"Destroys this gadget, allowing you to place a new gadget at this build site."
+msgstr "이 장치를 부수면 새 장치를 이 건축 부지에 놓을 수 있습니다."
+
+#: 95
+msgctxt "m.desc.demolish_linked_gadget"
+msgid "Destroys this gadget and its linked gadget installed elsewhere."
+msgstr "이 장치와 이 장치와 연결된 다른 장치를 부숩니다."
+
+#: 96
+msgctxt "m.desc.pick_up_gadget"
+msgid "Pick up this gadget, allowing you to place it again elsewhere."
+msgstr "이 장치를 들어서 다른 곳에 배치할 수 있습니다."
+
+#: 97
+msgctxt "e.insuf_coins"
+msgid "Not enough newbucks!"
+msgstr "코인이 부족합니다."
+
+#: 98
+msgctxt "m.select_option"
+msgid "Select an option for details."
+msgstr "자세히 보려면 옵션을 선택하세요"
+
+#: 99
+msgctxt "e.already_has_upgrade"
+msgid "Upgrade already purchased."
+msgstr "이미 구입한 업그레이드입니다."
+
+#: 100
+msgctxt "w.gadget_install_permanent"
+msgid "This gadget is installed permanently until demolished."
+msgstr "이 장치는 철거하기 전까지 영구히 있습니다."
+
+#: 101
+msgctxt "w.destroying_gadget_destroys_contents"
+msgid "Demolishing this gadget will destroy its contents!"
+msgstr "이 장치를 해체하면 내용물까지 사라집니다."
+
+#: 102
+msgctxt "w.pick_up_gadget_destroys_contents"
+msgid "Picking up this gadget will destroy its contents!"
+msgstr "이 장치를 들어서 옮기면 내용물이 사라집니다."
+
+#: 103
+msgctxt "w.destroying_silo_destroys_contents"
+msgid "Demolishing a silo will destroy its contents!"
+msgstr "저장소를 해체하면 내용물도 같이 사라집니다."
+
+#: 104
+msgctxt "w.limit_reached_drill"
+msgid "Drill install limit reached. Limit: 6"
+msgstr "드릴 설치 한도에 도달했습니다. 한계: 6"
+
+#: 105
+msgctxt "w.limit_reached_pump"
+msgid "Pump install limit reached. Limit: 6"
+msgstr "펌프 설치 한도에 도달했습니다. 한계: 6"
+
+#: 106
+msgctxt "w.limit_reached_apiary"
+msgid "Apiary install limit reached. Limit: 6"
+msgstr "양봉장 설치 한도에 도달했습니다. 한계: 6"
+
+#: 107
+msgctxt "w.cannot_demolish_corral_tutorial"
+msgid "You cannot demolish the corral at this time."
+msgstr "지금은 우리를 파괴할 수 없습니다"
+
+#: 108
+msgctxt "b.limit_reached"
+msgid "Limit Reached"
+msgstr "한계 도달"
+
+#: 109
+msgctxt "t.empty_plot"
+msgid "Empty Ranch Plot"
+msgstr "빈 목장 터"
+
+#: 110
+msgctxt "t.coop"
+msgid "Coop"
+msgstr "닭장"
+
+#: 111
+msgctxt "b.walls"
+msgid "Walls"
+msgstr "벽"
+
+#: 112
+msgctxt "b.feeder"
+msgid "Feeder"
+msgstr "급여기"
+
+#: 113
+msgctxt "b.vitamizer"
+msgid "Vitamizer"
+msgstr "비타마이저"
+
+#: 114
+msgctxt "t.corral"
+msgid "Corral"
+msgstr "우리"
+
+#: 115
+msgctxt "b.music_box"
+msgid "Music Box"
+msgstr "음악 상자"
+
+#: 116
+msgctxt "t.garden"
+msgid "Garden"
+msgstr "정원"
+
+#: 117
+msgctxt "b.nutrient_soil"
+msgid "Nutrient Soil"
+msgstr "양분 토양"
+
+#: 118
+msgctxt "b.sprinkler"
+msgid "Sprinkler"
+msgstr "살포기"
+
+#: 119
+msgctxt "b.scareslime"
+msgid "Scareslime"
+msgstr "슬라임아비"
+
+#: 120
+msgctxt "b.clear_crop"
+msgid "Remove Crops"
+msgstr "작물 제거"
+
+#: 121
+msgctxt "m.desc.clear_crop"
+msgid "Remove the existing crops to plant something new."
+msgstr "새로운 작물을 심기 위해 원래 있던 작물을 제거합니다"
+
+#: 122
+msgctxt "l.remaining_harvest_time"
+msgid "Remaining Harvest Time:"
+msgstr "수확까지 남은 시간:"
+
+#: 123
+msgctxt "l.growing"
+msgid "Growing:"
+msgstr "자라는 중:"
+
+#: 124
+msgctxt "t.silo"
+msgid "Silo"
+msgstr "창고"
+
+#: 125
+msgctxt "m.empty"
+msgid "Empty"
+msgstr "비어있음"
+
+#: 126
+msgctxt "b.extra_storage"
+msgid "Extra Storage"
+msgstr "추가 저장고"
+
+#: 127
+msgctxt "t.incinerator"
+msgid "Incinerator"
+msgstr "소각로"
+
+#: 128
+msgctxt "t.pond"
+msgid "Pond"
+msgstr "연못"
+
+#: 129
+msgctxt "t.teleporter"
+msgid "Teleporter"
+msgstr "텔레포터"
+
+#: 130
+msgctxt "t.personal_upgrades"
+msgid "Vacpack Upgrades"
+msgstr "배낭 업그레이드"
+
+#: 131
+msgctxt "e.already_has_personal_upgrade"
+msgid "You already have this upgrade."
+msgstr "이미 업그레이드된 상태입니다."
+
+#: 132
+msgctxt "e.ineligible_for_personal_upgrade"
+msgid "This upgrade is not yet available."
+msgstr "아직 해당 업그레이드를 사용할 수 없습니다."
+
+#: 133
+msgctxt "t.slime_toys"
+msgid "Slime Toys"
+msgstr "슬라임 장난감"
+
+#: 134
+msgctxt "t.ranch_house"
+msgid "Ranch House"
+msgstr "목장 건물"
+
+#: 135
+msgctxt "b.sleep_until_morning"
+msgid "Sleep Until Morning"
+msgstr "아침까지 자기"
+
+#: 136
+msgctxt "b.mail"
+msgid "Starmail"
+msgstr "별 우편"
+
+#: 137
+msgctxt "b.leave_to_ranch"
+msgid "Return to Ranch"
+msgstr "목장으로 돌아가기"
+
+#: 138
+msgctxt "m.select_mail"
+msgid "Select a starmail message on the left."
+msgstr "왼쪽에 별우편 메세지를 선택하세요"
+
+#: 139
+msgctxt "m.new_mail"
+msgid "Starmail Received!"
+msgstr "별 우편을 수신하였습니다!"
+
+#: 140
+msgctxt "m.mail_from_wrap"
+msgid "<b>From: </b>{0}"
+msgstr "<b>보낸사람: </b>{0}"
+
+#: 141
+msgctxt "m.new_mail_hint"
+msgid "Visit the Ranch House to view."
+msgstr ""
+
+#: 142
+msgctxt "t.new_game"
+msgid "Create New Game"
+msgstr "새로운 게임 만들기"
+
+#: 143
+msgctxt "t.load_game"
+msgid "Load Game"
+msgstr "게임 불러오기"
+
+#: 144
+msgctxt "b.new_game"
+msgid "New Game"
+msgstr "새 게임"
+
+#: 145
+msgctxt "b.start_game"
+msgid "Play"
+msgstr "게임하기"
+
+#: 146
+msgctxt "b.delete_game"
+msgid "Delete"
+msgstr "삭제"
+
+#: 147
+msgctxt "b.continue"
+msgid "Continue"
+msgstr "이어하기"
+
+#: 148
+msgctxt "b.confirm"
+msgid "Confirm"
+msgstr "확인"
+
+#: 149
+msgctxt "b.load"
+msgid "Load"
+msgstr "불러오기"
+
+#: 150
+msgctxt "b.quit"
+msgid "Quit"
+msgstr "나가기"
+
+#: 151
+msgctxt "b.back"
+msgid "Back"
+msgstr "뒤로"
+
+#: 152
+msgctxt "b.switch_user"
+msgid ": Switch User"
+msgstr ": 사용자 변경"
+
+#: 153
+msgctxt "m.default_game_name"
+msgid "Game{0}"
+msgstr "Game{0}"
+
+#: 154
+msgctxt "e.game_name_exists"
+msgid "A game of that name already exists."
+msgstr "이미 있는 게임 이름입니다."
+
+#: 155
+msgctxt "e.letters_nums_only"
+msgid "Game names should only contain letters and numbers."
+msgstr "게임 이름은 숫자와 문자만 허용됩니다."
+
+#: 156
+msgctxt "e.no_spaces"
+msgid "Spaces not allowed in game names currently."
+msgstr "게임 이름에 공백은 허용되지 않습니다."
+
+#: 157
+msgctxt "e.max_length"
+msgid "Game names must be between 1 and {0} characters in length."
+msgstr ""
+
+#: 158
+msgctxt "m.game_name"
+msgid "Game Name:"
+msgstr "게임 이름:"
+
+#: 159
+msgctxt "l.five_day_challenge"
+msgid "Five Day Rush"
+msgstr "5일 러쉬"
+
+#: 160
+msgctxt "l.loading"
+msgid "Loading"
+msgstr "불러오는 중"
+
+#: 161
+msgctxt "l.unknown"
+msgid "Unknown"
+msgstr "미확인"
+
+#: 162
+msgctxt "t.confirm_delete"
+msgid "Delete File"
+msgstr "파일 삭제"
+
+#: 163
+msgctxt "m.confirm_delete"
+msgid "Are you sure you wish to permanently delete this game?"
+msgstr "영구적으로 이 게임을 삭제하시겠습니까?"
+
+#: 164
+msgctxt "l.select_game_icon"
+msgid "Choose a Save Icon:"
+msgstr "세이브 아이콘 선택"
+
+#: 165
+msgctxt "l.select_game_mode"
+msgid "Select Game Mode:"
+msgstr "게임 모드 선택:"
+
+#: 166
+msgctxt "l.pedia_count"
+msgid "Discoveries: {0}"
+msgstr "발견물: {0}"
+
+#: 167
+msgctxt "m.no_saved_games"
+msgid "No Saved Games Available"
+msgstr "사용가능한 저장된 게임이 없음"
+
+#: 168
+msgctxt "m.xbox_user_change_detected"
+msgid "A User Change Has Been Detected"
+msgstr "사용자 변경이 감지되었습니다"
+
+#: 169
+msgctxt "m.xbox_controller_disconnect"
+msgid "Your controller may have been disconnected."
+msgstr ""
+
+#: 170
+msgctxt "m.xbox_press_menu_to_continue"
+msgid "Press Menu to Continue"
+msgstr "계속하려면 Menu를 누르세요"
+
+#: 171
+msgctxt "m.gamemode_classic"
+msgid "Adventure"
+msgstr "모험"
+
+#: 172
+msgctxt "m.desc.gamemode_classic"
+msgid ""
+"Live the life of a Slime Rancher and explore the wonders of the Far, Far "
+"Range at your own pace."
+msgstr "아주 멀고 이상한 곳에서 당신만의 속도로 탐험하는 슬라임 목장주의 삶을 사십시오."
+
+#: 173
+msgctxt "m.gamemode_casual"
+msgid "Casual"
+msgstr "가볍게"
+
+#: 174
+msgctxt "m.desc.gamemode_casual"
+msgid "A relaxed take on Adventure Mode without any threat of tarr slimes."
+msgstr ""
+
+#: 175
+msgctxt "m.gamemode_time_limit"
+msgid "Five Day Rush"
+msgstr "5일 러쉬"
+
+#: 176
+msgctxt "m.desc.gamemode_time_limit"
+msgid ""
+"A mad sprint for the most newbucks you can earn in 5 days. Bragging is "
+"encouraged!"
+msgstr "5일 동안 미친 속도로 가장 많은 돈을 벌어보세요. 자랑해도 됩니다!"
+
+#: 177
+msgctxt "b.resume"
+msgid "Resume"
+msgstr "계속하기"
+
+#: 178
+msgctxt "b.restart"
+msgid "Restart"
+msgstr "재시작"
+
+#: 179
+msgctxt "b.screenshot"
+msgid "Screenshot"
+msgstr "스크린샷"
+
+#: 180
+msgctxt "b.save_and_quit"
+msgid "Save & Quit"
+msgstr "세이브 & 나가기"
+
+#: 181
+msgctxt "b.emergency_return"
+msgid "Emergency Return"
+msgstr "비상 복귀"
+
+#: 182
+msgctxt "m.emergency_return"
+msgid ""
+"WARNING: This feature allows you to knock yourself out in order to return "
+"home. You will lose everything in your vac tanks and sleep until the next "
+"day. Do not use unless you are truly stuck!"
+msgstr ""
+"경고: 이 기능을 사용하면 기절한 상태로 집으로 돌아갑니다. 당신이 가진 모든 것을 잃고 다음날까지 잠자게 됩니다. 당신이 진짜 위험한 "
+"상태가 아니라면 사용하지 마세요!"
+
+#: 183
+msgctxt "b.expo_play"
+msgid "Play"
+msgstr "플레이"
+
+#: 184
+msgctxt "b.expo_gamepad"
+msgid "Gamepad"
+msgstr "게임패드"
+
+#: 185
+msgctxt "b.expo_quit"
+msgid "Quit"
+msgstr "나가기"
+
+#: 186
+msgctxt "b.expo_change_gamepad_settings"
+msgid "Change Settings"
+msgstr "세팅 변경"
+
+#: 187
+msgctxt "t.options"
+msgid "Options"
+msgstr "옵션"
+
+#: 188
+msgctxt "t.expo_options"
+msgid "Gamepad"
+msgstr "게임패드"
+
+#: 189
+msgctxt "b.video"
+msgid "Video"
+msgstr "비디오"
+
+#: 190
+msgctxt "b.audio"
+msgid "Audio"
+msgstr "오디오"
+
+#: 191
+msgctxt "b.input"
+msgid "Input"
+msgstr "입력"
+
+#: 192
+msgctxt "b.gamepad"
+msgid "Gamepad"
+msgstr "게임패드"
+
+#: 193
+msgctxt "b.other"
+msgid "Other"
+msgstr "기타"
+
+#: 194
+msgctxt "l.reset_defaults"
+msgid "Reset Defaults"
+msgstr "기본으로 리셋"
+
+#: 195
+msgctxt "l.quality"
+msgid "Master Graphics Quality:"
+msgstr "전반적인 그래픽 품질:"
+
+#: 196
+msgctxt "l.disable_camera_bob"
+msgid "Disable Camera Bob"
+msgstr "시점 흔들림 효과 비활성화"
+
+#: 197
+msgctxt "l.buffer_for_gif"
+msgid "Buffer Video for Gif Capture"
+msgstr "GIF 녹화를 위한 비디오 버퍼"
+
+#: 198
+msgctxt "l.lock_vac"
+msgid "Enable Toggle Grip"
+msgstr "Toggle Grip 활성화"
+
+#: 199
+msgctxt "l.sprint_hold"
+msgid "Hold to Sprint"
+msgstr "전력질주하려면 누르고 계십시오"
+
+#: 200
+msgctxt "l.disable_tutorials"
+msgid "Disable Tutorials"
+msgstr "튜토리얼 끄기"
+
+#: 201
+msgctxt "l.quality_lowest"
+msgid "Lowest"
+msgstr "가장 낮음"
+
+#: 202
+msgctxt "l.quality_low"
+msgid "Low"
+msgstr "낮음"
+
+#: 203
+msgctxt "l.quality_default"
+msgid "Default"
+msgstr "보통"
+
+#: 204
+msgctxt "l.quality_high"
+msgid "High"
+msgstr "높음"
+
+#: 205
+msgctxt "l.quality_very_high"
+msgid "Very High"
+msgstr "가장 높음"
+
+#: 206
+msgctxt "l.quality_custom"
+msgid "Custom"
+msgstr "커스텀"
+
+#: 207
+msgctxt "l.lighting"
+msgid "Lighting:"
+msgstr "광원:"
+
+#: 208
+msgctxt "l.lighting_low"
+msgid "Low"
+msgstr "낮음"
+
+#: 209
+msgctxt "l.lighting_medium"
+msgid "Medium"
+msgstr "보통"
+
+#: 210
+msgctxt "l.lighting_high"
+msgid "High"
+msgstr "높음"
+
+#: 211
+msgctxt "l.lighting_highest"
+msgid "Highest"
+msgstr "매우높음"
+
+#: 212
+msgctxt "l.textures"
+msgid "Textures:"
+msgstr "텍스쳐:"
+
+#: 213
+msgctxt "l.textures_low"
+msgid "Low"
+msgstr "낮음"
+
+#: 214
+msgctxt "l.textures_medium"
+msgid "Medium"
+msgstr "보통"
+
+#: 215
+msgctxt "l.textures_high"
+msgid "High"
+msgstr "높음"
+
+#: 216
+msgctxt "l.particles"
+msgid "Particles:"
+msgstr "파티클:"
+
+#: 217
+msgctxt "l.particles_low"
+msgid "Low"
+msgstr "낮음"
+
+#: 218
+msgctxt "l.particles_medium"
+msgid "Medium"
+msgstr "보통"
+
+#: 219
+msgctxt "l.particles_high"
+msgid "High"
+msgstr "높음"
+
+#: 220
+msgctxt "l.shadows"
+msgid "Shadows:"
+msgstr "그림자:"
+
+#: 221
+msgctxt "l.shadows_none"
+msgid "None"
+msgstr "없음"
+
+#: 222
+msgctxt "l.shadows_low"
+msgid "Low"
+msgstr "낮음"
+
+#: 223
+msgctxt "l.shadows_medium"
+msgid "Medium"
+msgstr "보통"
+
+#: 224
+msgctxt "l.shadows_high"
+msgid "High"
+msgstr "높음"
+
+#: 225
+msgctxt "l.antialiasing"
+msgid "Antialiasing:"
+msgstr "안티앨리어싱:"
+
+#: 226
+msgctxt "l.antialiasing_none"
+msgid "None"
+msgstr "없음"
+
+#: 227
+msgctxt "l.antialiasing_multisampling_2x"
+msgid "2x Multi-sampling"
+msgstr "2x Multi-sampling"
+
+#: 228
+msgctxt "l.antialiasing_multisampling_4x"
+msgid "4x Multi-sampling"
+msgstr "4x Multi-sampling"
+
+#: 229
+msgctxt "l.antialiasing_multisampling_8x"
+msgid "8x Multi-sampling"
+msgstr "8x Multi-sampling"
+
+#: 230
+msgctxt "l.model_detail"
+msgid "Model Quality:"
+msgstr "슬라임 표현력:"
+
+#: 231
+msgctxt "l.model_detail_low"
+msgid "Low"
+msgstr "낮음"
+
+#: 232
+msgctxt "l.model_detail_medium"
+msgid "Medium"
+msgstr "보통"
+
+#: 233
+msgctxt "l.model_detail_high"
+msgid "High"
+msgstr "높음"
+
+#: 234
+msgctxt "l.water_detail"
+msgid "Shader Quality:"
+msgstr "물 표현력:"
+
+#: 235
+msgctxt "l.water_detail_low"
+msgid "Low"
+msgstr "낮음"
+
+#: 236
+msgctxt "l.water_detail_medium"
+msgid "Medium"
+msgstr "보통"
+
+#: 237
+msgctxt "l.water_detail_high"
+msgid "High"
+msgstr "높음"
+
+#: 238
+msgctxt "l.ambient_occlusion"
+msgid "Ambient Occlusion:"
+msgstr "Ambient Occlusion:"
+
+#: 239
+msgctxt "l.bloom"
+msgid "Bloom:"
+msgstr "빛반사 효과:"
+
+#: 240
+msgctxt "l.fov"
+msgid "Field of View:"
+msgstr "시야각:"
+
+#: 241
+msgctxt "l.resolution"
+msgid "Resolution:"
+msgstr "해상도:"
+
+#: 242
+msgctxt "l.fullscreen"
+msgid "Fullscreen:"
+msgstr "전체화면:"
+
+#: 243
+msgctxt "m.resolution"
+msgid "{0}x{1}"
+msgstr "{0}x{1}"
+
+#: 244
+msgctxt "m.resolution_refresh"
+msgid "{0}x{1} @ {2}Hz"
+msgstr "{0}x{1} @ {2}Hz"
+
+#: 245
+msgctxt "m.keep_settings"
+msgid "Keep these settings?"
+msgstr "이 설정을 유지합니까?"
+
+#: 246
+msgctxt "b.apply"
+msgid "Apply"
+msgstr "적용"
+
+#: 247
+msgctxt "b.mods"
+msgid "Mods"
+msgstr "모드"
+
+#: 248
+msgctxt "l.mod_vampiric_chickens"
+msgid "Cluckula"
+msgstr "칰카큘라"
+
+#: 249
+msgctxt "l.mod_night_tarr_slimes"
+msgid "Bad Moon Rising"
+msgstr "불길한 달이 오른다"
+
+#: 250
+msgctxt "l.mod_random_plorts"
+msgid "The Gambler"
+msgstr "도박꾼"
+
+#: 251
+msgctxt "l.mod_increased_slime_spawns"
+msgid "Gobs of Globs"
+msgstr "방울 대박"
+
+#: 252
+msgctxt "l.mod_slime_hunger"
+msgid "The Hunger"
+msgstr "굶주림"
+
+#: 253
+msgctxt "l.mod_unstable_plorts"
+msgid "Unstable Plorts"
+msgstr "불안정한 보석"
+
+#: 254
+msgctxt "l.master"
+msgid "Master:"
+msgstr "전체 음량:"
+
+#: 255
+msgctxt "l.music"
+msgid "Music:"
+msgstr "배경 음악:"
+
+#: 256
+msgctxt "l.sfx"
+msgid "Effects:"
+msgstr "효과음:"
+
+#: 257
+msgctxt "dir.horizontal"
+msgid "Horizontal"
+msgstr "수평"
+
+#: 258
+msgctxt "dir.vertical"
+msgid "Vertical"
+msgstr "수직"
+
+#: 259
+msgctxt "key.forward"
+msgid "Forward"
+msgstr "앞"
+
+#: 260
+msgctxt "key.back"
+msgid "Back"
+msgstr "뒤"
+
+#: 261
+msgctxt "key.left"
+msgid "Left"
+msgstr "좌"
+
+#: 262
+msgctxt "key.right"
+msgid "Right"
+msgstr "우"
+
+#: 263
+msgctxt "key.shoot"
+msgid "Shoot"
+msgstr "발사"
+
+#: 264
+msgctxt "key.vac"
+msgid "Vac"
+msgstr "흡입"
+
+#: 265
+msgctxt "key.slimefilter"
+msgid "Slime Filter"
+msgstr "슬라임 필터"
+
+#: 266
+msgctxt "key.burst"
+msgid "Pulse"
+msgstr "충격파"
+
+#: 267
+msgctxt "key.jump"
+msgid "Jump"
+msgstr "뛰기"
+
+#: 268
+msgctxt "key.run"
+msgid "Sprint"
+msgstr "달리기"
+
+#: 269
+msgctxt "key.interact"
+msgid "Interact"
+msgstr "상호작용"
+
+#: 270
+msgctxt "key.gadgetMode"
+msgid "Gadget Mode"
+msgstr "장치 모드"
+
+#: 271
+msgctxt "key.flashlight"
+msgid "Flashlight"
+msgstr "손전등"
+
+#: 272
+msgctxt "key.radar"
+msgid "Radar"
+msgstr "레이더"
+
+#: 273
+msgctxt "key.map"
+msgid "Map"
+msgstr ""
+
+#: 274
+msgctxt "key.reportissue"
+msgid "Report Issue"
+msgstr "문제 제보"
+
+#: 275
+msgctxt "key.screenshot"
+msgid "Screenshot"
+msgstr "스크린샷"
+
+#: 276
+msgctxt "key.recordgif"
+msgid "Record Gif"
+msgstr "GIF 녹화"
+
+#: 277
+msgctxt "key.pedia"
+msgid "Slimepedia"
+msgstr "슬라임사전"
+
+#: 278
+msgctxt "key.slot_1"
+msgid "Slot 1"
+msgstr "슬롯 1"
+
+#: 279
+msgctxt "key.slot_2"
+msgid "Slot 2"
+msgstr "슬롯 2"
+
+#: 280
+msgctxt "key.slot_3"
+msgid "Slot 3"
+msgstr "슬롯 3"
+
+#: 281
+msgctxt "key.slot_4"
+msgid "Slot 4"
+msgstr "슬롯 4"
+
+#: 282
+msgctxt "key.slot_5"
+msgid "Slot 5"
+msgstr "슬롯 5"
+
+#: 283
+msgctxt "key.prev_slot"
+msgid "Prev Slot"
+msgstr "이전 슬롯"
+
+#: 284
+msgctxt "key.next_slot"
+msgid "Next Slot"
+msgstr "다음 슬롯"
+
+#: 285
+msgctxt "m.keys.0"
+msgid "-"
+msgstr "-"
+
+#: 286
+msgctxt "m.keys.1"
+msgid "{0}"
+msgstr "{0}"
+
+#: 287
+msgctxt "m.keys.2"
+msgid "{0}"
+msgstr "{0}"
+
+#: 288
+msgctxt "m.slot_indicator"
+msgid "{0}"
+msgstr "{0}"
+
+#: 289
+msgctxt "m.press_key"
+msgid "Press Key..."
+msgstr "아무 키나 누르세요"
+
+#: 290
+msgctxt "t.gamepad_settings"
+msgid "Gamepad Settings"
+msgstr "게임패드 설정"
+
+#: 291
+msgctxt "l.sensitivity"
+msgid "Mouse Sensitivity:"
+msgstr "마우스 민감도:"
+
+#: 292
+msgctxt "l.swap_sticks"
+msgid "Swap Analog Sticks"
+msgstr "아날로그 스틱을 서로 바꾸기"
+
+#: 293
+msgctxt "l.x_look_sensitivity"
+msgid "Look Sensitivity X"
+msgstr "시점 X축 민감도"
+
+#: 294
+msgctxt "l.y_look_sensitivity"
+msgid "Look Sensitivity Y"
+msgstr "시점 Y축 민감도"
+
+#: 295
+msgctxt "l.deadzone"
+msgid "Dead Zone"
+msgstr ""
+
+#: 296
+msgctxt "l.invert_gamepad_look_y"
+msgid "Invert Look Y Axis"
+msgstr "시점 Y축 반전"
+
+#: 297
+msgctxt "l.invert_mouse_look_y"
+msgid "Invert Mouse Look Y Axis"
+msgstr "마우스 시점 Y축 반전"
+
+#: 298
+msgctxt "l.disable_gamepad"
+msgid "Disable Gamepad/Joystick Input\n"
+"(May fix some issues with camera spin)"
+msgstr "게임패드/조이스틱 입력 비활성화\n"
+"  (카메라 회전 문제를 해결할 수도 있음)"
+
+#: 299
+msgctxt "m.gamepad_button"
+msgid "{0}: {1}"
+msgstr "{0}: {1}"
+
+#: 300
+msgctxt "m.gamepad_button_pause"
+msgid "{0}: Pause"
+msgstr "{0}: 일시정지"
+
+#: 301
+msgctxt "m.gamepad_stick"
+msgid "{0}: {1}\n"
+"Push: {2}"
+msgstr "{0}: {1}\n"
+"Push: {2}"
+
+#: 302
+msgctxt "l.move"
+msgid "Move"
+msgstr "이동"
+
+#: 303
+msgctxt "l.view"
+msgid "Look"
+msgstr "둘어보기"
+
+#: 304
+msgctxt "l.enable_vsync"
+msgid "Enable VSync:"
+msgstr "VSync 활성화:"
+
+#: 305
+msgctxt "l.overscan"
+msgid "Overscan Adjustment:"
+msgstr ""
+
+#: 306
+msgctxt "b.reset_profile"
+msgid "Reset Options & Achievements"
+msgstr "설정과 도전과제를 초기화"
+
+#: 307
+msgctxt "m.confirm_reset_profile"
+msgid "Permanently reset your settings and achievement progress?"
+msgstr "영구적으로 설정과 도전과제 진행사항을 초기화하겠습니까?"
+
+#: 308
+msgctxt "t.report_issue"
+msgid "Report an Issue"
+msgstr "문제를 제보합니다."
+
+#: 309
+msgctxt "l.description"
+msgid "Describe the issue:"
+msgstr "문제에 대한 설명:"
+
+#: 310
+msgctxt "b.submit"
+msgid "Submit"
+msgstr "제출"
+
+#: 311
+msgctxt "m.summary"
+msgid "Summary"
+msgstr "요약"
+
+#: 312
+msgctxt "l.placeholder_summary"
+msgid "Summary (required)..."
+msgstr "요약 (필수사항)..."
+
+#: 313
+msgctxt "m.description"
+msgid "Detailed Description"
+msgstr "상세 설명"
+
+#: 314
+msgctxt "l.placeholder_description"
+msgid "Detailed Description (optional)..."
+msgstr "상세 설명(선택사항)..."
+
+#: 315
+msgctxt "m.reporter"
+msgid "Email"
+msgstr "Email"
+
+#: 316
+msgctxt "l.placeholder_reporter"
+msgid "Your Email (optional)..."
+msgstr "당신의 Email (선택사항)"
+
+#: 317
+msgctxt "e.require_summary"
+msgid "Please include a summary of the issue."
+msgstr "문제에 대한 요약을 작성하여 주세요"
+
+#: 318
+msgctxt "m.sending_report"
+msgid "Sending report..."
+msgstr "전송중..."
+
+#: 319
+msgctxt "t.market"
+msgid "Plort Market"
+msgstr "보석 시장"
+
+#: 320
+msgctxt "l.loading_prices"
+msgid "Loading Market Prices..."
+msgstr "시장 가격을 불러오는 중..."
+
+#: 321
+msgctxt "l.daily_bonus"
+msgid "Daily Bonus!"
+msgstr "일일 보너스!"
+
+#: 322
+msgctxt "t.range_exchange"
+msgid "Range Exchange"
+msgstr "방목장 교환소"
+
+#: 323
+msgctxt "t.special_exchange"
+msgid "Hello, Beatrix!"
+msgstr "안녕,비트릭스!"
+
+#: 324
+msgctxt "l.time_hours_mins"
+msgid "{0}:{1}"
+msgstr "{0}:{1}"
+
+#: 325
+msgctxt "l.time_hours_mins_unset"
+msgid "--:--"
+msgstr "--:--"
+
+#: 326
+msgctxt "l.exchange_progress"
+msgid "{0}/{1}"
+msgstr "{0}/{1}"
+
+#: 327
+msgctxt "l.no_offers_available"
+msgid "Range Exchange Offline..."
+msgstr "방목장 교환소\n"
+"사용불가"
+
+#: 328
+msgctxt "l.select_offer"
+msgid "Select Range\n"
+"Exchange Request"
+msgstr ""
+
+#: 329
+msgctxt "l.request"
+msgid "Trade Me:"
+msgstr "나에게 줄 것:"
+
+#: 330
+msgctxt "l.receive"
+msgid "And Receive:"
+msgstr "받을 수 있는 것:"
+
+#: 331
+msgctxt "l.exchange_directions"
+msgid "Shoot the requested items into the depositor to complete the trade."
+msgstr "요청받은 아이템을 투입구에 넣어 거래를 완료하세요"
+
+#: 332
+msgctxt "t.select_offer"
+msgid "Select a Rancher"
+msgstr ""
+
+#: 333
+msgctxt "m.gif_screenshot_confirm"
+msgid "Save GIF of last several seconds?"
+msgstr "마지막 몇초간을 GIF으로 저장하시겠습니까?"
+
+#: 334
+msgctxt "m.no_buffer_for_gif"
+msgid "No video has been buffered to save as a GIF."
+msgstr "GIF로 저장할 비디오가 버퍼에 기록되지 않았습니다."
+
+#: 335
+msgctxt "m.gif_storing"
+msgid "Saving GIF"
+msgstr "GIF로 저장중"
+
+#: 336
+msgctxt "t.achievements"
+msgid "Achievements"
+msgstr "도전과제"
+
+#: 337
+msgctxt "m.achievement_unlocked"
+msgid "Achievement Unlocked!"
+msgstr "도전과제 달성!"
+
+#: 338
+msgctxt "m.achieve_progress"
+msgid "{0} / {1}"
+msgstr "{0} / {1}"
+
+#: 339
+msgctxt "m.achieve_overall_progress"
+msgid "Overall: {0} / {1}"
+msgstr "전체: {0} / {1}"
+
+#: 340
+msgctxt "m.knocked_out1"
+msgid "You've Been Knocked Out!"
+msgstr "당신은 쓰러졌습니다!"
+
+#: 341
+msgctxt "m.knocked_out2"
+msgid "(But a day's rest should fix you right up...)"
+msgstr "(하지만, 하루동안 휴식으로 바로 회복이 됩니다...)"
+
+#: 342
+msgctxt "e.savefile_inaccessible"
+msgid "The save file is inaccessible and cannot be written: {0}"
+msgstr "세이브 파일에 접근을 할 수 없어 기록할 수 없습니다: {0}"
+
+#: 343
+msgctxt "e.savefile_invalid_name"
+msgid "The save file name is invalid and cannot be written: {0}"
+msgstr "세이브 파일 이름이 부적절하여 기록할 수 없습니다: {0}"
+
+#: 344
+msgctxt "e.savefile_dir_not_found"
+msgid "The save file directory was not found: {0}"
+msgstr "세이브 파일 경로를 발견할 수 없습니다: {0}"
+
+#: 345
+msgctxt "e.savefile_unknown"
+msgid "An unknown error prevented writing the save file: {0}"
+msgstr "알수없는 오류가 발생하여 세이브 파일을 기록하지 못했습니다: {0}"
+
+#: 346
+msgctxt "e.pushfile_error"
+msgid "The saved game named {0} could not be loaded."
+msgstr ""
+
+#: 347
+msgctxt "e.file_load_failed"
+msgid ""
+"We were unable to load your file. Would you like to try reloading an older "
+"autosave?"
+msgstr ""
+
+#: 348
+msgctxt "e.fallback_failed"
+msgid "We were unable to load a valid autosave for this game."
+msgstr ""
+
+#: 349
+msgctxt "e.yes_button"
+msgid "Yes"
+msgstr "네"
+
+#: 350
+msgctxt "e.no_button"
+msgid "No"
+msgstr "아니오"
+
+#: 351
+msgctxt "e.ok_button"
+msgid "Ok"
+msgstr "확인인"
+
+#: 352
+msgctxt "e.please_contact_support"
+msgid "Please Contact Support at\n"
+"support@monomipark.com"
+msgstr ""
+
+#: 353
+msgctxt "e.no_buffered_gif"
+msgid "No video has been buffered to save as a GIF."
+msgstr ""
+
+#: 354
+msgctxt "b.take_screenshot"
+msgid "Take Screenshot"
+msgstr "스크린샷 찍기"
+
+#: 355
+msgctxt "m.slime_rancher"
+msgid "Slime Rancher"
+msgstr "슬라임 목장"
+
+#: 356
+msgctxt "l.total"
+msgid "Total:"
+msgstr "합계:"
+
+#: 357
+msgctxt "l.most_profitable_plorts"
+msgid "Most Profitable Plorts:"
+msgstr "가장 수익성이 좋은 보석"
+
+#: 358
+msgctxt "m.plort_amount"
+msgid "x{0}"
+msgstr "x{0}"
+
+#: 359
+msgctxt "l.knockouts"
+msgid "Knockouts:"
+msgstr "기절:"
+
+#: 360
+msgctxt "l.spent"
+msgid "Spent:"
+msgstr "사용함:"
+
+#: 361
+msgctxt "m.none"
+msgid "None"
+msgstr "없음"
+
+#: 362
+msgctxt "b.about"
+msgid "About"
+msgstr "알아보기"
+
+#: 363
+msgctxt "t.about"
+msgid "About Slime Rancher"
+msgstr "슬라임 목장에 관해"
+
+#: 364
+msgctxt "l.game_director"
+msgid "Game Director"
+msgstr "게임 감독"
+
+#: 365
+msgctxt "l.technical_director"
+msgid "Technical Director"
+msgstr "기술 감독"
+
+#: 366
+msgctxt "l.art_director"
+msgid "Art Director"
+msgstr "미술 감독"
+
+#: 367
+msgctxt "l.engineering"
+msgid "Engineering"
+msgstr "엔지니어링"
+
+#: 368
+msgctxt "l.game_design"
+msgid "Game Design"
+msgstr "컨셉 원안과 게임 디자인"
+
+#: 369
+msgctxt "l.art"
+msgid "Art"
+msgstr "미술"
+
+#: 370
+msgctxt "l.music_sfx"
+msgid "Music and Sound Effects"
+msgstr "음악과 음향 효과"
+
+#: 371
+msgctxt "l.quality_assurance"
+msgid "Quality Assurance"
+msgstr "품질 보증"
+
+#: 372
+msgctxt "l.localization"
+msgid "Localization"
+msgstr "현지화"
+
+#: 373
+msgctxt "l.additional_art"
+msgid "Additional Art"
+msgstr "추가 미술"
+
+#: 374
+msgctxt "l.video_production"
+msgid "Video Production"
+msgstr "영상 제작"
+
+#: 375
+msgctxt "l.community_support"
+msgid "Community Support"
+msgstr "커뮤니티 지원"
+
+#: 376
+msgctxt "l.performed_by"
+msgid "Performed by {0}"
+msgstr ""
+
+#: 377
+msgctxt "l.lyrics_by"
+msgid "Lyrics by {0}"
+msgstr ""
+
+#: 378
+msgctxt "l.produced_by"
+msgid "Produced by {0}"
+msgstr ""
+
+#: 379
+msgctxt "l.dedication_1"
+msgid "For every pioneer on every new frontier:"
+msgstr ""
+
+#: 380
+msgctxt "l.dedication_2"
+msgid "Be brave."
+msgstr ""
+
+#: 381
+msgctxt "l.dedication_3"
+msgid "Be bold."
+msgstr ""
+
+#: 382
+msgctxt "l.dedication_4"
+msgid "And stay wiggly."
+msgstr ""
+
+#: 383
+msgctxt "l.pre_credits_1"
+msgid "That day, Beatrix took a moment to reflect."
+msgstr ""
+
+#: 384
+msgctxt "l.pre_credits_2"
+msgid ""
+"She thought about Hobson and Thora, and the adventures she'd had exploring "
+"the Far, Far Range."
+msgstr ""
+
+#: 385
+msgctxt "l.pre_credits_3"
+msgid ""
+"But most of all, she thought of Casey, and wondered where life would take "
+"her next."
+msgstr ""
+
+#: 386
+msgctxt "l.copyright"
+msgid ""
+"Slime Rancher is developed by Monomi Park. Copyright © 2014-2017 Monomi "
+"Park, LLC"
+msgstr ""
+"Slime Rancher is developed by Monomi Park. Copyright ⓒ 2014-2016 Monomi "
+"Park, LLC"
+
+#: 387
+msgctxt "b.credits_sequence"
+msgid "Play Credits Sequence"
+msgstr ""
+
+#: 388
+msgctxt "l.game_intro_1"
+msgid "1,000 light years away from Earth,"
+msgstr "지구에서 1000 광년 넘어"
+
+#: 389
+msgctxt "l.game_intro_2"
+msgid "on a planet known as 'The Far, Far Range,'"
+msgstr "머나먼 목장'으로 알려진 행성에"
+
+#: 390
+msgctxt "l.game_intro_3"
+msgid "Beatrix LeBeau begins her first day as a slime rancher."
+msgstr ""
+
+#: 391
+msgctxt "l.select_expo_game"
+msgid "Select a special demo save file:"
+msgstr "데모 세이브 파일을 선택하세요."
+
+#: 392
+msgctxt "b.expo_start"
+msgid "Fresh Start"
+msgstr "새 출발"
+
+#: 393
+msgctxt "b.expo_advanced"
+msgid "Advanced Ranch"
+msgstr "고급 목장"
+
+#: 394
+msgctxt "b.expo_range"
+msgid "Out on the Range"
+msgstr "목장 밖"
+
+#: 395
+msgctxt "m.desc.expo_start"
+msgid "Begin on a brand-new ranch and learn the ropes with a handy tutorial."
+msgstr "유용한 튜토리얼을 통해 로프 사용법을 배우고 완전히 새로운 목장에서 시작하세요"
+
+#: 396
+msgctxt "m.desc.expo_advanced"
+msgid ""
+"Experience a ranch that's decked-out with all kinds of awesome features, "
+"packed with slimes, and ready for ranching!"
+msgstr "온갖 종류의 멋진 기능들로 가득찬 목장을 체험하고, 슬라임으로 가득 채우고, 목장을 준비하세요!"
+
+#: 397
+msgctxt "m.desc.expo_range"
+msgid ""
+"For the adventurous, begin somewhere out in the untamed wilds of the Far, "
+"Far Range."
+msgstr "모험을 즐기기 위해, 개척되지 않은 머나먼 목장 어딘가의 야생에서 시작하세요."
+
+#: 398
+msgctxt "b.faq"
+msgid "FAQ"
+msgstr "FAQ"
+
+#: 399
+msgctxt "t.xbox_faq"
+msgid "Xbox One Version FAQ"
+msgstr "Xbox One 버전 FAQ"
+
+#: 400
+msgctxt "l.xbox_faq_q_achievements"
+msgid "Will Slime Rancher have Xbox Achievements?"
+msgstr "슬라임 목장에서 XBox 도전과제가 됩니까?"
+
+#: 401
+msgctxt "l.xbox_faq_a_achievements"
+msgid ""
+"Xbox achievements will be enabled after Slime Rancher leaves Game Preview. "
+"At that time, all achievements earned in-game will instantly become Xbox "
+"achievements!"
+msgstr ""
+"슬라임 목장이 게임 프리뷰를 벗어나면 Xbox 도전과제가 활성화됩니다. 그때 게임에서 얻은 모든 업적은 즉시 Xbox 업적이 됩니다."
+
+#: 402
+msgctxt "l.xbox_faq_q_versions"
+msgid "Are the PC and Xbox One versions of Slime Rancher the same?"
+msgstr "PC버전의 슬라임 키우기와 X-Box one 버전의 슬라임 키우기는 같나요?"
+
+#: 403
+msgctxt "l.xbox_faq_a_versions"
+msgid ""
+"Yes, our aim is to keep both versions in sync. However, at any given time "
+"there may be a few days difference during Xbox build certification."
+msgstr ""
+"예, 두 버전을 동일하게 유지하는 것이 우리의 목표입니다. 그러나 언제든지 Xbox빌드 인증으로 인해 며칠 차이가 있을 수 있습니다"
+
+#: 404
+msgctxt "l.xbox_faq_q_whats_next"
+msgid "What’s next for Slime Rancher?"
+msgstr "슬라임 목장의 다음은 무엇입니까?"
+
+#: 405
+msgctxt "l.xbox_faq_a_whats_next"
+msgid ""
+"We’ve got a lot of great content in development, including new zones to "
+"explore, slimes to wrangle, and brand-new features like Slime Science! Learn "
+"more on our public roadmap:\n"
+"slimerancher.com/roadmap"
+msgstr ""
+"우리는 탐험할 새로운 지역, 돌볼 수 있는 새로운 슬라임, 슬라임 사이언스와 같은  완전 새로운 기능들을 포함하는 많은 훌륭한 콘텐츠들을 "
+"개발중에 있습니다! 공개된 우리의 로드맵에 대한 자세한 내용은 slimerancher.com/roadmap을 참조하세요."
+
+#: 406
+msgctxt "l.demo_end_title"
+msgid "This trial is over but the adventure has just begun!"
+msgstr "이번 체험은 끝났지만 모험은 이제 막 시작하였습니다!"
+
+#: 407
+msgctxt "l.demo_end_message"
+msgid ""
+"Purchase the full version of Slime Rancher to keep your progress and "
+"experience these awesome features:\n"
+"\n"
+"- Boom slimes, honey slimes, rad slimes, hunter slimes, and many more!\n"
+"- A giant, open world filled with secrets to uncover!\n"
+"- Build strange gadgets and helpful tools with Slime Science!\n"
+"- Uncover the mysteries of the Ancient Ruins and what lies beyond!"
+msgstr ""
+
+#: 408
+msgctxt "b.demo_end_visit_store_page"
+msgid "Visit Store Page"
+msgstr ""
+
+#: 409
+msgctxt "b.demo_end_back_to_main_menu"
+msgid "Back to Main Menu"
+msgstr ""
+
+#: 410
+msgctxt "t.place_gadget"
+msgid "Install Gadget"
+msgstr "장치 설치"
+
+#: 411
+msgctxt "t.fabricate_gadget"
+msgid "Fabricate Gadget"
+msgstr "장치 제작"
+
+#: 412
+msgctxt "t.purchase_blueprint"
+msgid "Builder's Shop"
+msgstr "장인의 상점"
+
+#: 413
+msgctxt "t.refinery"
+msgid "Refinery"
+msgstr "정제소"
+
+#: 414
+msgctxt "m.gadget_pair"
+msgid "{0} x2"
+msgstr "{0} x2"
+
+#: 415
+msgctxt "m.new_blueprint"
+msgid "Blueprint Acquired!"
+msgstr "청사진이 필요함!"
+
+#: 416
+msgctxt "m.new_blueprint_hint"
+msgid "Visit the Fabricator to build this gadget."
+msgstr "제작기를 방문하여 이 장치를 만드세요"
+
+#: 417
+msgctxt "m.avail_blueprint"
+msgid "New Blueprint Available!"
+msgstr "새 청사진 사용가능!"
+
+#: 418
+msgctxt "m.avail_blueprint_hint"
+msgid "Visit the Builder's Shop to purchase."
+msgstr "장인의 상점을 들려 구매하세요."
+
+#: 419
+msgctxt "m.ready"
+msgid "Ready!"
+msgstr "준비됨!"
+
+#: 420
+msgctxt "l.installing"
+msgid "Installing"
+msgstr "설치중"
+
+#: 421
+msgctxt "b.fabricate"
+msgid "Fabricate"
+msgstr "조립"
+
+#: 422
+msgctxt "l.requires"
+msgid "Requires:"
+msgstr "필요함:"
+
+#: 423
+msgctxt "m.count_of_required"
+msgid "{0} / {1}"
+msgstr "{0} / {1}"
+
+#: 424
+msgctxt "e.insuf_craft_resources"
+msgid "Not enough resources to craft item."
+msgstr "아이템을 제작하기 위한 재료가 부족함."
+
+#: 425
+msgctxt "e.cannot_add_gadget"
+msgid "You cannot produce another of that gadget."
+msgstr "그 장치의 다른 부분을 생산할 수 없습니다"
+
+#: 426
+msgctxt "e.cannot_destroy_gadget"
+msgid "That gadget cannot be destroyed."
+msgstr "그 장치는 파괴할 수 없습니다"
+
+#: 427
+msgctxt "e.cannot_pickup_gadget"
+msgid "That gadget cannot be picked up."
+msgstr "그 장치는 집어들 수 없습니다"
+
+#: 428
+msgctxt "l.score"
+msgid "Score:"
+msgstr "점수:"
+
+#: 429
+msgctxt "m.avail_upgrade"
+msgid "New Upgrade Available!"
+msgstr "새 업그레이드 사용가능!"
+
+#: 430
+msgctxt "m.avail_upgrade_hint"
+msgid "Visit the Upgrade Shop to purchase."
+msgstr "구입하기 위해 업그레이드 상점을 방문하세요."
+
+#: 431
+msgctxt "t.corporate_partner"
+msgid "7Zee Rewards Club"
+msgstr ""
+
+#: 432
+msgctxt "l.curr_rank"
+msgid "Current Rank:"
+msgstr "현재 등급:"
+
+#: 433
+msgctxt "l.next_rank"
+msgid "Next Rank:"
+msgstr "다음 등급:"
+
+#: 434
+msgctxt "l.rewards"
+msgid "Rewards:"
+msgstr "보상:"
+
+#: 435
+msgctxt "e.ineligible_for_corp_level"
+msgid "You are ineligible to reach that rank."
+msgstr ""
+
+#: 436
+msgctxt "e.already_has_corp_level"
+msgid "You already have that rank."
+msgstr ""
+
+#: 437
+msgctxt "t.chroma_packs"
+msgid "Chroma Packs"
+msgstr ""
+
+#: 438
+msgctxt "m.partner_rank.1"
+msgid "Initiate"
+msgstr ""
+
+#: 439
+msgctxt "m.partner_rank.1.reward.1"
+msgid "Roostro Weathervane"
+msgstr ""
+
+#: 440
+msgctxt "m.partner_rank.2"
+msgid "Pioneer I"
+msgstr ""
+
+#: 441
+msgctxt "m.partner_rank.2.reward.1"
+msgid "Fence Upgrade"
+msgstr ""
+
+#: 442
+msgctxt "m.partner_rank.3"
+msgid "Pioneer II"
+msgstr ""
+
+#: 443
+msgctxt "m.partner_rank.3.reward.1"
+msgid "Path Upgrade"
+msgstr ""
+
+#: 444
+msgctxt "m.partner_rank.4"
+msgid "Pioneer III"
+msgstr ""
+
+#: 445
+msgctxt "m.partner_rank.4.reward.1"
+msgid "Porch Upgrade"
+msgstr ""
+
+#: 446
+msgctxt "m.partner_rank.5"
+msgid "Skylark I"
+msgstr ""
+
+#: 447
+msgctxt "m.partner_rank.5.reward.1"
+msgid "Chroma Station"
+msgstr ""
+
+#: 448
+msgctxt "m.partner_rank.5.reward.2"
+msgid "Cobalt Chroma"
+msgstr ""
+
+#: 449
+msgctxt "m.partner_rank.5.reward.3"
+msgid "Milkshake Chroma"
+msgstr ""
+
+#: 450
+msgctxt "m.partner_rank.6"
+msgid "Skylark II"
+msgstr ""
+
+#: 451
+msgctxt "m.partner_rank.6.reward.1"
+msgid "Arch Upgrade"
+msgstr ""
+
+#: 452
+msgctxt "m.partner_rank.7"
+msgid "Skylark III"
+msgstr ""
+
+#: 453
+msgctxt "m.partner_rank.7.reward.1"
+msgid "Firecracker Chroma"
+msgstr ""
+
+#: 454
+msgctxt "m.partner_rank.7.reward.2"
+msgid "Grapeshot Chroma"
+msgstr ""
+
+#: 455
+msgctxt "m.partner_rank.8"
+msgid "Rolling Beetle I"
+msgstr ""
+
+#: 456
+msgctxt "m.partner_rank.8.reward.1"
+msgid "Slime Toy Shop"
+msgstr ""
+
+#: 457
+msgctxt "m.partner_rank.9"
+msgid "Rolling Beetle II"
+msgstr ""
+
+#: 458
+msgctxt "m.partner_rank.9.reward.1"
+msgid "Robo Ranger Chroma"
+msgstr ""
+
+#: 459
+msgctxt "m.partner_rank.9.reward.2"
+msgid "Maidatron Chroma"
+msgstr ""
+
+#: 460
+msgctxt "m.partner_rank.10"
+msgid "Rolling Beetle III"
+msgstr ""
+
+#: 461
+msgctxt "m.partner_rank.10.reward.1"
+msgid "Advanced Slime Toys"
+msgstr ""
+
+#: 462
+msgctxt "m.partner_rank.11"
+msgid "Playful Fox I"
+msgstr ""
+
+#: 463
+msgctxt "m.partner_rank.11.reward.1"
+msgid "Gingersnap Chroma"
+msgstr ""
+
+#: 464
+msgctxt "m.partner_rank.11.reward.2"
+msgid "Peapod Chroma"
+msgstr ""
+
+#: 465
+msgctxt "m.partner_rank.11.reward.3"
+msgid "Market Link"
+msgstr ""
+
+#: 466
+msgctxt "m.partner_rank.12"
+msgid "Playful Fox II"
+msgstr ""
+
+#: 467
+msgctxt "m.partner_rank.12.reward.1"
+msgid "Grotto Upgrade"
+msgstr ""
+
+#: 468
+msgctxt "m.partner_rank.13"
+msgid "Playful Fox III"
+msgstr ""
+
+#: 469
+msgctxt "m.partner_rank.13.reward.1"
+msgid "Vanguard Chroma"
+msgstr ""
+
+#: 470
+msgctxt "m.partner_rank.13.reward.2"
+msgid "Willow Chroma"
+msgstr ""
+
+#: 471
+msgctxt "m.partner_rank.14"
+msgid "Silver Storm I"
+msgstr ""
+
+#: 472
+msgctxt "m.partner_rank.14.reward.1"
+msgid "Slime Trophy I"
+msgstr ""
+
+#: 473
+msgctxt "m.partner_rank.15"
+msgid "Silver Storm II"
+msgstr ""
+
+#: 474
+msgctxt "m.partner_rank.15.reward.1"
+msgid "Daybreak Chroma"
+msgstr ""
+
+#: 475
+msgctxt "m.partner_rank.15.reward.2"
+msgid "Eventide Chroma"
+msgstr ""
+
+#: 476
+msgctxt "m.partner_rank.16"
+msgid "Silver Storm III"
+msgstr ""
+
+#: 477
+msgctxt "m.partner_rank.16.reward.1"
+msgid "Overgrowth Upgrade"
+msgstr ""
+
+#: 478
+msgctxt "m.partner_rank.17"
+msgid "Dancing Mongoose I"
+msgstr ""
+
+#: 479
+msgctxt "m.partner_rank.17.reward.1"
+msgid "Salamander Chroma"
+msgstr ""
+
+#: 480
+msgctxt "m.partner_rank.17.reward.2"
+msgid "Royalton Chroma"
+msgstr ""
+
+#: 481
+msgctxt "m.partner_rank.18"
+msgid "Dancing Mongoose II"
+msgstr ""
+
+#: 482
+msgctxt "m.partner_rank.18.reward.1"
+msgid "Slime Trophy II"
+msgstr ""
+
+#: 483
+msgctxt "m.partner_rank.19"
+msgid "Dancing Mongoose III"
+msgstr ""
+
+#: 484
+msgctxt "m.partner_rank.19.reward.1"
+msgid "Neopolitan Chroma"
+msgstr ""
+
+#: 485
+msgctxt "m.partner_rank.19.reward.2"
+msgid "Mint Chip Chroma"
+msgstr ""
+
+#: 486
+msgctxt "m.partner_rank.19.reward.3"
+msgid "Ultra Dash Boots"
+msgstr ""
+
+#: 487
+msgctxt "m.partner_rank.20"
+msgid "Endless Mountain I"
+msgstr ""
+
+#: 488
+msgctxt "m.partner_rank.20.reward.1"
+msgid "Tank Booster Ultra"
+msgstr ""
+
+#: 489
+msgctxt "m.partner_rank.20.reward.2"
+msgid "Master Gordo Snare Blueprint"
+msgstr ""
+
+#: 490
+msgctxt "m.partner_rank.21"
+msgid "Endless Mountain II"
+msgstr ""
+
+#: 491
+msgctxt "m.partner_rank.21.reward.1"
+msgid "Ghost Wine Chroma"
+msgstr ""
+
+#: 492
+msgctxt "m.partner_rank.21.reward.2"
+msgid "Volcanic Chroma"
+msgstr ""
+
+#: 493
+msgctxt "m.partner_rank.21.reward.3"
+msgid "Heart Module Ultra"
+msgstr ""
+
+#: 494
+msgctxt "m.partner_rank.22"
+msgid "Endless Mountain III"
+msgstr ""
+
+#: 495
+msgctxt "m.partner_rank.22.reward.1"
+msgid "Lab Upgrade"
+msgstr ""
+
+#: 496
+msgctxt "m.partner_rank.22.reward.2"
+msgid "Golden Sureshot"
+msgstr ""
+
+#: 497
+msgctxt "m.partner_rank.23"
+msgid "Wander Wolf I"
+msgstr ""
+
+#: 498
+msgctxt "m.partner_rank.23.reward.1"
+msgid "Knight Light Chroma"
+msgstr ""
+
+#: 499
+msgctxt "m.partner_rank.23.reward.2"
+msgid "Pretty Loud Chroma"
+msgstr ""
+
+#: 500
+msgctxt "m.partner_rank.23.reward.3"
+msgid "Titan Drill Blueprint"
+msgstr ""
+
+#: 501
+msgctxt "m.partner_rank.24"
+msgid "Wander Wolf II"
+msgstr ""
+
+#: 502
+msgctxt "m.partner_rank.24.reward.1"
+msgid "Slime Trophy III"
+msgstr ""
+
+#: 503
+msgctxt "m.partner_rank.24.reward.2"
+msgid "Abyssal Pump Blueprint"
+msgstr ""
+
+#: 504
+msgctxt "m.partner_rank.25"
+msgid "Wander Wolf III"
+msgstr ""
+
+#: 505
+msgctxt "m.partner_rank.25.reward.1"
+msgid "Silverfox Chroma"
+msgstr ""
+
+#: 506
+msgctxt "m.partner_rank.25.reward.2"
+msgid "Frozen Violet Chroma"
+msgstr ""
+
+#: 507
+msgctxt "m.partner_rank.25.reward.3"
+msgid "Royal Apiary Blueprint"
+msgstr ""
+
+#: 508
+msgctxt "m.partner_rank.26"
+msgid "Golden Owl I"
+msgstr ""
+
+#: 509
+msgctxt "m.partner_rank.26.reward.1"
+msgid "Docks Upgrade"
+msgstr ""
+
+#: 510
+msgctxt "m.partner_rank.26.reward.2"
+msgid "Gold Slime Lamp Blueprint"
+msgstr ""
+
+#: 511
+msgctxt "m.partner_rank.27"
+msgid "Golden Owl II"
+msgstr ""
+
+#: 512
+msgctxt "m.partner_rank.27.reward.1"
+msgid "Goldleaf Chroma"
+msgstr ""
+
+#: 513
+msgctxt "m.partner_rank.27.reward.2"
+msgid "Astro Pearl Chroma"
+msgstr ""
+
+#: 514
+msgctxt "m.partner_rank.27.reward.3"
+msgid "Gold Warp Depot Blueprint"
+msgstr ""
+
+#: 515
+msgctxt "m.partner_rank.28"
+msgid "Golden Owl III"
+msgstr ""
+
+#: 516
+msgctxt "m.partner_rank.28.reward.1"
+msgid "Slime Trophy IV"
+msgstr ""
+
+#: 517
+msgctxt "m.partner_rank.28.reward.2"
+msgid "Gold Teleporter Blueprint"
+msgstr ""
+
+#: 518
+msgctxt "l.autosave_tip"
+msgid "This icon indicates autosaving in progress:"
+msgstr "이 아이콘은 자동저장이 진행 중임을 알려줍니다:"
+
+#: 519
+msgctxt "m.loadingtip.0"
+msgid "A well-fed slime is a happy slime."
+msgstr "잘 먹은 슬라임이 행복한 슬라임입니다."
+
+#: 520
+msgctxt "m.loadingtip.1"
+msgid "Never turn your back on a chicken."
+msgstr "절대 닭에게 등을 돌리지 마세요."
+
+#: 521
+msgctxt "m.loadingtip.2"
+msgid "Create largos out of pink slimes: they’ll eat anything!"
+msgstr "핑크 슬라임으로 느림보를 만드세요: 그것들은 아무거나 먹을겁니다!"
+
+#: 522
+msgctxt "m.loadingtip.3"
+msgid ""
+"Rumor has it Thora and Hobson were once in love... but then Hobson "
+"disappeared."
+msgstr "소문에 의하면, Thora와 Hobson은 사랑에 빠져있었습니다... 그가 그녀의 마음에 상처를 주기 전까지는 말이죠."
+
+#: 523
+msgctxt "m.loadingtip.4"
+msgid ""
+"Rumor has it Ogden used to be the CEO of a major insta-food conglomerate."
+msgstr "소문에 의하면, Ogden은 한때 거대한 즉석식품 대기업의 CEO였다고합니다."
+
+#: 524
+msgctxt "m.loadingtip.5"
+msgid ""
+"Rumor has it Viktor invented a plort-cloning technology, and then destroyed "
+"it."
+msgstr "소문에 의하면, Viktor는 보석 복제 기술을 연구하고, 그 기술을 파괴했다고합니다."
+
+#: 525
+msgctxt "m.loadingtip.6"
+msgid "Rumor has it Mochi Miles hasn’t spoken to her father in years."
+msgstr "소문에 의하면, Mochi Miles가 몇년동안 그녀의 아버지에게 이야기하지 않았다고 한다."
+
+#: 526
+msgctxt "m.loadingtip.7"
+msgid "rOOmr hAZ eet BOb hOomin. plS chIKKn?"
+msgstr "소무네 으하먼 BOb은 닝겐. 칰킨 점 줘여?"
+
+#: 527
+msgctxt "m.loadingtip.8"
+msgid ""
+"No one has seen Hobson in years. Some say he is traveling to the furthest "
+"reaches of the Far, Far Range."
+msgstr ""
+"Hobson을 근 몇년동안 본사람은 없습니다. 어떤 사람들이 말하길 그는 멀리 아주 먼 방목장의 가장 멀리 있는 목장으로 여행을 간다고 "
+"합니다."
+
+#: 528
+msgctxt "m.loadingtip.9"
+msgid ""
+"Use silos to store plorts until they are in high demand on the plort market."
+msgstr "보석 시장에서 보석 수요가 높아질 때 까지 저장고를 사용하여 보석을 모아두세요"
+
+#: 529
+msgctxt "m.loadingtip.10"
+msgid ""
+"You’ll need to purchase a water tank before you can vac up fresh water."
+msgstr "물을 흡입하기 위해서는 물탱크를 구입해야합니다."
+
+#: 530
+msgctxt "m.loadingtip.11"
+msgid ""
+"The vile tarr are formed when a largo eats a plort unlike its own. Watch "
+"out!"
+msgstr "느림보가 자기 종이 아닌 보석을 먹을 때 극도로 불쾌한 타르가 만들어집니다. 주의하세요!"
+
+#: 531
+msgctxt "m.loadingtip.12"
+msgid "The tarr are more common and survive longer at night. Be careful."
+msgstr "타르는 낮보다 밤에 더 흔하게 보이고 오래 살아남습니다. 조심하세요."
+
+#: 532
+msgctxt "m.loadingtip.13"
+msgid "The Indigo Quarry is a great place to discover rare veggies."
+msgstr "인디고 채석장은 귀한 야채를 구하기 매우 좋은 장소입니다."
+
+#: 533
+msgctxt "m.loadingtip.14"
+msgid "The Moss Blanket has more fruit trees than anywhere else on the range."
+msgstr "Moss Blanket에는 방목지 내 다른 어떤곳 보다 과일 나무가 많습니다."
+
+#: 534
+msgctxt "m.loadingtip.15"
+msgid ""
+"Fresh water can prevent tarr from cloning and eventually, destroy them."
+msgstr "민물로 타르가 증식하는 것을 막고, 결국에는 타르를 파괴할 수 있습니다."
+
+#: 535
+msgctxt "m.loadingtip.16"
+msgid ""
+"No one knows who or what created the ancient slime gates that are found on "
+"the range."
+msgstr "방목장에서 발견할 수 있는 슬라임 게이트를 누가, 혹은 무엇이 만들었는지는 아무도 모릅니다."
+
+#: 536
+msgctxt "m.loadingtip.17"
+msgid "A gordo slime will eat until it bursts."
+msgstr "뚱보 슬라임은 터지기 전까지 먹일 수 있습니다."
+
+#: 537
+msgctxt "m.loadingtip.18"
+msgid "Mochi Miles claims she once caught a gold slime."
+msgstr "Mochi Miles는 그녀 자신이 황금 슬라임을 잡아봤다고 주장합니다."
+
+#: 538
+msgctxt "m.loadingtip.19"
+msgid "Feeding a slime their favorite food results in double the plorts!"
+msgstr "슬라임에게 그들이 좋아하는 음식을 주면 보석이 2배로 나옵니다!"
+
+#: 539
+msgctxt "m.loadingtip.20"
+msgid ""
+"A crazy slime scientist once proposed creating cube-shaped slimes. But "
+"that’s just silly."
+msgstr "한때 한 미친 슬라임 과학자가 육각모양 슬라임을 만들 것을 제안했습니다. 하지만 그건 그냥 바보같은 짓입니다."
+
+#: 540
+msgctxt "l.language"
+msgid "Language:"
+msgstr "언어:"
+
+#: 541
+msgctxt "l.lang_en"
+msgid "English"
+msgstr "한국어"
+
+#: 542
+msgctxt "l.lang_de"
+msgid "Deutsch (German)"
+msgstr "독일어 (독일)"
+
+#: 543
+msgctxt "l.lang_es"
+msgid "Español (Spanish)"
+msgstr "에스파냐어 (스페인)"
+
+#: 544
+msgctxt "l.lang_fr"
+msgid "Français (French)"
+msgstr "프랑스어 (프랑스)"
+
+#: 545
+msgctxt "l.lang_ru"
+msgid "Русский (Russian)"
+msgstr "러시아어 (러시아)"
+
+#: 546
+msgctxt "l.lang_sv"
+msgid "Svenska (Swedish)"
+msgstr ""
+
+#: 547
+msgctxt "l.lang_zh"
+msgid "中文 (Chinese)"
+msgstr ""
+
+#: 548
+msgctxt "m.herostat.sold_plorts"
+msgid "Has Sold {0} Plorts on the Plort Market!"
+msgstr ""
+
+#: 549
+msgctxt "l.herostat.newbucks_earned"
+msgid "Total Newbucks Earned"
+msgstr "최종적으로 번 돈"
+
+#: 550
+msgctxt "l.herostat.game_progress"
+msgid "Game Progress"
+msgstr "게임 진행도"
+
+#: 551
+msgctxt "l.herostat.total_plorts"
+msgid "Total Plorts Sold"
+msgstr "최종적으로 판 보석 수"
+
+#: 552
+msgctxt "m.rich_presence.in_desert"
+msgid "Exploring The Glass Desert"
+msgstr "유리 사막을 탐험함"
+
+#: 553
+msgctxt "m.rich_presence.in_moss"
+msgid "Exploring The Moss Blanket"
+msgstr "이끼 담요 숲을 탐험함"
+
+#: 554
+msgctxt "m.rich_presence.in_quarry"
+msgid "Exploring The Indigo Quarry"
+msgstr "인디고 채석장을 탐험함"
+
+#: 555
+msgctxt "m.rich_presence.in_reef"
+msgid "Exploring The Reef"
+msgstr ""
+
+#: 556
+msgctxt "m.rich_presence.in_ruins"
+msgid "Exploring The Ruins"
+msgstr ""
+
+#: 557
+msgctxt "m.rich_presence.on_ranch"
+msgid "Tending The Ranch"
+msgstr ""
+
+#: 558
+msgctxt "m.rich_presence.main_menu"
+msgid "Preparing For Adventure!"
+msgstr "모험할 준비중!"
+
+#: 559
+msgctxt "t.map"
+msgid "Map of the Far, Far Range"
+msgstr "머나먼 목장 지도"
+
+#: 560
+msgctxt "t.current_location"
+msgid "Location:"
+msgstr "위치:"
+
+#: 561
+msgctxt "t.unknown_location"
+msgid "UNKNOWN"
+msgstr "미확인"
+
