@@ -167,6 +167,8 @@ void unmanagedPatcher::FindInformation()
 	monoBehaviourNames.insert(map<string, int>::value_type("OpenSans SDF",0));
 	monoBehaviourNames.insert(map<string, int>::value_type("OpenSans SDF Cyrillic", 0));
 	monoBehaviourNames.insert(map<string, int>::value_type("NotoSansCJKsc-Regular SDF Chinese", 0));
+	monoBehaviourNames.insert(map<string, int>::value_type("FLOPDesignFont SDF", 0));
+	monoBehaviourNames.insert(map<string, int>::value_type("OpenSans SDF Small", 0));
 	monoBehaviourCount = monoBehaviourNames.size();
 	
 	int languageDataCount = 11;

@@ -1,0 +1,440 @@
+{
+    "0 Material Base": 
+    {
+        "1 string m_Name": "OpenSans SDF Material",
+        "0 PPtr<Shader> m_Shader": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 8
+        },
+        "1 string m_ShaderKeywords": "",
+        "0 unsigned int m_LightmapFlags": 4,
+        "0 bool m_EnableInstancingVariants": false,
+        "1 bool m_DoubleSidedGI": false,
+        "0 int m_CustomRenderQueue": -1,
+        "0 map stringTagMap": 
+        {
+            "0 Array Array": []
+        },
+        "0 vector disabledShaderPasses": 
+        {
+            "1 Array Array": []
+        },
+        "0 UnityPropertySheet m_SavedProperties": 
+        {
+            "0 map m_TexEnvs": 
+            {
+                "0 Array Array": [
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_MainTex",
+                        "0 UnityTexEnv second": 
+                        {
+                            "0 PPtr<Texture> m_Texture": 
+                            {
+                                "0 int m_FileID": 0,
+                                "0 SInt64 m_PathID": 6
+                            },
+                            "0 Vector2f m_Scale": 
+                            {
+                                "0 float x": 1,
+                                "0 float y": 1
+                            },
+                            "0 Vector2f m_Offset": 
+                            {
+                                "0 float x": 0,
+                                "0 float y": 0
+                            }
+                        }
+                    }}
+                ]
+            },
+            "0 map m_Floats": 
+            {
+                "0 Array Array": [
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_Ambient",
+                        "0 float second": 0.5
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_Bevel",
+                        "0 float second": 0.5
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_BevelClamp",
+                        "0 float second": 0
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_BevelOffset",
+                        "0 float second": 0
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_BevelRoundness",
+                        "0 float second": 0
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_BevelWidth",
+                        "0 float second": 0
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_BumpFace",
+                        "0 float second": 0
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_BumpOutline",
+                        "0 float second": 0
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_ColorMask",
+                        "0 float second": 15
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_Diffuse",
+                        "0 float second": 0.5
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_FaceDilate",
+                        "0 float second": 0
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_FaceShininess",
+                        "0 float second": 0
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_FaceUVSpeedX",
+                        "0 float second": 0
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_FaceUVSpeedY",
+                        "0 float second": 0
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_GlowInner",
+                        "0 float second": 0.0500000007
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_GlowOffset",
+                        "0 float second": 0
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_GlowOuter",
+                        "0 float second": 0.0500000007
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_GlowPower",
+                        "0 float second": 0.75
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_GradientScale",
+                        "0 float second": 6
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_LightAngle",
+                        "0 float second": 3.14159989
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_MaskSoftnessX",
+                        "0 float second": 0
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_MaskSoftnessY",
+                        "0 float second": 0
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_OutlineShininess",
+                        "0 float second": 0
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_OutlineSoftness",
+                        "0 float second": 0
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_OutlineUVSpeedX",
+                        "0 float second": 0
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_OutlineUVSpeedY",
+                        "0 float second": 0
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_OutlineWidth",
+                        "0 float second": 0
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_PerspectiveFilter",
+                        "0 float second": 0.875
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_Reflectivity",
+                        "0 float second": 10
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_ScaleRatioA",
+                        "0 float second": 0.833333313
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_ScaleRatioB",
+                        "0 float second": 0.677083313
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_ScaleRatioC",
+                        "0 float second": 0.677083313
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_ScaleX",
+                        "0 float second": 1
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_ScaleY",
+                        "0 float second": 1
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_ShaderFlags",
+                        "0 float second": 0
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_SpecularPower",
+                        "0 float second": 2
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_Stencil",
+                        "0 float second": 0
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_StencilComp",
+                        "0 float second": 8
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_StencilOp",
+                        "0 float second": 0
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_StencilReadMask",
+                        "0 float second": 255
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_StencilWriteMask",
+                        "0 float second": 255
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_TextureHeight",
+                        "0 float second": 4096
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_TextureWidth",
+                        "0 float second": 4096
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_UnderlayDilate",
+                        "0 float second": 0
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_UnderlayOffsetX",
+                        "0 float second": 0
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_UnderlayOffsetY",
+                        "0 float second": 0
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_UnderlaySoftness",
+                        "0 float second": 0
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_VertexOffsetX",
+                        "0 float second": 0
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_VertexOffsetY",
+                        "0 float second": 0
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_WeightBold",
+                        "0 float second": 0.75
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_WeightNormal",
+                        "0 float second": 0
+                    }}
+                ]
+            },
+            "0 map m_Colors": 
+            {
+                "0 Array Array": [
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_ClipRect",
+                        "0 ColorRGBA second": 
+                        {
+                            "0 float r": -32767,
+                            "0 float g": -32767,
+                            "0 float b": 32767,
+                            "0 float a": 32767
+                        }
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_EnvMatrixRotation",
+                        "0 ColorRGBA second": 
+                        {
+                            "0 float r": 0,
+                            "0 float g": 0,
+                            "0 float b": 0,
+                            "0 float a": 0
+                        }
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_FaceColor",
+                        "0 ColorRGBA second": 
+                        {
+                            "0 float r": 1,
+                            "0 float g": 1,
+                            "0 float b": 1,
+                            "0 float a": 1
+                        }
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_GlowColor",
+                        "0 ColorRGBA second": 
+                        {
+                            "0 float r": 0,
+                            "0 float g": 1,
+                            "0 float b": 0,
+                            "0 float a": 0.5
+                        }
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_MaskCoord",
+                        "0 ColorRGBA second": 
+                        {
+                            "0 float r": 0,
+                            "0 float g": 0,
+                            "0 float b": 32767,
+                            "0 float a": 32767
+                        }
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_OutlineColor",
+                        "0 ColorRGBA second": 
+                        {
+                            "0 float r": 0,
+                            "0 float g": 0,
+                            "0 float b": 0,
+                            "0 float a": 1
+                        }
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_ReflectFaceColor",
+                        "0 ColorRGBA second": 
+                        {
+                            "0 float r": 0,
+                            "0 float g": 0,
+                            "0 float b": 0,
+                            "0 float a": 1
+                        }
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_ReflectOutlineColor",
+                        "0 ColorRGBA second": 
+                        {
+                            "0 float r": 0,
+                            "0 float g": 0,
+                            "0 float b": 0,
+                            "0 float a": 1
+                        }
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_SpecColor",
+                        "0 ColorRGBA second": 
+                        {
+                            "0 float r": 0,
+                            "0 float g": 0,
+                            "0 float b": 0,
+                            "0 float a": 1
+                        }
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_SpecularColor",
+                        "0 ColorRGBA second": 
+                        {
+                            "0 float r": 1,
+                            "0 float g": 1,
+                            "0 float b": 1,
+                            "0 float a": 1
+                        }
+                    }},
+                    {"0 pair data": 
+                    {
+                        "1 string first": "_UnderlayColor",
+                        "0 ColorRGBA second": 
+                        {
+                            "0 float r": 0,
+                            "0 float g": 0,
+                            "0 float b": 0,
+                            "0 float a": 0.5
+                        }
+                    }}
+                ]
+            }
+        }
+    }
+}

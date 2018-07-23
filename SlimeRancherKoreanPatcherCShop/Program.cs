@@ -614,8 +614,8 @@ namespace SlimeRancherKoreanPatcherCShop
                         fsMono2.WriteByte(byteAtlasPathID[j]);
                     }
 
-                    // OpenSans SDF Cyrillic Material
-                    fsMono2.Seek(0x00015DEC, SeekOrigin.Begin);
+                    // MonoBehaviour OpenSans SDF Cyrillic
+                    fsMono2.Seek(0x00019434, SeekOrigin.Begin);
                     AssetInfo cyrillicInfo = Array.Find(AssetInfos, x => x.name == "MonoBehaviour OpenSans SDF Cyrillic");
                     byte[] byteCyrillicPathID = BitConverter.GetBytes(cyrillicInfo.pathID);
                     for (int j = 0; j < 4; j++)
@@ -623,13 +623,40 @@ namespace SlimeRancherKoreanPatcherCShop
                         fsMono2.WriteByte(byteCyrillicPathID[j]);
                     }
 
+                    // MonoBehaviour FLOPDesignFont SDF
+                    fsMono2.Seek(0x00019440, SeekOrigin.Begin);
+                    AssetInfo FLOPDesignFontInfo = Array.Find(AssetInfos, x => x.name == "MonoBehaviour FLOPDesignFont SDF");
+                    byte[] byteFLOPDesignFontPathID = BitConverter.GetBytes(FLOPDesignFontInfo.pathID);
+                    for (int j = 0; j < 4; j++)
+                    {
+                        fsMono2.WriteByte(byteFLOPDesignFontPathID[j]);
+                    }
+
                     // NotoSansCJKsc-Regular SDF Chinese
-                    fsMono2.Seek(0x00015DF8, SeekOrigin.Begin);
+                    fsMono2.Seek(0x0001944C, SeekOrigin.Begin);
                     AssetInfo notoSansCJKscInfo = Array.Find(AssetInfos, x => x.name == "MonoBehaviour NotoSansCJKsc-Regular SDF Chinese");
                     byte[] byteNotoSansCJKscPathID = BitConverter.GetBytes(notoSansCJKscInfo.pathID);
                     for (int j = 0; j < 4; j++)
                     {
                         fsMono2.WriteByte(byteNotoSansCJKscPathID[j]);
+                    }
+
+                    // MonoBehaviour OpenSans SDF Small
+                    fsMono2.Seek(0x00019460, SeekOrigin.Begin);
+                    AssetInfo smallInfo = Array.Find(AssetInfos, x => x.name == "MonoBehaviour OpenSans SDF Small");
+                    byte[] byteSmallPathID = BitConverter.GetBytes(smallInfo.pathID);
+                    for (int j = 0; j < 4; j++)
+                    {
+                        fsMono2.WriteByte(byteSmallPathID[j]);
+                    }
+
+                    // MonoBehaviour OpenSans SDF Small
+                    fsMono2.Seek(0x00019470, SeekOrigin.Begin);
+                    AssetInfo small2Info = Array.Find(AssetInfos, x => x.name == "MonoBehaviour OpenSans SDF Small");
+                    byte[] byteSmall2PathID = BitConverter.GetBytes(small2Info.pathID);
+                    for (int j = 0; j < 4; j++)
+                    {
+                        fsMono2.WriteByte(byteSmall2PathID[j]);
                     }
                 }
             }

@@ -1,5 +1,3 @@
-// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
-
 Shader "TextMeshPro/Distance Field" {
 
 Properties {
@@ -14,7 +12,7 @@ Properties {
 	_OutlineUVSpeedX	("Outline UV Speed X", Range(-5, 5)) = 0.0
 	_OutlineUVSpeedY	("Outline UV Speed Y", Range(-5, 5)) = 0.0
 	_OutlineWidth		("Outline Thickness", Range(0, 1)) = 0
-	_OutlineSoftness	("Outline Softness", Range(0,1)) = 0
+	_OutlineSoftness	("Outline Softness", Range(-1,1)) = 0
 
 	_Bevel				("Bevel", Range(0,1)) = 0.5
 	_BevelOffset		("Bevel Offset", Range(-0.5,0.5)) = 0
@@ -118,7 +116,6 @@ SubShader {
 		#pragma shader_feature __ BEVEL_ON
 		#pragma shader_feature __ UNDERLAY_ON UNDERLAY_INNER
 		#pragma shader_feature __ GLOW_ON
-		#pragma shader_feature __ MASK_OFF
 
 
 		#include "UnityCG.cginc"
@@ -161,6 +158,7 @@ SubShader {
 			float4 vert = input.position;
 			vert.x += _VertexOffsetX;
 			vert.y += _VertexOffsetY;
+
 			float4 vPosition = UnityObjectToClipPos(vert);
 
 			float2 pixelSize = vPosition.w;
@@ -282,17 +280,9 @@ SubShader {
 			faceColor.rgb += glowColor.rgb * glowColor.a;
 		#endif
 
-		// #if !MASK_OFF
-		#if UNITY_VERSION < 530
-			// Unity 5.2 2D Rect Mask Support
-			if (_UseClipRect)
-				faceColor *= UnityGet2DClipping(input.mask.xy, _ClipRect);
-		#else
-			// Alternative implementation to UnityGet2DClipping with support for softness.
-			half2 m = saturate((_ClipRect.zw - _ClipRect.xy - abs(input.mask.xy)) * input.mask.zw);
-			faceColor *= m.x * m.y;
-		#endif
-		//#endif
+		// Alternative implementation to UnityGet2DClipping with support for softness.
+		half2 m = saturate((_ClipRect.zw - _ClipRect.xy - abs(input.mask.xy)) * input.mask.zw);
+		faceColor *= m.x * m.y;
 
   		return faceColor * input.color.a;
 		}
