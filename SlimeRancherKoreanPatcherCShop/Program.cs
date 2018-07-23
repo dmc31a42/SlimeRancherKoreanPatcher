@@ -25,8 +25,8 @@ namespace SlimeRancherKoreanPatcherCShop
         const string UNITY_RESOURCES_ASSETS_NAME = "resources.assets";
         const string UNITY_SHARED0_ASSETS_NAME = "sharedassets0.assets";
         const bool DEBUG = true;
-        const string currentVersion = "20180101";
-        const string currentVersionURL = @"https://github.com/dmc31a42/SlimeRancherKoreanPatcher/raw/ModifyParserAndCSV2Zanata/currentVersion.txt";
+        const string currentVersion = "20180723";
+        const string currentVersionURL = @"https://github.com/dmc31a42/SlimeRancherKoreanPatcher/raw/master/currentVersion.txt";
 
         static void Main(string[] args)
         {
